@@ -1,0 +1,5 @@
+[package]
+name        = "grimoire-core"
+description = "Official best-practices package for grimoire — 1000+ skills across 27 domains"
+authors     = ["Jeffrey Tse <jeffreytse.mail@gmail.com>"]
+license     = "MIT"
