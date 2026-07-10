@@ -1,0 +1,6 @@
+{
+  "$schema": "https://antigravity.google/schemas/v1/plugin.json",
+  "name": "grimoire-core",
+  "version": "0.1.0",
+  "description": "Best practices across 27 domains for AI coding agents — engineering, medicine, law, finance, and more."
+}

@@ -144,6 +144,7 @@ name = "my-project"
 | Codex CLI | `AGENTS.md` auto-loaded | `grimoire install --target codex` |
 | Cursor | `AGENTS.md` context injection | `grimoire install --target cursor` |
 | OpenClaw | See [`.openclaw/INSTALL.md`](./.openclaw/INSTALL.md) | `grimoire install --target openclaw` |
+| Antigravity CLI (agy) | See [`.agy/INSTALL.md`](./.agy/INSTALL.md) | `grimoire install --target antigravity` |
 
 ## 🚀 Quick Start
 
