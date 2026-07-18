@@ -166,6 +166,7 @@ Verbs not in this table are allowed if none of the above fit — but vague verbs
 - ≤50 characters; ideal 2–4 words (verb + 1–2 word subject + optional qualifier)
   - ✅ `calculate-macros` (2), `review-saas-contract` (3), `design-training-program` (3)
   - ❌ `diagnose-slow-database-query-latency-regression` (≤50 chars but 6 words)
+- Kebab-case segments after the verb may start with a digit for standard numbers or version refs (e.g. `apply-iso-31000-risk-framework`, `apply-5s-methodology`)
 - No `skill-`, `best-practice-`, `guide-` prefix — redundant in a skill library
 - No noun-first: ~~`macro-calculation`~~, ~~`contract-review`~~, ~~`training-program-design`~~
 
@@ -217,7 +218,8 @@ Verbs not in this table are allowed if none of the above fit — but vague verbs
   - **Role/context**: who uses this / in what context? (`developer`, `athlete`, `startup`, `manager`)
   - **Outcome**: what result does the user get? (`defect-reduction`, `strength-gain`, `cost-savings`)
 - Not domain names (`health`, `engineering` — those are captured by file path)
-- 3–8 tags, lowercase kebab-case
+- 3–8 tags, lowercase kebab-case; may start with a digit (e.g. `401k`, `5s`)
+- Acronyms and abbreviations are lowercase (`tv`, `it`, `hr`, `sql`, `api`) — tags are canonical identifiers for matching, not display labels; proper casing belongs in the `# Title` heading
 - Examples by domain:
   - Engineering: `code-quality`, `git`, `pull-request`, `developer`, `defect-reduction`, `test-flakiness`
   - Health: `muscle-gain`, `progressive-overload`, `athlete`, `strength-gain`, `injury-prevention`
@@ -244,7 +246,7 @@ description: Use when the user asks to commit, wants a commit message, or invoke
 ### Content structure
 
 **Required:**
-- `# Title` — Title Case version of the skill name
+- `# Title` — Title Case version of the skill name; articles and prepositions may be added if natural (e.g. `# Apply the Exposure Triangle`); adjacent name words may appear as a compound (e.g. `vo2-max` → `VO2max`, as in `# Calculate VO2max Training Zones`)
 - One-sentence purpose statement immediately after the title
 
 | Section | Required? |
