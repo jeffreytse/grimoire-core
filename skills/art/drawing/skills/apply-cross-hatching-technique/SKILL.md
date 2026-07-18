@@ -1,7 +1,7 @@
 ---
 name: apply-cross-hatching-technique
 description: Use when building tonal value, texture, or form in ink or pencil drawings using cross-hatching — controlling line weight, spacing, angle, and layering to create smooth gradients and convincing three-dimensional form.
-source: Penfield "Illustration" (2012); Hampton "Figure Drawing: Design and Invention" (2009); Dodson "Keys to Drawing with Imagination" (2007); Masters of Ink (Dürer, Rembrandt cross-hatching analysis)
+source: "Penfield \"Illustration\" (2012); Hampton \"Figure Drawing: Design and Invention\" (2009); Dodson \"Keys to Drawing with Imagination\" (2007); Masters of Ink (Dürer, Rembrandt cross-hatching analysis)"
 tags: [drawing, cross-hatching, shading, ink, value-rendering, line-art]
 ---
 
@@ -11,6 +11,7 @@ Build convincing tonal gradients and surface texture in ink or pencil drawings b
 
 ## Why This Is Best Practice
 
+**Why best:** Cross-hatching produces controllable, reproducible tonal gradation and volume using only line direction, spacing, and layering — no blending tools or materials required, and it scales cleanly from small illustrations to large technical plates.
 **Adopted by:** Cross-hatching is the standard tonal technique in technical illustration, architectural drawing, comic art (Leyendecker, Breccia, Mignola), engraving (Dürer), and medical illustration. The Society of Illustrators and GNSI (Guild of Natural Science Illustrators) both list cross-hatching as a core technical skill. Architectural sketching standards (from Ching's "Architectural Graphics") rely on cross-hatching for presenting materials and shadow in hand drawings.
 **Impact:** Dürer's woodcuts demonstrate that systematic cross-hatching creates convincing volume and texture indistinguishable from painting at distance — achieved entirely through line direction and density control. Random or inconsistent hatching produces visual noise rather than form. Controlled cross-hatching is faster than stippling for equivalent tonal coverage and more scalable for reproduction than smooth graphite gradients.
 

@@ -71,3 +71,4 @@ Sources: Locke, E.A. & Latham, G.P. (1990). *A Theory of Goal Setting and Task P
 - Acute crisis where the immediate priority is stabilization, not planning.
 - When someone has not yet clarified their values — goal-setting before values work produces goals that feel meaningless and don't sustain motivation.
 - Highly fluid contexts where goals would need to change weekly — in those environments, systems and habits outperform goal-setting.
+- This framework is a planning tool, not therapy — if goal-setting struggles stem from depression, anxiety, trauma, or other mental health concerns, refer to a mental health professional rather than applying this framework alone.

@@ -2,7 +2,7 @@
 name: apply-heat-cold-therapy-protocol
 description: Use when an athlete needs to accelerate post-training recovery using evidence-based heat, cold, or contrast therapy protocols
 source: Bleakley et al. "The use of ice in the treatment of acute soft-tissue injury" BJSM (2012); ACSM Position Stand on recovery modalities; Versey et al. "Water Immersion Recovery for Athletes" Sports Medicine (2013)
-tags: [recovery, cold-water-immersion, heat-therapy, contrast-therapy, CWI, hydrotherapy, DOMS]
+tags: [recovery, cold-water-immersion, heat-therapy, contrast-therapy, cwi, hydrotherapy, doms]
 verified: true
 ---
 

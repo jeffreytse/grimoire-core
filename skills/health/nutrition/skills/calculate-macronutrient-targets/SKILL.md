@@ -10,6 +10,8 @@ verified: true
 
 Derive individualized protein, carbohydrate, and fat gram targets from body composition, training volume, and goal using validated evidence-based ranges.
 
+> **Disclaimer:** This skill provides general nutrition education, not medical advice. Consult a registered dietitian or healthcare provider before making significant dietary changes, especially if you have a medical condition, are pregnant, or are under 18.
+
 ## Why This Is Best Practice
 
 **Adopted by:** Academy of Nutrition and Dietetics, ISSN (International Society of Sports Nutrition), USADA (US Anti-Doping Agency) nutrition guidelines, team dietitians across NFL, Premier League, and Olympic sport programs

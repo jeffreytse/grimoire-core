@@ -1,8 +1,8 @@
 ---
 name: design-clinical-trial-protocol
 description: Use when designing a clinical trial — including study type selection, randomization and blinding strategy, endpoint definition, sample size calculation, and regulatory compliance requirements for a study protocol.
-source: ICH E6(R2) Good Clinical Practice Guidelines (2016); ICH E9 Statistical Principles for Clinical Trials (1998); CONSORT 2010 Statement (Schulz et al., BMJ 2010); FDA Guidance for Industry: E8(R1) General Considerations for Clinical Studies (2022)
-tags: [clinical-trial, RCT, randomization, blinding, endpoints, GCP, research-design, biostatistics]
+source: "ICH E6(R2) Good Clinical Practice Guidelines (2016); ICH E9 Statistical Principles for Clinical Trials (1998); CONSORT 2010 Statement (Schulz et al., BMJ 2010); FDA Guidance for Industry: E8(R1) General Considerations for Clinical Studies (2022)"
+tags: [clinical-trial, rct, randomization, blinding, endpoints, gcp, research-design, biostatistics]
 ---
 
 # Design Clinical Trial Protocol
@@ -11,6 +11,7 @@ Design a rigorous clinical trial protocol by defining the study question, select
 
 ## Why This Is Best Practice
 
+**Why best:** A rigorous protocol — clear PICO question, appropriate design, adequate randomization/blinding, and a pre-specified analysis plan — produces valid, reproducible causal estimates and satisfies the GCP/CONSORT standards regulators and journals require.
 **Adopted by:** FDA, EMA, PMDA, and all major regulatory agencies require clinical trials submitted for drug approval to follow ICH E6 GCP standards. CONSORT 2010 reporting guidelines are mandated by >600 journals including NEJM, Lancet, JAMA, and BMJ. WHO International Clinical Trials Registry Platform (ICTRP) requires prospective registration of all clinical trials.
 **Impact:** Schulz et al. (2010) CONSORT analysis showed that trials with adequate allocation concealment had 30-40% smaller (more accurate) effect estimates than poorly concealed trials, demonstrating that design quality directly affects result validity. Prospective registration (ClinicalTrials.gov, ISRCTN) — compared to retrospective registration — reduces outcome-switching bias, which Dwan et al. (2008) found in up to 62% of published trials.
 

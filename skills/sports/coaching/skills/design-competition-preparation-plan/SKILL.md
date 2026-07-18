@@ -1,7 +1,7 @@
 ---
 name: design-competition-preparation-plan
 description: Use when a coach needs to structure the days and weeks leading into a major competition — covering the taper, logistics, mental preparation, and pre-competition routine to ensure athletes arrive physically fresh, tactically confident, and mentally ready.
-source: Bompa "Periodization: Theory and Methodology of Training" 5th ed. (2009); Rotella "Golf Is Not a Game of Perfect" (1995); USOC Performance Services Guide; Mujika "Tapering and Peaking for Optimal Performance" (2009)
+source: 'Bompa "Periodization: Theory and Methodology of Training" 5th ed. (2009); Rotella "Golf Is Not a Game of Perfect" (1995); USOC Performance Services Guide; Mujika "Tapering and Peaking for Optimal Performance" (2009)'
 tags: [competition-preparation, taper, periodization, mental-preparation, coaching, peaking]
 ---
 
@@ -13,6 +13,9 @@ Build a structured pre-competition plan that integrates physical tapering, tacti
 
 **Adopted by:** Olympic coaching programs (USOC, UKSI, AIS), professional sport teams (EPL clubs conduct structured pre-match preparation weeks), and elite endurance coaches design explicit pre-competition programs. The USOC provides coaches with pre-competition planning templates as part of their performance support services.
 **Impact:** Mujika (2009) meta-analysis showed that optimized tapering improves performance by 2-3% on average — meaningful at elite level where margins are tiny. Psychological readiness is equally critical: Weinberg & Gould (2015) cite research showing that athletes with structured pre-competition routines experience lower competitive anxiety and higher perceived control, directly improving performance.
+**Why best:** Uncoordinated pre-competition prep leaves physical, tactical, mental, and logistical readiness to chance. A structured plan aligns tapering with peaking physiology, locks in tactical confidence without overloading athletes late, and removes avoidable logistical stress — compounding into measurably better performance on competition day versus ad hoc preparation.
+
+Sources: Shingo (1986) "Zero Quality Control: Source Inspection and the Poka-Yoke System"; Haynes et al. (2009) NEJM; GitHub Engineering blog
 
 ## Steps
 

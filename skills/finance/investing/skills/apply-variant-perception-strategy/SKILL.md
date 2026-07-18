@@ -1,7 +1,7 @@
 ---
 name: apply-variant-perception-strategy
 description: Use when forming a trading or investment view — requiring the view to differ meaningfully from prevailing consensus on a specific, near-term, checkable point, not merely differ in general sentiment, since a view identical to consensus offers no edge regardless of whether it's correct.
-source: Michael Steinhardt, "No Bull: My Life In and Out of Markets" (2001) — the "variant perception" concept
+source: 'Michael Steinhardt, "No Bull: My Life In and Out of Markets" (2001) — the "variant perception" concept'
 tags: [finance, investing, variant-perception, consensus-analysis, edge, steinhardt]
 related: [apply-reflexivity-theory, apply-non-consensus-category-conviction, audit-cognitive-tendency-checklist]
 ---

@@ -11,6 +11,7 @@ Apply a systematic desensitization and positive reinforcement crate training pro
 
 ## Why This Is Best Practice
 
+**Why best:** Systematic desensitization paired with positive reinforcement builds a voluntary, fear-free association with the crate, rather than mere tolerance or forced compliance — the resulting behavior is more stable and less prone to relapse into avoidance or anxiety.
 **Adopted by:** The American Veterinary Society of Animal Behavior (AVSAB), the Association of Professional Dog Trainers (APDT), and the Academy for Dog Trainers all endorse positive reinforcement-based training as the gold standard and oppose aversive training methods. Patricia McConnell's "The Other End of the Leash" and Jean Donaldson's "The Culture Clash" are the most widely cited dog training texts in professional and academic contexts. Karen Pryor's clicker training methodology provides the systematic desensitization framework used here.
 **Impact:** A crate that a dog voluntarily chooses to rest in provides safety during transportation, prevents destructive behavior when unsupervised, assists with housetraining, and provides a retreat during stressful situations (guests, fireworks, vet procedures). Crates introduced through fear or force produce anxiety, escape attempts, and injuries; crates introduced through positive association produce a dog that seeks the crate voluntarily. Puppies who learn to rest calmly in a crate develop better frustration tolerance and settling behavior as adults.
 

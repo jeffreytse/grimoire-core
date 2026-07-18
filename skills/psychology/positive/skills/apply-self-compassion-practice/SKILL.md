@@ -10,6 +10,8 @@ verified: true
 
 Use Neff's three-component self-compassion framework — mindfulness, common humanity, and self-kindness — to replace self-criticism with a caring, balanced response to personal suffering and failure.
 
+**Disclaimer:** This skill supports general wellbeing practices and is not a substitute for diagnosis or treatment by a mental health professional. If self-criticism co-occurs with severe depression, self-harm ideation, trauma, or other clinical symptoms, refer to a licensed mental health professional.
+
 ## Why This Is Best Practice
 
 **Adopted by:** Center for Mindful Self-Compassion (CMSC, MSC programs in 50+ countries), VA healthcare for veterans with self-criticism and PTSD, NHS-commissioned mindfulness programs integrating MSC components, APA-recognized training programs in positive psychology and third-wave CBT
@@ -68,4 +70,4 @@ Sources: Neff "Self-Compassion: The Proven Power of Being Kind to Yourself" (201
 
 - When self-criticism is realistic and action-guiding — appropriate guilt about harm caused to others, professional performance issues requiring skill development, or legal/ethical violations need accountability responses, not primarily self-compassion. Self-compassion supports but does not replace accountability.
 - When the individual has narcissistic defenses that convert self-compassion into entitlement — assess whether the pattern of self-talk reflects self-criticism or grandiose self-protection before recommending self-compassion practice.
-- As the sole intervention for severe clinical depression with self-harm ideation — self-compassion is adjunctive to, not a replacement for, evidence-based depression treatment in severe presentations.
+- As the sole intervention for severe clinical depression with self-harm ideation — self-compassion is adjunctive to, not a replacement for, evidence-based depression treatment in severe presentations; refer to a licensed mental health professional for diagnosis and treatment.

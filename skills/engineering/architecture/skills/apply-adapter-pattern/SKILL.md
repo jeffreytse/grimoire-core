@@ -1,7 +1,7 @@
 ---
 name: apply-adapter-pattern
 description: Use when you need to use an existing class but its interface is incompatible with what your code expects — converting one interface into another without modifying either.
-source: Gamma, Helm, Johnson, Vlissides, "Design Patterns: Elements of Reusable Object-Oriented Software" (1994) pp. 139–150; Java InputStreamReader (adapts InputStream to Reader); Python io.TextIOWrapper; Django REST Framework serializers
+source: "Gamma, Helm, Johnson, Vlissides, \"Design Patterns: Elements of Reusable Object-Oriented Software\" (1994) pp. 139–150; Java InputStreamReader (adapts InputStream to Reader); Python io.TextIOWrapper; Django REST Framework serializers"
 tags: [design-patterns, structural, adapter, oop, developer, interface-compatibility, legacy-integration]
 related: [apply-facade-pattern, apply-solid-principles]
 ---

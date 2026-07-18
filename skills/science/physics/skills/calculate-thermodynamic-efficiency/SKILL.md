@@ -1,8 +1,8 @@
 ---
 name: calculate-thermodynamic-efficiency
 description: Use when analyzing the thermodynamic efficiency of heat engines, refrigerators, power cycles, or chemical processes — applying the first and second laws of thermodynamics, Carnot efficiency, entropy analysis, and exergy to identify losses and optimization targets.
-source: Çengel & Boles "Thermodynamics: An Engineering Approach" 8th ed. (2015); Moran et al. "Fundamentals of Engineering Thermodynamics" 8th ed. (2018); Bejan "Advanced Engineering Thermodynamics" 4th ed. (2016)
-tags: [thermodynamics, efficiency, Carnot, heat-engine, entropy, exergy, energy-conversion, engineering]
+source: "Çengel & Boles \"Thermodynamics: An Engineering Approach\" 8th ed. (2015); Moran et al. \"Fundamentals of Engineering Thermodynamics\" 8th ed. (2018); Bejan \"Advanced Engineering Thermodynamics\" 4th ed. (2016)"
+tags: [thermodynamics, efficiency, carnot, heat-engine, entropy, exergy, energy-conversion, engineering]
 ---
 
 # Calculate Thermodynamic Efficiency
@@ -11,6 +11,7 @@ Analyze thermodynamic efficiency of heat engines, power cycles, and thermal syst
 
 ## Why This Is Best Practice
 
+**Why best:** Grounds efficiency claims in physical law rather than intuition — the Carnot bound catches impossible claims immediately, and second-law (entropy/exergy) analysis pinpoints exactly where real losses occur instead of leaving them as an unexplained gap between actual and ideal performance.
 **Adopted by:** Every power plant, refrigeration system, and chemical process is designed and analyzed using thermodynamic cycle analysis. ASHRAE (American Society of Heating, Refrigerating and Air-Conditioning Engineers) standards require thermodynamic efficiency analysis for HVAC system certification. The DOE uses exergy analysis to identify where US industrial energy use is most inefficient (DOE Bandwidth Studies).
 **Impact:** Çengel & Boles (2015) demonstrate that the Carnot efficiency sets an inviolable upper bound — any claimed efficiency exceeding the Carnot limit for the temperature ratio is physically impossible and indicates an error. Real power plant efficiencies are 30-50% of the Carnot limit; identifying where the remaining 50-70% is lost requires second law (entropy/exergy) analysis. Bejan (2016) established exergy analysis as the tool that reveals the location, magnitude, and source of irreversibilities — giving engineers a clear optimization target.
 

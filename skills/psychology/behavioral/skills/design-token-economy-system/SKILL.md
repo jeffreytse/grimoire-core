@@ -2,7 +2,7 @@
 name: design-token-economy-system
 description: Use when designing a structured reinforcement system to systematically increase target behaviors in classrooms, clinical settings, workplaces, or homes — particularly for behavior change programs, special education, addiction recovery, or organizational performance management.
 source: 'Ayllon & Azrin "The Token Economy" (1968); Kazdin "The Token Economy: A Review and Evaluation" (1977); Cooper, Heron & Heward "Applied Behavior Analysis" (2020); BACB (Behavior Analyst Certification Board) Task List'
-tags: [behavior, ABA, reinforcement, token-economy, psychology, behavior-change, education, clinical]
+tags: [behavior, aba, reinforcement, token-economy, psychology, behavior-change, education, clinical]
 verified: true
 ---
 
@@ -71,3 +71,7 @@ Sources: Ayllon & Azrin "The Token Economy: A Motivational System for Therapy an
 - When the target individual does not understand the contingency relationship between tokens and backup reinforcers — confirm conditional discrimination is established before implementing; use immediate reinforcement instead.
 - In settings where the social or cultural context makes visible token delivery stigmatizing — adapt to private tracking (digital apps, private tallies) or select an age-appropriate analog (e.g., points on a phone app for adults).
 - As the primary intervention for behaviors maintained by escape from demands — a token economy adds motivation to comply but does not address the underlying demand difficulty; pair with demand modification or functional communication training.
+
+## Disclaimer
+
+This skill is educational, not a substitute for individualized clinical care. Token economies for clinical, psychiatric, or severe behavioral populations should be designed and supervised by a board-certified behavior analyst (BCBA) or licensed mental health professional.

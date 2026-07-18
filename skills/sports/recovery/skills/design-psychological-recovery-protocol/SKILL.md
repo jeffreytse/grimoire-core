@@ -11,6 +11,7 @@ Structure a deliberate mental recovery process after performance setbacks, compe
 
 ## Why This Is Best Practice
 
+**Why best:** A structured recovery process closes the psychological loop between a setback and the next performance, preventing rumination from compounding into anxiety or identity crisis — rather than leaving athletes to process setbacks unguided.
 **Adopted by:** USOC Mental Performance Program, Australian Institute of Sport mental skills program, and national sport psychology associations include post-competition psychological recovery as a core competency for high-performance athletes. The All Blacks, New Zealand national rugby team, use formalized post-game "flush" rituals and psychologist-supported debrief processes as part of their culture.
 **Impact:** Gould et al. (1997) study of junior tennis burnout found that athletes who lacked effective emotional recovery strategies showed significantly higher burnout incidence. Research in sport psychology (Beilock & Carr, 2001; Rotella and colleagues) shows that athletes who ruminate on mistakes during subsequent performance show significantly impaired performance — the failure to psychologically close a setback directly creates the next underperformance. A structured recovery process closes the psychological loop.
 

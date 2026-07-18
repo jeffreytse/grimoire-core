@@ -6,7 +6,7 @@ tags: [accessibility, wcag, a11y, focus-management, modals, focus-trap, develope
 related: [apply-keyboard-accessibility, apply-skip-navigation, design-accessibility-standards]
 ---
 
-# Implement Focus Management
+# Apply Focus Management
 
 Move keyboard focus intentionally when UI changes — so focus is never lost, never trapped outside a dialog, and always lands in a logical position after dynamic updates.
 

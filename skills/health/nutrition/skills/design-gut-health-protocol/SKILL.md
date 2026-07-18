@@ -10,6 +10,8 @@ verified: true
 
 Build a structured 12-week gut health improvement protocol using dietary fiber, fermented foods, prebiotics, and lifestyle interventions supported by microbiome science.
 
+**Disclaimer:** This protocol is educational, not medical advice. Consult a healthcare provider before starting, especially with existing GI conditions, symptoms, or medications.
+
 ## Why This Is Best Practice
 
 **Adopted by:** AGA (American Gastroenterological Association), NHS UK dietary guidance, Stanford Human Food Project (Sonnenburg lab), and integrative medicine programs at Mayo Clinic, Cleveland Clinic, and Johns Hopkins

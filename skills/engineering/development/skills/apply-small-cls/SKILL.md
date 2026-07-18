@@ -6,7 +6,7 @@ tags: [code-review, pull-requests, git, collaboration, developer-experience, ci-
 verified: true
 ---
 
-# Keep CLs Small
+# Apply Small CLs
 
 Submit changes that do exactly one thing and are as small as possible — small CLs are reviewed faster, reviewed more thoroughly, less likely to introduce bugs, easier to roll back, and cause fewer merge conflicts.
 

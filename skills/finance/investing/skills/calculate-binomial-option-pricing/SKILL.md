@@ -1,7 +1,7 @@
 ---
 name: calculate-binomial-option-pricing
 description: Use when valuing an option, especially an American-style option with early-exercise features — modeling the underlying asset's price as a discrete series of up/down moves over time and working backward from expiration to calculate the option's fair value at each node.
-source: John C. Cox, Stephen A. Ross, and Mark Rubinstein, "Option Pricing: A Simplified Approach," Journal of Financial Economics (1979) — the Cox-Ross-Rubinstein (CRR) binomial model
+source: "John C. Cox, Stephen A. Ross, and Mark Rubinstein, \"Option Pricing: A Simplified Approach,\" Journal of Financial Economics (1979) — the Cox-Ross-Rubinstein (CRR) binomial model"
 tags: [finance, investing, options, binomial-model, derivatives-pricing, cox-ross-rubinstein]
 related: [calculate-margin-of-safety, apply-leverage-avoidance, calculate-dcf]
 ---

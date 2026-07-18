@@ -1,7 +1,7 @@
 ---
 name: apply-template-method-pattern
 description: Use when multiple classes share the same algorithm skeleton but differ in specific steps — defining the invariant structure once in a base class and letting subclasses override only the varying parts.
-source: Gamma, Helm, Johnson, Vlissides, "Design Patterns: Elements of Reusable Object-Oriented Software" (1994) pp. 325–330; Java AbstractList (size() and get() are abstract); Django class-based views; JUnit lifecycle hooks (setUp/tearDown)
+source: "Gamma, Helm, Johnson, Vlissides, \"Design Patterns: Elements of Reusable Object-Oriented Software\" (1994) pp. 325–330; Java AbstractList (size() and get() are abstract); Django class-based views; JUnit lifecycle hooks (setUp/tearDown)"
 tags: [design-patterns, behavioral, template-method, oop, developer, code-reuse, algorithm-skeleton]
 related: [apply-strategy-pattern, apply-inheritance-correctly, apply-solid-principles]
 ---

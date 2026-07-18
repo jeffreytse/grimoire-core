@@ -59,3 +59,7 @@ Sources: CCIM "Foundations of Commercial Real Estate" curriculum; Appraisal Inst
 - When evaluating residential single-family homes (gross rent multiplier or price-per-unit is more common).
 - When the property has no stabilized income (land, development sites — use different valuation methods).
 - When the property has unusual lease structures (ground leases, percentage rents) that make NOI comparison unreliable without adjustment.
+
+## Disclaimer
+
+This skill provides educational analysis for informational purposes only and does not constitute financial advice. Consult a licensed financial advisor, CPA, or real estate professional before making investment decisions.

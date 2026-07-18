@@ -1,7 +1,7 @@
 ---
 name: apply-memento-pattern
 description: Use when you need to capture and restore an object's internal state — for undo/redo, rollback, or snapshot functionality — without exposing or violating the object's encapsulation.
-source: Gamma, Helm, Johnson, Vlissides, "Design Patterns: Elements of Reusable Object-Oriented Software" (1994) pp. 283–291; text editor undo history; database savepoints; game save states; Redux state snapshots
+source: 'Gamma, Helm, Johnson, Vlissides, "Design Patterns: Elements of Reusable Object-Oriented Software" (1994) pp. 283–291; text editor undo history; database savepoints; game save states; Redux state snapshots'
 tags: [design-patterns, behavioral, memento, oop, developer, undo-redo, snapshot, state-management]
 related: [apply-command-pattern, apply-state-pattern, apply-solid-principles]
 ---

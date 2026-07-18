@@ -56,4 +56,4 @@ Build knowledge, support network, and equipment before delivery to maximize brea
 - Assuming breastfeeding is "natural so it should be easy" — 44% of women stop in first 2 weeks due to latch pain (CDC 2022); preparation and support prevent most of these.
 - Ordering wrong flange size — ill-fitting flange causes pain and reduces output by 20–40%; measure nipple diameter before ordering.
 
-> **Health Disclaimer:** Breastfeeding is influenced by medical, anatomical, and psychosocial factors. Formula feeding is a valid alternative. Support from an International Board Certified Lactation Consultant (IBCLC) is recommended for personalized guidance.
+> **Health Disclaimer:** This is not medical advice. Breastfeeding is influenced by medical, anatomical, and psychosocial factors. Formula feeding is a valid alternative. Consult your healthcare provider or an International Board Certified Lactation Consultant (IBCLC) for personalized guidance.

@@ -6,7 +6,7 @@ tags: [accessibility, wcag, a11y, tooltips, hover-content, popovers, low-vision-
 related: [apply-keyboard-accessibility, apply-focus-management, design-accessibility-standards]
 ---
 
-# Implement Hover Content
+# Apply Hover Content
 
 Make tooltips and hover content dismissible, hoverable, and persistent — so low-vision users who zoom in and users who navigate by keyboard can access tooltip content.
 

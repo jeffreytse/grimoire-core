@@ -12,7 +12,8 @@ Select and dose dietary supplements based on the evidence hierarchy: confirm str
 ## Why This Is Best Practice
 
 **Adopted by:** AIS (Australian Institute of Sport) developed the most widely cited evidence-based supplement framework globally, now adopted by multiple national sports institutes. WADA, IOC, and national anti-doping organizations use evidence-based supplement guidance to help athletes navigate the contamination risk of the supplement industry.
-**Impact:** Maughan et al. (2018) IOC Consensus Statement found that only a small number of supplements have sufficient evidence to justify use in high-performance sport: creatine, caffeine, nitrate/beetroot juice, beta-alanine, vitamin D (if deficient), and iron (if deficient). The same review found that approximately 15% of supplements contain undeclared substances, and contaminated supplements account for 15-25% of inadvertent doping violations. A positive drug test can end a career regardless of intent.
+**Why best:** Maughan et al. (2018) IOC Consensus Statement found that only a small number of supplements have sufficient evidence to justify use in high-performance sport: creatine, caffeine, nitrate/beetroot juice, beta-alanine, vitamin D (if deficient), and iron (if deficient). The same review found that approximately 15% of supplements contain undeclared substances, and contaminated supplements account for 15-25% of inadvertent doping violations. A positive drug test can end a career regardless of intent.
+**Impact:** Athletes who follow the AIS tiered framework avoid wasted spend on unproven products and cut contamination-driven doping violations, protecting both performance gains and career eligibility.
 
 ## Steps
 

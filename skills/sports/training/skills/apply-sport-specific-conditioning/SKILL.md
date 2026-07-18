@@ -1,7 +1,7 @@
 ---
 name: apply-sport-specific-conditioning
 description: Use when designing conditioning work for an athlete that needs to match the energy system demands, movement patterns, and work-rest ratios of their specific sport rather than generic aerobic or anaerobic training.
-source: Gambetta "Athletic Development: The Art and Science of Functional Sports Conditioning" (2007); NSCA "Conditioning for Sport" (Chandler & Brown, 2008); Bangsbo "Fitness Training in Football" (1994)
+source: "Gambetta \"Athletic Development: The Art and Science of Functional Sports Conditioning\" (2007); NSCA \"Conditioning for Sport\" (Chandler & Brown, 2008); Bangsbo \"Fitness Training in Football\" (1994)"
 tags: [sport-specific, conditioning, energy-systems, metabolic, work-rest-ratio, game-demands]
 ---
 
@@ -11,6 +11,7 @@ Design conditioning programs that replicate the energy system demands, movement 
 
 ## Why This Is Best Practice
 
+**Why best:** Fitness transfers to competition only when training replicates the sport's actual energy system demands, movement patterns, and work-rest ratios — generic conditioning builds fitness qualities that don't match how the sport is actually played.
 **Adopted by:** Professional team sport academies (EPL clubs, NFL franchises, NBA teams) have moved away from generic long slow distance (LSD) conditioning toward sport-specific small-sided games, interval work, and GPS-informed conditioning that mirrors actual match demands. Elite individual sport coaches (triathlon, swimming, cycling) use energy system profiling to allocate training stress by zone.
 **Impact:** Bangsbo (1994) established that soccer match play involves ~1,200 activity changes in 90 minutes, with a predominant aerobic base (80%+) but critical anaerobic bursts. Programs designed to replicate this outperformed generic aerobic conditioning programs for soccer-specific fitness. Bradley et al. (2009, Journal of Sport Sciences) showed Premier League players cover 10-13km per match with 1-1.4km at high intensity — conditioning that ignores these metrics fails to prepare athletes for match demands.
 

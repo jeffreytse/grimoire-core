@@ -5,12 +5,13 @@ source: Escoffier "Le Guide Culinaire" (1903); Hazan "Essentials of Classic Ital
 tags: [aromatics, mirepoix, soffritto, flavor-base, cooking-fundamentals, world-cuisine]
 ---
 
-# Apply Aromatic Base Systems
+# Apply Mirepoix Aromatics
 
 Apply the correct aromatic base ratio and technique for the dish's cuisine tradition — selecting from mirepoix, soffritto, sofrito, trinity, or Asian aromatics — to build foundational flavor before adding primary ingredients.
 
 ## Why This Is Best Practice
 
+**Why best:** Every cuisine tradition builds dishes on a fat + aromatics + heat foundation because it concentrates volatile flavor compounds before primary ingredients are added — skipping or shortcutting this step is the single most common cause of flat-tasting soups, braises, and sauces.
 **Adopted by:** Every major culinary tradition begins dishes with an aromatic base — the same principle (fat + aromatics + heat = flavor foundation) is universal, executed differently in each cuisine. Escoffier codified mirepoix (1903); Marcella Hazan made soffritto central to her Italian teaching; Rick Bayless documented Mexican sofrito; Paul Prudhomme popularized the Cajun Holy Trinity. CIA, Le Cordon Bleu, and every culinary program teach aromatic bases as lesson 1 in flavor building.
 **Impact:** The aromatic base concentrates volatile compounds from alliums and vegetables that provide the flavor framework for the entire dish. Caramelizing onions in fat produces hundreds of new aroma compounds via Maillard reaction that are not present in raw onions. A braise, soup, or sauce made without proper aromatic development tastes flat; the aromatics are not merely vegetables — they are flavor infrastructure.
 

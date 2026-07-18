@@ -9,6 +9,8 @@ tags: [decision-making, regret, long-term-thinking, career, cognitive, clarity]
 
 Evaluate a major life decision by projecting yourself to age 80 and asking which choice you would regret more — exploiting the research finding that long-term regret is dominated by inactions, not actions, to correct the near-term anxiety bias that systematically favors the status quo.
 
+> **Disclaimer:** This is a decision-making framework, not therapy or clinical guidance. If a decision is entangled with significant anxiety, depression, trauma, or other mental health concerns, consult a licensed mental health professional before relying on this exercise alone.
+
 ## Why This Is Best Practice
 
 **Adopted by:** Jeff Bezos describes the Regret Minimization Framework as the decision process behind founding Amazon (Princeton commencement address, 2010, widely circulated). Applied by executives and founders across Silicon Valley — Bezos references it as his decision framework in multiple high-profile interviews. Taught in behavioral economics courses at Harvard Business School and Stanford GSB as an illustration of temporal self-appraisal and affective forecasting correction.

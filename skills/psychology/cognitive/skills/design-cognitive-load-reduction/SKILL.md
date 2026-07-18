@@ -2,15 +2,18 @@
 name: design-cognitive-load-reduction
 description: Use when designing learning materials, complex procedures, or interfaces that require users to process and retain information — applying cognitive load theory to reduce extraneous load, manage intrinsic load, and optimize germane load for improved comprehension and performance.
 source: Sweller "Cognitive Load Theory" (1988) in Journal of Learning Sciences; Mayer "Multimedia Learning" 2nd ed. (2009); van Merrienboer "Training Complex Cognitive Skills" (1997); Clark & Sweller "Efficiency in Learning" (2006); Cognitive Science Society educational research
-tags: [psychology, cognitive-load, learning-design, UX, instructional-design, memory, education]
+tags: [psychology, cognitive-load, learning-design, ux, instructional-design, memory, education]
 ---
 
 # Design Cognitive Load Reduction
 
 Apply cognitive load theory to reduce extraneous processing demands in learning, procedures, and interface design — freeing working memory capacity for meaningful comprehension and skill development.
 
+> This skill addresses instructional and interface design, not clinical psychology. It is not a substitute for diagnosis or treatment by a mental health professional — consult a mental health professional for concerns about learning disorders, attention, or cognitive impairment.
+
 ## Why This Is Best Practice
 
+**Why best:** Cognitive load theory gives designers a validated, mechanism-based framework for predicting which design choices overload working memory and which free it up for learning — replacing guesswork with a testable model.
 **Adopted by:** John Sweller's cognitive load theory (1988) is one of the most cited frameworks in educational psychology and instructional design — with over 20,000 citations in academic literature. Richard Mayer's "Multimedia Learning" extends it to digital instructional design; it is the theoretical basis for learning design at Google, Khan Academy, and major e-learning platforms. UX designers apply cognitive load principles through Jakob Nielsen's heuristics and Don Norman's "The Design of Everyday Things."
 **Impact:** Research by Sweller and colleagues demonstrates that instruction that ignores cognitive load produces significantly worse learning outcomes, particularly for novice learners. A meta-analysis by DeLeeuw & Mayer (2008) found that reducing extraneous cognitive load improved learning outcomes by 0.8 standard deviations — a large effect by educational standards. The same principles applied to interface design show reduced error rates, faster task completion, and higher user satisfaction.
 

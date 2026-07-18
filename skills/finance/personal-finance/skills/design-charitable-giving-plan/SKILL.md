@@ -2,7 +2,7 @@
 name: design-charitable-giving-plan
 description: Use when planning charitable contributions to maximize tax efficiency — e.g., "how do I donate tax-efficiently?", "should I use a DAF?", "how to give appreciated stock?", "what's a QCD?"
 source: IRS Publication 526 (Charitable Contributions); Fidelity Charitable "Giving Report" (2023); Schwab Charitable DAF research; National Philanthropic Trust data
-tags: [finance, personal-finance, charitable-giving, philanthropy, DAF, tax-efficiency, estate-planning]
+tags: [finance, personal-finance, charitable-giving, philanthropy, daf, tax-efficiency, estate-planning]
 verified: true
 ---
 

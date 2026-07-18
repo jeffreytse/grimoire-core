@@ -133,4 +133,4 @@ Counter: "I have a competing offer at $195k base + $50k equity refresh per year.
 
 ---
 
-> **Financial disclaimer:** This skill encodes professional best practices for educational purposes. It is not financial or legal advice. Salary negotiation strategies vary by industry, role level, and geography. Consult a career coach or professional recruiter for high-stakes situations.
+> **Financial disclaimer:** This skill encodes professional best practices for educational purposes. It is not financial advice or legal advice. Salary negotiation strategies vary by industry, role level, and geography. Consult a career coach, financial advisor, or professional recruiter for high-stakes situations.

@@ -11,6 +11,7 @@ Design 3–5 repeatable outfit formulas for each occasion category in your life,
 
 ## Why This Is Best Practice
 
+**Why best:** Formula-based dressing replaces daily ad-hoc decisions with a pre-validated system, cutting decision fatigue and producing more consistent, polished results from fewer garments.
 **Adopted by:** The outfit formula concept is central to capsule wardrobe philosophy (Susie Faux, 1970s) and the "French girl wardrobe" approach that dominates contemporary minimalist style guides. Stylists for public figures (politicians, executives, celebrities) operate on formula-based dressing — Steve Jobs' turtleneck and jeans was an intentional decision-elimination formula. The concept appears in behavioral economics research on decision fatigue (Baumeister, 2011) applied to wardrobe design.
 **Impact:** Sheena Iyengar's research (Columbia Business School) shows that decision fatigue from large choice sets reduces satisfaction and increases regret. Applied to wardrobes: people with large, disorganized wardrobes spend more time deciding, feel less confident in their choices, and wear 20% of their clothes 80% of the time (Pareto principle). Outfit formulas ensure the 20% is the right 20%, reduce morning decision time from 20+ minutes to 2–3 minutes, and enable deliberate purchases aligned to the system.
 

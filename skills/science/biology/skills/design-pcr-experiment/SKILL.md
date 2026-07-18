@@ -1,8 +1,8 @@
 ---
 name: design-pcr-experiment
 description: Use when designing a polymerase chain reaction experiment — including primer design, thermal cycling conditions, control selection, and troubleshooting strategy to amplify a specific DNA or RNA target reliably.
-source: Mullis et al. (1986) "Specific Enzymatic Amplification of DNA" (Cold Spring Harb Symp Quant Biol); Lorenz (2012) "Polymerase Chain Reaction: Basic Protocol Plus Troubleshooting" (J Vis Exp); Primer3 design guidelines (Rozen & Skaletsky, 2000)
-tags: [PCR, molecular-biology, primer-design, DNA-amplification, qPCR, experimental-design]
+source: "Mullis et al. (1986) \"Specific Enzymatic Amplification of DNA\" (Cold Spring Harb Symp Quant Biol); Lorenz (2012) \"Polymerase Chain Reaction: Basic Protocol Plus Troubleshooting\" (J Vis Exp); Primer3 design guidelines (Rozen & Skaletsky, 2000)"
+tags: [pcr, molecular-biology, primer-design, dna-amplification, qpcr, experimental-design]
 ---
 
 # Design PCR Experiment
@@ -11,6 +11,7 @@ Design a reliable PCR experiment by systematically selecting primers, optimizing
 
 ## Why This Is Best Practice
 
+**Why best:** Systematic primer design and cycling optimization eliminate the leading causes of PCR failure — non-specific amplification, primer-dimer, and no product — before the first reaction is run.
 **Adopted by:** PCR is the most widely used molecular biology technique globally. Every major research institution, clinical diagnostic lab, and forensic laboratory uses systematic PCR design protocols. qPCR (quantitative PCR) design follows MIQE Guidelines (Bustin et al., 2009) — minimum information for publication of quantitative real-time PCR experiments — adopted by journals including Nature Methods, Nucleic Acids Research, and PLOS ONE.
 **Impact:** The most common PCR failures (non-specific amplification, no product, smearing) are almost entirely attributable to poor primer design or incorrect cycling conditions — both preventable with systematic design. Bustin et al. (2009) showed that >30% of published qPCR data was unreliable due to failure to follow basic design standards. Primer3-designed primers with calculated Tm within 1°C of each other produce dramatically higher first-attempt success rates than ad hoc design.
 

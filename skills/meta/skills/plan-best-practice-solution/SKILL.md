@@ -5,7 +5,7 @@ source: McKinsey Problem Solving (MECE methodology, Rasiel 1999), Kepner-Tregoe 
 tags: [complex-problem, multi-skill, problem-decomposition, mece, skill-orchestration, problem-solver, structured-solution, flat-sequence]
 ---
 
-# Plan Solution
+# Plan Best Practice Solution
 
 Decompose a multi-skill problem into sub-problems, match each to the highest-confidence best-practice skill, sequence them by dependency, and execute one skill at a time.
 

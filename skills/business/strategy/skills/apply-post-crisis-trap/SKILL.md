@@ -6,7 +6,7 @@ tags: [career, post-crisis, capability-trap, fan-li, han-xin, warring-states, pr
 verified: true
 ---
 
-# Navigate Post-Crisis Trap
+# Apply Post-Crisis Trap
 
 Recognise the structural moment at which exceptional crisis capability transitions from asset to liability — the resolution of the crisis — and act before that moment: redefine your relationship with the principal, reduce their dependency on you, or exit on your own terms; because the principal's threat calculus inverts at crisis resolution, and acting after that inversion means acting after the principal has already begun to see you as a problem.
 

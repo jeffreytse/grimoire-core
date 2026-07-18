@@ -1,6 +1,6 @@
 ---
 name: design-training-program
-description: Use when creating a structured resistance training program for strength, hypertrophy, or athletic performance
+description: Use when creating a periodized resistance training program spanning multiple goals (strength, hypertrophy, or athletic performance) across a full mesocycle — not a single-goal max-strength peaking plan
 source: NSCA CSCS Certification curriculum (3rd ed.); Zatsiorsky & Kraemer "Science and Practice of Strength Training"; ACSM's Guidelines for Exercise Testing and Prescription (11th ed.)
 tags: [health, fitness, strength-training, programming, periodization, hypertrophy]
 verified: true

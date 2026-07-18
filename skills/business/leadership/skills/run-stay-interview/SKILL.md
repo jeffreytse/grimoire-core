@@ -1,7 +1,7 @@
 ---
 name: run-stay-interview
 description: Use when a manager wants to proactively understand what keeps a valued direct report engaged and what might drive them to leave — before any sign of resignation appears — so that retention can be acted on before it becomes a crisis.
-source: Kaye & Jordan-Evans "Love 'Em or Lose 'Em" (Berrett-Koehler, 5th ed. 2014); SHRM "Stay Interviews: A Tool to Prevent Employee Turnover" (2016); Gallup "State of the American Workplace" (2017)
+source: "Kaye & Jordan-Evans \"Love 'Em or Lose 'Em\" (Berrett-Koehler, 5th ed. 2014); SHRM \"Stay Interviews: A Tool to Prevent Employee Turnover\" (2016); Gallup \"State of the American Workplace\" (2017)"
 tags: [retention, stay-interview, employee-engagement, flight-risk, manager, talent-retention, proactive, turnover]
 ---
 

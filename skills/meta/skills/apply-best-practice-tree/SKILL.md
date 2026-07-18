@@ -5,7 +5,7 @@ source: Divide-and-conquer algorithm (Knuth, The Art of Computer Programming, 19
 tags: [recursive-decomposition, skill-orchestration, problem-solving, best-practice-application, case-based-reasoning, depth-first]
 ---
 
-# Solve by Skill Decomposition
+# Apply Best Practice Tree
 
 Recursively apply the best-matching skill to a problem, match each resulting sub-problem to a best practice, and repeat until every sub-problem is covered or fully resolved.
 

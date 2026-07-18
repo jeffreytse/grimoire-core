@@ -10,6 +10,8 @@ verified: true
 
 Design a legally compliant, equitable severance package that protects the organization from litigation while treating departing employees fairly.
 
+> **Disclaimer:** This skill provides general HR guidance, not legal advice. Employment law varies by jurisdiction and changes over time — consult qualified legal counsel before finalizing any severance package or release agreement.
+
 ## Why This Is Best Practice
 
 **Adopted by:** SHRM (Society for Human Resource Management, 300,000+ members) and EEOC guidelines govern US severance practices; WARN Act compliance is mandatory for large-scale layoffs; Fortune 500 companies standardize severance to ensure ADEA/Title VII compliance.

@@ -1,7 +1,7 @@
 ---
 name: run-team-retrospective
 description: Use when a team needs to reflect on a completed period, project, or significant event — to extract what worked, what didn't, and what specific changes to make before the next cycle, rather than repeating the same patterns.
-source: Kerievsky & Derby "Agile Retrospectives: Making Good Teams Great" (Pragmatic Bookshelf, 2006); Lencioni "Death by Meeting" (Jossey-Bass, 2004) — quarterly reviews; Amy Edmondson "Teaming" (Jossey-Bass, 2012) — team learning loops
+source: "Kerievsky & Derby \"Agile Retrospectives: Making Good Teams Great\" (Pragmatic Bookshelf, 2006); Lencioni \"Death by Meeting\" (Jossey-Bass, 2004) — quarterly reviews; Amy Edmondson \"Teaming\" (Jossey-Bass, 2012) — team learning loops"
 tags: [retrospective, team-learning, continuous-improvement, reflection, feedback, agile, team-performance, learning-culture]
 ---
 

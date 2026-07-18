@@ -6,7 +6,7 @@ tags: [accessibility, wcag, a11y, keyboard-navigation, tab-order, focus, develop
 related: [apply-focus-management, apply-skip-navigation, design-accessibility-standards]
 ---
 
-# Implement Keyboard Accessibility
+# Apply Keyboard Accessibility
 
 Ensure every interactive element is reachable and operable by keyboard — Tab to reach it, Enter/Space to activate it, Escape to dismiss it, and arrow keys for internal navigation.
 

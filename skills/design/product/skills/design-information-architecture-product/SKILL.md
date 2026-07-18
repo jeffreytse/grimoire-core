@@ -6,7 +6,7 @@ tags: [ia, navigation, ux, taxonomy, content-structure]
 verified: true
 ---
 
-# Design Information Architecture for Products
+# Design Information Architecture Product
 
 Organize content and features into a structure that matches users' mental models so they can find and understand information without effort.
 

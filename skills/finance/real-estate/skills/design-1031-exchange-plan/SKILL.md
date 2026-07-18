@@ -1,12 +1,12 @@
 ---
-name: design-1031-exchange-plan
+name: design-section1031-exchange-plan
 description: Use when selling investment property and wanting to defer capital gains taxes — e.g., "how does 1031 exchange work?", "defer capital gains on property sale", "like-kind exchange rules", "1031 timeline and deadlines"
 source: IRS Revenue Ruling 2002-83; IRS Section 1031 of Internal Revenue Code; Starker v. United States (1979); Treasury Regulation §1.1031; National Association of Realtors 1031 exchange guidance
-tags: [finance, real-estate, 1031-exchange, capital-gains, tax-deferral, like-kind, investment-property, depreciation-recapture]
+tags: [finance, real-estate, section1031-exchange, capital-gains, tax-deferral, like-kind, investment-property, depreciation-recapture]
 verified: true
 ---
 
-# Design 1031 Exchange Plan
+# Design Section1031 Exchange Plan
 
 Use a Section 1031 like-kind exchange to defer capital gains and depreciation recapture taxes when selling an investment property and reinvesting in another.
 

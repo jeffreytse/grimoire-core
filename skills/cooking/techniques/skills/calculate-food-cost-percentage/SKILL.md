@@ -11,6 +11,7 @@ Calculate recipe cost per portion and food cost percentage for each menu item, c
 
 ## Why This Is Best Practice
 
+**Why best:** Recipe costing ties pricing directly to measured ingredient cost rather than intuition, which is the difference between a menu that sustains margin and one that erodes it unnoticed.
 **Adopted by:** The National Restaurant Association reports that the average full-service restaurant targets 28–35% food cost. All hospitality management programs (CIA, Johnson & Wales, Cornell Hotel School) require recipe costing as a core operations skill. Chain restaurant operations (McDonald's, Chipotle) reduce food cost percentages to 25–30% through standardized recipes and yield tracking.
 **Impact:** A restaurant operating on 2–5% net profit margin cannot absorb a food cost that runs 5% above target — this directly eliminates profitability. Most restaurants that fail do so partly because menu pricing was set intuitively rather than from calculated food cost. Tracking actual vs. theoretical food cost also identifies waste, theft, and recipe deviation in the kitchen.
 

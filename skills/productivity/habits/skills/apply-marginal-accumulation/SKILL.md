@@ -1,7 +1,7 @@
 ---
 name: apply-marginal-accumulation
 description: Use when building a new capability, closing a performance gap, or sustaining long-term improvement — to replace intensity-and-breakthrough thinking with consistent small efforts that compound, because regularity produces exponentially better outcomes than sporadic bursts
-source: "荀子 (Xunzi) 劝学篇 (~3rd century BC) — 不积跬步，无以至千里；不积小流，无以成江海；锲而不舍，金石可镂; James Clear "Atomic Habits" (2018) — 1% daily improvement; Ericsson "Peak" (2016) — deliberate practice accumulation; Toyota Kaizen — continuous incremental improvement"
+source: '荀子 (Xunzi) 劝学篇 (~3rd century BC) — 不积跬步，无以至千里；不积小流，无以成江海；锲而不舍，金石可镂; James Clear "Atomic Habits" (2018) — 1% daily improvement; Ericsson "Peak" (2016) — deliberate practice accumulation; Toyota Kaizen — continuous incremental improvement'
 tags: [habits, performance, skill-development, compounding, continuous-improvement]
 verified: true
 ---

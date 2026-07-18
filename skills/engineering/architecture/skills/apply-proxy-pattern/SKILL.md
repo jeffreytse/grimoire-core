@@ -1,7 +1,7 @@
 ---
 name: apply-proxy-pattern
 description: Use when you need to control access to an object — adding lazy initialization, access control, logging, caching, or remote access — without changing the object's interface or the client's code.
-source: Gamma, Helm, Johnson, Vlissides, "Design Patterns: Elements of Reusable Object-Oriented Software" (1994) pp. 207–217; Java RMI (remote proxy); Spring AOP (@Transactional, @Cacheable use proxies); Python unittest.mock; Hibernate lazy loading
+source: "Gamma, Helm, Johnson, Vlissides, \"Design Patterns: Elements of Reusable Object-Oriented Software\" (1994) pp. 207–217; Java RMI (remote proxy); Spring AOP (@Transactional, @Cacheable use proxies); Python unittest.mock; Hibernate lazy loading"
 tags: [design-patterns, structural, proxy, oop, developer, access-control, lazy-loading, caching]
 related: [apply-decorator-pattern, apply-facade-pattern, apply-solid-principles]
 ---

@@ -1,7 +1,7 @@
 ---
 name: apply-iterator-pattern
 description: Use when you need to access elements of a collection sequentially without exposing its underlying representation — decoupling traversal logic from the collection's data structure.
-source: Gamma, Helm, Johnson, Vlissides, "Design Patterns: Elements of Reusable Object-Oriented Software" (1994) pp. 257–271; Python iteration protocol (__iter__/__next__); Java Iterable/Iterator; C++ STL iterators; Ruby Enumerable
+source: "Gamma, Helm, Johnson, Vlissides, \"Design Patterns: Elements of Reusable Object-Oriented Software\" (1994) pp. 257–271; Python iteration protocol (__iter__/__next__); Java Iterable/Iterator; C++ STL iterators; Ruby Enumerable"
 tags: [design-patterns, behavioral, iterator, oop, developer, collection-traversal, encapsulation]
 related: [apply-composite-pattern, apply-visitor-pattern, apply-solid-principles]
 ---

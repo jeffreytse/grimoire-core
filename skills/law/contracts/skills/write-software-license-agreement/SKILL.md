@@ -10,6 +10,8 @@ verified: true
 
 Draft a software license agreement that clearly defines rights, restrictions, and liabilities while protecting the licensor's intellectual property.
 
+> **Disclaimer:** This skill provides general drafting guidance only and does not constitute legal advice. Software license agreements have significant legal and financial consequences — consult qualified legal counsel before finalizing or executing any agreement.
+
 ## Why This Is Best Practice
 
 **Adopted by:** SPDX is the industry standard for license identification (used by Linux Foundation, GitHub, FOSSA, and all major OSS projects); OSI approval is the benchmark for open-source license legitimacy; SIIA (Software & Information Industry Association) represents 700+ software companies setting EULA standards.

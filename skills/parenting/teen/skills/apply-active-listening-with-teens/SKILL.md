@@ -11,6 +11,7 @@ Apply active listening techniques adapted for adolescent communication patterns 
 
 ## Why This Is Best Practice
 
+**Why best:** Teens disclose in proportion to felt safety, not parental authority; reflecting emotion before content (rather than advising, minimizing, or interrogating) keeps the channel open so serious problems surface early instead of going underground.
 **Adopted by:** Haim Ginott's "Between Parent and Teenager" (1969) established the foundational insight that teenagers need to feel understood before they can receive guidance. Carl Rogers' client-centered therapy (the basis for modern active listening) proved that accurate empathic reflection reduces defensiveness and promotes self-disclosure. John Gottman's research on parent-teen relationships found that parents who practiced "emotion coaching" — validating feelings before problem-solving — had teenagers with better emotional intelligence, fewer behavior problems, and closer relationships than parents who used "dismissing" or "disapproving" approaches.
 **Impact:** Teenagers who feel their parents listen to them without judgment are significantly more likely to come to parents with serious problems (substance use, relationships, mental health concerns) before those problems escalate. The most common reason teenagers stop talking to their parents is not parental authority — it is that conversations reliably end in unsolicited advice, lectures, or minimization. Active listening removes these barriers.
 

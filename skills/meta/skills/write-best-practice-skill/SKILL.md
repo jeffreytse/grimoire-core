@@ -5,7 +5,7 @@ source: Wikipedia Manual of Style, MDN Web Docs Contributor Guide
 tags: [skill-authoring, structured-authoring, contributor, domain-expert, quality-contribution]
 ---
 
-# Write Skill
+# Write Best Practice Skill
 
 Author a new grimoire SKILL.md that encodes a domain best practice and passes `review-best-practice-skill`.
 

@@ -1,7 +1,7 @@
 ---
 name: apply-credibility-demonstration
 description: Use when preparing to announce a major organizational change, reform program, or new commitment — when the audience has reason to doubt that announced commitments will be honored — to make a visible demonstration of follow-through before the main announcement
-source: "资治通鉴 (Zīzhì Tōngjiàn) 秦纪 (359 BC) — Shang Yang plants the wooden post: "吾法令已行，示以必信，乃令民移木"; Kotter "Leading Change" (1996) — generate short-term wins before major change programs; Cialdini "Pre-Suasion" (2016) — establish demonstrated trustworthiness before the main request"
+source: '资治通鉴 (Zīzhì Tōngjiàn) 秦纪 (359 BC) — Shang Yang plants the wooden post: "吾法令已行，示以必信，乃令民移木"; Kotter "Leading Change" (1996) — generate short-term wins before major change programs; Cialdini "Pre-Suasion" (2016) — establish demonstrated trustworthiness before the main request'
 tags: [change-management, trust, credibility, communication, organizational-change]
 verified: true
 ---

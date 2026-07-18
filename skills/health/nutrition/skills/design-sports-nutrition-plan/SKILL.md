@@ -10,6 +10,8 @@ verified: true
 
 Build a periodized sports nutrition plan that fuels training, maximizes recovery, and optimizes competition performance through evidence-based macronutrient and timing strategies.
 
+**Disclaimer:** This is educational information, not medical advice. Consult a healthcare provider or sports dietitian before starting a new nutrition plan, especially with existing medical conditions, disordered eating history, or when supplementing.
+
 ## Why This Is Best Practice
 
 **Adopted by:** IOC (International Olympic Committee) sports nutrition consensus statement (2011, 2018), ISSN, ACSM, Academy of Nutrition and Dietetics joint position stand; national Olympic committees of Australia, UK, USA.

@@ -1,12 +1,12 @@
 ---
 name: apply-parkinson-law
 description: Use when a task is taking longer than expected, a project has slack time that is being absorbed, or you want to compress work into a shorter window to force prioritization and eliminate perfectionism.
-source: 'Parkinson, C. Northcote. "Parkinson\'s Law" (The Economist, 1955; book 1958); Ferriss, Tim. "The 4-Hour Workweek" (2007) — popularized artificial deadlines'
+source: "Parkinson, C. Northcote. \"Parkinson's Law\" (The Economist, 1955; book 1958); Ferriss, Tim. \"The 4-Hour Workweek\" (2007) — popularized artificial deadlines"
 tags: [time-management, deadlines, procrastination, timeboxing, prioritization]
 verified: true
 ---
 
-# Apply Parkinson's Law
+# Apply Parkinson Law
 
 Set artificial deadlines shorter than available time to force focus, eliminate gold-plating, and prevent work from expanding to fill the time you give it.
 

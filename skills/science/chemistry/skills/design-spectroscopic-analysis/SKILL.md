@@ -2,7 +2,7 @@
 name: design-spectroscopic-analysis
 description: Use when selecting and designing a spectroscopic analysis method (UV-Vis, IR, NMR, MS, or Raman) — including method selection, sample preparation, calibration, data interpretation, and reporting for structural identification or quantitation.
 source: Silverstein et al. "Spectrometric Identification of Organic Compounds" 8th ed. (2014); Skoog et al. "Principles of Instrumental Analysis" 7th ed. (2018); Pavia et al. "Introduction to Spectroscopy" 5th ed. (2015)
-tags: [spectroscopy, NMR, IR, UV-Vis, mass-spectrometry, structural-identification, analytical-chemistry]
+tags: [spectroscopy, nmr, ir, uv-vis, mass-spectrometry, structural-identification, analytical-chemistry]
 ---
 
 # Design Spectroscopic Analysis
@@ -11,6 +11,7 @@ Select and apply the correct spectroscopic technique — UV-Vis, IR, NMR, or MS 
 
 ## Why This Is Best Practice
 
+**Why best:** Matching technique to question and following a staged, calibrated protocol turns spectra into reliable structural or quantitative answers instead of ambiguous data; skipping calibration or using the wrong technique produces misassigned structures or invalid quant results.
 **Adopted by:** ICH Q6A (pharmaceutical specifications) mandates IR and/or NMR for identity confirmation of drug substances. FDA 21 CFR Part 211 requires spectroscopic identification of raw materials before use. ACS journals require complete spectroscopic data for all new compounds (¹H NMR, ¹³C NMR, MS, and IR for novel organic compounds).
 **Impact:** Silverstein et al. (2014) is the definitive reference for spectroscopic structure determination — the staged multi-technique approach it describes (IR → MS → NMR) resolves structural ambiguity that any single technique cannot. The combination of NMR + HRMS is the current gold standard for establishing structure of organic compounds, used in >90% of synthetic chemistry publications.
 

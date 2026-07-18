@@ -10,6 +10,8 @@ verified: true
 
 Draft a shareholder agreement that protects all parties' interests, establishes clear governance rights, and prevents common disputes.
 
+> **Disclaimer:** This skill provides general information, not legal advice. Consult qualified legal counsel before drafting, signing, or relying on any shareholder agreement.
+
 ## Why This Is Best Practice
 
 **Adopted by:** NVCA model documents are used in 80%+ of US venture capital transactions; Gunderson Dettmer and Cooley models are industry standard for tech startups; Delaware remains the jurisdiction of choice for 60%+ of US public companies and most VC-backed startups.

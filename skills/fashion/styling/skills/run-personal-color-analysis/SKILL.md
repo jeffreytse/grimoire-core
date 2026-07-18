@@ -11,6 +11,7 @@ Identify a person's seasonal color type through systematic evaluation of skin un
 
 ## Why This Is Best Practice
 
+**Why best:** Grounding color choices in a person's measurable undertone, value, and contrast — rather than trend or preference alone — produces flattering results reproducibly, and gives a concrete, learnable filter (season → palette) for wardrobe decisions instead of ad-hoc trial and error.
 **Adopted by:** The seasonal color analysis system (Summer/Winter/Spring/Autumn) was codified by Suzanne Caygill (1950s) and popularized worldwide by Carole Jackson's "Color Me Beautiful" (1980), which sold over 10 million copies and launched a global personal color consulting industry. Color analysis is a mainstream service offered by personal stylists in North America, Europe, and Japan (where it is a nationally recognized service category). Fashion houses and personal shopping services use it as the basis for client wardrobe recommendations.
 **Impact:** Colors that harmonize with a person's natural coloring (skin undertone, hair value, eye color) make the face appear more alive, reduce the appearance of shadows under the eyes, and make features stand out positively. Colors that clash with natural coloring create visual fatigue, emphasize skin imperfections, and visually disconnect the wearer from their clothing. Quantifying this through analysis allows deliberate purchasing decisions rather than trial-and-error shopping.
 

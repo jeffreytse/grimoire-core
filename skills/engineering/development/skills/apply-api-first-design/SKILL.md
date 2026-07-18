@@ -1,7 +1,7 @@
 ---
 name: apply-api-first-design
 description: Use when starting a new API, adding a major feature to an existing API, or aligning multiple teams on an interface — to define the contract in an OpenAPI spec before writing any implementation code.
-source: 'OpenAPI Initiative (openapis.org); Stoplight "API Design Guide" (2020); Swagger "API-First Development" guide; Stripe Engineering blog — "Designing APIs for humans"; Google API Design Guide (aip.dev); Richardson & Ruby "RESTful Web Services" (O\'Reilly, 2007)'
+source: 'OpenAPI Initiative (openapis.org); Stoplight "API Design Guide" (2020); Swagger "API-First Development" guide; Stripe Engineering blog — "Designing APIs for humans"; Google API Design Guide (aip.dev); Richardson & Ruby "RESTful Web Services" (O''Reilly, 2007)'
 tags: [api, openapi, contract-first, api-design, rest, developer-experience, design]
 verified: true
 ---

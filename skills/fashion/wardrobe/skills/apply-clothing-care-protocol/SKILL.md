@@ -11,6 +11,7 @@ Extend garment lifespan by applying fiber-specific washing temperatures, drying 
 
 ## Why This Is Best Practice
 
+**Why best:** Fiber-specific care (correct temperature, agitation, and drying per material) prevents the mechanisms of premature failure — shrinkage, felting, dye loss, and fiber breakdown — that generic one-temperature laundering causes, directly extending garment lifespan and reducing replacement frequency.
 **Adopted by:** International care label standards (ISO 3758, ASTM D5489) define the care symbols on all garment labels in the US, EU, and internationally. Woolmark (The Wool Development International) publishes fiber-specific care standards used by all major retailers. The Ellen MacArthur Foundation's Fashion and Circular Economy report (2017) identifies extended garment lifespan as one of the most impactful changes available to consumers — a garment worn 2× as long produces half the environmental impact per use.
 **Impact:** Research from WRAP (UK) shows the average garment in the UK is worn 40 times before disposal; increasing wear to 80 times reduces its lifetime environmental impact by 43%. Incorrect washing is the primary cause of premature garment failure — shrinkage (hot water on wool/cotton), color fading (hot water or tumble drying on dyed fabrics), and fiber breakdown (over-agitation) are all care protocol failures. Quality garments treated correctly last 5–15 years; the same garments washed incorrectly last 2–3 years.
 

@@ -2,7 +2,7 @@
 name: design-batch-processing-preset
 description: Use when processing large volumes of similar photos — designing Lightroom or Capture One develop presets that apply consistent tonal, color, and detail corrections across a batch, reducing per-image processing time while maintaining image-to-image consistency.
 source: Schewe "The Digital Negative" 3rd ed. (2018); Evening "Adobe Photoshop Lightroom Classic" (2019); Capture One Pro Workflow Guide (Phase One, 2023); McNally "Hot Shoe Diaries" (2009); Professional Photographers of America (PPA) workflow documentation
-tags: [photography, batch-processing, Lightroom, Capture-One, editing-workflow, preset, post-production]
+tags: [photography, batch-processing, lightroom, capture-one, editing-workflow, preset, post-production]
 ---
 
 # Design Batch Processing Preset
@@ -13,6 +13,7 @@ Design Lightroom or Capture One develop presets for batch processing — creatin
 
 **Adopted by:** Professional event, wedding, and commercial photographers process hundreds to thousands of images per assignment; manual per-image processing is not commercially viable. All professional workflow software (Lightroom, Capture One, Photo Mechanic+) includes batch processing and preset systems. Phase One's professional workflow documentation and the Professional Photographers of America (PPA) business resources both document preset-based batch workflows as the industry standard.
 **Impact:** A wedding photographer who processes 800 images manually at 3 minutes per image spends 40 hours on post-production. A photographer using a developed preset workflow processes the same 800 images in 8–10 hours: 2 hours building and applying the base preset, then 1 minute per image for individual fine-tuning. The preset approach maintains consistency that manual processing cannot achieve — every image has the same tonal foundation, same color grade, same noise reduction starting point.
+**Why best:** A base preset intercepts repetitive correction work once, at the batch level, instead of re-deciding the same tonal and color choices per image. This is the same source-inspection logic as manufacturing poka-yoke — fix the correction upstream so it doesn't have to be caught and redone downstream — and it's why it beats manual per-image editing on both speed and consistency.
 
 ## Steps
 

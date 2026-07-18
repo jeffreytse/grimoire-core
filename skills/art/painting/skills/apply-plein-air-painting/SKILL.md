@@ -1,7 +1,7 @@
 ---
 name: apply-plein-air-painting
 description: Use when painting outdoors on location — applying the setup workflow, value-first approach, limited palette selection, and time management to produce a complete plein air study before light conditions change.
-source: Carlson "Guide to Landscape Painting" (1929); Gruppe "Gruppe on Color" (1987); Seago "Edward Seago: The Landscape Art" (2000); Plein Air Painters of America guidelines
+source: "Carlson \"Guide to Landscape Painting\" (1929); Gruppe \"Gruppe on Color\" (1987); Seago \"Edward Seago: The Landscape Art\" (2000); Plein Air Painters of America guidelines"
 tags: [painting, plein-air, landscape, outdoor-painting, color-temperature, value-study]
 ---
 
@@ -12,6 +12,7 @@ Paint on location by establishing a light-locked value structure in the first 20
 ## Why This Is Best Practice
 
 **Adopted by:** Plein air painting was codified by the French Impressionists (Monet, Pissarro, Sisley) and elevated by the Barbizon school as the foundational training method for landscape painters. Plein Air Painters of America, Outdoor Painters Society, and every major representational painting program require plein air studies as core curriculum. Leading workshops (Cape Cod School of Art, Scottsdale Art School) structure entire curricula around outdoor location painting.
+**Why best:** Light and atmosphere shift continuously outdoors, so a workflow that locks the value structure first and defers detail is the only approach that reliably survives changing conditions — chasing detail before values are set guarantees a painting with mismatched light by the time it's finished.
 **Impact:** Monet's plein air studies produced his signature understanding of shifting light quality — an understanding impossible to develop from reference photos, which flatten color temperature shifts. The core discipline of plein air painting — commit to a value structure before light changes, work fast, prioritize large shapes over detail — transfers directly to studio painting speed and decision-making. Artists trained exclusively in studio often produce static, artificial light; plein air forces observation of transient atmospheric conditions.
 
 ## Steps

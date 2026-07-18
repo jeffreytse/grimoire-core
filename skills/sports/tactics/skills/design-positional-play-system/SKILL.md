@@ -11,6 +11,7 @@ Build a possession-based tactical system using positional principles — zone oc
 
 ## Why This Is Best Practice
 
+**Why best:** Controlling ball and space through structured positioning creates a repeatable, coachable advantage that does not depend on individual brilliance — it lets a team dictate tempo, minimize turnover risk, and manufacture high-probability chances on its own terms rather than through chaos or chance.
 **Adopted by:** Pep Guardiola's Barcelona (2008-2012, three La Liga titles, two Champions Leagues), Manchester City (6 Premier League titles), Bayern Munich; Ajax (under Van Gaal and later Ten Hag); FC Barcelona across four decades of Cruyff-influenced coaching. The Spanish national team using positional play principles won three consecutive major international tournaments (Euro 2008, World Cup 2010, Euro 2012).
 **Impact:** Collet (2013, J Sports Sci) found that ball possession percentage correlated significantly with match outcome in elite soccer at possession rates >60%. Barcelona under Guardiola maintained 70%+ possession in Champions League play across multiple seasons — reducing the opponent's opportunity count to a level that made individual match results more predictable. Positional play forces opponents to chase the ball, creating physical and cognitive fatigue that compounds into late-match defensive lapses.
 

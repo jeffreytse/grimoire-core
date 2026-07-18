@@ -2,7 +2,7 @@
 name: audit-internal-controls
 description: Use when reviewing, designing, or stress-testing internal financial controls — e.g., "how do I prevent fraud?", "what internal controls should we have?", "SOX compliance", "reviewing controls before audit", "segregation of duties"
 source: COSO Internal Control Framework (2013); Sarbanes-Oxley Act Section 404; AICPA auditing standards; Association of Certified Fraud Examiners (ACFE) "Report to the Nations" (2022)
-tags: [finance, accounting, internal-controls, SOX, fraud-prevention, audit, compliance, segregation-of-duties]
+tags: [finance, accounting, internal-controls, sox, fraud-prevention, audit, compliance, segregation-of-duties]
 verified: true
 ---
 

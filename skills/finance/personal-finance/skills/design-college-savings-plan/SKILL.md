@@ -2,7 +2,7 @@
 name: design-college-savings-plan
 description: Use when planning how to save for a child's or dependent's education — e.g., "how much should I save for college?", "529 vs Roth IRA for education?", "how do I start a college fund?"
 source: College Board "Trends in College Pricing" (2023); IRS Publication 970 (Tax Benefits for Education); Vanguard 529 research; Savingforcollege.com methodology
-tags: [finance, personal-finance, education, college-savings, 529, tax-advantaged]
+tags: [finance, personal-finance, education, college-savings, tax-advantaged]
 verified: true
 ---
 

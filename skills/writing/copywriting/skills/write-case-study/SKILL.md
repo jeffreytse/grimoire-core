@@ -6,7 +6,7 @@ tags: [copywriting, b2b, case-study, social-proof, sales-enablement]
 verified: true
 ---
 
-# Write a B2B Case Study
+# Write Case Study
 
 Structure a customer success story using situation, solution, and results to convert skeptical buyers into confident ones.
 

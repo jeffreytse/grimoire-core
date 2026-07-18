@@ -1,7 +1,7 @@
 ---
 name: apply-intrinsic-motivation
 description: Use when a manager wants to design work, roles, or conditions that sustain employee motivation over the long term — by understanding what drives internal engagement rather than relying primarily on compensation, perks, or external incentives.
-source: Pink "Drive: The Surprising Truth About What Motivates Us" (Riverhead Books, 2009); Deci & Ryan Self-Determination Theory (Psychological Review, 1985); Hackman & Oldham Job Characteristics Model (1976); Csikszentmihalyi "Flow: The Psychology of Optimal Experience" (1990)
+source: "Pink \"Drive: The Surprising Truth About What Motivates Us\" (Riverhead Books, 2009); Deci & Ryan Self-Determination Theory (Psychological Review, 1985); Hackman & Oldham Job Characteristics Model (1976); Csikszentmihalyi \"Flow: The Psychology of Optimal Experience\" (1990)"
 tags: [motivation, intrinsic-motivation, autonomy, mastery, purpose, engagement, self-determination-theory, drive]
 ---
 

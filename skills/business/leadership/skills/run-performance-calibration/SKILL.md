@@ -1,7 +1,7 @@
 ---
 name: run-performance-calibration
 description: Use when a group of managers needs to align their performance ratings across teams before finalizing reviews — to ensure consistent standards, surface bias, and produce fair compensation and promotion decisions.
-source: Google "Manager Training: Performance Calibration" (re:Work); Microsoft HRSC performance management framework; Amazon leadership review process; SHRM "Calibration Meetings" best practice guide
+source: "Google \"Manager Training: Performance Calibration\" (re:Work); Microsoft HRSC performance management framework; Amazon leadership review process; SHRM \"Calibration Meetings\" best practice guide"
 tags: [performance-calibration, performance-review, bias, rating-consistency, manager, talent-review, fairness, calibration-session]
 ---
 

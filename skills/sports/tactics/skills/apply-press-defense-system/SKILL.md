@@ -11,6 +11,7 @@ Design and implement a coordinated high-press defensive system that wins the bal
 
 ## Why This Is Best Practice
 
+**Why best:** Coordinated pressing wins the ball in advanced positions where opponents are disorganized, converting recovery directly into scoring opportunity — a deep block cedes that initiative and concedes territory instead.
 **Adopted by:** Jürgen Klopp's Liverpool (2015-2024), Marcelo Bielsa's Leeds United and national teams, Diego Simeone's Atlético Madrid, and Pep Guardiola's teams use different press systems as their primary defensive approach. High pressing has become the dominant defensive tendency in elite soccer, basketball full-court press, basketball trap defense, and handball all have equivalent pressing concepts adapted to their sport.
 **Impact:** Andrienko et al. (2019, Nature Machine Intelligence) used spatial analytics to show that high pressing correlates with winning ball in advanced positions, which in turn correlates with goal-scoring opportunity quality. Liverpool under Klopp averaged 45+ high press actions per match in their 2019 Champions League winning season; their defensive structure was built around winning possession in the opponent's half. Pressing requires fitness but also precision — uncoordinated pressing creates larger defensive gaps than a deep block.
 

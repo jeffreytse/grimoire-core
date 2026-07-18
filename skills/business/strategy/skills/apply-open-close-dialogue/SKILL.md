@@ -1,7 +1,7 @@
 ---
 name: apply-open-close-dialogue
 description: Use when managing a high-stakes live conversation where you need to control information flow — negotiation, sales, intelligence gathering, or any dialogue where you must draw out the other party's true position without prematurely telegraphing your own
-source: "Guiguzi 鬼谷子 "捭阖" Chapter 1 (~4th century BC) — "捭之者，开也，言也，阳也；阖之者，闭也，默也，阴也"; Ury "Getting Past No" (1991); Voss "Never Split the Difference" (2016)"
+source: 'Guiguzi 鬼谷子 "捭阖" Chapter 1 (~4th century BC) — "捭之者，开也，言也，阳也；阖之者，闭也，默也，阴也"; Ury "Getting Past No" (1991); Voss "Never Split the Difference" (2016)'
 tags: [strategy, negotiation, communication, dialogue, information-control]
 verified: true
 ---

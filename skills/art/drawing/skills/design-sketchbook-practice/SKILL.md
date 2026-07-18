@@ -11,6 +11,7 @@ Build a structured sketchbook practice by defining session types, rotating skill
 
 ## Why This Is Best Practice
 
+**Why best:** Deliberate, rotated practice targeting specific sub-skills produces measurably faster skill gain than unstructured sketching, because it keeps the artist working at the edge of current ability instead of reinforcing existing habits.
 **Adopted by:** The Watts Atelier, New Masters Academy, and most structured art education programs prescribe deliberate practice frameworks for sketchbook use. Nicolaïdes' "The Natural Way to Draw" — still taught at leading art schools — structures a full-year curriculum entirely around systematic sketchbook exercises. Concept design studios (Epic Games, Riot, Disney) expect prospective hires to demonstrate consistent sketchbook practice in their portfolios.
 **Impact:** Ericsson's deliberate practice research (1993, Psychological Review) shows that unstructured repetition produces minimal skill gain — improvement requires focused practice on specific sub-skills just beyond current ability. Applied to drawing: an artist who spends 100 hours on gesture vs one who spends 10 hours on gesture, 10 on perspective, 10 on value, etc. — the latter develops broader capability significantly faster. A structured rotation ensures no foundational skill is neglected.
 

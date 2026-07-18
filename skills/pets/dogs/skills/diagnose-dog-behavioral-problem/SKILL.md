@@ -11,6 +11,7 @@ Diagnose a dog behavioral problem by identifying the function, trigger, and unde
 
 ## Why This Is Best Practice
 
+**Why best:** Functional behavior assessment before intervention is the standard used by veterinary behaviorists because misdiagnosis is the primary cause of treatment failure and iatrogenic worsening.
 **Adopted by:** The American College of Veterinary Behaviorists (ACVB) and Certified Applied Animal Behaviorists (CAAB) use functional behavior assessment before any behavioral intervention. Karen Overall's "Clinical Behavioral Medicine for Small Animals" — the definitive veterinary behaviorist textbook — is organized around diagnosis-first protocols. Applying training solutions to misdiagnosed problems is the primary cause of treatment failure and behavior worsening; for example, applying punishment to fear-based aggression reliably worsens the aggression.
 **Impact:** The same behavior (barking) can have completely different causes (territorial warning, attention-seeking, separation anxiety, pain, cognitive dysfunction) requiring different interventions. The same intervention applied to different causes produces different results: counter-conditioning works for fear-based behavior and is irrelevant for attention-seeking behavior. Functional diagnosis before intervention prevents both ineffective treatment and iatrogenic worsening.
 

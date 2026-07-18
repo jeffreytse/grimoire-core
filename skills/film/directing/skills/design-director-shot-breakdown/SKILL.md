@@ -5,12 +5,13 @@ source: Katz "Shot by Shot" (1991); Lumet "Making Movies" (1995); Mamet "On Dire
 tags: [directing, shot-breakdown, pre-production, visual-storytelling, film-language, storyboard]
 ---
 
-# Design Director's Shot Breakdown
+# Design Director Shot Breakdown
 
 Translate a scene's dramatic intent into a specific sequence of shots by planning coverage strategy, shot sizes, camera angles, and movement — communicating the plan to the DP and crew before shooting begins.
 
 ## Why This Is Best Practice
 
+**Why best:** Pre-planning shots before the shooting day converts an ambiguous scene into a concrete, communicable plan — turning coverage decisions from expensive on-set improvisation into cheap pre-production analysis.
 **Adopted by:** All professional narrative film production requires a shot list and often storyboards before the shooting day. Directors from Hitchcock (famous for complete pre-planning) to Kubrick to Spielberg have described detailed pre-planning as essential to confidence on set. Sidney Lumet ("Making Movies") describes the shot list as the director's primary pre-production tool for translating intention to execution. Film schools (AFI, USC, NYU) require student directors to produce shot breakdowns before shooting.
 **Impact:** An unplanned shooting day wastes time on set while the director figures out coverage — time costs money at union rates ($3,000–$10,000+ per hour for a feature set). A complete shot breakdown communicates the DP's assignment (lighting, lens selection, dolly tracks needed) and allows the AD to schedule the day efficiently. Even on low-budget productions, 1 hour of prep saves 3+ hours of improvised on-set problem-solving.
 

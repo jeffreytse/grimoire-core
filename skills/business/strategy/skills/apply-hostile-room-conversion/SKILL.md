@@ -6,7 +6,7 @@ tags: [three-kingdoms, hostile-room, persuasion, debate, committee, board, objec
 verified: true
 ---
 
-# Convert Hostile Room
+# Apply Hostile Room Conversion
 
 Before presenting your positive case, engage each major objector individually by name — exposing the logical inconsistency in their specific position, not defending your own — until no one in the room can maintain their stated objection without contradicting themselves or each other; then make your case briefly to a room that is now free to accept it.
 

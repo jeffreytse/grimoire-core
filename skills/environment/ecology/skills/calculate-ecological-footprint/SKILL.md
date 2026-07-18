@@ -11,6 +11,7 @@ Calculate personal or organizational ecological footprint in global hectares usi
 
 ## Why This Is Best Practice
 
+**Why best:** Expresses all resource consumption (carbon, food, land, water, timber, fishing) in one common unit (global hectares), enabling cross-category comparison and prioritization that carbon-only accounting cannot provide.
 **Adopted by:** Global Footprint Network (established 2003) developed the ecological footprint methodology, now used by over 70 national governments and adopted as a sustainability metric by WWF Living Planet Report, UNEP, and IUCN. Earth Overshoot Day (calculated annually by GFN) uses this methodology to determine when humanity has used more from nature than Earth can renew in one year. The EU and multiple national sustainability strategies reference ecological footprint data.
 **Impact:** Carbon footprint alone (CO2 equivalent) captures only one dimension of environmental impact. Ecological footprint accounts for carbon, food, land use, water, timber, and fishing — expressing all in a common unit (global hectares, gha). This enables cross-category comparison: for most individuals in high-income countries, food and transport together represent 60–70% of the total footprint, making targeted reduction far more effective than small changes spread across all categories.
 

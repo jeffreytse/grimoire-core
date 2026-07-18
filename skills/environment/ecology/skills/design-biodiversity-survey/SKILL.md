@@ -11,6 +11,7 @@ Design a repeatable field biodiversity survey by selecting appropriate sampling 
 
 ## Why This Is Best Practice
 
+**Why best:** Standardized sampling strategy, site layout, and identification protocols eliminate observer bias and produce data that is statistically valid, repeatable across visits, and comparable across sites — without this rigor, richness and abundance estimates cannot support trend detection or cross-site comparison.
 **Adopted by:** Biodiversity survey methodology is standardized by IUCN (International Union for Conservation of Nature), Global Biodiversity Information Facility (GBIF), and national natural history agencies (US Fish & Wildlife Service, Natural England, CSIRO). The Convention on Biological Diversity (CBD) requires standardized monitoring protocols for reporting under the Kunming-Montreal Global Biodiversity Framework. Academic ecology uses Krebs and Magurran's frameworks for calculating biodiversity indices.
 **Impact:** A poorly designed survey produces data that cannot be replicated, compared to other sites, or used to detect change over time. The most common errors — insufficient plot size, non-random site selection, and inconsistent species identification — systematically bias estimates of richness and abundance. A correctly designed survey produces defensible, publishable data that can detect 10–20% population changes over multi-year monitoring programs.
 

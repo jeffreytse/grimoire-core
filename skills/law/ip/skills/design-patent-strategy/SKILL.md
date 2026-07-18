@@ -8,6 +8,8 @@ verified: true
 
 # Design Patent Strategy
 
+> **Disclaimer:** This skill provides general information on patent strategy, not legal advice. Patent filing, claim drafting, and prosecution decisions carry legal consequences — consult a registered patent attorney or agent and qualified legal counsel before acting.
+
 Build a patent strategy that protects competitive advantages, creates licensing value, and aligns with business objectives.
 
 ## Why This Is Best Practice

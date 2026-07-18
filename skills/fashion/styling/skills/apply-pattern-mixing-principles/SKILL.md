@@ -11,6 +11,7 @@ Combine two or more patterned garments cohesively by applying scale contrast, sh
 
 ## Why This Is Best Practice
 
+**Why best:** Pattern mixing rules translate visual-art composition principles (scale contrast, color harmony, visual hierarchy) into a repeatable styling method, replacing guesswork with a checkable process.
 **Adopted by:** Pattern mixing as a deliberate styling technique was popularized by Missoni (1960s knits), championed by Anna Wintour and Vogue's style guides, and codified by celebrity stylists including Rachel Zoe and Law Roach. Harper's Bazaar and GQ regularly feature pattern mixing as a core menswear and womenswear styling skill. The "rules" are derived from the same principles as visual art composition — scale contrast, color harmony, and visual hierarchy.
 **Impact:** Pattern clashing (unintentional) vs. pattern mixing (intentional) is entirely a matter of applying three principles. The same two patterns can look deliberate or accidental depending on whether they share a color, contrast in scale, and belong to compatible families. Mastering pattern mixing doubles the outfit combinations available from a pattern-rich wardrobe without adding new pieces.
 

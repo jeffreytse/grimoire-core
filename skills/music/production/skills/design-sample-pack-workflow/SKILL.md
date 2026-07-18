@@ -11,6 +11,7 @@ Design a sample pack creation and organization workflow — covering sound desig
 
 ## Why This Is Best Practice
 
+**Why best:** Standards derive from DAW integration requirements (Logic, Ableton, FL Studio, Pro Tools each expect specific loop/sample library conventions) and user experience expectations across the sample marketplace ecosystem.
 **Adopted by:** Loopmasters, Splice, Native Instruments Sounds, and all major sample marketplace platforms publish creator standards for sample pack submissions. These standards derive from DAW integration requirements (Logic, Ableton, FL Studio, Pro Tools all have specific workflow conventions for loop and sample libraries) and user experience expectations. Professional sound designers (Diginoiz, Cymatics, Black Octopus) structure their workflows around these conventions.
 **Impact:** A disorganized sample pack — inconsistent naming, wrong BPM/key tags, mixed sample rates, or clipping files — becomes unusable in a real production workflow. A producer browsing 200 samples cannot work efficiently if file names are cryptic, loops don't sync to tempo, or transient-heavy one-shots are normalized inconsistently. Professional conventions allow producers to integrate new samples into their workflow in seconds, not minutes; this is the primary factor that determines whether a sample pack is used or abandoned.
 

@@ -10,6 +10,8 @@ verified: true
 
 Build a financial reporting system that produces accurate, timely, and decision-relevant financial information for management, investors, and regulators.
 
+**Disclaimer:** This skill provides general accounting and financial reporting guidance, not financial advice. Consult a qualified accountant, auditor, or financial advisor before finalizing reporting policies or filings.
+
 ## Why This Is Best Practice
 
 **Adopted by:** GAAP is required for all US public companies (SEC); IFRS is adopted in 144 countries and required for all EU-listed companies; the COSO Internal Control framework is the standard for ICFR under SOX for all US public companies.

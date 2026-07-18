@@ -6,7 +6,7 @@ tags: [accessibility, wcag, a11y, alt-text, images, aria-label, developer, scree
 related: [design-accessibility-standards, audit-accessibility, apply-aria-roles]
 ---
 
-# Implement Text Alternatives
+# Apply Text Alternatives
 
 Provide a text equivalent for every non-text element so screen reader users receive the same information as sighted users.
 

@@ -6,7 +6,7 @@ tags: [accessibility, wcag, a11y, aria, roles, states, properties, screen-reader
 related: [apply-keyboard-accessibility, write-semantic-html-structure, design-accessibility-standards]
 ---
 
-# Implement ARIA Roles
+# Apply ARIA Roles
 
 Give custom UI components a valid ARIA role, accessible name, and required states — so screen readers understand and announce them correctly.
 

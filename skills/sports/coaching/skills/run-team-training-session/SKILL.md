@@ -11,6 +11,7 @@ Structure and deliver a group training session with clear objectives, deliberate
 
 ## Why This Is Best Practice
 
+**Why best:** Structured sessions with explicit objectives, planned transitions, and active in-activity coaching produce measurably more learning per minute than unstructured practice, and are the standard taught across every major coaching certification pathway.
 **Adopted by:** UEFA Pro Licence and A Licence programs, NFL coaching certification, NBA coaching education, and virtually all national governing body coaching courses teach session planning as a core competency. High-performance programs from New Zealand All Blacks to US Women's National Soccer Team publish their session structure principles as foundational to program quality.
 **Impact:** Metzler (2011) synthesis of instructional research shows that sessions with explicit objectives, structured transitions, and targeted coaching interventions produce 30-40% more "academic learning time" (time engaged in appropriate practice) than unstructured practice. Deliberate practice (Ericsson et al., 1993) — which requires structured repetition with immediate feedback — produces expert performance. Sessions with clear structure enable deliberate practice; unstructured scrimmages alone do not.
 

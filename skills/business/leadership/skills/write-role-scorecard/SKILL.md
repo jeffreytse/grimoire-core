@@ -1,7 +1,7 @@
 ---
 name: write-role-scorecard
 description: Use when defining a role before hiring for it — to specify the outcomes the new person must achieve, the competencies required to achieve them, and the cultural requirements, so that interview questions target evidence of actual job performance rather than proxies like credentials or experience.
-source: Smart & Street "Who: The A Method for Hiring" (Ballantine Books, 2008); ghSMART "Topgrading" methodology; SHRM competency-based hiring framework
+source: 'Smart & Street "Who: The A Method for Hiring" (Ballantine Books, 2008); ghSMART "Topgrading" methodology; SHRM competency-based hiring framework'
 tags: [hiring, role-scorecard, outcomes, competencies, job-definition, interview, talent-acquisition, performance-standards]
 ---
 

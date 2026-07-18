@@ -1,7 +1,7 @@
 ---
 name: apply-singleton-pattern
 description: Use when exactly one instance of a class must exist across the entire application — such as a configuration store, connection pool, or logger — and global access to that instance is required.
-source: Gamma, Helm, Johnson, Vlissides, "Design Patterns: Elements of Reusable Object-Oriented Software" (1994) pp. 127–136; Python logging module (module-level singletons); Java Spring @Bean(singleton scope); Go sync.Once
+source: "Gamma, Helm, Johnson, Vlissides, \"Design Patterns: Elements of Reusable Object-Oriented Software\" (1994) pp. 127–136; Python logging module (module-level singletons); Java Spring @Bean(singleton scope); Go sync.Once"
 tags: [design-patterns, creational, singleton, oop, developer, global-state, instance-control]
 related: [apply-solid-principles, apply-factory-method-pattern]
 ---

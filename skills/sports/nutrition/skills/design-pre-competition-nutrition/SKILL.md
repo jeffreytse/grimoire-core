@@ -11,6 +11,7 @@ Plan the 24-48 hours of nutrition before competition to maximize glycogen availa
 
 ## Why This Is Best Practice
 
+**Why best:** Glycogen availability and GI comfort at the start line are determined largely by decisions made 24-48 hours in advance, not on the day itself — carbohydrate loading maximizes fuel stores while avoiding untested foods and high-fat/high-fiber meals prevents the GI distress that undermines performance regardless of fitness.
 **Adopted by:** AIS (Australian Institute of Sport), USOC, British Athletics nutrition support programs all provide athletes with individualized pre-competition nutrition plans as standard practice. Major endurance events (marathon, Ironman, Tour de France) distribute nutrition guidance to all participants. Elite team sport programs (EPL, NFL) employ sports dietitians to coordinate pre-match nutrition across the entire squad.
 **Impact:** Hawley & Burke (1997) showed that carbohydrate loading 24-48 hours before an endurance event lasting >90 minutes improves performance by 2-3% by maximizing muscle glycogen stores. Conversely, high-fat, high-fiber, or high-lactose meals within 3-4 hours of exercise are the primary dietary cause of exercise-induced GI distress, which affects 30-50% of marathon runners (Peters et al., 2001) and severely impairs performance.
 

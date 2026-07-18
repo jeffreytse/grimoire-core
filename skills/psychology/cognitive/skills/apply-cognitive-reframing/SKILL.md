@@ -10,6 +10,8 @@ verified: true
 
 Identify and restructure distorted automatic thoughts into balanced, evidence-based alternatives using CBT's core technique.
 
+**Disclaimer:** This skill is educational, not a substitute for diagnosis or treatment by a licensed mental health professional. Anyone in crisis, experiencing suicidal ideation, or facing a clinical condition should consult a mental health professional.
+
 ## Why This Is Best Practice
 
 **Adopted by:** Beck Institute for Cognitive Behavior Therapy, NICE (UK), WHO mental health integration programs, US Veterans Affairs CBT programs, 80%+ of accredited CBT training curricula.

@@ -1,7 +1,7 @@
 ---
 name: apply-command-presence
 description: Use when entering a high-stakes interaction — board meeting, negotiation opening, crisis briefing, new executive role introduction — where the authority frame will be set in the first minutes and you need to establish it deliberately rather than let others set it
-source: "Guiguzi 鬼谷子 "本经阴符七术 · 分威" (~4th century BC) — "分威者，神之覆也，故静意固志，神归其舍"; Cuddy "Presence" (2015); Goleman, Boyatzis & McKee "Primal Leadership" (2002); US Army FM 6-22 Army Leadership and the Profession"
+source: 'Guiguzi 鬼谷子 "本经阴符七术 · 分威" (~4th century BC) — "分威者，神之覆也，故静意固志，神归其舍"; Cuddy "Presence" (2015); Goleman, Boyatzis & McKee "Primal Leadership" (2002); US Army FM 6-22 Army Leadership and the Profession'
 tags: [strategy, leadership, negotiation, communication, executive-presence]
 verified: true
 ---

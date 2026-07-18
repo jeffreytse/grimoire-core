@@ -5,7 +5,7 @@ source: Wikipedia Featured Article review criteria, npm package quality scoring,
 tags: [skill-quality, domain-health, bulk-review, maintainer, repo-health]
 ---
 
-# Audit Domain
+# Audit Best Practice Domain
 
 Batch-review all SKILL.md files in a grimoire domain or sub-domain and produce a
 structured quality report showing PASS / NEEDS-REVISION / REJECT per skill.

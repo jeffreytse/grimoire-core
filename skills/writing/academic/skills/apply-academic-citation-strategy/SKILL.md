@@ -2,7 +2,7 @@
 name: apply-academic-citation-strategy
 description: Use when writing an academic paper or research report — applying citation strategy to select authoritative sources, use citations accurately and ethically, manage reference styles (APA, MLA, Chicago), and cite strategically to build credibility and enable traceability of claims.
 source: APA "Publication Manual" 7th ed. (2020); MLA "Handbook" 9th ed. (2021); Chicago Manual of Style 17th ed. (2017); Purdue OWL citation guides; Belcher "Writing Your Journal Article in Twelve Weeks" (2019); Booth et al. "The Craft of Research" 4th ed. (2016)
-tags: [writing, academic-writing, citation, research, APA, bibliography, academic-integrity]
+tags: [writing, academic-writing, citation, research, apa, bibliography, academic-integrity]
 ---
 
 # Apply Academic Citation Strategy
@@ -11,6 +11,7 @@ Apply citation strategy in academic writing — selecting authoritative sources,
 
 ## Why This Is Best Practice
 
+**Why best:** Citation is the mechanism academic disciplines use to make claims verifiable and to separate original contribution from prior work; without it, scholarly communication collapses into unverifiable assertion.
 **Adopted by:** The APA Publication Manual (7th ed.) is required by thousands of social science, education, and psychology journals. The MLA Handbook is required in most humanities disciplines. The Chicago Manual of Style governs history, literature, and publishing. All major university academic integrity policies define citation requirements as part of scholarly standards. Booth, Colomb & Williams' "The Craft of Research" is the most widely used academic writing methods text and covers citation as an integral part of research.
 **Impact:** Citation performs two functions: credibility (showing that claims are grounded in established research) and traceability (enabling readers to verify sources and locate original materials). Papers with no citations or insufficient citation cannot be evaluated for accuracy; papers with incorrect citations undermine the reader's ability to verify. Academic integrity violations (plagiarism, fabricated citations) result in retraction, degree revocation, and professional sanctions that persist permanently in academic records.
 

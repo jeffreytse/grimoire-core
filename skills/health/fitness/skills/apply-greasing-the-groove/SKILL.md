@@ -9,6 +9,8 @@ tags: [strength, frequency-training, motor-learning, pull-ups, skill-acquisition
 
 Build strength rapidly in a target movement by performing that movement multiple times throughout the day — at 40–50% of maximum effort, never approaching failure — using the motor learning principle that frequent, non-fatiguing practice builds neural strength faster than infrequent maximal training.
 
+**Disclaimer:** Not medical advice. If you have joint, tendon, cardiovascular, or other health concerns, consult a healthcare provider before starting this or any training program.
+
 ## Why This Is Best Practice
 
 **Adopted by:** Core methodology of StrongFirst (Pavel Tsatsouline's organization, certifying 10,000+ coaches worldwide). Standard in Russian special forces training programs (Systema, Spetsnaz physical training manuals) which popularized the approach. Used by strength coaches Dan John, Mark Rippetoe (distributed practice variant), and Brett Jones. Applied in military fitness programs for pull-up standards attainment (US Marines use frequency-based pull-up programs for recruits who cannot meet minimums).

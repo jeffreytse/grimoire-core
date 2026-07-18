@@ -11,6 +11,7 @@ Write song lyrics with a purposeful verse/chorus/bridge structure, consistent rh
 
 ## Why This Is Best Practice
 
+**Why best:** Structuring lyrics around a single emotional core, placing that core in the correct structural position (chorus hook), maintaining a consistent rhyme scheme, matching prosody to melody, and using concrete imagery over abstract statement together maximize a lyric's memorability and emotional impact within the listener's natural attention span — each is a targeted solution to a specific way lyrics otherwise fail to connect.
 **Adopted by:** The verse-chorus-bridge song form is the standard structure in Western popular music (pop, country, rock, R&B, hip-hop) and the foundational teaching framework at Berklee College of Music and Nashville's Belmont University songwriting programs. John Braheny's "The Craft and Business of Songwriting" and Pat Pattison's "Songwriting Without Boundaries" are the most widely used professional songwriting education texts.
 **Impact:** Poorly structured lyrics bury the song's emotional core by placing the hook material in the wrong position, using imprecise abstract language that doesn't create imagery, or breaking prosody (the natural stress of words fighting against the melody). The structural and craft choices described here are not formulas — they are solutions to the problem of maximizing emotional connection and memorability within the listener's natural attention span.
 

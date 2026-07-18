@@ -6,7 +6,7 @@ tags: [three-kingdoms, institutional-integrity, zhuge-liang, enforcement, standa
 verified: true
 ---
 
-# Enforce Institutional Integrity
+# Apply Institutional Integrity
 
 When a rule you have established is visibly violated by someone with exceptional talent or close personal relationship, enforce the rule consistently — with genuine acknowledgment of the cost — because the exception destroys the institution's credibility more thoroughly than any external attack, and consistently-enforced rules are the foundation of all subsequent authority.
 

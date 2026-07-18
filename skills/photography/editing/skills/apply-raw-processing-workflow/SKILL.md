@@ -2,7 +2,7 @@
 name: apply-raw-processing-workflow
 description: Use when processing RAW image files — applying a systematic RAW processing workflow (exposure, white balance, tone, detail, color) to maximize image quality and establish a consistent editing foundation before any creative adjustments.
 source: Schewe "The Digital Negative" 3rd ed. (2018); Evening "Adobe Photoshop Lightroom Classic" (2019); McNally "The Moment It Clicks" (2008); Adobe Lightroom Develop Module documentation; Phase One Capture One workflow guides
-tags: [photography, RAW-processing, Lightroom, Capture-One, editing, post-processing, exposure]
+tags: [photography, raw-processing, lightroom, capture-one, editing, post-processing, exposure]
 ---
 
 # Apply RAW Processing Workflow
@@ -11,6 +11,7 @@ Apply a systematic RAW file processing workflow — correcting exposure, white b
 
 ## Why This Is Best Practice
 
+**Why best:** RAW processing operations are not commutative — white balance, exposure, and color corrections interact, so applying them in a fixed, dependency-aware sequence (calibration → white balance → exposure/tone → color → detail) avoids rework and preserves the RAW file's full tonal range, unlike ad hoc or randomly ordered edits.
 **Adopted by:** Jeff Schewe's "The Digital Negative" is the definitive technical reference for RAW processing, used by professional retouchers, photographers, and digital imaging technicians globally. Adobe Lightroom's Develop module and Phase One's Capture One are the two dominant professional RAW processing applications; both organizations publish workflow documentation consistent with the sequence described here.
 **Impact:** RAW files contain significantly more tonal information than JPEG exports — typically 12–14 bits of per-channel information vs. 8 bits in JPEG. Processing RAW correctly recovers highlight and shadow detail that is irreversibly lost in JPEG. A photographer who captures RAW but processes it incorrectly (random edits, wrong sequence) discards much of the quality advantage of shooting RAW. The systematic workflow described here preserves and maximizes the RAW file's full tonal range.
 

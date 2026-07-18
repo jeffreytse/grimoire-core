@@ -11,6 +11,7 @@ Determine evidence-based daily protein, carbohydrate, and fat intake targets for
 
 ## Why This Is Best Practice
 
+**Why best:** Matches macronutrient intake to sport-specific evidence thresholds (protein saturation point, carbohydrate periodization, energy availability) instead of generic DRI values built for sedentary populations.
 **Adopted by:** IOC Medical Commission, ACSM, Academy of Nutrition and Dietetics, and Dietitians of Canada publish consensus recommendations that form the basis of national sport organization nutrition programs. AIS (Australian Institute of Sport) sports dietitians use phase-specific macronutrient targets as the foundation of athlete nutrition plans.
 **Impact:** Phillips & Van Loon (2011) established that 1.6-2.2g/kg protein maximizes muscle protein synthesis rates with no additional benefit above 2.2g/kg. IOC Consensus Statement shows that carbohydrate periodization — matching carbohydrate intake to training demands — improves training quality and body composition simultaneously. Low energy availability (<30 kcal/kg lean mass) is the primary driver of Relative Energy Deficiency in Sport (RED-S) with wide-ranging negative consequences.
 

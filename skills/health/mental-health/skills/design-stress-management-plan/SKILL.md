@@ -10,6 +10,8 @@ verified: true
 
 Build an individualized, evidence-based stress management plan combining problem-focused coping, emotion-focused coping, and physiological regulation strategies.
 
+> **Disclaimer:** This is general educational information, not medical advice. Consult a healthcare provider or licensed mental health professional for diagnosis or treatment of stress-related conditions.
+
 ## Why This Is Best Practice
 
 **Adopted by:** APA's "Stress in America" annual survey informs US workplace wellness standards; WHO "Protecting Workers' Health" series; CDC workplace health promotion guidelines; military resilience training (Army Ready and Resilient campaign).

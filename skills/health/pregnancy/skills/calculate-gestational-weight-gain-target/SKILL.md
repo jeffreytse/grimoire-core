@@ -2,7 +2,7 @@
 name: calculate-gestational-weight-gain-target
 description: Use when determining how much weight to gain during pregnancy — e.g., "how much should I weigh by 20 weeks", "weight gain guidelines by BMI", "I'm overweight, how much can I gain"
 source: IOM/NRC Gestational Weight Gain Guidelines 2009; ACOG Practice Bulletin 2013 (reaffirmed 2021); Siega-Riz et al. AJCN 2010
-tags: [pregnancy, weight-gain, BMI, IOM-guidelines, health]
+tags: [pregnancy, weight-gain, bmi, iom-guidelines, health]
 verified: true
 ---
 
@@ -54,4 +54,4 @@ Use pre-pregnancy BMI to determine total and weekly gestational weight gain targ
 - Applying singleton ranges to twin pregnancies — significantly underestimates safe gain.
 - Treating the upper limit as a goal — it's a ceiling, not a target; stay in the middle of the range.
 
-> **Health Disclaimer:** Gestational weight gain targets are individualized. Pre-existing conditions (eating disorders, PCOS, GDM) may require modified targets. Always establish targets with your OB-GYN or certified nurse-midwife.
+> **Health Disclaimer:** This is not medical advice. Gestational weight gain targets are individualized. Pre-existing conditions (eating disorders, PCOS, GDM) may require modified targets. Always establish targets with your healthcare provider (OB-GYN or certified nurse-midwife).

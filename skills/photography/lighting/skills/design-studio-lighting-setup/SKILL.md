@@ -1,7 +1,7 @@
 ---
 name: design-studio-lighting-setup
 description: Use when planning a studio lighting setup for portrait or product photography — selecting light sources, modifiers, and positions to achieve a specific lighting pattern that serves the subject and creative intent.
-source: Kelby "Light It, Shoot It, Retouch It" (2012); Hunter "Light: Science and Magic" 5th ed. (2015); McNally "The Moment It Clicks" (2008); Lighting Essentials (LightingEssentials.com); Strobist methodology
+source: "Kelby \"Light It, Shoot It, Retouch It\" (2012); Hunter \"Light: Science and Magic\" 5th ed. (2015); McNally \"The Moment It Clicks\" (2008); Lighting Essentials (LightingEssentials.com); Strobist methodology"
 tags: [photography, studio-lighting, portrait, light-modifiers, exposure, lighting-patterns]
 ---
 
@@ -11,6 +11,7 @@ Design a studio lighting setup for portrait or product photography — selecting
 
 ## Why This Is Best Practice
 
+**Why best:** Light quality and placement — not gear — determine whether a portrait reads as flat and amateur or dimensional and professional; a repeatable, pattern-based approach (Rembrandt, loop, butterfly, split, flat) lets a photographer hit a specific creative intent reliably instead of by accident.
 **Adopted by:** Studio photography fundamentals have been taught consistently since the development of electronic flash (circa 1950s). Scott Kelby's educational materials are the most widely used in professional photography training. The Strobist method (Dave Hobby) popularized accessible studio lighting education for the digital era. Professional advertising and portrait photography studios universally operate from these lighting principles.
 **Impact:** Lighting is the primary technical variable that separates professional photography from amateur results. The same subject, same camera, same lens will produce dramatically different results depending on lighting placement and quality. The difference between flat, unflattering light and three-dimensional, sculpting light is entirely a function of lighting design — not equipment quality.
 

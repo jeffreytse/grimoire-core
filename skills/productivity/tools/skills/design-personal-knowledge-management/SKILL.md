@@ -6,7 +6,7 @@ tags: [pkm, knowledge-management, notes, second-brain, productivity]
 verified: true
 ---
 
-# Design Personal Knowledge Management System
+# Design Personal Knowledge Management
 
 Build a personal knowledge management (PKM) system using the CODE framework — Capture, Organize, Distill, Express — to reliably capture information, retrieve it when needed, and transform it into creative output.
 

@@ -11,6 +11,7 @@ Design a seasonal wardrobe transition by systematically storing off-season piece
 
 ## Why This Is Best Practice
 
+**Why best:** A systematic transition catches the two failure modes an unmanaged closet can't avoid — worn-out or ill-fitting pieces silently re-entering next season's rotation, and real gaps going unnoticed until an urgent, impulse-driven purchase fills them badly.
 **Adopted by:** Seasonal wardrobe transition is central to capsule wardrobe methodology (Anuschka Rees "The Curated Closet") and Kondo's KonMari tidying system. Professional personal stylists include seasonal wardrobe audits as a standard service — assessing condition, identifying gaps, and planning targeted purchases. The WRAP (Waste and Resources Action Programme) study found that 30% of clothing has not been worn in the last year — seasonal transitions are the systematic opportunity to address this.
 **Impact:** An unmanaged wardrobe grows through accumulation without strategic removal — each season adds pieces without retiring others, producing crowding, lost items, and reduced functionality. A systematic transition takes 2–3 hours twice per year and produces: cleaner storage, better visibility into what you own, a specific gap list for intentional purchasing (rather than impulse buying), and extension of garment life through proper seasonal storage.
 

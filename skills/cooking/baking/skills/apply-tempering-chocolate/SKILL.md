@@ -1,16 +1,17 @@
 ---
 name: apply-tempering-chocolate
 description: Use when coating confections, making chocolate decorations, or molding chocolate — applying the seeding or tabling tempering method to achieve the correct crystal structure for a snappy, glossy chocolate finish that doesn't bloom.
-source: Greweling "Chocolates and Confections" 2nd ed. (2013); Wybauw "Fine Chocolates: Great Experience" (2010); Valrhona Chocolate Techniques (2015); Zotter "Bean to Bar" (2018)
+source: "Greweling \"Chocolates and Confections\" 2nd ed. (2013); Wybauw \"Fine Chocolates: Great Experience\" (2010); Valrhona Chocolate Techniques (2015); Zotter \"Bean to Bar\" (2018)"
 tags: [chocolate, tempering, confectionery, baking, pastry, cocoa-butter, crystal-structure]
 ---
 
-# Apply Chocolate Tempering
+# Apply Tempering Chocolate
 
 Temper chocolate to the correct cocoa butter crystal structure using the seeding method for consistent snap, gloss, and bloom resistance in dipped, molded, and decorated chocolate work.
 
 ## Why This Is Best Practice
 
+**Why best:** Chocolate tempering is a mandatory technical skill in all professional pastry programs (Le Cordon Bleu, CIA, Escoffier Academy), and produces the Form V beta crystal structure that gives professional confectionery its glossy, snappy, bloom-resistant finish.
 **Adopted by:** Chocolate tempering is a mandatory technical skill in all professional pastry programs (Le Cordon Bleu, CIA, Escoffier Academy). Valrhona, Callebaut, and Barry Cacao — the leading professional chocolate manufacturers — publish detailed tempering protocols as part of their product education. The Culinary Institute of America's "Chocolates and Confections" (Greweling) is the industry standard reference for professional confectionery work.
 **Impact:** Untempered chocolate is dull, soft at room temperature, and develops fat bloom (grey streaks and spots) within hours. Tempered chocolate is glossy, snaps cleanly, contracts from molds, and has a shelf life of months. The difference is entirely in the cocoa butter crystal structure (Form V beta crystals) — tempering builds this structure deliberately. Without proper technique, chocolate products look and feel amateur regardless of the quality of the base chocolate.
 

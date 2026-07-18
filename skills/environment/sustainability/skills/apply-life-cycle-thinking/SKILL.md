@@ -2,7 +2,7 @@
 name: apply-life-cycle-thinking
 description: Use when making design, procurement, or policy decisions — applying life cycle thinking (based on ISO 14040/44 principles) to evaluate environmental impacts across all stages of a product or process from raw material extraction through end-of-life disposal.
 source: ISO 14040:2006 (LCA Principles); ISO 14044:2006 (LCA Requirements); EC Joint Research Centre "ILCD Handbook" (2010); Rebitzer et al. "Life Cycle Assessment" (2004, Environment International)
-tags: [life-cycle-assessment, LCA, sustainability, product-design, environmental-impact, circular-economy]
+tags: [life-cycle-assessment, lca, sustainability, product-design, environmental-impact, circular-economy]
 ---
 
 # Apply Life Cycle Thinking
@@ -11,6 +11,7 @@ Apply life cycle thinking — evaluating environmental impacts across all stages
 
 ## Why This Is Best Practice
 
+**Why best:** Evaluating only one visible stage (manufacturing or disposal) misdirects improvement effort; life cycle thinking forces the full cradle-to-grave system boundary so the true hotspot — often raw material extraction or use phase — gets addressed, and prevents "pollution shifting" where fixing one impact silently worsens another.
 **Adopted by:** ISO 14040/44 (Life Cycle Assessment standards) are the international reference framework adopted by the European Commission, US EPA, and companies including BASF, IKEA, Procter & Gamble, and Unilever for product environmental claims and ecodesign decisions. The EU's Product Environmental Footprint (PEF) methodology and the UNEP/SETAC Life Cycle Initiative both build on ISO 14040/44. The EU Ecodesign for Sustainable Products Regulation (2024) requires LCA-based data for product categories sold in the EU.
 **Impact:** Without life cycle thinking, environmental improvement efforts focus on the most visible stage (often manufacturing or disposal) rather than the highest-impact stage. Studies show that for many consumer products, 70–80% of environmental impact occurs during raw material extraction or use phase (e.g., energy consumption while in use) — not in production or disposal. LCA thinking prevents "pollution shifting" — a change that reduces one impact while increasing another is not an improvement.
 

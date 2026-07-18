@@ -2,7 +2,7 @@
 name: design-house-hacking-strategy
 description: Use when planning to reduce housing costs by renting out part of a primary residence — e.g., "what is house hacking?", "should I rent out a room?", "ADU rental strategy", "multi-family as first home"
 source: BiggerPockets "The House Hacking Strategy" (Craig Curelop, 2019); FHA loan guidelines (HUD); IRS Publication 527 (Residential Rental Property); National Association of Realtors housing data
-tags: [finance, real-estate, house-hacking, rental, primary-residence, FHA, wealth-building, passive-income]
+tags: [finance, real-estate, house-hacking, rental, primary-residence, fha, wealth-building, passive-income]
 verified: true
 ---
 

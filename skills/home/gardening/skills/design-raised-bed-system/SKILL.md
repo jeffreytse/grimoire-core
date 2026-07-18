@@ -11,6 +11,7 @@ Design a raised bed vegetable garden by specifying bed dimensions, orientation, 
 
 ## Why This Is Best Practice
 
+**Why best:** Raised beds decouple root-zone soil from compacted, poorly-drained native ground and eliminate in-bed foot traffic, giving roots loose, deep soil to penetrate and giving the gardener a no-till system that builds biology instead of destroying it — the combination is what drives the yield and maintenance gains below.
 **Adopted by:** Raised bed gardening is the dominant method recommended by the Royal Horticultural Society (RHS), Rodale Press, and all major vegetable gardening education programs. Eliot Coleman's "Four-Season Harvest" and John Jeavons' biointensive method — both extensively studied systems — rely on raised beds with optimized soil depth and composition. University extension programs (Cornell, UC Davis, Texas A&M) recommend raised beds as the most productive and lowest-maintenance vegetable growing approach for home gardeners.
 **Impact:** Coleman (2009) reports yields 4–6× higher per square foot in optimized raised beds compared to in-ground row gardens — due to deeper, looser soil (roots penetrate more deeply), no wasted space in paths between rows, and better drainage. The no-till, deep-soil approach builds soil biology over years, reducing fertilizer and pest management inputs over time.
 

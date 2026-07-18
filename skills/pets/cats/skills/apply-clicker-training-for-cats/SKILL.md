@@ -11,6 +11,7 @@ Apply marker-based positive reinforcement (clicker training) to cats — teachin
 
 ## Why This Is Best Practice
 
+**Why best:** Marker-based positive reinforcement gives precise, low-stress communication of which behavior earns reward, letting cats learn voluntarily instead of through force or restraint — this drives both reliable behavior change and reduced handling stress.
 **Adopted by:** Karen Pryor's "Don't Shoot the Dog" is the foundational text for marker-based training across species. Sarah Ellis's ISFM guidelines on feline welfare explicitly recommend positive reinforcement training as enrichment and as a tool for reducing stress during veterinary handling. Zoos and animal training facilities worldwide use clicker training for cooperative husbandry with cats (wildcats and domestic) as the standard approach.
 **Impact:** Contrary to popular belief, cats are highly trainable. The "cats can't be trained" belief reflects the use of inappropriate training methods (punishment-based approaches that cats respond to with avoidance) rather than trainability limits. Cats trained using operant conditioning at zoos cooperate with blood draws, injection, and physical examination voluntarily. For domestic cats, clicker training provides: cognitive enrichment (mental stimulation); improved handling tolerance (reduces vet stress); useful behaviors (target, sit, come); and a strengthened human-cat bond through cooperative interaction.
 

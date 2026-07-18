@@ -2,7 +2,7 @@
 name: design-weight-cut-protocol
 description: Use when an athlete in a weight-class sport (wrestling, boxing, MMA, rowing, judo, weightlifting) needs a structured plan to reach competition weight safely, with the most effective rehydration and refueling strategy to restore performance before competing.
 source: Reale et al. (2017) "Acute Weight Management in Combat Sports" (Int J Sports Physiol Perform); ACSM Position Stand on Weight Loss in Wrestling; Barley et al. (2018) "Body Mass Manipulation in Combat Sport Athletes" (Strength Cond J)
-tags: [weight-cutting, weight-class, combat-sports, wrestling, MMA, rehydration, body-composition]
+tags: [weight-cutting, weight-class, combat-sports, wrestling, mma, rehydration, body-composition]
 ---
 
 # Design Weight Cut Protocol
@@ -11,6 +11,7 @@ Plan a safe and effective weight reduction and rehydration strategy for competit
 
 ## Why This Is Best Practice
 
+**Why best:** Separates chronic fat loss from acute water manipulation and caps the acute cut at a safe threshold, so weight is made without the strength, power, and reaction-time losses that come from uncontrolled extreme cuts.
 **Adopted by:** USA Wrestling, USA Boxing, UFC Performance Institute, and elite combat sport national programs all provide structured weight management guidance. FINA, World Rowing Federation, and IJF have implemented weight monitoring protocols to prevent dangerous acute cuts. Most major combat sport organizations have moved to same-day or next-day weigh-ins to reduce the incentive for extreme acute cuts.
 **Impact:** Reale et al. (2017) showed that rapid weight loss of >3% body mass in 24 hours significantly impairs strength, power, and reaction time that is not fully restored by competition time. Artioli et al. (2010) found that 91% of elite combat sport athletes engage in weight cutting, with 32% cutting >5% of body mass — at those magnitudes, performance impairment is severe and health risk is significant. A moderate cut (<3% body mass) with 24+ hours recovery allows near-complete rehydration and restoration of physical capacity.
 

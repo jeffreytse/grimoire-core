@@ -2,7 +2,7 @@
 name: design-exit-strategy
 description: Use when planning or evaluating how to exit a business — e.g., "how do I sell my company?", "M&A vs. IPO?", "what's my business worth?", "how do I prepare for acquisition?", "strategic vs. financial buyer?"
 source: Damodaran "The Dark Side of Valuation" (2009); McKinsey "Valuation" (Koller, Goedhart, Wessels, 7th ed.); PitchBook M&A data (2023); Bain "Global Private Equity Report" (2023); Investment Bankers Association M&A process guides
-tags: [finance, corporate, exit-strategy, M&A, IPO, acquisition, valuation, liquidity]
+tags: [finance, corporate, exit-strategy, mergers-and-acquisitions, ipo, acquisition, valuation, liquidity]
 verified: true
 ---
 

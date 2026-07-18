@@ -11,6 +11,7 @@ Decompose target-language words into morphemes (roots, prefixes, suffixes) to un
 
 ## Why This Is Best Practice
 
+**Why best:** Decomposing words into morphemes lets learners derive meaning from structure instead of memorizing each word in isolation, so one learned root unlocks entire word families and transfers to unfamiliar words on sight.
 **Adopted by:** Paul Nation's "Learning Vocabulary in Another Language" (the authoritative academic reference for vocabulary acquisition research) documents morphological knowledge as one of the most efficient vocabulary learning strategies. The Academic Word List (Coxhead, 2000) — the 570 most useful academic words in English — was designed specifically for morpheme-based teaching. K-12 reading instruction standards (Common Core ELA standards) incorporate morphological analysis at every grade level.
 **Impact:** Research by Kieffer & Lesaux (2007) shows that morphological awareness is one of the strongest predictors of reading comprehension and vocabulary growth — students who learn vocabulary morphologically acquire 60–70% more vocabulary than those using only rote memorization. Nation (2013) demonstrates that knowing 200 high-frequency morphemes provides access to 90%+ of academic vocabulary in English. The effect is multiplicative: each morpheme learned unlocks multiple new words; each known morpheme reduces the learning cost of the next related word.
 

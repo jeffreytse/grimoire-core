@@ -11,6 +11,7 @@ Design a zero-waste program by mapping all waste streams, applying the 5R hierar
 
 ## Why This Is Best Practice
 
+**Why best:** Recycling-first approaches plateau at 40–60% diversion because contamination and processing limits cap what recycling alone can divert; the 5R hierarchy (refuse, reduce, reuse before recycle/recover) front-loads reduction at the source, which is the only path to the ≥90% diversion rates zero-waste certification requires.
 **Adopted by:** Zero Waste International Alliance (ZWIA) defines true zero waste as <10% of materials going to landfill or incineration. Companies achieving True Zero Waste certification include Subaru of Indiana (2004 — first zero-waste auto assembly plant), Interface (flooring), and Patagonia. The EU Circular Economy Action Plan (2020) and California's AB 939 mandate landfill diversion rates; multiple US cities (San Francisco, Seattle) achieved 80%+ diversion rates using systematic zero-waste design.
 **Impact:** Interface (carpet manufacturer) reduced waste-to-landfill by 96% over 15 years through systematic design, saving $400M in materials costs. Subaru's zero-waste program saved $5M/year after implementation. At household level, most US households generate ~4.4 lbs of waste per person per day; systematic zero-waste households reach 0.5–1 lb/day. The financial and environmental returns scale with organizational size.
 

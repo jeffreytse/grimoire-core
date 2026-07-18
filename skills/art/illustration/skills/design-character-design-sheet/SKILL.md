@@ -1,7 +1,7 @@
 ---
 name: design-character-design-sheet
 description: Use when creating a character design sheet for animation, games, or comics — establishing orthographic turnarounds, expression sheets, proportion guides, and costume/accessory callouts to allow consistent reproduction by any artist on the production team.
-source: Thomas & Johnston "The Illusion of Life" (1981); Mattesi "Force: Character Design from Life Drawing" (2008); Lee "The DC Comics Guide to Creating Comics" (2013); Bluth "The Art of Storyboard" (2003)
+source: 'Thomas & Johnston "The Illusion of Life" (1981); Mattesi "Force: Character Design from Life Drawing" (2008); Lee "The DC Comics Guide to Creating Comics" (2013); Bluth "The Art of Storyboard" (2003)'
 tags: [character-design, animation, illustration, turnaround-sheet, concept-art, production-art]
 ---
 
@@ -11,6 +11,7 @@ Create a production-ready character design sheet with orthographic turnarounds, 
 
 ## Why This Is Best Practice
 
+**Why best:** A single reference sheet with orthographic turnarounds, proportion guides, and expression grids lets any artist on the team reproduce the character identically, eliminating the drift that occurs when each artist works from their own mental model of the character.
 **Adopted by:** Disney Feature Animation, Pixar, DreamWorks, and every professional animation studio require production character design sheets (also called model sheets or character bibles) before animation begins. The Disney Nine Old Men (Thomas & Johnston, "The Illusion of Life") institutionalized model sheets in the 1930s as the solution to inconsistent character appearance across different animators. Game studios (Riot Games, Blizzard, Ubisoft) require turnaround sheets before any 3D modeling or rigging begins.
 **Impact:** Without a standardized design sheet, each artist draws the character from their own mental model — producing inconsistency across frames, scenes, or game assets. A complete character sheet is the contract between the character designer and the production team. The more detail in the sheet, the less correction is needed in production.
 

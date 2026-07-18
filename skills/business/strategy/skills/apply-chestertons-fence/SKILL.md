@@ -1,7 +1,7 @@
 ---
 name: apply-chestertons-fence
 description: Use when taking over an inherited system, process, or organization — or when evaluating a proposed change to a working system — to establish whether you understand why each element exists before making any modifications
-source: "资治通鉴 (Zīzhì Tōngjiàn) 汉纪 (~188 BC) — Cao Can inherits Xiao He's governance system and refuses all changes: "萧何与陛下定天下，法令既明...遵而勿失，不亦可乎"; Chesterton "The Thing" (1929) — the fence principle; Deming "Out of the Crisis" (1986) — tampering with a stable system always makes it worse"
+source: 'Zīzhì Tōngjiàn (资治通鉴) 汉纪 (~188 BC) — Cao Can inherits Xiao He''s governance system and refuses all changes: "萧何与陛下定天下，法令既明...遵而勿失，不亦可乎"; Chesterton "The Thing" (1929) — the fence principle; Deming "Out of the Crisis" (1986) — tampering with a stable system always makes it worse'
 tags: [change-management, organizational-design, inherited-systems, risk-management, governance]
 verified: true
 ---

@@ -2,7 +2,7 @@
 name: calculate-recovery-readiness
 description: Use when a coach or athlete needs to objectively measure an athlete's recovery status before a training session — to decide whether to train as planned, reduce load, or rest based on physiological and subjective readiness indicators.
 source: Halson (2014) "Monitoring Training Load to Understand Fatigue" (Sports Med); Buchheit (2014) "Monitoring Training Status with HRV" (Sports Med); Saw et al. (2016) "Monitoring the Athlete Training Response" (Sports Med)
-tags: [recovery, readiness, HRV, training-load, monitoring, fatigue, athlete-monitoring]
+tags: [recovery, readiness, hrv, training-load, monitoring, fatigue, athlete-monitoring]
 ---
 
 # Calculate Recovery Readiness
@@ -11,6 +11,7 @@ Measure and interpret an athlete's daily recovery status using a combination of 
 
 ## Why This Is Best Practice
 
+**Why best:** Combining objective (HRV, RHR) and subjective (wellness, RPE) readiness indicators, interpreted against individual baselines, catches accumulating fatigue before it causes performance regression or injury — outperforming either monitoring type alone or no monitoring at all.
 **Adopted by:** Rugby Australia, New Zealand All Blacks, EPL clubs, Olympic endurance programs, and many professional sports organizations use daily wellness and HRV monitoring as the basis for individual training load modification. Apps and platforms (HRV4Training, WHOOP, Training Peaks, FirstBeat) provide athlete monitoring systems used by millions of athletes globally.
 **Impact:** Halson (2014) review in Sports Medicine established that monitoring training load — both external (volume, intensity) and internal (HR response, HRV, RPE) — enables coaches to identify accumulating fatigue before performance regression or injury occurs. Saw et al. (2016) found that subjective wellness measures were as sensitive as objective measures in detecting training-induced fatigue in elite athletes, and combined subjective+objective monitoring outperformed either alone. The cost of training a fatigued athlete is lower adaptation and higher injury risk.
 

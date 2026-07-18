@@ -2,7 +2,7 @@
 name: apply-soft-tissue-therapy
 description: Use when an athlete wants to use foam rolling, massage, or myofascial release techniques to reduce post-exercise muscle soreness, improve ROM, or prepare tissue for training — with appropriate technique and timing for each method.
 source: Cheatham et al. (2015) "The Effects of Self-Myofascial Release" (Int J Sports Phys Ther); Pearcey et al. (2015) "Foam Rolling for Delayed-Onset Muscle Soreness" (J Athletic Training); Healey et al. (2014) "The Effects of Myofascial Release with Foam Rolling" (J Strength Cond Res)
-tags: [foam-rolling, massage, myofascial-release, recovery, DOMS, flexibility, soft-tissue]
+tags: [foam-rolling, massage, myofascial-release, recovery, doms, flexibility, soft-tissue]
 ---
 
 # Apply Soft Tissue Therapy
@@ -13,6 +13,7 @@ Use foam rolling, lacrosse ball, and manual massage techniques systematically to
 
 **Adopted by:** NFL, NBA, and EPL clubs all provide foam rollers and massage services as standard athlete care. NSCA and NATA include myofascial release in their recovery recommendations. Elite triathlon and marathon programs use structured soft tissue therapy between training blocks.
 **Impact:** Cheatham et al. (2015) systematic review found foam rolling (self-myofascial release, SMR) significantly reduces DOMS perception and improves ROM in the 48-72 hours post-exercise. Pearcey et al. (2015) RCT showed 20-minute foam rolling protocol reduced DOMS by 6-8% and improved sprint, force production, and flexibility at 24 and 48 hours post-exercise compared to passive rest. The mechanisms include increased blood flow, fascia hydration, reduced sympathetic tone, and decreased muscle stiffness.
+**Why best:** Self-myofascial release is low-cost, self-administered, and backed by systematic review and RCT evidence for DOMS reduction and ROM gains, making it a standard recovery tool across pro sports and endurance programs rather than an unproven fad technique.
 
 ## Steps
 

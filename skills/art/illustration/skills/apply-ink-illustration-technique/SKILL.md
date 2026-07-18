@@ -11,6 +11,7 @@ Produce professional black-and-white ink illustration by establishing line weigh
 
 ## Why This Is Best Practice
 
+**Why best:** Line weight hierarchy and a fixed large-to-small inking sequence are the two variables that separate professional ink illustration from flat, amateur linework — they convert a formalized, teachable process (rather than raw talent) into consistent three-dimensional results, and they prevent the irreversible inking accidents that occur when detail is inked before structure.
 **Adopted by:** Professional ink illustration is the primary medium for editorial illustration (The New Yorker, Harper's), comics (DC, Marvel, independent), and scientific illustration (GNSI). Inking order and line weight hierarchy are formalized in professional comics inking guides (Manning, DC Comics guides) and taught at the School of Visual Arts and RISD illustration programs. Lorenzo Mattotti and Bill Sienkiewicz are frequently cited as technically exemplary for mastery of line weight variation and ink wash.
 **Impact:** Line weight hierarchy — thick outer contours, thin interior lines — is the single strongest visual shortcut that makes flat ink drawings read as three-dimensional objects. Without it, all lines carry equal weight and the drawing flattens. Professional inkers plan their approach before touching pen to paper; spontaneous inking without a sequence produces uneven coverage and inking accidents that are irreversible in ink.
 

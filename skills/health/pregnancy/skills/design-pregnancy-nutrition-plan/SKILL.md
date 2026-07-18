@@ -54,4 +54,4 @@ Build a trimester-specific eating plan that meets increased macro and micronutri
 - Avoiding all fish out of mercury fear — fatty fish 2x/week is beneficial; mercury concern applies only to high-mercury species.
 - Ignoring choline — often absent from prenatal vitamins; 90% of pregnant women under-consume it (NHANES data).
 
-> **Health Disclaimer:** Individual nutrition needs vary by BMI, health conditions, food allergies, and cultural practices. Work with a registered dietitian and OB-GYN for personalized guidance.
+> **Health Disclaimer:** This is not medical advice. Individual nutrition needs vary by BMI, health conditions, food allergies, and cultural practices. Work with a registered dietitian and your healthcare provider (OB-GYN) for personalized guidance.

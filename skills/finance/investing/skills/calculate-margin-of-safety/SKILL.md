@@ -1,7 +1,7 @@
 ---
 name: calculate-margin-of-safety
 description: Use when determining how large a discount to demand between an estimated intrinsic value and the purchase price — choosing among calculation methods (DCF-based discount, net-net asset value, replacement cost, earnings power value) and sizing the margin to the estimate's actual uncertainty.
-source: Benjamin Graham, "The Intelligent Investor" (1949, coined the concept); Seth Klarman, "Margin of Safety" (1991); Bruce Greenwald, "Value Investing: From Graham to Buffett and Beyond" (2001, formalized Earnings Power Value)
+source: "Benjamin Graham, \"The Intelligent Investor\" (1949, coined the concept); Seth Klarman, \"Margin of Safety\" (1991); Bruce Greenwald, \"Value Investing: From Graham to Buffett and Beyond\" (2001, formalized Earnings Power Value)"
 tags: [finance, investing, margin-of-safety, valuation, value-investing, risk-management]
 related: [audit-investment-thesis, calculate-owner-earnings, calculate-dcf, apply-downside-protection-principle, apply-quality-over-cheapness]
 ---

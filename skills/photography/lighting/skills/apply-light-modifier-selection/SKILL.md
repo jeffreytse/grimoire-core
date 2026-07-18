@@ -1,7 +1,7 @@
 ---
 name: apply-light-modifier-selection
 description: Use when choosing a light modifier (softbox, umbrella, beauty dish, reflector, grid, snoot) for a photography lighting setup — applying modifier selection criteria based on desired light quality, shadow edge, catchlight, and working distance to achieve the intended photographic result.
-source: Hunter "Light: Science and Magic" 5th ed. (2015); Kelby "Light It, Shoot It, Retouch It" (2012); McNally "The Moment It Clicks" (2008); Strobist modifier guide; B&H Photo modifier comparison research
+source: "Hunter \"Light: Science and Magic\" 5th ed. (2015); Kelby \"Light It, Shoot It, Retouch It\" (2012); McNally \"The Moment It Clicks\" (2008); Strobist modifier guide; B&H Photo modifier comparison research"
 tags: [photography, light-modifiers, studio-lighting, softbox, umbrella, portrait-lighting]
 ---
 
@@ -11,6 +11,7 @@ Apply modifier selection criteria to choose the correct light modifier (softbox,
 
 ## Why This Is Best Practice
 
+**Why best:** Matching modifier to application is the primary technical lever controlling light quality, shadow edge, and catchlight shape — the same strobe produces dramatically different results depending on modifier choice, so correct selection is foundational to controlling the final image rather than leaving it to chance.
 **Adopted by:** Light modifier selection is a core technical skill in commercial, portrait, and fashion photography — covered in depth by Hunter et al.'s "Light: Science and Magic" (the most cited photography lighting text in academic and professional contexts) and by every major photography education platform. The Strobist community (originating with David Hobby's blog, now the most accessed flash photography educational resource online) systematically covers modifier selection as the primary variable after light position.
 **Impact:** The difference between professional and amateur studio photography is primarily modifier knowledge. The same strobe with different modifiers produces dramatically different light qualities — from hard specular shadows to soft, wrapping light. Selecting the wrong modifier for the application (a 2×2 softbox for a full-length portrait where the modifier is too small relative to the subject) produces light that is technically incorrectly sized for the intended quality.
 

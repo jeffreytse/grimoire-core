@@ -2,7 +2,7 @@
 name: design-plyometric-training-program
 description: Use when an athlete needs to develop explosive power, reactive strength, and elastic energy utilization for sprinting, jumping, or change-of-direction demands specific to their sport.
 source: Chu "Jumping Into Plyometrics" 2nd ed. (1998); NSCA Plyometric Training guidelines (Potach & Chu, in Haff & Triplett 2016); Markovic & Mikulic (2010) "Neuro-Muscular and Skeletal Adaptations to Plyometric Training" (Sports Med)
-tags: [plyometrics, explosive-power, jump-training, reactive-strength, SSC, power-development]
+tags: [plyometrics, explosive-power, jump-training, reactive-strength, ssc, power-development]
 ---
 
 # Design Plyometric Training Program
@@ -11,6 +11,7 @@ Build an explosive power program using plyometric exercises sequenced by intensi
 
 ## Why This Is Best Practice
 
+**Why best:** Plyometric loading trains the SSC directly — the pre-stretch/rapid-reversal mechanism that stores and releases elastic energy in tendon and muscle. Sequencing exercises by intensity, volume, and GCT lets that mechanism develop without outrunning the athlete's tendon/joint tolerance, which is the actual injury bottleneck, not effort level.
 **Adopted by:** Track and field jumpers (IAAF coaching programs), basketball S&C staff (NBA programs), volleyball programs at national level, and team sport academies worldwide use plyometric training as a core component of power development. The stretch-shortening cycle (SSC) is the mechanism underlying virtually all athletic explosive actions — running, jumping, throwing, kicking.
 **Impact:** Markovic & Mikulic (2010) meta-analysis (including 26 studies, 772 subjects) found plyometric training increases vertical jump by 4.7-8.7% on average. Rodrigues et al. (2017) showed 6-week plyometric programs improved sprint performance by 3-5% in team sport athletes. The elastic energy storage-and-release mechanism of the SSC accounts for up to 50% of the energy in running — developing it through plyometrics directly transfers to sprint and jump performance.
 

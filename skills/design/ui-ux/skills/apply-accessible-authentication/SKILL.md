@@ -6,7 +6,7 @@ tags: [accessibility, wcag, a11y, authentication, password-manager, captcha, cog
 related: [apply-accessible-forms, design-accessibility-standards, audit-accessibility]
 ---
 
-# Implement Accessible Authentication
+# Apply Accessible Authentication
 
 Allow users to authenticate without relying on memory or cognitive tests — by supporting password managers, copy/paste, and providing CAPTCHA alternatives.
 

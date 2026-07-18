@@ -6,7 +6,7 @@ tags: [infrastructure, drift, terraform, gitops, aws-config, iac, devops]
 verified: true
 ---
 
-# Audit Infrastructure Drift
+# Audit Infra Drift
 
 Detect and remediate differences between infrastructure-as-code declarations and the actual state of deployed resources.
 

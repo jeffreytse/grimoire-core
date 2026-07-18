@@ -1,7 +1,7 @@
 ---
 name: design-recovery-nutrition-protocol
 description: Use when an athlete needs to optimize post-exercise nutrition to accelerate glycogen resynthesis, stimulate muscle protein synthesis, and restore fluid and electrolyte balance — particularly when recovery between sessions is <24 hours.
-source: Burke "Clinical Sports Nutrition" 5th ed. (2015); Ivy & Portman "Nutrient Timing: The Future of Sports Nutrition" (2004); Churchward-Venne et al. (2012) "Supplementation of a suboptimal protein dose with leucine" (J Physiol)
+source: "Burke \"Clinical Sports Nutrition\" 5th ed. (2015); Ivy & Portman \"Nutrient Timing: The Future of Sports Nutrition\" (2004); Churchward-Venne et al. (2012) \"Supplementation of a suboptimal protein dose with leucine\" (J Physiol)"
 tags: [recovery-nutrition, post-workout, glycogen-resynthesis, protein-synthesis, nutrient-timing, sports-nutrition]
 ---
 
@@ -11,6 +11,7 @@ Optimize post-exercise nutrition to maximize glycogen restoration, muscle repair
 
 ## Why This Is Best Practice
 
+**Why best:** Post-exercise nutrition timing and dosing directly accelerates glycogen resynthesis and muscle protein synthesis, translating into measurably faster recovery between sessions.
 **Adopted by:** AIS, USOC, and all major elite sport nutrition programs provide athletes with post-training recovery nutrition as part of daily support. EPL clubs and NBA franchises deliver structured post-training recovery meals (protein shakes, carbohydrate sources) immediately after sessions — treating post-workout nutrition as a performance intervention, not optional.
 **Impact:** Ivy et al. (2002) showed that consuming carbohydrate immediately post-exercise vs. waiting 2 hours accelerated glycogen resynthesis by 45%. Moore et al. (2009) established the dose-response for muscle protein synthesis — 20-40g high-quality protein (depending on body mass) maximally stimulates MPS, with leucine content being the primary trigger. When recovery between sessions is <8-12 hours, aggressive early nutrition significantly impacts performance in the subsequent session.
 

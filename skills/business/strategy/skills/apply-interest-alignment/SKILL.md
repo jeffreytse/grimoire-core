@@ -1,7 +1,7 @@
 ---
 name: apply-interest-alignment
 description: Use when entering a negotiation, sales conversation, or persuasion effort where the other party's stated position may not reflect what they actually need — discover the underlying interest before presenting your proposal
-source: "Guiguzi 鬼谷子 "内楗" Chapter 3 (~4th century BC) — "故与阳言者，依崇高；与阴言者，依卑小"; Fisher & Ury "Getting to Yes" (1981) — interests behind positions; Rackham "SPIN Selling" (1988) — implication and need-payoff questions"
+source: 'Guiguzi 鬼谷子 "内楗" Chapter 3 (~4th century BC) — "故与阳言者，依崇高；与阴言者，依卑小"; Fisher & Ury "Getting to Yes" (1981) — interests behind positions; Rackham "SPIN Selling" (1988) — implication and need-payoff questions'
 tags: [strategy, negotiation, persuasion, sales, stakeholder-management]
 verified: true
 ---

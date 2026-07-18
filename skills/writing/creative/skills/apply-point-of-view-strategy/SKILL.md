@@ -11,6 +11,7 @@ Select and execute the appropriate narrative point of view — first person, thi
 
 ## Why This Is Best Practice
 
+**Why best:** POV is the foundational technical decision in fiction craft — it sets the contract of intimacy and knowledge between writer and reader, and getting it wrong (wrong choice or inconsistent execution) creates structural problems that only a POV rewrite fixes.
 **Adopted by:** John Gardner's "The Art of Fiction" — the canonical academic text on narrative technique — devotes significant attention to POV as the fundamental technical decision in fiction. Henry James's prefaces (collected as "The Art of the Novel") established the theory of the "central consciousness" that underlies third limited. The majority of MFA fiction workshops treat POV selection as the first major craft decision; POV mistakes (inconsistency, inappropriate choice, violation of chosen POV rules) are among the most common manuscript problems noted by editors.
 **Impact:** POV is the contract between writer and reader about whose consciousness we inhabit and how much access we have to inner life. Violating the contract (head-hopping — moving between characters' POVs without clear breaks; omniscient narrator introducing unknowable information in a first-person narrative) breaks immersion. Choosing the wrong POV (a story about emotional isolation narrated in distant third omniscient; a thriller told in first person when the protagonist's knowledge must be withheld) creates structural problems that rewriting in a different POV solves.
 

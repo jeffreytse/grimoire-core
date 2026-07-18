@@ -5,7 +5,7 @@ source: Brignull "Dark Patterns" taxonomy (deceptive.design, 2010); EU Digital S
 tags: [dark-patterns, deceptive-ux, ethics, ux-review, compliance, consumer-protection, ui-patterns]
 ---
 
-# Avoid Dark Patterns
+# Prevent Dark Patterns
 
 Audit flows for Brignull's dark pattern taxonomy, classify each by deception type and legal risk, and redesign to eliminate manipulation while preserving legitimate conversion goals.
 

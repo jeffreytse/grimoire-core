@@ -11,6 +11,7 @@ Design an age-appropriate chore and household responsibility system for children
 
 ## Why This Is Best Practice
 
+**Why best:** Chores matched to developmental capability and framed as household contribution (not paid transactions) build competence, belonging, and intrinsic responsibility — outcomes longitudinal research links to better adult adjustment than reward-driven or adult-performed alternatives.
 **Adopted by:** Harvard's Study of Adult Development (the longest-running longitudinal study of human flourishing) found that children who did chores from a young age had better professional success, closer relationships, and greater well-being as adults. Jessica Lahey's "The Gift of Failure" and Julie Lythcott-Haims' "How to Raise an Adult" both cite this research and the evidence that doing things for children that children can do for themselves undermines competence development. Marty Whiting and Beatrice Whiting's cross-cultural anthropological research found that children who contribute meaningfully to their household develop higher prosocial behavior.
 **Impact:** Children who do household chores develop a sense of belonging (I contribute to this family), competence (I can do difficult things), and responsibility (my effort matters). Over-reliance on external rewards (sticker charts, payment) for every chore is associated with decreased intrinsic motivation — the research-consistent finding is that paying children for all chores teaches that contribution only happens when compensated, which is the opposite of the value being taught.
 

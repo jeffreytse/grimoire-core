@@ -2,7 +2,7 @@
 name: calculate-stellar-properties
 description: Use when determining stellar properties — calculating luminosity, temperature, radius, mass, and age from observed magnitudes, colors, spectra, or parallax — using the distance modulus, Stefan-Boltzmann law, HR diagram, and stellar evolution models.
 source: Carroll & Ostlie "Introduction to Modern Astrophysics" 2nd ed. (2007); Binney & Merrifield "Galactic Astronomy" (1998); Gaia Collaboration (2018) "Gaia Data Release 2"; Pecaut & Mamajek (2013) "Intrinsic Colors and Temperatures" (ApJS)
-tags: [stellar-astrophysics, photometry, spectral-classification, HR-diagram, distance-modulus, luminosity, stellar-evolution]
+tags: [stellar-astrophysics, photometry, spectral-classification, hr-diagram, distance-modulus, luminosity, stellar-evolution]
 ---
 
 # Calculate Stellar Properties
@@ -11,6 +11,7 @@ Derive fundamental stellar properties — luminosity, temperature, radius, mass,
 
 ## Why This Is Best Practice
 
+**Why best:** Deriving stellar properties from raw observations requires chaining several physically-grounded steps — parallax to distance, distance modulus to absolute magnitude, color/spectrum to temperature, Stefan-Boltzmann law to radius, mass-luminosity relation or isochrones to mass and age. Skipping or approximating any link (e.g., assuming distance, ignoring extinction) propagates compounding errors, so the chain must be followed in full and in order.
 **Adopted by:** Gaia space mission provides parallax-based distances (and thus luminosities) for 1.7 billion stars to µas precision. SDSS, 2MASS, and Gaia photometric systems are the standard photometric frameworks used in all modern stellar surveys. ESA's Gaia archive and MAST (Mikulski Archive for Space Telescopes) provide access to standardized stellar parameters for published catalogs.
 **Impact:** Carroll & Ostlie (2007) demonstrate that deriving stellar properties from observations requires a systematic chain: parallax → distance → absolute magnitude → luminosity → temperature (from color/spectrum) → radius (from L and T) → mass (from mass-luminosity relation or binary orbit). Breaking this chain at any step — e.g., assuming distance without parallax, or using uncorrected apparent magnitudes — produces luminosity errors that scale as d² and radius errors that scale as d. Gaia parallaxes have reduced stellar distance uncertainties by 1-2 orders of magnitude for nearby stars compared to pre-Gaia estimates.
 

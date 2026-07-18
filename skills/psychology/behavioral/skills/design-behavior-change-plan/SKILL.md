@@ -10,6 +10,8 @@ verified: true
 
 Build a stage-matched, evidence-based plan that moves a person from intention to sustained behavior change using the Transtheoretical Model and Tiny Habits methodology.
 
+**Disclaimer:** This skill is for general behavior-change coaching, not therapy. If the underlying issue involves addiction, trauma, disordered eating, self-harm, or a diagnosable mental health condition, refer the person to a licensed mental health professional instead of applying this framework.
+
 ## Why This Is Best Practice
 
 **Adopted by:** CDC health promotion programs, WHO global NCD prevention frameworks, NHS England behavior change unit, Stanford Behavior Design Lab, UK Behavioural Insights Team.
@@ -62,3 +64,4 @@ Sources: Prochaska, J.O. & DiClemente, C.C. (1983). *Stages and processes of sel
 - Behaviors requiring immediate medical intervention (acute health crises, addiction requiring detox).
 - Contexts where the behavior itself is harmful or unethical (do not facilitate harmful behavior change).
 - When the person has not consented to behavior change work — stage-based approaches require the person to acknowledge their own goal.
+- When the underlying issue is clinical in nature — defer to a licensed mental health professional rather than applying this framework.

@@ -65,3 +65,4 @@ Sources: Buckingham, M. & Clifton, D.O. (2001). *Now Discover Your Strengths*. F
 - Performance improvement contexts where the core issue is a specific technical skill gap that must be remediated — strengths tools don't replace technical training.
 - When the person needs to address a specific harmful behavior (ethical violations, interpersonal harm) — reframing bad behavior as "overdrive of a strength" can minimize accountability.
 - Initial onboarding before baseline performance data exists — strengths placement without performance evidence can mismatch people to roles.
+- This is a coaching/development tool, not a clinical instrument — it does not diagnose or treat mental health conditions; if the person shows signs of depression, anxiety, burnout, or other mental health concerns, refer them to a qualified mental health professional rather than proceeding with strengths work.

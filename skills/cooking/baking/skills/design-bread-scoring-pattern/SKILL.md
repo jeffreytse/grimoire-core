@@ -1,7 +1,7 @@
 ---
 name: design-bread-scoring-pattern
 description: Use when scoring bread loaves before baking — designing the cut pattern, blade angle, and depth to direct oven spring, control crust formation, and produce consistent decorative results on sourdough and enriched doughs.
-source: Hamelman "Bread: A Baker's Book of Techniques and Recipes" 2nd ed. (2012); Forkish "Flour Water Salt Yeast" (2012); Poilâne "Poilâne: The Secrets of the World-Famous Bread Bakery" (2019)
+source: 'Hamelman "Bread: A Baker''s Book of Techniques and Recipes" 2nd ed. (2012); Forkish "Flour Water Salt Yeast" (2012); Poilâne "Poilâne: The Secrets of the World-Famous Bread Bakery" (2019)'
 tags: [bread-baking, scoring, sourdough, oven-spring, bread-design, artisan-bread]
 ---
 
@@ -11,7 +11,8 @@ Score bread loaves with planned cut patterns at the correct angle and depth to d
 
 ## Why This Is Best Practice
 
-**Adopted by:** Scoring is mandatory in professional artisan bread production. The Bread Baker's Guild of America and Maison Poilâne (Paris) both treat scoring as a foundational skill requiring pattern design before application. Jeffrey Hamelman's "Bread" — the standard bakery reference — dedicates significant coverage to scoring theory and blade technique. Competition bread judging criteria (Coupe du Monde de la Boulangerie) explicitly assess scoring quality, ear development, and symmetry.
+**Why best:** Scoring is mandatory in professional artisan bread production, treated as a foundational skill requiring pattern design before application.
+**Adopted by:** The Bread Baker's Guild of America and Maison Poilâne (Paris) both treat scoring as a foundational skill requiring pattern design before application. Jeffrey Hamelman's "Bread" — the standard bakery reference — dedicates significant coverage to scoring theory and blade technique. Competition bread judging criteria (Coupe du Monde de la Boulangerie) explicitly assess scoring quality, ear development, and symmetry.
 **Impact:** Unscored bread or poorly scored bread "blows out" — the steam from the interior finds the weakest point in the crust (usually a seam or crack) and bursts unevenly. A properly designed score provides a deliberate expansion channel, directing spring where desired, creating the ear (the raised flap of crust along the cut), and producing the characteristic "open crumb" of artisan bread.
 
 ## Steps

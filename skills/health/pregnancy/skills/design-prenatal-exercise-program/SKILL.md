@@ -2,7 +2,7 @@
 name: design-prenatal-exercise-program
 description: Use when planning safe exercise during pregnancy — e.g., "is it safe to run while pregnant", "prenatal workout plan", "exercise modifications by trimester", "ACOG exercise guidelines pregnancy"
 source: ACOG Committee Opinion 804 (2020); Mottola et al. BJSM 2018 (Canadian guidelines); Cochrane Review Prenatal Exercise 2017
-tags: [pregnancy, exercise, fitness, prenatal, ACOG, health]
+tags: [pregnancy, exercise, fitness, prenatal, acog, health]
 verified: true
 ---
 
@@ -54,4 +54,4 @@ Build a trimester-adapted exercise plan using ACOG's 150-minute/week framework.
 - Doing crunches/sit-ups after 16 weeks without modification — diastasis recti risk; switch to dead bugs and modified planks.
 - Ignoring pelvic floor — strength training without pelvic floor work increases incontinence risk postpartum.
 
-> **Health Disclaimer:** Exercise plans must be cleared by your OB-GYN or midwife. Contraindications are common and require individual assessment. Stop exercise and contact your provider if you experience any warning signs.
+> **Health Disclaimer:** This is not medical advice. Exercise plans must be cleared by your healthcare provider (OB-GYN or midwife). Contraindications are common and require individual assessment. Stop exercise and contact your provider if you experience any warning signs.

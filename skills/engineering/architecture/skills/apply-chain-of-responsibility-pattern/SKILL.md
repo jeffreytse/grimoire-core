@@ -1,7 +1,7 @@
 ---
 name: apply-chain-of-responsibility-pattern
 description: Use when more than one object may handle a request and the handler isn't known a priori — letting you pass the request along a chain of handlers until one handles it, without coupling the sender to any specific handler.
-source: Gamma, Helm, Johnson, Vlissides, "Design Patterns: Elements of Reusable Object-Oriented Software" (1994) pp. 223–232; Java Servlet Filter chain; Express.js middleware; Python logging handler chain
+source: "Gamma, Helm, Johnson, Vlissides, \"Design Patterns: Elements of Reusable Object-Oriented Software\" (1994) pp. 223–232; Java Servlet Filter chain; Express.js middleware; Python logging handler chain"
 tags: [design-patterns, behavioral, chain-of-responsibility, oop, developer, request-handling, decoupling]
 related: [apply-command-pattern, apply-decorator-pattern, apply-solid-principles]
 ---

@@ -5,7 +5,7 @@ source: Information retrieval best practices (van Rijsbergen, 1979), Nielsen Nor
 tags: [skill-discovery, auto-classify, problem-routing, problem-solver, situation-analysis, practice-recommendation]
 ---
 
-# Suggest Practice
+# Suggest Best Practice
 
 Accept any natural language input, auto-classify it to the relevant domain(s), and
 either apply the best-matching skill directly or present a ranked list for the user

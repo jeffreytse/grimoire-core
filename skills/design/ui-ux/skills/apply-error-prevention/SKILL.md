@@ -6,7 +6,7 @@ tags: [accessibility, wcag, a11y, error-prevention, forms, confirmation, undo, c
 related: [apply-accessible-forms, apply-accessible-authentication, design-accessibility-standards]
 ---
 
-# Implement Error Prevention
+# Apply Error Prevention
 
 Give users the ability to review, confirm, or reverse submissions before data is lost or
 committed — and never ask them to re-enter information they've already provided.

@@ -11,6 +11,7 @@ Accurately prepare solutions by converting between concentration units, applying
 
 ## Why This Is Best Practice
 
+**Why best:** Systematic unit conversion, dilution math, and dimensional-analysis verification catch concentration errors before they propagate through an experiment — replacing estimation with traceable, checkable calculation.
 **Adopted by:** Every analytical chemistry, biochemistry, and pharmaceutical lab uses standardized concentration calculation protocols. USP (United States Pharmacopeia) and EP (European Pharmacopoeia) require documented, traceable solution preparation records for all reagents used in pharmaceutical testing. ISO 17025 (laboratory competence standard) requires verified calculations for all standard solutions.
 **Impact:** Incorrect solution concentration is one of the most common causes of failed experiments and invalidated analytical data. A 2-fold concentration error propagates to every downstream measurement. Pharmacopeial standards require concentration accuracy within ±0.5% for primary standard solutions — achievable only through systematic calculation and verification, not estimation.
 

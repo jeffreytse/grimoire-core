@@ -1,7 +1,7 @@
 ---
 name: apply-state-pattern
 description: Use when an object's behavior changes based on its internal state and the logic for each state is complex — replacing large conditional chains with state objects where each state encapsulates its own behavior.
-source: Gamma, Helm, Johnson, Vlissides, "Design Patterns: Elements of Reusable Object-Oriented Software" (1994) pp. 305–313; TCP connection state machine; finite state machines in game AI; XState (JavaScript statechart library); vending machine controllers
+source: "Gamma, Helm, Johnson, Vlissides, \"Design Patterns: Elements of Reusable Object-Oriented Software\" (1994) pp. 305–313; TCP connection state machine; finite state machines in game AI; XState (JavaScript statechart library); vending machine controllers"
 tags: [design-patterns, behavioral, state, oop, developer, state-machine, conditional-elimination]
 related: [apply-strategy-pattern, apply-command-pattern, apply-solid-principles]
 ---

@@ -11,6 +11,7 @@ Write a structured academic abstract — stating the problem, method, findings, 
 
 ## Why This Is Best Practice
 
+**Why best:** A structured abstract stating problem, method, findings, and significance lets reviewers and readers judge relevance and rigor without reading the full paper, which is why standards bodies and style guides mandate this structure.
 **Adopted by:** The APA Publication Manual (7th ed.) specifies abstract structure for all psychology and social science publications. The American Mathematical Society, IEEE, and ACM all publish abstract writing guidelines for their respective fields. The IMRAD structure (Introduction/problem, Methods, Results, Discussion/implications) is the standard journal article format in STEM fields; the abstract mirrors this structure in miniature. Wendy Belcher's "Writing Your Journal Article in Twelve Weeks" is the most widely used journal writing methodology book.
 **Impact:** Conference program committees and journal editors read abstracts first — acceptance or rejection for many venues is based primarily on abstract quality. A poorly written abstract undersells excellent research; an excellent abstract accurately representing the work increases acceptance rates and reader engagement. Database indexing (PubMed, Scopus, Google Scholar) retrieves papers primarily based on abstract content; a well-written abstract with appropriate keywords is the primary mechanism for discoverability.
 

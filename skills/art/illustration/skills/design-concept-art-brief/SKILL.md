@@ -11,6 +11,7 @@ Design a concept art brief for game or film pre-production — specifying visual
 
 ## Why This Is Best Practice
 
+**Why best:** A written brief front-loads visual decisions to the cheapest stage of production — sketch iteration — instead of leaving artists to guess and discovering misalignment after expensive assets are built.
 **Adopted by:** Every major game studio (Ubisoft, Naughty Dog, Epic Games, Riot Games) and animation/film production company (Pixar, ILM, Weta Digital) uses formal concept art briefs as the primary art direction tool in pre-production. The Concept Art Association's professional development resources document this workflow. Without a brief, individual artists interpret direction inconsistently, producing visually fragmented results that require expensive iteration.
 **Impact:** Pre-production concept art is the cheapest moment to make visual decisions — changes to a sketch cost minutes; changes to a modeled, textured, rigged asset cost days or weeks. A precise brief ensures the artist explores the right design space on the first pass. Studios report that clear briefs reduce iteration cycles by 40–60% compared to verbal direction alone. The brief also serves as contractual documentation for freelance artists: scope, deliverables, rights, and deadlines in writing prevent disputes.
 

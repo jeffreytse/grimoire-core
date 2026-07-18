@@ -6,7 +6,7 @@ tags: [accessibility, wcag, a11y, navigation, predictability, consistent-ui, key
 related: [apply-focus-management, apply-keyboard-accessibility, design-accessibility-standards]
 ---
 
-# Implement Predictable Navigation
+# Apply Predictable Navigation
 
 Ensure focus events and input changes don't trigger unexpected page changes, and repeated UI
 elements appear consistently across pages — so keyboard and screen reader users can build an

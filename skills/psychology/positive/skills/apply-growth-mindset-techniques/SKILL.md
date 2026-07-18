@@ -62,3 +62,4 @@ Sources: Dweck, C.S. (2006). *Mindset: The New Psychology of Success*. Random Ho
 - Situations where genuine structural barriers need to be addressed rather than individual beliefs — applying growth mindset framing to systemic discrimination minimizes real obstacles.
 - Acute failure that requires emotional support first — launching into growth-mindset reframing before the person feels heard produces dismissal of their emotional experience.
 - When someone is in a domain where they have genuinely reached a reasonable career ceiling and need to redirect rather than persist — growth mindset has limits; some redirections are more adaptive than infinite persistence.
+- When setbacks are tied to signs of depression, anxiety, or other mental health concerns — this technique addresses attributional style, not clinical symptoms; refer to a mental health professional rather than applying mindset coaching.

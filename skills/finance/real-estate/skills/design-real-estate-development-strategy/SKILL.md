@@ -10,6 +10,8 @@ related: [design-real-estate-due-diligence, calculate-real-estate-roi, design-re
 
 Classify a real estate project as greenfield, brownfield, or retrofit before scoping due diligence, budget, and timeline — because each classification carries a fundamentally different risk profile, and applying the wrong due-diligence scope is how development projects blow their budget and schedule on discoveries that a correct upfront classification would have surfaced.
 
+> **Disclaimer:** This skill is educational guidance, not financial advice. Consult a licensed financial advisor, real estate attorney, or environmental professional before committing to any acquisition, remediation, or development decision.
+
 ## Why This Is Best Practice
 
 **Adopted by:** The U.S. EPA's Brownfields Program formally distinguishes brownfield sites (previously developed land with real or perceived environmental contamination) from greenfield sites (undeveloped land with no prior industrial or commercial use) precisely because they require different assessment processes — brownfield sites require Phase I and often Phase II Environmental Site Assessments before acquisition, while greenfield sites do not. The Urban Land Institute's standard development process and RICS due diligence standards likewise treat site classification as the first gating step in any acquisition or development process, before budget or timeline commitments are made.

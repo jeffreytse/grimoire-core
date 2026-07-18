@@ -1,7 +1,7 @@
 ---
 name: design-agentic-workflow
 description: Use when building or prompting a multi-step agentic system — to structure execution so the agent plans before acting, creates verifiable checkpoints, and avoids irreversible mistakes.
-source: Anthropic, "Building effective agents" (2024); Yao et al., "ReAct: Synergizing Reasoning and Acting in Language Models" (2022, Google Brain); Amazon Bedrock Agents documentation (2023); Wei et al., "Chain-of-Thought Prompting" (2022, Google)
+source: "Anthropic, 'Building effective agents' (2024); Yao et al., 'ReAct: Synergizing Reasoning and Acting in Language Models' (2022, Google Brain); Amazon Bedrock Agents documentation (2023); Wei et al., 'Chain-of-Thought Prompting' (2022, Google)"
 tags: [agents, agentic, llm, planning, multi-step, ai-engineering, reliability, irreversible-actions]
 related: [apply-evaluation-driven-development, write-eval-suite]
 ---

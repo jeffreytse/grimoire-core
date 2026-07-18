@@ -1,7 +1,7 @@
 ---
 name: apply-composite-pattern
 description: Use when you need to represent part-whole hierarchies of objects and want clients to treat individual objects and compositions of objects uniformly — without special-casing leaf vs. container nodes.
-source: Gamma, Helm, Johnson, Vlissides, "Design Patterns: Elements of Reusable Object-Oriented Software" (1994) pp. 163–173; Java Swing (Component/Container hierarchy); Python ast module; HTML DOM; React component tree
+source: "Gamma, Helm, Johnson, Vlissides, \"Design Patterns: Elements of Reusable Object-Oriented Software\" (1994) pp. 163–173; Java Swing (Component/Container hierarchy); Python ast module; HTML DOM; React component tree"
 tags: [design-patterns, structural, composite, oop, developer, tree-structure, part-whole-hierarchy]
 related: [apply-iterator-pattern, apply-visitor-pattern, apply-solid-principles]
 ---

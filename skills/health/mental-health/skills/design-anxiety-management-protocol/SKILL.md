@@ -2,15 +2,18 @@
 name: design-anxiety-management-protocol
 description: Use when building a personal anxiety management system — designing a personalized protocol that combines CBT cognitive restructuring, ACT acceptance techniques, physiological regulation, behavioral activation, and routine-based prevention to reduce anxiety's impact on daily functioning.
 source: Clark & Beck "Cognitive Therapy of Anxiety Disorders" (2010); Hayes "Get Out of Your Mind and Into Your Life" (2005); Barlow "Anxiety and Its Disorders" 2nd ed. (2002); Craske "Optimizing Inhibitory Learning During Exposure Therapy" (2014); APA "Clinical Practice Guideline for the Treatment of PTSD, Anxiety Disorders" (2017)
-tags: [health, mental-health, anxiety, CBT, ACT, coping-strategies, emotional-regulation]
+tags: [health, mental-health, anxiety, cbt, act, coping-strategies, emotional-regulation]
 ---
 
 # Design Anxiety Management Protocol
+
+> **Disclaimer:** This skill provides educational, self-help information only and is not medical advice. It does not diagnose or treat anxiety disorders. Consult a licensed healthcare provider or mental health professional for diagnosis, treatment, or if anxiety is severe, persistent, or impairing daily functioning.
 
 Design a personalized anxiety management protocol — combining CBT cognitive restructuring, ACT acceptance techniques, physiological regulation, and behavioral activation — to reduce anxiety's impact on daily functioning and build long-term resilience.
 
 ## Why This Is Best Practice
 
+**Why best:** Combines the two most evidence-supported psychological frameworks for anxiety — CBT's cognitive restructuring and ACT's acceptance-based approach — with physiological regulation and behavioral activation, covering both the cognitive and somatic dimensions of anxiety rather than treating it as a single-mechanism problem.
 **Adopted by:** Cognitive Behavioral Therapy (CBT) is the most evidence-supported psychological treatment in existence — over 1,000 randomized controlled trials confirm its effectiveness for anxiety disorders. The American Psychological Association's Clinical Practice Guidelines (2017) endorse CBT as the first-line treatment for anxiety disorders. Acceptance and Commitment Therapy (ACT), developed by Steven Hayes, has a growing evidence base and is effective for anxiety where CBT's cognitive restructuring is less effective (particularly in generalized anxiety). Both approaches are used in NHS England, VA hospitals, and psychology practices globally.
 **Impact:** Untreated anxiety disorders are associated with significant impairment in work, relationships, and physical health; they are the most common mental health condition globally (18.1% of US adults, NIMH). CBT meta-analyses (Hofmann & Smits, 2008) show significant effect sizes (d = 0.80–1.40) for reducing anxiety symptoms — effects that are sustained at 1-year follow-up without continued treatment. These are among the largest effect sizes in psychological treatment research.
 

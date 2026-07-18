@@ -6,7 +6,7 @@ tags: [accessibility, wcag, a11y, responsive-text, reflow, text-spacing, zoom, d
 related: [design-accessibility-standards, apply-accessible-color, audit-accessibility]
 ---
 
-# Implement Responsive Text
+# Apply Responsive Text
 
 Use relative units and flexible layouts so text remains readable when users increase font size, zoom to 400%, or override text spacing — without horizontal scrolling or lost content.
 

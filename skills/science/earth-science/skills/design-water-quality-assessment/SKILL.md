@@ -11,6 +11,7 @@ Design a rigorous water quality monitoring program by defining the assessment ob
 
 ## Why This Is Best Practice
 
+**Why best:** Standardized, regulatory-referenced protocols (ISO 5667 sampling, APHA Standard Methods analysis) ensure water quality data is defensible, comparable across sites and time, and legally admissible for compliance decisions — ad hoc sampling and analysis produce data that cannot support these uses.
 **Adopted by:** EPA (Clean Water Act monitoring), WHO (drinking water guidelines), EU Water Framework Directive, and every major water utility follow standardized water quality assessment protocols. ISO 5667 defines international water sampling standards; APHA Standard Methods is the definitive reference for analytical methods accepted by US regulatory agencies.
 **Impact:** WHO (2017) attributes >2 billion cases of diarrheal disease annually to contaminated drinking water — waterborne illness is the consequence of inadequate water quality assessment. EPA data shows that >40% of US surface waters are impaired (NWQS non-attainment) — identified through standardized monitoring. Sampling design errors (insufficient frequency, improper preservation, wrong container material) systematically bias analytical results and produce non-actionable or misleading water quality data.
 

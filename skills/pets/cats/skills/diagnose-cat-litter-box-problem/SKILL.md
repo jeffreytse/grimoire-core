@@ -11,6 +11,7 @@ Diagnose litter box avoidance in cats — ruling out medical causes first, then 
 
 ## Why This Is Best Practice
 
+**Why best:** Diagnosing cause before intervening prevents the two failure modes of ad hoc house-soiling responses: missing an underlying medical condition, and applying the wrong environmental fix to a correctly identified behavioral cause.
 **Adopted by:** Litter box problems are the most common behavioral reason cats are surrendered to shelters in the US (ASPCA). The American Association of Feline Practitioners (AAFP) and Karen Overall's "Manual of Clinical Behavioral Medicine for Dogs and Cats" both present medical-first diagnostic frameworks as the standard clinical approach. Research by Horwitz (2019) found that 50%+ of house soiling cases have a contributing medical component; treating these behaviorally without medical workup delays diagnosis and worsens welfare.
 **Impact:** House soiling is not "behavioral" by default — it is a symptom of either medical problems or environmental problems, and the solution depends entirely on the cause. A cat with idiopathic cystitis (bladder inflammation causing urgency) soiling outside the litter box needs veterinary treatment, not behavior modification. A cat avoiding a box that has been used by another cat in a multi-cat household needs an additional box in a different location, not punishment. Correct diagnosis is the entire intervention.
 

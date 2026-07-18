@@ -1,7 +1,7 @@
 ---
 name: apply-coaching-habit
 description: Use when a manager wants to shift their default interaction style from advice-giving to question-asking — so that direct reports build self-sufficiency rather than dependence, and the manager's time is freed from problems the team can solve themselves.
-source: Bungay Stanier "The Coaching Habit: Say Less, Ask More, and Change the Way You Lead Forever" (Box of Crayons Press, 2016); Google Project Oxygen #1 manager behavior; Deci & Ryan Self-Determination Theory (autonomy support)
+source: "Bungay Stanier \"The Coaching Habit: Say Less, Ask More, and Change the Way You Lead Forever\" (Box of Crayons Press, 2016); Google Project Oxygen #1 manager behavior; Deci & Ryan Self-Determination Theory (autonomy support)"
 tags: [coaching, manager, questions, advice-monster, curiosity, autonomy, self-sufficiency, leadership-style]
 ---
 

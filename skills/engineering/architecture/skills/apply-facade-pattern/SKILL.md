@@ -1,7 +1,7 @@
 ---
 name: apply-facade-pattern
 description: Use when you want to provide a simple, unified interface to a complex subsystem — reducing the number of objects clients must interact with and lowering the coupling between client code and subsystem internals.
-source: Gamma, Helm, Johnson, Vlissides, "Design Patterns: Elements of Reusable Object-Oriented Software" (1994) pp. 185–193; AWS SDK high-level clients (S3 Transfer Manager); Spring Boot auto-configuration; Python's `smtplib` wrapper in `email.mime`
+source: "Gamma, Helm, Johnson, Vlissides, \"Design Patterns: Elements of Reusable Object-Oriented Software\" (1994) pp. 185–193; AWS SDK high-level clients (S3 Transfer Manager); Spring Boot auto-configuration; Python's `smtplib` wrapper in `email.mime`"
 tags: [design-patterns, structural, facade, oop, developer, simplification, subsystem-decoupling]
 related: [apply-adapter-pattern, apply-law-of-demeter, apply-solid-principles]
 ---

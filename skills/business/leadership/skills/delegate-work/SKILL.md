@@ -1,7 +1,7 @@
 ---
 name: delegate-work
 description: Use when a manager needs to transfer ownership of a task or responsibility to a direct report — to clarify scope, authority, and success criteria upfront so the work transfers completely rather than bouncing back.
-source: Oncken & Wass "Management Time: Who's Got the Monkey?" (Harvard Business Review, 1974 — one of HBR's most-reprinted articles); Hackman & Oldham Job Characteristics Model (1976); Management 3.0 Delegation Boards (Jurgen Appelo)
+source: "Oncken & Wass \"Management Time: Who's Got the Monkey?\" (Harvard Business Review, 1974 — one of HBR's most-reprinted articles); Hackman & Oldham Job Characteristics Model (1976); Management 3.0 Delegation Boards (Jurgen Appelo)"
 tags: [delegation, ownership, manager, autonomy, task-transfer, empowerment, reverse-delegation, authority]
 ---
 

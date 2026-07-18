@@ -11,6 +11,7 @@ Systematically pressure-test and inspect the cooling system to identify leaks, b
 
 ## Why This Is Best Practice
 
+**Why best:** Pressure-testing before diagnosis isolates the true root cause (leak, thermostat, water pump, head gasket) instead of guessing — guessing on cooling failures risks catastrophic engine damage.
 **Adopted by:** ASE A1 Engine Repair certification dedicates a major section to cooling system diagnosis. Gates Corporation and Prestone publish industry-standard cooling system diagnostic guides used by shop technicians. All OEM service manuals require a pressure test before any coolant-related diagnosis or repair.
 **Impact:** Overheating is the most damaging condition a car engine can experience — one overheating event can warp cylinder heads ($1,000–$3,000), crack a head gasket ($1,500–$4,000), or seize bearings (total engine replacement: $3,000–$8,000). Many cooling system failures present identically in symptoms but have different root causes: a leaking hose, a stuck thermostat, a failed water pump, and a blown head gasket all cause overheating. Driving with any of these undiagnosed causes escalating damage.
 

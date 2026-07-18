@@ -11,6 +11,7 @@ Design an optical system by applying geometric optics for ray tracing, the thin 
 
 ## Why This Is Best Practice
 
+**Why best:** Systematic ray tracing, the thin lens/lensmaker's equations, and aberration analysis derive directly from geometric and physical optics — they predict imaging performance (resolution, distortion, chromatic behavior) before fabrication, replacing costly trial-and-error prototyping with calculation.
 **Adopted by:** Optical engineering (Zemax, Code V, OpticStudio) uses systematic ray tracing and aberration analysis as the design workflow for every commercial optical product from camera lenses to telescopes, microscopes, and laser systems. NASA uses optical system design for space telescopes (Hubble, James Webb). FDA requires optical coherence tomography (OCT) and fundus camera optics to be designed to specified imaging performance benchmarks.
 **Impact:** Smith (2007) demonstrated that systematic geometric optics analysis — applied before fabrication — reduces design iteration cycles from years to weeks. James Webb Space Telescope's mirror segments were designed using aberration theory to achieve diffraction-limited performance at mid-IR wavelengths across a 6.5m primary mirror. An optical system designed without aberration analysis produces a prototype that is systematically blurred or distorted — requiring expensive redesign.
 

@@ -2,7 +2,7 @@
 name: apply-audio-mastering-principles
 description: Use when preparing a mixed track for commercial release — applying mastering principles of broadband EQ, dynamic range control, loudness targeting, stereo enhancement, and quality control to produce a release-ready master that translates across playback systems and meets streaming platform standards.
 source: Katz "Mastering Audio" 3rd ed. (2015); Roey Izhaki "Mixing Audio" 3rd ed. (2012); AES "Practical Guidelines for Online Music Distribution" (2019); Loudness Penalty database; Spotify/Apple Music loudness normalization specifications
-tags: [mastering, audio-production, mixing, loudness, streaming, LUFS, music-production]
+tags: [mastering, audio-production, mixing, loudness, streaming, lufs, music-production]
 ---
 
 # Apply Audio Mastering Principles
@@ -11,6 +11,7 @@ Prepare a mixed track for commercial release by applying broadband EQ, dynamic c
 
 ## Why This Is Best Practice
 
+**Why best:** Codified by the Audio Engineering Society's loudness normalization guidelines, adopted by all major streaming platforms, and taught via Bob Katz's "Mastering Audio," the industry-standard professional reference used in recording programs worldwide.
 **Adopted by:** The Audio Engineering Society (AES) publishes loudness normalization guidelines adopted by all major streaming platforms. Bob Katz's "Mastering Audio" is the industry standard professional reference used in recording programs worldwide. Mastering engineers (Bob Ludwig, Emily Lazar, Dave Collins) work from professional chains of processing that follow the same fundamental sequence described here. The RIAA (Recording Industry Association of America) and streaming platforms all have specific technical specifications for delivered masters.
 **Impact:** A poorly mastered track sounds inconsistent across playback systems — too quiet on a streaming playlist, harsh on earbuds, muddy on a car stereo. Streaming platform loudness normalization (Spotify normalizes to -14 LUFS; Apple Music to -16 LUFS) means that over-compressed, hyper-loud masters are turned down to match — retaining only the distortion artifacts of over-limiting without the competitive loudness benefit that motivated the compression. Understanding the current streaming standards changes mastering strategy fundamentally.
 

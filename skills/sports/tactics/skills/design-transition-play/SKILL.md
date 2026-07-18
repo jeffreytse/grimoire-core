@@ -11,6 +11,7 @@ Define and train the team's immediate reaction to possession changes — both co
 
 ## Why This Is Best Practice
 
+**Why best:** The moments immediately after a possession change are when a team is most disorganized and most vulnerable — coaching a deliberate, rehearsed reaction to those moments (rather than leaving it to instinct) turns transition into a repeatable scoring and defensive advantage instead of a coin flip.
 **Adopted by:** Jürgen Klopp's Liverpool, Diego Simeone's Atlético Madrid, and Pep Guardiola's Manchester City — three of the most successful team sport tactical systems of the 2010s — are built around transition moments as primary performance differentiators. US Women's National Soccer Team and New Zealand All Blacks coaching staff have described transition as where games are won and lost at elite level.
 **Impact:** Tenga et al. (2010) analysis of 167 Norwegian Premier League matches found that possessions won in the attacking third within 40m of goal produced 9× more goals than organized possession play from the defensive third. Hughes & Franks (2008) showed that 65-70% of goals in soccer are scored within 3 possession changes of winning the ball — transition is not the exception; it is the norm at elite level.
 

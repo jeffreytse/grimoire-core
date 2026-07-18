@@ -11,6 +11,7 @@ Structure a deliberate reduced-load training week to remove accumulated fatigue 
 
 ## Why This Is Best Practice
 
+**Why best:** Fatigue accumulates faster than fitness during hard training blocks; a structured deload dissipates that fatigue on a schedule instead of waiting for burnout or injury to force it, letting supercompensation occur predictably before the next block.
 **Adopted by:** Olympic weightlifters (traditional Soviet/Bulgarian programs), powerlifters (Westside, 5/3/1), and elite endurance coaches (Daniels, Lydiard-influenced programs) all embed systematic deloads as non-negotiable. Supercompensation theory (Yakovlev, 1967; later Bangsbo & Mizuno) predicts that adaptation occurs during the recovery period following training stress — not during the stress itself.
 **Impact:** Pritchard et al. (2015) found that 1-2 week deloads after 3-6 week accumulation blocks produced greater strength gains than continuous training without deload. Nicholson et al. (2014) showed that the "functional overreaching" state (pre-deload fatigue that leads to supercompensation) — when followed by adequate recovery — outperforms monotonic progressive loading for both strength and hypertrophy. Deloads also reduce non-contact injury incidence by allowing soft tissue repair after repeated micro-trauma.
 

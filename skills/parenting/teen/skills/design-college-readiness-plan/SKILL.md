@@ -11,6 +11,7 @@ Design a 4-year high school college readiness plan — covering academic track s
 
 ## Why This Is Best Practice
 
+**Why best:** Structures meaningful, research-based preparation while preserving the student's ownership of the process — the independence and self-direction colleges select for.
 **Adopted by:** The National Association for College Admission Counseling (NACAC) publishes "State of College Admission" annually — the authoritative data source on admission trends. College Board and ACT provide official test preparation frameworks. Julie Lythcott-Haims' "How to Raise an Adult" is the research-based critique of over-managed college preparation and its effects on student competence and wellbeing.
 **Impact:** College admission is the first high-stakes, student-owned process that most young people navigate. Parents who do too much (fill out applications, write essays, over-manage extracurriculars) produce applicants who arrive at college unable to manage similar challenges independently; parents who do too little leave students unprepared. The plan below structures meaningful preparation while preserving the student's ownership of the process — which itself develops the independence and self-direction that colleges are selecting for.
 

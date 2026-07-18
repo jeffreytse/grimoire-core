@@ -2,7 +2,7 @@
 name: audit-alternative-investments
 description: Use when considering investments outside stocks and bonds — e.g., "should I invest in private equity?", "is crypto a good portfolio diversifier?", "how do REITs compare to direct real estate?", "what about commodities?"
 source: CFA Institute "Alternative Investments" curriculum; Swensen "Pioneering Portfolio Management" (2000); Preqin Alternative Assets Research; Vanguard alternative investment analysis
-tags: [finance, investing, alternatives, private-equity, REIT, commodities, crypto, diversification]
+tags: [finance, investing, alternatives, private-equity, reit, commodities, crypto, diversification]
 verified: true
 ---
 

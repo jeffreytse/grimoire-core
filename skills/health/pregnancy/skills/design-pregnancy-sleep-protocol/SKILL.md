@@ -53,4 +53,4 @@ Address pregnancy-specific sleep challenges with positioning, environment, and e
 - Ignoring RLS as "just discomfort" — iron deficiency is a treatable cause that also affects fetal development.
 - Using melatonin without provider guidance — crosses placenta; evidence on fetal safety is limited.
 
-> **Health Disclaimer:** Sleep disorders in pregnancy may indicate underlying conditions (anemia, obstructive sleep apnea, depression). Persistent insomnia or RLS warrants evaluation by your OB-GYN or a sleep medicine specialist.
+> **Health Disclaimer:** This is not medical advice. Sleep disorders in pregnancy may indicate underlying conditions (anemia, obstructive sleep apnea, depression). Persistent insomnia or RLS warrants evaluation by your healthcare provider, OB-GYN, or a sleep medicine specialist.

@@ -1,7 +1,7 @@
 ---
 name: apply-visitor-pattern
 description: Use when you need to perform many distinct operations on a stable object structure — adding new operations without modifying the element classes by separating the operation from the data structure.
-source: Gamma, Helm, Johnson, Vlissides, "Design Patterns: Elements of Reusable Object-Oriented Software" (1994) pp. 331–344; Java compiler AST visitors; Python ast.NodeVisitor; LLVM IR pass infrastructure; checkstyle/PMD code analysis
+source: "Gamma, Helm, Johnson, Vlissides, \"Design Patterns: Elements of Reusable Object-Oriented Software\" (1994) pp. 331–344; Java compiler AST visitors; Python ast.NodeVisitor; LLVM IR pass infrastructure; checkstyle/PMD code analysis"
 tags: [design-patterns, behavioral, visitor, oop, developer, open-closed, operation-extension, ast]
 related: [apply-composite-pattern, apply-iterator-pattern, apply-solid-principles]
 ---

@@ -2,16 +2,19 @@
 name: apply-emotional-regulation-skills
 description: Use when intense emotions are interfering with functioning, decision-making, or relationships — applying DBT-based emotional regulation skills (PLEASE, opposite action, check the facts, TIPP) and ACT-informed acceptance techniques to reduce emotional vulnerability, increase distress tolerance, and act effectively when emotions are intense.
 source: Linehan "DBT Skills Training Manual" 2nd ed. (2015); Linehan "Skills Training Manual for Treating Borderline Personality Disorder" (1993); Hayes "ACT in Practice" (2007); Neff "Self-Compassion" (2011); Gross "Handbook of Emotion Regulation" 2nd ed. (2014)
-tags: [health, mental-health, emotional-regulation, DBT, distress-tolerance, ACT, mindfulness]
+tags: [health, mental-health, emotional-regulation, dbt, distress-tolerance, act, mindfulness]
 ---
 
 # Apply Emotional Regulation Skills
 
 Apply DBT-based emotional regulation skills and ACT-informed acceptance techniques — reducing emotional vulnerability, increasing distress tolerance, and enabling effective action even when emotions are intense.
 
+**Disclaimer:** This skill is educational, not medical advice. If emotional dysregulation is severe, persistent, or accompanied by self-harm risk, consult a healthcare provider or licensed mental health professional.
+
 ## Why This Is Best Practice
 
 **Adopted by:** Marsha Linehan's Dialectical Behavior Therapy (DBT) is the empirically supported treatment of choice for emotional regulation problems, validated in over 30 randomized controlled trials. DBT was developed specifically for people with chronic, intense emotional responses; its skills have since been validated across clinical populations and adapted for general use. The DBT Skills Training Manual is used in clinical programs at major hospitals and psychology practices globally. James Gross's transdiagnostic emotion regulation research provides the broader theoretical framework.
+**Why best:** DBT is the gold-standard, evidence-based approach for emotion dysregulation — decades of RCTs show it outperforms treatment-as-usual, and its skills (PLEASE, TIPP, check the facts, opposite action, radical acceptance) are the most rigorously validated toolkit for regulating intense emotions outside of medication.
 **Impact:** Emotion dysregulation (inability to modulate emotional responses to effective levels) underlies most mental health conditions and many interpersonal problems. DBT's core finding: people can learn specific skills that reduce emotional reactivity, increase distress tolerance, and improve interpersonal effectiveness. Meta-analyses of DBT (Kliem et al., 2010) show large effect sizes for reducing self-harm, hospitalization, and emotional dysregulation symptoms. The skills described here are from Linehan's skills training modules and can be applied outside clinical settings for general emotional regulation improvement.
 
 ## Steps

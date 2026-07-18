@@ -6,7 +6,7 @@ tags: [accessibility, wcag, a11y, reduced-motion, animation, seizures, vestibula
 related: [design-accessibility-standards, apply-accessible-color]
 ---
 
-# Implement Reduced Motion
+# Apply Reduced Motion
 
 Respect `prefers-reduced-motion` to prevent animation-triggered vestibular episodes, and never flash content more than 3 times per second.
 

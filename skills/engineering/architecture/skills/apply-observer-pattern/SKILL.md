@@ -1,7 +1,7 @@
 ---
 name: apply-observer-pattern
 description: Use when a change in one object must automatically notify and update an open-ended set of dependent objects — without the subject knowing which specific objects depend on it.
-source: Gamma, Helm, Johnson, Vlissides, "Design Patterns: Elements of Reusable Object-Oriented Software" (1994) pp. 293–303; Java EventListener; Python asyncio events; React useState/useEffect; RxJS (Reactive Extensions)
+source: 'Gamma, Helm, Johnson, Vlissides, "Design Patterns: Elements of Reusable Object-Oriented Software" (1994) pp. 293–303; Java EventListener; Python asyncio events; React useState/useEffect; RxJS (Reactive Extensions)'
 tags: [design-patterns, behavioral, observer, oop, developer, event-driven, publish-subscribe, loose-coupling]
 related: [apply-mediator-pattern, apply-event-driven-architecture, apply-solid-principles]
 ---

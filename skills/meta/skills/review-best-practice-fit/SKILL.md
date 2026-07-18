@@ -5,7 +5,7 @@ source: McKinsey as-is/to-be gap analysis methodology, Google Engineering Practi
 tags: [gap-analysis, solution-review, practice-alignment, quality-audit, practitioner, decision-maker, solution-improvement, practice-compliance]
 ---
 
-# Review Practice Fit
+# Review Best Practice Fit
 
 Evaluate an existing solution against applicable best practices, identify gaps, and produce a prioritized fix list.
 

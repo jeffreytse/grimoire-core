@@ -5,7 +5,7 @@ source: 'OWASP OAuth 2.0 Security Cheat Sheet (owasp.org/www-project-cheat-sheet
 tags: [security, owasp, oauth2, oidc, pkce, authorization, developer, api]
 ---
 
-# Apply OAuth 2.0 Security
+# Apply OAuth2 Security
 
 Implement OAuth 2.0 with PKCE for public clients, exact redirect URI matching, short-lived tokens, and state parameter CSRF protection — preventing authorization code interception, token theft, and open redirector attacks.
 

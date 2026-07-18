@@ -10,6 +10,8 @@ verified: true
 
 Plan and execute a financial statement audit that provides reasonable assurance that financial statements are free from material misstatement.
 
+> **Disclaimer:** This skill provides general audit methodology guidance and is not financial advice. Consult a licensed auditor or financial advisor for engagement-specific decisions.
+
 ## Why This Is Best Practice
 
 **Adopted by:** PCAOB standards apply to all auditors of US public companies (SEC requirement); AICPA GAAS applies to private company and non-profit audits in the US; ISA (IAASB) is adopted in 120+ countries; Big Four (Deloitte, PwC, EY, KPMG) audited 99% of Fortune 500 companies.

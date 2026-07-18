@@ -5,7 +5,7 @@ source: Linux kernel patch review process, CPython PEP review guidelines, Apache
 tags: [skill-review, quality-gate, checklist, reviewer, maintainer, defect-prevention, consistency]
 ---
 
-# Review Skill
+# Review Best Practice Skill
 
 Evaluate a proposed SKILL.md against grimoire standards and produce a structured
 PASS / NEEDS-REVISION / REJECT verdict with specific findings per criterion.

@@ -6,7 +6,7 @@ tags: [accessibility, wcag, a11y, audio, autoplay, screen-reader, pause-controls
 related: [apply-timed-content-controls, apply-media-captions, design-accessibility-standards]
 ---
 
-# Implement Audio Controls
+# Apply Audio Controls
 
 Provide a mechanism to pause, stop, or mute any audio that plays automatically — so screen
 reader users can hear their AT output and users in quiet environments can silence the page.

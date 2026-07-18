@@ -51,4 +51,4 @@ Use risk stratification, low-dose aspirin, and monitoring to reduce preeclampsia
 - Starting aspirin after 20 weeks and expecting full effect — the window is before 16 weeks.
 - Missing the headache/visual change warning signs — these can precede eclamptic seizure by hours.
 
-> **Health Disclaimer:** Preeclampsia risk assessment and aspirin prescribing require medical evaluation. Hypertension in pregnancy is a medical emergency. Contact your provider immediately for BP ≥140/90 or any warning symptoms.
+> **Health Disclaimer:** This is not medical advice. Preeclampsia risk assessment and aspirin prescribing require evaluation by a healthcare provider. Hypertension in pregnancy is a medical emergency. Contact your healthcare provider immediately for BP ≥140/90 or any warning symptoms.

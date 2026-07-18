@@ -10,6 +10,8 @@ verified: true
 
 Draft a legally sound, complete board resolution that documents authorization for corporate decisions in a form that satisfies statutory requirements, satisfies banks and counterparties, and is defensible in litigation.
 
+> **Not legal advice.** This skill is informational only and does not substitute for legal counsel. Statutory requirements vary by jurisdiction and change over time — have qualified legal counsel review any resolution before adoption or execution.
+
 ## Why This Is Best Practice
 
 **Adopted by:** MBCA-based governance practices are followed in 32 US states. Delaware corporations — comprising over 65% of Fortune 500 companies — operate under DGCL requirements for board authorization. Major banks and M&A counterparties require properly executed board resolutions before releasing funds or closing transactions.

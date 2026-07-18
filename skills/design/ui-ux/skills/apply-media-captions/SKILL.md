@@ -6,7 +6,7 @@ tags: [accessibility, wcag, a11y, captions, transcripts, audio-description, medi
 related: [design-accessibility-standards, audit-accessibility, apply-text-alternatives]
 ---
 
-# Implement Media Captions
+# Apply Media Captions
 
 Provide synchronized captions for video, transcripts for audio, and audio descriptions for visual-only content.
 

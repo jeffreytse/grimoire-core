@@ -10,6 +10,8 @@ verified: true
 
 Systematically identify, categorize, and assess contractual risks across a contract portfolio using structured review methodology so that material risks are surfaced before closing, investment, or onboarding.
 
+> **Disclaimer:** This skill provides a due diligence methodology framework, not legal advice. Contract review findings and risk classifications must be validated by qualified legal counsel before being relied upon for transaction decisions.
+
 ## Why This Is Best Practice
 
 **Adopted by:** The ABA Due Diligence Checklist is used by major law firms including Sullivan & Cromwell, Skadden, and Latham & Watkins. IACCM research shows that World Commerce & Contracting members using structured review processes reduce post-signature disputes by 54% and renegotiation costs by 38%.

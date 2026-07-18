@@ -63,5 +63,5 @@ Log actual operational loss events as they occur, categorized against the taxono
 ## When NOT to Use
 
 - For a very small organization where the overhead of a formal, Basel-style operational risk framework exceeds its practical value — a lighter, less formal approach to identifying and managing operational failure points may be proportionate in this case.
-- As a substitute for the organization's general enterprise risk management process — operational risk is one specific risk category within the broader ERM process (see `apply-iso-31000-risk-framework`), not a replacement for addressing strategic, financial, or compliance risk.
+- As a substitute for the organization's general enterprise risk management process — operational risk is one specific risk category within the broader ERM process, not a replacement for addressing strategic, financial, or compliance risk.
 - When a specific operational failure mode is better addressed through a more targeted technique — see `apply-fmea-analysis` for structured, engineering-level failure-mode analysis of a specific system or process, which can feed into this broader organizational framework.

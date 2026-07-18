@@ -6,7 +6,7 @@ tags: [ui-ux, fitts-law, interaction-design, accessibility, performance]
 verified: true
 ---
 
-# Apply Fitts's Law to UI Design
+# Apply Fitts Law
 
 Use Fitts's Law — the mathematical model of human pointing movement — to size and place interactive targets so users reach them faster and with fewer errors.
 

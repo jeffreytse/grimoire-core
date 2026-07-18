@@ -6,7 +6,7 @@ tags: [accessibility, wcag, a11y, aria-live, live-regions, dynamic-content, scre
 related: [apply-aria-roles, apply-accessible-forms, design-accessibility-standards]
 ---
 
-# Implement ARIA Live Regions
+# Apply ARIA Live Regions
 
 Announce dynamic content changes to screen readers using `aria-live` regions or semantic live region roles — without moving focus.
 

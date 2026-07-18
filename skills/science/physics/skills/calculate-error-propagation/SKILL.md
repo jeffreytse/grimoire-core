@@ -11,6 +11,7 @@ Propagate measurement uncertainties through mathematical operations using partia
 
 ## Why This Is Best Practice
 
+**Why best:** GUM methodology is the internationally adopted standard for rigorous uncertainty quantification, replacing inconsistent ad-hoc error estimates with a traceable, defensible method.
 **Adopted by:** ISO/IEC Guide 98-3 (GUM) is the international standard for measurement uncertainty, adopted by BIPM, NIST, PTB, NPL, and all national metrology institutes. Every ISO 17025-accredited testing laboratory reports uncertainty following GUM. Scientific journals (APS, Nature, ACS) require uncertainty quantification for experimental results.
 **Impact:** Taylor (1997) demonstrates that improper error propagation produces either overconfident results (understated uncertainty, leading to false precision) or uselessly conservative bounds (overstated uncertainty). The 2019 redefinition of the SI system (fixing exact values of physical constants) was predicated on uncertainty analyses from multiple independent metrology institutes using GUM methodology. Incompatible scientific results between laboratories are often traceable to different uncertainty quantification practices.
 

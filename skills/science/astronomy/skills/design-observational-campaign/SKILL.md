@@ -2,7 +2,7 @@
 name: design-observational-campaign
 description: Use when planning an astronomical observing campaign — selecting target list, scheduling observations around constraints (sky brightness, airmass, telescope time), estimating exposure times, and designing a data quality assurance strategy.
 source: Kitchin "Astrophysical Techniques" 6th ed. (2013); Howell "Handbook of CCD Astronomy" 2nd ed. (2006); ESO Phase 2 Proposal Guidelines; NOAO Observing Guide
-tags: [observational-astronomy, observing-campaign, exposure-time, airmass, CCD-astronomy, telescope-scheduling]
+tags: [observational-astronomy, observing-campaign, exposure-time, airmass, ccd-astronomy, telescope-scheduling]
 ---
 
 # Design Observational Campaign
@@ -11,6 +11,7 @@ Plan an observing campaign by scheduling targets within sky and telescope constr
 
 ## Why This Is Best Practice
 
+**Why best:** Systematic exposure-time budgeting and airmass-minimizing scheduling turn scarce telescope time into usable data — skipping either step routinely yields unusable observations that waste allocated time.
 **Adopted by:** ESO (European Southern Observatory), NOAO, STScI (Hubble Space Telescope), and all major observatories use formal Phase 1 (proposal) and Phase 2 (scheduling) observation planning frameworks. ALMA requires detailed observing parameter justification including expected sensitivity, angular resolution, and atmospheric constraint specification. Gemini, Keck, and VLT all enforce systematic observation design as a prerequisite for time allocation.
 **Impact:** Howell (2006) demonstrates that exposure time calculation is the single most important pre-observation step — an under-exposed observation is useless (insufficient S/N to detect the target), while over-exposure wastes precious telescope time and saturates the detector. Proper scheduling to minimize airmass maximizes data quality; Kitchin (2013) shows that observing at airmass 2.0 (30° elevation) rather than 1.0 (zenith) increases sky background by a factor of 2 and attenuates signal by a further factor of ~2-3 due to increased atmospheric extinction.
 

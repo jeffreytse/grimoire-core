@@ -1,7 +1,7 @@
 ---
 name: apply-command-pattern
 description: Use when you need to parameterize objects with operations, queue or log requests, support undoable operations, or implement transactional behavior — by encapsulating each request as an object with a uniform execute interface.
-source: Gamma, Helm, Johnson, Vlissides, "Design Patterns: Elements of Reusable Object-Oriented Software" (1994) pp. 233–242; Java javax.swing.Action; Python asyncio task queue; Git (every commit is a command); Redux actions (JavaScript state management)
+source: 'Gamma, Helm, Johnson, Vlissides, "Design Patterns: Elements of Reusable Object-Oriented Software" (1994) pp. 233–242; Java javax.swing.Action; Python asyncio task queue; Git (every commit is a command); Redux actions (JavaScript state management)'
 tags: [design-patterns, behavioral, command, oop, developer, undo-redo, queuing, transactional]
 related: [apply-chain-of-responsibility-pattern, apply-memento-pattern, apply-solid-principles]
 ---

@@ -2,7 +2,7 @@
 name: audit-supply-chain-sustainability
 description: Use when evaluating supplier environmental and social sustainability performance — applying a structured ESG supplier audit framework covering environmental practices, labor standards, and governance to identify risks, qualify suppliers, and set improvement requirements.
 source: ISO 14001:2015 (Environmental Management); SA8000 Social Accountability Standard (2014); UN Global Compact Principles; CDP Supply Chain Program; SEDEX (Supplier Ethical Data Exchange) SMETA Audit Standard
-tags: [supply-chain, sustainability, ESG, supplier-audit, environmental-management, social-responsibility]
+tags: [supply-chain, sustainability, esg, supplier-audit, environmental-management, social-responsibility]
 ---
 
 # Audit Supply Chain Sustainability
@@ -11,6 +11,7 @@ Conduct a structured sustainability audit of suppliers using ESG criteria coveri
 
 ## Why This Is Best Practice
 
+**Why best:** Supply chains carry most of a company's environmental and social risk exposure, but that risk stays invisible without a structured, evidence-based audit — self-declared supplier claims routinely miss child labor, forced labor, and unpermitted discharge that on-site audits with worker interviews catch.
 **Adopted by:** CDP's Supply Chain Program engaged 28,000+ suppliers in 2023, representing $6.4 trillion in procurement spend. ISO 14001 (environmental management) and SA8000 (social accountability) are the primary standards referenced in supplier codes of conduct by Apple, Nike, IKEA, Walmart, and most Fortune 500 companies. The EU Corporate Sustainability Reporting Directive (CSRD, 2023) requires Scope 3 supply chain emissions disclosure for 50,000+ companies.
 **Impact:** Typical companies' supply chains represent 70–80% of their total environmental impact (Scope 3 emissions). Supplier audits identify ESG risks before they become regulatory violations, reputational incidents, or supply disruptions. McKinsey found that companies with robust supply chain sustainability programs have 67% fewer supply chain disruptions and 20% lower procurement costs over 5 years.
 

@@ -6,7 +6,7 @@ tags: [accessibility, wcag, a11y, timing, carousels, session-timeout, auto-advan
 related: [apply-keyboard-accessibility, apply-reduced-motion, design-accessibility-standards]
 ---
 
-# Implement Timed Content Controls
+# Apply Timed Content Controls
 
 Provide user controls to pause, stop, or extend moving content and session timelines — so users with motor or cognitive disabilities are not blocked by content that advances without their control.
 

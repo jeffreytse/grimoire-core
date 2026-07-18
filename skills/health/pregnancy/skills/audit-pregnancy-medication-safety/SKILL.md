@@ -56,4 +56,4 @@ Systematically review medications for fetal safety using established risk catego
 - Stopping psychiatric medication abruptly — untreated severe depression/anxiety causes more harm than SSRIs.
 - Not checking supplements — fish oil in excess, vitamin A (retinol >10,000 IU), and licorice root are all harmful in pregnancy.
 
-> **Health Disclaimer:** This skill provides reference guidance only. Every medication decision in pregnancy requires individualized assessment by a licensed provider who can weigh your specific medical history, gestational age, and risk factors.
+> **Health Disclaimer:** This skill provides reference guidance only and is not medical advice. Every medication decision in pregnancy requires individualized assessment by a licensed healthcare provider who can weigh your specific medical history, gestational age, and risk factors.

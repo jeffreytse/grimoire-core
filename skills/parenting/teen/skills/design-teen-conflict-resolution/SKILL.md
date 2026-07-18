@@ -1,7 +1,7 @@
 ---
 name: design-teen-conflict-resolution
 description: Use when recurring or escalating conflicts with a teenager are damaging the parent-child relationship — designing a structured conflict resolution framework that preserves connection while addressing real disagreements about autonomy, rules, and values.
-source: Gottman "Raising an Emotionally Intelligent Child" (1997); Siegel "Brainstorm: The Power and Purpose of the Teenage Brain" (2013); Greene "The Explosive Child" (2014) collaborative problem solving; Ginott "Between Parent and Teenager" (1969); APA Adolescent Development Research
+source: "Gottman \"Raising an Emotionally Intelligent Child\" (1997); Siegel \"Brainstorm: The Power and Purpose of the Teenage Brain\" (2013); Greene \"The Explosive Child\" (2014) collaborative problem solving; Ginott \"Between Parent and Teenager\" (1969); APA Adolescent Development Research"
 tags: [parenting, teenager, conflict-resolution, communication, adolescence, connection]
 ---
 
@@ -12,7 +12,8 @@ Design a structured conflict resolution framework for parent-teenager disagreeme
 ## Why This Is Best Practice
 
 **Adopted by:** Ross Greene's Collaborative Problem Solving (CPS) model — developed at Harvard Medical School and used in clinical settings — is the evidence-based standard for conflict with adolescents and challenging children. John Gottman's research on family relationships found that parents who maintain emotional connection through conflict raise teens with fewer risk behaviors and better long-term outcomes. Daniel Siegel's neuroscience of adolescence ("Brainstorm") provides the developmental framework for why traditional authority-based discipline fails with teenagers.
-**Impact:** Adolescent brain development (prefrontal cortex still developing until ~25) makes teenagers neurologically wired for risk-taking, novelty-seeking, autonomy-seeking, and peer influence. Authority-based discipline ("because I said so") activates the threat response in the adolescent brain and reliably produces resistance, not compliance. Research by Smetana (2000) found that teens believe parents have legitimate authority over safety and family rules but not over personal choice and peer relationships — conflicts arise largely in these "contested" domains. CPS reduces explosive conflict by 80% in clinical trials.
+**Why best:** Adolescent brain development (prefrontal cortex still developing until ~25) makes teenagers neurologically wired for risk-taking, novelty-seeking, autonomy-seeking, and peer influence. Authority-based discipline ("because I said so") activates the threat response in the adolescent brain and reliably produces resistance, not compliance. Research by Smetana (2000) found that teens believe parents have legitimate authority over safety and family rules but not over personal choice and peer relationships — conflicts arise largely in these "contested" domains. CPS reduces explosive conflict by 80% in clinical trials.
+**Impact:** Parents using CPS-based approaches report reduced conflict frequency, higher teen disclosure, and stronger long-term relationship quality compared to authority-based discipline alone.
 
 ## Steps
 

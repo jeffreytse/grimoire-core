@@ -10,6 +10,8 @@ verified: true
 
 Prepare a trademark application that accurately identifies the mark, correctly classifies goods/services, and maximizes the likelihood of registration.
 
+**Disclaimer:** This skill provides general information, not legal advice. Trademark law varies by jurisdiction and fact pattern — consult a licensed trademark attorney for legal counsel before filing or relying on any of the guidance below.
+
 ## Why This Is Best Practice
 
 **Adopted by:** USPTO (400,000+ applications/year), EUIPO (180,000+/year), and 130 countries via WIPO Madrid System; INTA represents 7,000+ organizations in 185 countries and sets professional standards for trademark practice.

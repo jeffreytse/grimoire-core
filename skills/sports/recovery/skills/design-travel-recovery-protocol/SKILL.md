@@ -11,6 +11,7 @@ Plan pre-travel circadian adjustment, in-transit recovery strategies, and post-a
 
 ## Why This Is Best Practice
 
+**Why best:** Structured travel recovery protocols, built on circadian science, accelerate jet lag adaptation by 1-2 days compared to unmanaged travel — directly protecting performance in the highest-vulnerability window after arrival.
 **Adopted by:** NBA teams, international cricket boards (ICC travel protocols), British & Irish Lions tours, and Olympic teams traveling to distant host cities (Tokyo, Beijing) all use structured travel recovery protocols developed with sleep scientists and sports medicine teams. UK Sport provided all Team GB Olympic athletes with detailed travel recovery plans before Tokyo 2021.
 **Impact:** Fowler et al. (2015) meta-analysis found travel across ≥4 time zones impairs peak power output, reaction time, and mood for 1-4 days depending on direction of travel and individual response. Jet lag eastward travel is consistently more disruptive than westward travel. Without intervention, performance impairment peaks at 1-2 days post-arrival. With a structured protocol, athletes can accelerate adaptation by 1-2 days — often the difference between competing impaired or at full capacity.
 

@@ -1,7 +1,7 @@
 ---
 name: write-regression-test
 description: Use when fixing any bug — to write a failing automated test that reproduces the bug before implementing the fix, ensuring the fix is verified and the bug cannot silently recur.
-source: Google Engineering Practices "Testing" (google.github.io/eng-practices); Beck "Test-Driven Development by Example" (Addison-Wesley, 2002); Fowler "Refactoring: Improving the Design of Existing Code" (Addison-Wesley, 1999)
+source: "Google Engineering Practices \"Testing\" (google.github.io/eng-practices); Beck \"Test-Driven Development by Example\" (Addison-Wesley, 2002); Fowler \"Refactoring: Improving the Design of Existing Code\" (Addison-Wesley, 1999)"
 tags: [regression-test, bug-fix, test-driven, testing, tdd, defect-prevention, quality]
 ---
 
@@ -173,4 +173,3 @@ call. Adds regression test to prevent recurrence."
 
 - When no automated test infrastructure exists and adding it would take longer than the sprint allows — in this case, document the bug scenario in a comment or acceptance test description, plan to add test infrastructure, and track the technical debt; this is the exception, not the rule
 - For bugs in UI presentation layer with no testable behavior contract (pixel-perfect visual regressions) — visual regression requires screenshot diffing tools (Percy, Chromatic), not a unit or integration test; use those tools instead
-

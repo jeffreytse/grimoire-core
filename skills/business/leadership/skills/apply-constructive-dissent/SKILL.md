@@ -1,7 +1,7 @@
 ---
 name: apply-constructive-dissent
 description: Use when building or assessing a team, decision process, or organizational culture where you need genuine diverse thinking to surface before commitment — not after — and where the risk is false consensus rather than open conflict
-source: "左传 (Zuozhuan) 昭公二十年 (~4th century BC) — Yan Ying to Duke Jing of Qi: "和与同异乎...和如羹焉" (Harmony and sameness are different: harmony synthesizes distinct ingredients into something new; sameness is adding water to water); Edmondson "Teaming" (2012) — psychological safety research; Google Project Aristotle (2015); Dalio "Principles" (2017)"
+source: '左传 (Zuozhuan) 昭公二十年 (~4th century BC) — Yan Ying to Duke Jing of Qi: "和与同异乎...和如羹焉" (Harmony and sameness are different: harmony synthesizes distinct ingredients into something new; sameness is adding water to water); Edmondson "Teaming" (2012) — psychological safety research; Google Project Aristotle (2015); Dalio "Principles" (2017)'
 tags: [team-performance, psychological-safety, decision-quality, leadership, groupthink-prevention]
 verified: true
 ---

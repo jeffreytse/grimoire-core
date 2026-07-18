@@ -2,7 +2,7 @@
 name: apply-speed-agility-drills
 description: Use when designing or delivering SAQ (speed, agility, quickness) training for athletes who need to improve linear sprint speed, change-of-direction ability, or reactive agility in their sport.
 source: NSCA "Developing Speed" (Jeffreys, 2013); Gambetta "Athletic Development" (2007); Cissik "Developing Speed and Agility" (NSCA); Young et al. (2015) "Resistance Training for Speed" (Sports Med)
-tags: [speed, agility, quickness, SAQ, sprint, change-of-direction, athleticism]
+tags: [speed, agility, quickness, saq, sprint, change-of-direction, athleticism]
 ---
 
 # Apply Speed Agility Drills
@@ -11,6 +11,7 @@ Improve athletic speed and agility through structured sprint mechanics training,
 
 ## Why This Is Best Practice
 
+**Why best:** Speed and agility are trainable skills governed by distinct neuromuscular qualities (linear speed, COD, reactive agility) that degrade without targeted, periodized practice — treating SAQ as an afterthought to conditioning leaves measurable performance and injury-prevention gains on the table.
 **Adopted by:** NFL Combine preparation programs (EXOS, Bommarito Performance), Olympic sprint coaches, and elite team sport academies (Premier League, NBA G-League, NCAA Division I programs) structure SAQ training as a discrete, periodized component — separate from conditioning — because speed is a skill that degrades without targeted practice.
 **Impact:** Young et al. (2001) demonstrated that change-of-direction speed and linear speed are distinct qualities requiring separate training stimuli. Nimphius et al. (2016) showed that 6 weeks of structured COD training improved 505 test scores by 5-9% independent of strength gains. Reactive agility — the ability to change direction in response to a stimulus — shows minimal transfer from closed-drill COD work alone, requiring decision-making training to develop.
 

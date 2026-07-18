@@ -2,7 +2,7 @@
 name: design-sound-mix-plan
 description: Use when planning a film or video sound mix — designing the dialogue/music/SFX layering hierarchy, establishing level relationships between tracks, and creating a mix plan that serves the narrative's emotional arc before entering the mixing session.
 source: Murch "In the Blink of an Eye" 2nd ed. (2001); LoBrutto "Sound-on-Film" (1994); Sonnenschein "Sound Design" (2001); AES Journal on Film Sound Standards
-tags: [sound-design, sound-mix, film-audio, dialogue, music, SFX, post-production]
+tags: [sound-design, sound-mix, film-audio, dialogue, music, sfx, post-production]
 ---
 
 # Design Sound Mix Plan
@@ -11,6 +11,7 @@ Plan a film or video sound mix by establishing the dialogue/music/SFX hierarchy,
 
 ## Why This Is Best Practice
 
+**Why best:** Planning the dialogue/SFX/music hierarchy and loudness targets before entering the mixing session prevents the most common and costly mixing errors — inconsistent levels, music burying dialogue, and mismatched emotional register — by giving the mixer a scene-by-scene brief instead of improvising priority decisions live in the DAW.
 **Adopted by:** Professional film sound mixing (supervised by a Re-Recording Mixer) follows a hierarchical workflow: dialogue → SFX/ambience → music — always in that priority order. Dolby, DTS, and IMAX mixing standards define loudness normalization and dynamic range targets. Academy Award-winning sound teams (Christopher Boyes, Gary Rydstrom, Skip Lievsay) consistently describe pre-session mix planning as essential to efficient and artistically coherent results.
 **Impact:** An unplanned sound mix produces inconsistent levels across scenes, music that fights dialogue, and ambience that fills the wrong emotional register. The three-element hierarchy (dialogue > SFX > music) reflects how audiences process narrative: intelligibility of dialogue is always primary; sound effects establish reality; music governs emotion. Violating this hierarchy — music drowning dialogue, SFX masking critical story information — breaks the story's communication and is the most common amateur mixing error.
 

@@ -6,7 +6,7 @@ tags: [talent, signaling, costly-signal, recruiting, zhan-guo-ce, warring-states
 verified: true
 ---
 
-# Signal Talent Value
+# Apply Talent Value Signaling
 
 Make a single visible, costly, and seemingly disproportionate gesture toward a specific instance of what you want to attract — paying far above market for one hire, open-sourcing infrastructure at significant cost, giving a prominent advisor equity far above their current contribution — to send a credible market signal that you value that category highly; because the costliness of the gesture is what makes it credible as information, and a credible signal attracts far more of the high-value talent or partners than direct recruiting or claims about valuation can.
 

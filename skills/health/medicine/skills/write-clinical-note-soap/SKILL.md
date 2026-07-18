@@ -2,13 +2,15 @@
 name: write-clinical-note-soap
 description: Use when documenting a patient encounter in a structured clinical note format for medical records, communication, or billing
 source: Weed "Medical Records, Medical Education, and Patient Care" (1969) SOAP originator; Joint Commission documentation standards; USMLE clinical skills documentation curriculum
-tags: [medicine, clinical-documentation, SOAP, medical-records]
+tags: [medicine, clinical-documentation, soap, medical-records]
 verified: true
 ---
 
 # Write Clinical Note SOAP
 
 Document a patient clinical encounter using the SOAP format (Subjective, Objective, Assessment, Plan) to create a clear, legally defensible, and clinically actionable medical record.
+
+**Disclaimer:** This skill is for documentation formatting assistance only, not medical advice. It is intended for use by licensed healthcare providers; it does not replace clinical judgment, diagnostic training, or consultation with a qualified healthcare provider.
 
 ## Why This Is Best Practice
 

@@ -1,8 +1,8 @@
 ---
 name: apply-stock-making-fundamentals
-description: Use when making chicken, beef, veal, fish, or vegetable stock from scratch — applying correct bone preparation, aromatics, temperature control, and skimming technique to produce a clear, flavorful stock that forms the foundation of professional cooking.
-source: Escoffier "Le Guide Culinaire" (1903, translated 2011); Culinary Institute of America "The Professional Chef" 9th ed. (2011); Keller "The French Laundry Cookbook" (1999)
-tags: [stock, stock-making, cooking-fundamentals, sauces, French-cuisine, bones, culinary-technique]
+description: Use when preparing bones and simmering a stock — produce a clear, deeply flavored stock by correctly preparing bones, controlling extraction temperature, skimming actively, and finishing with proper straining — the foundational technique that separates professional cooking from home cooking.
+source: Auguste Escoffier, "Le Guide Culinaire"; Culinary Institute of America classical stock curriculum; Thomas Keller, "The French Laundry Cookbook"
+tags: [stock, stock-making, sauces, french-cuisine, bones, culinary-technique]
 ---
 
 # Apply Stock-Making Fundamentals
@@ -11,6 +11,7 @@ Produce a clear, deeply flavored stock by correctly preparing bones, controlling
 
 ## Why This Is Best Practice
 
+**Why best:** Correct bone prep, low-temp extraction, and active skimming pull collagen-derived gelatin and flavor out of bones without emulsifying fat or clouding the liquid — the mechanism no shortcut (commercial broth, boiling, skipped skim) reproduces.
 **Adopted by:** Classical French cuisine (Auguste Escoffier) codified stock-making as the foundation of all sauces — the five mother sauces and their derivatives are all built on stocks. Culinary Institute of America (CIA), Le Cordon Bleu, and every classical European culinary program make stock production a first-week fundamental. Thomas Keller's "The French Laundry Cookbook" dedicates an entire section to the philosophy that quality stocks cannot be replaced by commercial broth.
 **Impact:** A well-made stock is the single highest-leverage investment in kitchen output — one 8-hour stock batch produces the flavor base for dozens of dishes. Commercial broth is high in sodium and MSG, masked in flavor, and gelatinous only from additives; a properly made bone stock contains natural collagen-derived gelatin that produces body and mouthfeel impossible to replicate commercially.
 

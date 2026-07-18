@@ -11,6 +11,7 @@ Design rhythmically interesting patterns by applying polyrhythm, syncopation, cr
 
 ## Why This Is Best Practice
 
+**Why best:** Systematic application of polyrhythm, syncopation, and metric modulation against a stable metric framework produces rhythm that is both complex and perceptually coherent — instead of either predictable monotony or unstructured noise.
 **Adopted by:** Rhythm design is central to all world music traditions and is systematically taught in composition programs, percussion studies, and electronic music production. Steve Reich's "Writings on Music" (1974) documents his phase and polyrhythm compositional methodology — adopted by a generation of minimalist composers. Indian classical music (Carnatic and Hindustani) has the most sophisticated formal rhythmic vocabulary in the world (tala system). West African drumming traditions, Cuban son/rumba, and Brazilian samba each have formalized polyrhythm systems that inform contemporary popular music.
 **Impact:** Rhythm that consists only of straight-eighth or straight-quarter note patterns quickly becomes predictable. Research on musical expectation (Huron 2006) shows that precisely calibrated syncopation — placing accents slightly before or after expected beats — produces pleasure through violated and fulfilled expectation. The best rhythmic music (James Brown funk, West African ensemble drumming, Afro-Cuban salsa) maintains a strong metric framework while systematically displacing accents to create tension and groove.
 

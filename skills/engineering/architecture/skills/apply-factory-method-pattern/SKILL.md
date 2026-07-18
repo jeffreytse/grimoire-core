@@ -1,7 +1,7 @@
 ---
 name: apply-factory-method-pattern
 description: Use when a class must create objects but should not be responsible for deciding which concrete class to instantiate — letting subclasses or configuration determine the type at runtime.
-source: Gamma, Helm, Johnson, Vlissides, "Design Patterns: Elements of Reusable Object-Oriented Software" (1994) pp. 107–116; adopted in Java (Collection.iterator(), JDBC DriverManager), Python (logging.getLogger()), Django (model managers)
+source: "Gamma, Helm, Johnson, Vlissides, \"Design Patterns: Elements of Reusable Object-Oriented Software\" (1994) pp. 107–116; adopted in Java (Collection.iterator(), JDBC DriverManager), Python (logging.getLogger()), Django (model managers)"
 tags: [design-patterns, creational, factory-method, oop, developer, extensibility, decoupling]
 related: [apply-abstract-factory-pattern, apply-solid-principles]
 ---

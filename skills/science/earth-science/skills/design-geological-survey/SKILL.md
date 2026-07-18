@@ -11,6 +11,7 @@ Plan a geological field survey by defining objectives, selecting appropriate map
 
 ## Why This Is Best Practice
 
+**Why best:** Systematic survey design ensures field data is complete, reproducible, and defensible for resource classification and scientific interpretation, rather than an ad hoc collection of disconnected observations.
 **Adopted by:** USGS geological mapping programs, Geological Survey of Canada, BGS (British Geological Survey), and all major mining companies (Rio Tinto, BHP, Anglo American) use systematic geological survey design as the basis for mineral resource estimation. NI 43-101 (Canadian mineral disclosure standard) and JORC (Australian standard) require documented, systematic field data collection as a prerequisite for resource classification.
 **Impact:** The difference between a systematic geological survey and ad hoc field observation is quantified by the 2019 CRIRSCO International Reporting Template: unsystematic data cannot be used for Inferred, Indicated, or Measured Resource categories. Barnes & Lisle (2004) demonstrate that mapping at inappropriate scale introduces structural interpretation errors that compound into formation-scale miscorrelations. A well-designed survey is the foundation of all downstream interpretations.
 

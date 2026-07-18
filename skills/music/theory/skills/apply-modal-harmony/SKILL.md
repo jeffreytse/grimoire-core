@@ -11,6 +11,7 @@ Apply modal harmony by identifying each mode's characteristic notes and chords, 
 
 ## Why This Is Best Practice
 
+**Why best:** Each mode carries a fixed, recognizable emotional color unreachable by transposing major or minor — using the wrong or no mode collapses distinct atmospheres (bright-minor Dorian, dark Phrygian, dreamy Lydian, bluesy Mixolydian) into a generic major/minor sound, flattening the composer's expressive range.
 **Adopted by:** Modal harmony is a core component of jazz theory education at Berklee, Juilliard, and the Manhattan School of Music. Mark Levine's "The Jazz Theory Book" — the definitive jazz theory text — devotes multiple chapters to modes and modal harmony. Miles Davis's "Kind of Blue" (1959) introduced modal jazz to a broad audience; Coltrane, Herbie Hancock, Wayne Shorter, and virtually all post-bop jazz composers use modal harmony extensively. Modal harmony is also fundamental to folk traditions (Dorian in Celtic music), rock (Mixolydian in blues-rock), and contemporary film scoring.
 **Impact:** Restricting composition to major and minor keys limits the emotional palette available. Each mode has a characteristic color that cannot be achieved by transposing major or minor: Dorian sounds simultaneously minor and somewhat bright; Lydian sounds dreamy and elevated; Phrygian sounds dark and Spanish-Mediterranean; Mixolydian sounds bluesy and slightly unresolved. Understanding modal harmony expands the emotional vocabulary available to composers and improvisers.
 

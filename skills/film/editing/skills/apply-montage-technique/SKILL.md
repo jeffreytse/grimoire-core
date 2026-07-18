@@ -2,7 +2,7 @@
 name: apply-montage-technique
 description: Use when editing a sequence that needs to convey the passage of time, build emotional intensity, or create a thematic argument through juxtaposition — applying Eisenstein's collision montage, Pudovkin's linkage montage, or parallel editing to achieve effects impossible in single continuous shots.
 source: Eisenstein "Film Form" (1949); Dmytryk "On Film Editing" (1984); Murch "In the Blink of an Eye" 2nd ed. (2001); Bordwell "Classical Hollywood Cinema" (1985)
-tags: [editing, montage, film-language, visual-storytelling, Eisenstein, parallel-editing]
+tags: [editing, montage, film-language, visual-storytelling, eisenstein, parallel-editing]
 ---
 
 # Apply Montage Technique
@@ -11,6 +11,7 @@ Apply montage editing principles — collision montage, linkage montage, and par
 
 ## Why This Is Best Practice
 
+**Why best:** Montage exploits a property unique to edited cinema — two shots juxtaposed generate a third meaning that neither shot contains alone — turning editing into an act of argument and emotion construction, not just continuity assembly.
 **Adopted by:** Montage theory was codified by Soviet filmmakers Eisenstein, Kuleshov, and Pudovkin in the 1920s and remains the foundational theory of film editing. The Kuleshov Effect (the same actor's face reads differently depending on the next cut's content) is the empirical foundation of all montage work. Walter Murch ("In the Blink of an Eye") — editor of "Apocalypse Now" and "The English Patient" — is the definitive modern practitioner and theorist. Every film editing program teaches montage theory as the basis of editorial decision-making.
 **Impact:** Montage is cinema's unique superpower — two shots placed next to each other create meaning neither shot contains alone. The audience synthesizes meaning from juxtaposition. This enables: a 5-minute training sequence compressed to 90 seconds; emotional states communicated through visual metaphor; thematic arguments constructed without dialogue. Editors who apply montage deliberately produce sequences with significantly higher emotional impact than editors who cut merely for continuity.
 

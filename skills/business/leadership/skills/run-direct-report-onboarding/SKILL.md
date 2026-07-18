@@ -1,7 +1,7 @@
 ---
 name: run-direct-report-onboarding
 description: Use when a manager has a new direct report joining the team — to structure the first 30, 60, and 90 days so the new hire builds the right relationships, understands expectations, and achieves early wins before taking on full autonomous scope.
-source: Watkins "The First 90 Days" (Harvard Business School Press, 2003, updated 2013); Google re:Work "Guide: Improve Your New Manager Effectiveness" onboarding research; SHRM "Employee Onboarding" best practice guide; BambooHR "The Definitive Guide to Employee Onboarding" (2023)
+source: "Watkins \"The First 90 Days\" (Harvard Business School Press, 2003, updated 2013); Google re:Work \"Guide: Improve Your New Manager Effectiveness\" onboarding research; SHRM \"Employee Onboarding\" best practice guide; BambooHR \"The Definitive Guide to Employee Onboarding\" (2023)"
 tags: [onboarding, new-hire, manager, first-90-days, direct-report, expectations, ramp-up, retention]
 ---
 

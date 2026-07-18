@@ -50,4 +50,4 @@ Select evidence-based supplements at correct doses for each stage of pregnancy.
 - Starting iron and calcium at the same time of day — they compete for absorption; separate by 2 hours.
 - Stopping folate after first trimester — continue through delivery; folate supports ongoing neural development.
 
-> **Health Disclaimer:** Supplement needs vary by individual health status, diet, and lab results. Confirm dosing with a licensed OB-GYN, midwife, or registered dietitian before starting or changing any supplement.
+> **Health Disclaimer:** This is not medical advice. Supplement needs vary by individual health status, diet, and lab results. Confirm dosing with a licensed healthcare provider (OB-GYN, midwife, or registered dietitian) before starting or changing any supplement.

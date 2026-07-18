@@ -2,7 +2,7 @@
 name: design-prenatal-genetic-screening-plan
 description: Use when planning genetic testing during pregnancy — e.g., "what genetic tests during pregnancy", "NIPT vs amniocentesis", "anatomy scan timing", "Down syndrome screening options"
 source: ACOG Practice Bulletin 226 (2021); ACOG Committee Opinion 693 (2017, cfDNA); SMFM Consult Series 2015; ACMG Guidelines Prenatal Diagnosis 2016
-tags: [pregnancy, genetic-screening, NIPT, amniocentesis, chromosomal, anatomy-scan, health]
+tags: [pregnancy, genetic-screening, nipt, amniocentesis, chromosomal, anatomy-scan, health]
 verified: true
 ---
 
@@ -51,4 +51,4 @@ Map the sequence of genetic screening and diagnostic options across pregnancy.
 - Assuming NIPT covers all genetic conditions — it screens aneuploidy only; does not diagnose single-gene disorders.
 - Skipping anatomy scan because NIPT was negative — NIPT does not detect structural anomalies.
 
-> **Health Disclaimer:** Genetic screening decisions are deeply personal and involve complex medical, ethical, and personal considerations. Genetic counseling is strongly recommended before any diagnostic procedure.
+> **Health Disclaimer:** This is not medical advice. Genetic screening decisions are deeply personal and involve complex medical, ethical, and personal considerations. Consult your healthcare provider and a genetic counselor before any diagnostic procedure.

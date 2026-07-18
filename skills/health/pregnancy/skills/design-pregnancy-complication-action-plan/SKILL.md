@@ -2,7 +2,7 @@
 name: design-pregnancy-complication-action-plan
 description: Use when learning pregnancy warning signs — e.g., "emergency signs during pregnancy", "when to go to the ER pregnant", "HELLP syndrome symptoms", "signs of placental abruption", "danger signs third trimester"
 source: ACOG Patient Education Pamphlets 2023; RCOG Reducing Stillbirth 2019; ACOG Safe Motherhood Initiative Postpartum Hemorrhage 2019; SMFM Preeclampsia with Severe Features
-tags: [pregnancy, emergency, warning-signs, preeclampsia, HELLP, hemorrhage, safety, health]
+tags: [pregnancy, emergency, warning-signs, preeclampsia, hellp, hemorrhage, safety, health]
 verified: true
 ---
 
@@ -64,4 +64,4 @@ Recognize life-threatening warning signs and know when to call vs. go directly t
 - Waiting overnight to report decreased fetal movement — assessment and intervention delay worsens outcomes.
 - Assuming postpartum symptoms are "just normal" — hemorrhage, sepsis, and PE peak in the first 2 weeks after delivery.
 
-> **Health Disclaimer:** This skill lists warning signs for educational purposes. It does not replace professional medical judgment. When experiencing any warning signs, seek immediate medical evaluation. If you cannot reach your provider, go to the nearest emergency room.
+> **Health Disclaimer:** This skill lists warning signs for educational purposes only and is not medical advice. It does not replace evaluation by a qualified healthcare provider. When experiencing any warning signs, seek immediate medical evaluation. If you cannot reach your provider, go to the nearest emergency room.

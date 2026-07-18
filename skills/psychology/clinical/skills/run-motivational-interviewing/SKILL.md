@@ -10,6 +10,8 @@ verified: true
 
 Resolve ambivalence and elicit intrinsic motivation for change by drawing out the person's own reasons, values, and commitment using the four MI processes.
 
+**Disclaimer:** This skill supports conversational technique, not clinical treatment. It is not a substitute for a licensed mental health professional. Refer out for diagnosis, therapy, or any situation involving crisis, self-harm risk, or clinical mental illness.
+
 ## Why This Is Best Practice
 
 **Adopted by:** SAMHSA (Substance Abuse and Mental Health Services Administration), WHO alcohol and drug use guidelines, NHS England talking therapies, US Department of Veterans Affairs, over 1,200 randomized controlled trials across health, criminal justice, and education settings.
@@ -63,6 +65,6 @@ Sources: Miller, W.R. & Rollnick, S. (2013). *Motivational Interviewing* (3rd ed
 ## When NOT to Use
 
 - Situations where the person has already made a firm decision and wants implementation support — MI is for ambivalence, not execution.
-- Acute crisis requiring directive intervention (psychosis, medical emergency, immediate safety risk).
+- Acute crisis requiring directive intervention (psychosis, medical emergency, immediate safety risk) — refer to a mental health professional or emergency services.
 - When the practitioner is too invested in a specific outcome — MI requires genuine acceptance of the person's autonomy, which is impossible if the practitioner cannot tolerate non-change.
 - Contexts where the person's goal itself is harmful to others (do not evoke motivation for harmful behavior).

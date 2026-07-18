@@ -1,7 +1,7 @@
 ---
 name: apply-grow-coaching
 description: Use when a manager wants to help a direct report solve a problem, develop a skill, or reach a goal through structured questioning rather than advice-giving — because telling people answers builds dependency while coaching builds self-sufficiency.
-source: John Whitmore "Coaching for Performance" (5th ed. 2017); Google re:Work "Guide: Coach Your Employees" (Project Oxygen); International Coaching Federation (ICF) Core Competencies; Michael Bungay Stanier "The Coaching Habit" (2016)
+source: "John Whitmore \"Coaching for Performance\" (5th ed. 2017); Google re:Work \"Guide: Coach Your Employees\" (Project Oxygen); International Coaching Federation (ICF) Core Competencies; Michael Bungay Stanier \"The Coaching Habit\" (2016)"
 tags: [coaching, grow-model, manager, employee-development, questioning, self-sufficiency, coaching-conversation, project-oxygen]
 ---
 

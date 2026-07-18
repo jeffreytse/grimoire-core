@@ -13,6 +13,7 @@ Arrange a composition for orchestra by assigning melodic and harmonic material t
 
 **Adopted by:** Rimsky-Korsakov's "Principles of Orchestration" (1922) — completed posthumously and still in print — is the foundational orchestration treatise used by every major conservatory (Juilliard, Royal Academy, Paris Conservatoire). Samuel Adler's "The Study of Orchestration" is the primary modern textbook. Film scoring programs (Berklee, USC, NYU) teach orchestration as a core skill for all media composers.
 **Impact:** Orchestration is the translation from musical idea to realized sound — the same notes arranged poorly (horn solo in its lowest register against dense string writing) sound muddy and opaque; arranged correctly, they can be transcendent. Ravel famously orchestrated his "Bolero" (1928) as a study in orchestral color — the same melody repeated 18 times, interesting only through constant orchestrational variation. Orchestration is not decoration; it is the music.
+**Why best:** Orchestration study built on centuries of practical performance feedback — instrument ranges, blend, and balance principles are empirically derived from what actually sounds correct in a concert hall, not theoretical ideals; treatises like Rimsky-Korsakov's and Adler's codify that accumulated evidence into transferable rules.
 
 ## Steps
 

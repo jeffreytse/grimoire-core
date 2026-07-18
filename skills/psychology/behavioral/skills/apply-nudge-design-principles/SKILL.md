@@ -11,6 +11,7 @@ Apply behavioral nudge design principles — defaults, salience, framing effects
 
 ## Why This Is Best Practice
 
+**Why best:** Nudge design is grounded in decades of peer-reviewed behavioral economics research showing default, salience, and framing effects reliably shift outcomes at population scale without removing options or coercing choice.
 **Adopted by:** Richard Thaler and Cass Sunstein's "Nudge" (2008, revised 2021) won Thaler the Nobel Prize in Economics (2017). The UK Behavioural Insights Team (BIT), the Obama White House's Social and Behavioral Sciences Team, and equivalent organizations in 100+ countries implement nudge-based policy interventions. All major digital platforms (Google, Apple, Meta) design choice architecture in their products using these principles.
 **Impact:** Johnson & Goldstein's "Defaults and Donation" (2003, Science) demonstrated that organ donation rates ranged from 4.25% (opt-in) to 97.9% (opt-out) across European countries — the only difference was the default on the registration form. Default effects of similar magnitude appear in retirement savings (Madrian & Shea, 2001), green energy enrollment, medication adherence, and food choice. Nudge interventions are among the most cost-effective behavior change tools available because they work with existing choice patterns rather than requiring motivation change.
 
@@ -70,3 +71,5 @@ An implementation intention converts a vague intention into a specific plan:
 ## When NOT to Use
 
 - High-stakes, individual-variation decisions: nudges toward defaults assume the default is best for most people; for decisions where the optimal choice varies dramatically by individual (medical treatment selection, financial product selection for different financial situations), decision support that helps the individual determine the best option for their situation is more appropriate than a one-size-fits-all nudge.
+
+**Disclaimer:** This skill provides behavioral design guidance, not clinical or psychological treatment. For individuals showing signs of compulsive behavior, distress, or mental health concerns related to a choice architecture, consult a licensed mental health professional.

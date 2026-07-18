@@ -10,6 +10,8 @@ verified: true
 
 Draft an employee handbook policy that is legally compliant, clearly enforceable, and written in plain language employees can actually understand.
 
+> **Disclaimer:** This skill provides general guidance, not legal advice. Employment law varies by jurisdiction and changes frequently — always have final policy language reviewed by qualified legal counsel before publication.
+
 ## Why This Is Best Practice
 
 **Adopted by:** SHRM (Society for Human Resource Management, 300,000+ members) standards and NLRB compliance requirements govern US employment handbook practice; Fisher & Phillips is a leading employment law firm whose templates are widely used by HR professionals.

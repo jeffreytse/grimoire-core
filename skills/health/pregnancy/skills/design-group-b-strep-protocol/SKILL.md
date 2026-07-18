@@ -2,7 +2,7 @@
 name: design-group-b-strep-protocol
 description: Use when managing Group B Streptococcus in pregnancy — e.g., "GBS positive pregnancy", "what happens if GBS positive", "IV antibiotics during labor", "GBS screening week 36"
 source: ACOG Practice Bulletin 280 (2020); CDC Group B Strep Guidelines 2010 (reaffirmed 2020); Ohlsson & Shah Cochrane 2014 (intrapartum antibiotics)
-tags: [pregnancy, GBS, group-b-strep, antibiotics, labor, neonatal-sepsis, health]
+tags: [pregnancy, gbs, group-b-strep, antibiotics, labor, neonatal-sepsis, health]
 verified: true
 ---
 
@@ -51,4 +51,4 @@ Screen for GBS at 35–37 weeks and execute the intrapartum antibiotic preventio
 - Confusing "GBS treated" (bacteriuria treatment) with "cleared" for IAP — bacteriuria treatment does not remove need for IAP in labor.
 - Arriving at hospital without communicating GBS status — carry a written record; verbal communication in active labor is unreliable.
 
-> **Health Disclaimer:** GBS management requires coordination between prenatal care provider and labor and delivery team. Patients should understand their GBS status before 37 weeks and communicate it on arrival to hospital.
+> **Health Disclaimer:** This protocol is educational information, not medical advice. GBS management requires coordination with your healthcare provider and the labor and delivery team. Patients should understand their GBS status before 37 weeks and communicate it on arrival to hospital.

@@ -9,8 +9,11 @@ tags: [psychology, mental-models, decision-making, critical-thinking, cognitive-
 
 Apply a set of cross-disciplinary mental models — including first principles, inversion, second-order thinking, the map vs. territory distinction, and probabilistic thinking — to reason through complex decisions more clearly and avoid common cognitive biases.
 
+**Disclaimer:** this skill is a decision-making and reasoning tool, not psychological treatment or diagnosis. If a situation involves emotional distress, mental illness, or personal crisis, consult a licensed mental health professional rather than relying on this framework alone.
+
 ## Why This Is Best Practice
 
+**Why best:** mental models replace ad hoc intuition with explicit, transferable reasoning structures — turning "gut feel" decisions into ones that can be checked, taught, and improved across contexts.
 **Adopted by:** Charlie Munger popularized the "latticework of mental models" approach to decision-making in his Poor Charlie's Almanack (2005), citing the benefits of cross-disciplinary thinking for investors, scientists, and business leaders. Shane Parrish's Farnam Street and "The Great Mental Models" series have made these frameworks widely accessible. Daniel Kahneman's "Thinking, Fast and Slow" provides the psychological research foundation for why System 1 intuitive thinking produces predictable errors and System 2 deliberate reasoning (supported by explicit mental models) corrects them.
 **Impact:** The biases documented by Kahneman and Tversky (anchoring, availability heuristic, confirmation bias, planning fallacy, survivorship bias) are not eliminated by intelligence — they are eliminated by process. Mental models are the explicit reasoning tools that create a process-based override for intuitive errors. Research by Milkman et al. (2009) shows that decision-making quality improves when people are prompted to consider multiple perspectives and alternative scenarios — exactly what the mental models here provide.
 

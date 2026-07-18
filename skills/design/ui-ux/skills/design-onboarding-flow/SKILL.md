@@ -6,7 +6,7 @@ tags: [ux, onboarding, product-led-growth, activation, saas]
 verified: true
 ---
 
-# Design a User Onboarding Flow
+# Design Onboarding Flow
 
 Build an onboarding experience that guides new users to their first meaningful outcome as quickly as possible, establishing the habits and understanding that drive long-term retention.
 

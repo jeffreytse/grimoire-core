@@ -10,6 +10,8 @@ verified: true
 
 Generate a comprehensive, prioritized differential diagnosis using systematic anatomical, physiological, and probabilistic frameworks, then narrow it with targeted evaluation.
 
+> **Disclaimer:** This skill is for educational and clinical-reasoning support purposes only. It does not constitute medical advice and is not a substitute for evaluation, diagnosis, or treatment by a licensed healthcare provider. Real patient care decisions must involve a qualified healthcare provider with full access to the patient's history, examination, and testing.
+
 ## Why This Is Best Practice
 
 **Adopted by:** USMLE clinical reasoning assessment, Royal College of Physicians and Surgeons certification (Canada, UK), Johns Hopkins/Mayo Clinic clinical reasoning curricula, WHO IMCI (Integrated Management of Childhood Illness) diagnostic algorithms.

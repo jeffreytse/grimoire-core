@@ -10,6 +10,8 @@ verified: true
 
 Build a GDPR compliance program that satisfies legal obligations, minimizes enforcement risk, and earns data subject trust.
 
+> **Disclaimer:** This skill provides general guidance, not legal advice. Consult qualified legal counsel for your organization's specific GDPR obligations and risk exposure.
+
 ## Why This Is Best Practice
 
 **Adopted by:** Required for all organizations processing EU/EEA personal data regardless of establishment location; enforced by 27 EU national supervisory authorities and the EDPB; GDPR fines exceeded €4.4 billion in 2023 alone.

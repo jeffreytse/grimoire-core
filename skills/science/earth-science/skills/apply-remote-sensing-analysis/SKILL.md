@@ -2,7 +2,7 @@
 name: apply-remote-sensing-analysis
 description: Use when analyzing satellite or aerial imagery for earth science applications — including image preprocessing, spectral band selection, classification, change detection, and index calculation for land cover, vegetation, geology, or water assessment.
 source: Lillesand et al. "Remote Sensing and Image Interpretation" 7th ed. (2015); Jensen "Introductory Digital Image Processing" 4th ed. (2015); ESA Sentinel-2 User Handbook; USGS Landsat Collection 2 Science Product Guide
-tags: [remote-sensing, satellite-imagery, land-cover, spectral-analysis, GIS, vegetation-index, change-detection]
+tags: [remote-sensing, satellite-imagery, land-cover, spectral-analysis, gis, vegetation-index, change-detection]
 ---
 
 # Apply Remote Sensing Analysis
@@ -11,6 +11,7 @@ Analyze satellite or aerial imagery systematically — preprocessing to remove a
 
 ## Why This Is Best Practice
 
+**Why best:** Systematic preprocessing, band selection, and validation turn raw satellite data into reliable, reproducible earth observation products — skipping these steps corrupts spectral indices and change detection results.
 **Adopted by:** NASA, ESA, USGS, FAO, and all major national mapping agencies use standardized remote sensing workflows for operational monitoring programs (Global Forest Watch, Copernicus Land Monitoring, USDA CropScape). IPCC relies on satellite-derived land use change data for national GHG inventories. The Copernicus Emergency Management Service and Global Disaster Alert and Coordination System (GDACS) use remote sensing for rapid disaster response.
 **Impact:** Wulder et al. (2022, Remote Sensing of Environment) demonstrated that Landsat time series — analyzed with systematic methods — provides a 50-year global record of land change that no other data source can replicate. Inadequate preprocessing (uncorrected atmospheric haze, misregistered images) corrupts spectral indices by up to 30% and change detection results by orders of magnitude. Systematic analysis converts petabytes of raw satellite data into actionable earth observation products.
 

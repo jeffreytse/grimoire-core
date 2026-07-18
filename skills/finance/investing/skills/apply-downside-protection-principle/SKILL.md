@@ -1,7 +1,7 @@
 ---
 name: apply-downside-protection-principle
-description: Use when evaluating any investment decision — filtering first for permanent capital loss risk before considering upside potential, per Buffett's "Rule No. 1: never lose money."
-source: Warren Buffett, widely quoted "Rule No. 1: Never lose money. Rule No. 2: Never forget rule No. 1"; Berkshire Hathaway Shareholder Letters (recurring emphasis on avoiding permanent capital loss over maximizing gains)
+description: "Use when evaluating any investment decision — filtering first for permanent capital loss risk before considering upside potential, per Buffett's \"Rule No. 1: never lose money.\""
+source: "Warren Buffett, widely quoted \"Rule No. 1: Never lose money. Rule No. 2: Never forget rule No. 1\"; Berkshire Hathaway Shareholder Letters (recurring emphasis on avoiding permanent capital loss over maximizing gains)"
 tags: [finance, investing, downside-protection, risk-management, capital-preservation, buffett]
 related: [audit-investment-thesis, apply-leverage-avoidance, apply-contrarian-sentiment-timing]
 ---

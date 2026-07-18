@@ -2,7 +2,7 @@
 name: apply-chemical-equilibrium-analysis
 description: Use when analyzing chemical equilibria — calculating equilibrium constants, predicting reaction direction using Q vs K, solving for equilibrium concentrations using ICE tables, and applying Le Chatelier's principle to manipulate equilibrium position.
 source: Chang & Goldsby "Chemistry" 12th ed. (2016); Atkins & de Paula "Physical Chemistry" 10th ed. (2014); NIST Chemical Thermodynamics Database
-tags: [chemical-equilibrium, thermodynamics, ICE-table, Le-Chatelier, equilibrium-constant, reaction-kinetics]
+tags: [chemical-equilibrium, thermodynamics, ice-table, le-chatelier, equilibrium-constant, reaction-kinetics]
 ---
 
 # Apply Chemical Equilibrium Analysis
@@ -12,6 +12,7 @@ Analyze and predict chemical equilibria by calculating equilibrium constants, de
 ## Why This Is Best Practice
 
 **Adopted by:** Chemical equilibrium analysis is foundational to industrial process optimization (Haber-Bosch for ammonia, Contact process for sulfuric acid), pharmaceutical formulation stability, environmental chemistry (buffering, solubility), and biochemistry (enzyme kinetics, Henderson-Hasselbalch). IUPAC defines equilibrium constants and their thermodynamic basis; NIST maintains the authoritative database of thermodynamic data for equilibrium calculations.
+**Why best:** Q-vs-K comparison and ICE tables give a deterministic, checkable path to equilibrium state instead of guesswork — the 5% approximation check catches invalid simplifications before they propagate into wrong concentrations, and Le Chatelier's principle predicts perturbation response without re-deriving K each time.
 **Impact:** The Haber-Bosch process — which feeds ~50% of Earth's population — was optimized using equilibrium analysis. Fritz Haber's recognition that high pressure favors NH₃ formation (Le Chatelier) while high temperature increases rate (Arrhenius) led to the compromise conditions (200 atm, 450°C) used industrially. Pharmaceutical formulation relies on equilibrium analysis for pH stability, solubility prediction, and buffer design — failures cause drug precipitation, reduced bioavailability, and stability failures.
 
 ## Steps

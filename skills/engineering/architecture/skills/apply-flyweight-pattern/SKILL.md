@@ -1,7 +1,7 @@
 ---
 name: apply-flyweight-pattern
 description: Use when an application creates a very large number of fine-grained objects whose combined memory cost is prohibitive — by sharing the intrinsic (immutable) state across instances and storing only extrinsic (context-specific) state outside.
-source: Gamma, Helm, Johnson, Vlissides, "Design Patterns: Elements of Reusable Object-Oriented Software" (1994) pp. 195–206; Java String pool (String.intern()); Python integer and string interning (sys.intern); game engine particle systems; text rendering glyph caches
+source: "Gamma, Helm, Johnson, Vlissides, \"Design Patterns: Elements of Reusable Object-Oriented Software\" (1994) pp. 195–206; Java String pool (String.intern()); Python integer and string interning (sys.intern); game engine particle systems; text rendering glyph caches"
 tags: [design-patterns, structural, flyweight, oop, developer, memory-optimization, large-scale-objects]
 related: [apply-prototype-pattern, apply-singleton-pattern]
 ---

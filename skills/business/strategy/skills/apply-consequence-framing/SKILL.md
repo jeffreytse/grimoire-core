@@ -1,7 +1,7 @@
 ---
 name: apply-consequence-framing
 description: Use when a more powerful actor has already announced a decision you need to reverse — to enumerate what that decision costs them in terms of their own stated goals, rather than expressing opposition, so they reconsider against their own framework without triggering ego-defensive rejection
-source: "晏子春秋 (Yanzi Chunqiu) 内篇谏上 (~6th–5th century BC) — Yan Ying reverses Duke Jing's execution order by formally charging the condemned with crimes against the duke's own interests; Miller & Rollnick "Motivational Interviewing" 3rd ed. (2012) — developing discrepancy; Heath & Heath "Decisive" (2013) — consequence testing"
+source: '晏子春秋 (Yanzi Chunqiu) 内篇谏上 (~6th–5th century BC) — Yan Ying reverses Duke Jing''s execution order by formally charging the condemned with crimes against the duke''s own interests; Miller & Rollnick "Motivational Interviewing" 3rd ed. (2012) — developing discrepancy; Heath & Heath "Decisive" (2013) — consequence testing'
 tags: [negotiation, influence, leadership, decision-reversal, change-management]
 verified: true
 ---

@@ -9,8 +9,11 @@ tags: [psychology, habits, habit-stacking, behavior-change, behavioral, routine,
 
 Apply habit stacking to anchor a new behavior to an existing daily routine — using an established habit as a reliable cue that triggers the new behavior, eliminating the dependence on motivation or active remembering to practice the new behavior.
 
+**Disclaimer:** This technique addresses routine behavior change, not clinical conditions. If habit formation difficulty stems from depression, anxiety, OCD, ADHD, or another underlying condition, consult a mental health professional rather than relying on self-directed habit stacking alone.
+
 ## Why This Is Best Practice
 
+**Why best:** Habit stacking directly targets the documented root cause of habit-formation failure — cue inconsistency — by reusing an already-automated neurological trigger instead of relying on willpower.
 **Adopted by:** James Clear's "Atomic Habits" (2018, 15+ million copies sold) and BJ Fogg's "Tiny Habits" both present habit stacking as a primary behavior-building technique. Charles Duhigg's "The Power of Habit" (2012) documented the habit loop (cue-routine-reward) that underlies habit stacking. Wendy Wood's neuroscience research at USC found that 43% of daily actions are habitual (repeated in the same context) — these established habits are the most reliable cue sources available.
 **Impact:** The primary failure mode of new habit formation is cue inconsistency — the new behavior has no reliable trigger, so it depends on motivation and memory, both of which fluctuate daily. Habit stacking solves the cue problem by borrowing the established neurological signal from an already-automated behavior. Research by Fogg shows that habits anchored to existing routines have significantly higher consistency rates (tracked across thousands of "Tiny Habits" participants) than habits with novel cues.
 

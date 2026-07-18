@@ -10,6 +10,8 @@ verified: true
 
 Establish a governance framework that ensures accountability, protects shareholder interests, and meets legal and regulatory requirements.
 
+> **Disclaimer:** This skill provides general governance guidance, not legal advice. Corporate governance structures have jurisdiction-specific legal requirements and consequences — consult qualified legal counsel before implementing or relying on any governance framework.
+
 ## Why This Is Best Practice
 
 **Adopted by:** All NYSE and NASDAQ-listed companies (required); G20/OECD Principles adopted by 50+ countries as the baseline for corporate governance regulation; NACD represents 23,000+ board directors.

@@ -11,6 +11,7 @@ Write a story opening that establishes a specific character in a specific situat
 
 ## Why This Is Best Practice
 
+**Why best:** Openings that start in scene with a specific character, implied stakes, and controlled pacing convert more first-page reads into continued reading than openings that lead with backstory, exposition, or atmosphere; this is the consistent finding across craft analysis of acquisitions, agent slush-pile decisions, and reader retention data.
 **Adopted by:** Stephen King's "On Writing" is the most widely read craft memoir in contemporary fiction writing; his advice on first sentences is implemented in Clarion, Odyssey, and virtually all MFA creative writing programs. John Gardner's "The Art of Fiction" is the academic standard for narrative technique. Nathan Bransford's former literary agency and current blog have documented submission patterns showing that most manuscripts are rejected in the first page.
 **Impact:** Literary agents and editors make acquisition decisions based primarily on the opening pages; reader retention on Amazon shows that books from which readers "look inside" and read the opening are downloaded at dramatically higher rates if the opening compels forward reading. The opening's function is singular: make the reader want to know what happens next. Everything else — backstory, world-building, character history — is subordinate to this one function.
 

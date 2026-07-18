@@ -2,7 +2,7 @@
 name: write-systematic-review
 description: Use when planning or writing a systematic review of scientific literature — following PRISMA guidelines to search, screen, extract, and synthesize evidence from primary studies with transparent, reproducible methodology.
 source: Page et al. (2021) "PRISMA 2020 Statement" (BMJ); Cochrane Handbook for Systematic Reviews of Interventions (Higgins et al., 2022); Moher et al. (2009) "Preferred Reporting Items for Systematic Reviews and Meta-Analyses" (PLOS Medicine)
-tags: [systematic-review, PRISMA, evidence-synthesis, literature-review, meta-analysis, research-methodology]
+tags: [systematic-review, prisma, evidence-synthesis, literature-review, meta-analysis, research-methodology]
 ---
 
 # Write Systematic Review
@@ -11,6 +11,7 @@ Conduct and report a systematic review following PRISMA 2020 standards — with 
 
 ## Why This Is Best Practice
 
+**Why best:** Systematic reviews with pre-registered protocols and dual independent screening produce reproducible, low-bias evidence syntheses that individual studies and narrative reviews cannot match.
 **Adopted by:** Cochrane Collaboration (the gold standard for systematic reviews), WHO, NIH systematic evidence review programs, NICE (UK clinical guidelines), FDA Evidence-Based Medicine framework, and virtually all clinical guideline bodies require systematic reviews as the primary evidence base for recommendations.
 **Impact:** Ioannidis (2005) "Why Most Published Research Findings Are False" demonstrated that individual studies frequently yield false positives — systematic reviews, by pooling and assessing evidence quality, are the most reliable way to estimate true effect sizes. The PRISMA statement is endorsed by >700 journals (EQUATOR network); systematic reviews using PRISMA have significantly higher citation rates and lower retraction rates than narrative reviews.
 

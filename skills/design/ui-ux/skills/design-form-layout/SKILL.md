@@ -1,7 +1,7 @@
 ---
 name: design-form-layout
 description: Use when designing data-entry forms — to arrange fields, labels, and actions so users complete them faster and with fewer errors, independent of accessibility requirements.
-source: NNG "Form Design Guidelines" (Pernice, 2016); Wroblewski "Web Form Design: Filling in the Blanks" (Rosenfeld Media, 2008); Baymard Institute "Form Usability" research (2020, 40-guideline study)
+source: "NNG \"Form Design Guidelines\" (Pernice, 2016); Wroblewski \"Web Form Design: Filling in the Blanks\" (Rosenfeld Media, 2008); Baymard Institute \"Form Usability\" research (2020, 40-guideline study)"
 tags: [forms, form-design, form-layout, labels, validation, data-entry, checkout, ux-patterns]
 ---
 
@@ -191,4 +191,3 @@ Tab order must follow the visual order of the form — top to bottom, left to ri
 
 - Single-field forms (newsletter signup with just email, search bar) — the layout principles for multi-field forms do not apply; a single field with a label above it is already the correct pattern
 - Conversational form flows (chatbot-style forms, one question per screen) — these are designed to feel like interviews, not forms; the layout rules for traditional forms conflict with the conversational pattern intentionally
-

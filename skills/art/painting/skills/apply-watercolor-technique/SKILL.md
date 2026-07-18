@@ -12,6 +12,7 @@ Produce luminous watercolor paintings by controlling pigment-to-water ratio, cho
 ## Why This Is Best Practice
 
 **Adopted by:** John Singer Sargent's watercolors (now in major museum collections worldwide) exemplify the wet-on-wet/wet-on-dry control that watercolor mastery requires. The Royal Watercolour Society and American Watercolor Society both define luminosity and transparency as the defining qualities of high watercolor. All professional watercolor instruction (National Watercolor Society workshops, Bockingford and Winsor & Newton educational materials) centers on water-to-pigment ratio control as the primary technical skill.
+**Why best:** Watercolor is unforgiving of rework — pigment can't be added as opaque white and dried layers can't be lifted without disturbing the surface, so the sequence (whites preserved first, light-to-dark glazing, deliberate wet-on-wet vs wet-on-dry choice) is the only path to luminous results rather than mud.
 **Impact:** The most common failure mode in watercolor is overworking — re-wetting dried layers disturbs the surface, lifts pigment, and creates muddy color. A painter who plans the light-to-dark sequence and preserves whites from the beginning avoids these failures entirely. Wet-on-wet produces the soft, atmospheric edges unique to watercolor; wet-on-dry produces the crisp, controlled edges that give definition. Using both intentionally produces paintings that neither oil nor digital can replicate.
 
 ## Steps

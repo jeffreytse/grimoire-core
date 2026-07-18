@@ -6,7 +6,7 @@ tags: [accessibility, wcag, a11y, color-contrast, color-blindness, developer, de
 related: [design-accessibility-standards, audit-accessibility, apply-text-alternatives]
 ---
 
-# Implement Accessible Color
+# Apply Accessible Color
 
 Ensure all text and UI components meet WCAG contrast ratios and that no information is conveyed by color alone.
 

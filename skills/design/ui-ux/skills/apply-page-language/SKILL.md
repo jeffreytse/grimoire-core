@@ -6,7 +6,7 @@ tags: [accessibility, wcag, a11y, language, lang-attribute, screen-reader, inter
 related: [write-semantic-html-structure, design-accessibility-standards]
 ---
 
-# Set Page Language
+# Apply Page Language
 
 Declare the page language on `<html lang>` and mark inline content in a different language —
 so screen readers use the correct pronunciation, TTS voice, and hyphenation rules.

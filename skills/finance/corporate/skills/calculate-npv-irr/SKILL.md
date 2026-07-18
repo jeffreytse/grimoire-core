@@ -6,9 +6,11 @@ tags: [corporate-finance, npv, irr, capital-budgeting]
 verified: true
 ---
 
-# Calculate NPV and IRR
+# Calculate NPV IRR
 
 Calculate Net Present Value (NPV) and Internal Rate of Return (IRR) to make capital allocation decisions that maximize shareholder value.
+
+> **Disclaimer:** This skill provides educational financial analysis frameworks, not financial advice. Consult a qualified financial advisor before making investment or capital allocation decisions.
 
 ## Why This Is Best Practice
 

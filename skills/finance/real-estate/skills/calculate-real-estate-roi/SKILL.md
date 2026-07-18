@@ -2,7 +2,7 @@
 name: calculate-real-estate-roi
 description: Use when evaluating the total return on a real estate investment including leverage, appreciation, cash flow, and tax benefits — e.g., "what's the ROI on this rental?", "cash-on-cash vs. total return?", "how does leverage affect real estate returns?", "comparing real estate to stock market"
 source: Schiller "Irrational Exuberance" (real estate return data); Vanguard real estate research; BiggerPockets investment analysis methodology; IRS depreciation and Schedule E guidance
-tags: [finance, real-estate, ROI, cash-on-cash, leverage, appreciation, depreciation, total-return]
+tags: [finance, real-estate, roi, cash-on-cash, leverage, appreciation, depreciation, total-return]
 verified: true
 ---
 

@@ -10,6 +10,8 @@ verified: true
 
 Create a legally compliant, operationally practical data retention policy that retains data only as long as necessary and deletes it securely on schedule.
 
+> **Disclaimer:** This skill provides general guidance only and does not constitute legal advice. Retention obligations vary by jurisdiction, industry, and data type — consult qualified legal counsel to confirm compliance requirements for your organization.
+
 ## Why This Is Best Practice
 
 **Adopted by:** Required by GDPR (EU), CCPA (California), HIPAA (US health), SOX (financial records), and most major data protection frameworks; ARMA International (140,000 members) is the professional standard-setting body for records management.

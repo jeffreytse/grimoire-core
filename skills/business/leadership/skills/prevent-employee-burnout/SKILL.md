@@ -1,7 +1,7 @@
 ---
 name: prevent-employee-burnout
 description: Use when a manager wants to reduce the risk of burnout on their team, or when they observe signs that a direct report may be approaching burnout — to identify contributing factors and intervene before the employee becomes disengaged, impaired, or leaves.
-source: Maslach & Leiter "The Truth About Burnout" (Jossey-Bass, 1997); WHO ICD-11 burnout definition (2019); Gallup "Employee Burnout: Causes and Cures" (2019); Edmondson "The Fearless Organization" (2018) on psychological safety and workload
+source: "Maslach & Leiter \"The Truth About Burnout\" (Jossey-Bass, 1997); WHO ICD-11 burnout definition (2019); Gallup \"Employee Burnout: Causes and Cures\" (2019); Edmondson \"The Fearless Organization\" (2018) on psychological safety and workload"
 tags: [burnout, wellbeing, manager, workload, employee-health, engagement, prevention, sustainability]
 ---
 

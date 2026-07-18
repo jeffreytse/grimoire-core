@@ -6,7 +6,7 @@ tags: [accessibility, wcag, a11y, sensory-characteristics, orientation, shape-in
 related: [apply-accessible-color, write-semantic-html-structure, design-accessibility-standards]
 ---
 
-# Implement Sensory Independence
+# Apply Sensory Independence
 
 Write instructions that identify components by name or function — not only by shape, color,
 size, or position — and avoid locking screen orientation unless the content genuinely requires it.

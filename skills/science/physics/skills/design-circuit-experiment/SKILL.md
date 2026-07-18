@@ -2,7 +2,7 @@
 name: design-circuit-experiment
 description: Use when designing an experimental circuit — applying Ohm's law, Kirchhoff's laws, Thevenin/Norton equivalents, and RC/RL/RLC transient analysis to select components, calculate expected behavior, and plan measurements safely.
 source: Hayt & Kemmerly "Engineering Circuit Analysis" 8th ed. (2012); Sedra & Smith "Microelectronic Circuits" 7th ed. (2015); Horowitz & Hill "The Art of Electronics" 3rd ed. (2015)
-tags: [circuit-design, electronics, Ohm's-law, Kirchhoff, RC-circuit, Thevenin, experimental-physics]
+tags: [circuit-design, electronics, ohms-law, kirchhoff, rc-circuit, thevenin, experimental-physics]
 ---
 
 # Design Circuit Experiment
@@ -11,6 +11,7 @@ Design a circuit experiment by applying Kirchhoff's laws to analyze the network,
 
 ## Why This Is Best Practice
 
+**Why best:** Systematic circuit analysis via Ohm's and Kirchhoff's laws prevents blown components, oscillation, and measurement artifacts before breadboarding.
 **Adopted by:** IEEE standards govern circuit design practices in all electrical engineering applications. NIST and NBS trace resistance, voltage, and current measurement standards. Horowitz & Hill (2015) — the most-cited electronics reference for working physicists and engineers — explicitly teaches systematic circuit analysis before breadboarding. IPC (Association Connecting Electronics Industries) standards govern PCB design for commercial electronics.
 **Impact:** Horowitz & Hill (2015) demonstrate that the most common experimental circuit failures (blown components, oscillation, incorrect measurements) are prevented by pre-experiment analysis rather than trial-and-error. Ohm's law and Kirchhoff's laws are the analytical foundation — designing without them produces unpredictable behavior, overloaded components, and measurement artifacts that contaminate data.
 

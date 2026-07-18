@@ -10,6 +10,8 @@ verified: true
 
 Create a personalized debt payoff plan that eliminates debt efficiently while maintaining motivation and financial stability.
 
+**Disclaimer:** This skill provides general educational information, not financial advice. For guidance specific to your situation, consult a licensed financial advisor, CFP, or credit counselor.
+
 ## Why This Is Best Practice
 
 **Adopted by:** CFP Board (95,000+ Certified Financial Planners) includes debt management as a core competency; Dave Ramsey's Baby Steps system is used by millions with a proven track record of debt elimination; NFCC (National Foundation for Credit Counseling) uses avalanche method in certified credit counseling.

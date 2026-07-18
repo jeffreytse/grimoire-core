@@ -59,3 +59,7 @@ Sources: Modigliani & Miller (1958, 1963); Myers "Capital Structure Puzzle" Jour
 - When the company is pre-revenue or early-stage (capital structure theory applies to cash-flow-generating entities; early-stage financing follows different logic — venture terms, not optimal leverage).
 - When the company is in financial distress (focus on liquidity management and restructuring, not optimal capital structure).
 - When the financing decision is a single project (use project finance structures rather than corporate-level capital structure optimization).
+
+## Disclaimer
+
+This skill provides general educational information on corporate finance theory and is not financial advice. Consult a qualified financial advisor, investment banker, or corporate finance professional before making capital structure decisions.

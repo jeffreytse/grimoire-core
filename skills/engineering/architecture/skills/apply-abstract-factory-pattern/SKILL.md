@@ -1,7 +1,7 @@
 ---
 name: apply-abstract-factory-pattern
 description: Use when a system must create families of related objects and must remain independent of how those objects are created — so that swapping one product family for another requires no changes to client code.
-source: Gamma, Helm, Johnson, Vlissides, "Design Patterns: Elements of Reusable Object-Oriented Software" (1994) pp. 87–95; adopted in Java AWT/Swing (LookAndFeel), .NET WPF (theme factories), Apple AppKit (UI factory hierarchy)
+source: "Gamma, Helm, Johnson, Vlissides, \"Design Patterns: Elements of Reusable Object-Oriented Software\" (1994) pp. 87–95; adopted in Java AWT/Swing (LookAndFeel), .NET WPF (theme factories), Apple AppKit (UI factory hierarchy)"
 tags: [design-patterns, creational, abstract-factory, oop, developer, extensibility, product-family]
 related: [apply-factory-method-pattern, apply-solid-principles]
 ---

@@ -11,6 +11,7 @@ Design a cinematographic lighting plan by identifying the key light source, esta
 
 ## Why This Is Best Practice
 
+**Why best:** Three-point architecture (key, fill, rim) is the minimal, controllable structure for shaping form, contrast, and separation on a subject — it gives the DP independent control over exposure, contrast ratio, and background separation instead of one uncontrolled blob of light, and it maps directly onto motivated story-world sources so the result reads as believable rather than staged.
 **Adopted by:** The American Society of Cinematographers (ASC) Manual is the industry reference for all professional cinematography. Lighting design is always planned by the Director of Photography (DP) in pre-production before any equipment is loaded. Major films (feature, episodic, and commercial) use formal lighting plots as communication tools between the DP and the gaffer. Every professional cinematography program (AFI, NYU Tisch, USC) requires lighting design as a core skill.
 **Impact:** Improvised lighting on set costs time (renting generators, repositioning lights without a plan), money (over-equipped trucks), and quality (clashing light sources, inconsistent color temperature). A 30-minute pre-production lighting plan reduces on-set lighting setup from 3 hours to 45 minutes. Beyond efficiency, lighting plan documents the DP's intent — emotion, time-of-day, quality — which must match the director's vision before cameras roll.
 

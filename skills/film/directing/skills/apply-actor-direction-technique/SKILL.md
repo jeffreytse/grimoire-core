@@ -2,7 +2,7 @@
 name: apply-actor-direction-technique
 description: Use when directing actors on set or in rehearsal — applying action-based direction (verbs, not adjectives), objective/obstacle technique, and specific adjustment methods to elicit authentic, camera-ready performances without micromanaging or confusing actors.
 source: Weston "Directing Actors" (1996); Bruder et al. "A Practical Handbook for the Actor" (1986); Stanislavski "An Actor Prepares" (1936); Mamet "True and False" (1997)
-tags: [directing, acting, performance, film-directing, actor-direction, Stanislavski]
+tags: [directing, acting, performance, film-directing, actor-direction, stanislavski]
 ---
 
 # Apply Actor Direction Technique
@@ -11,6 +11,7 @@ Direct actors using action-based language (verbs), objective/obstacle framing, a
 
 ## Why This Is Best Practice
 
+**Why best:** Action-based direction gives actors something to do rather than something to show, producing authentic behavior instead of indicated emotion — the technical foundation of professional actor training.
 **Adopted by:** Judith Weston's "Directing Actors" is the primary professional reference for film and TV directors working with actors — used in film school curriculum at AFI, USC, NYU, and the UK National Film and Television School. The Stanislavski method (the basis of Method Acting, taught at the Actors Studio) and its descendants (Meisner technique, Practical Handbook) form the technical foundation actors use — directors must speak a compatible language. David Fincher, Alexander Payne, and Kathryn Bigelow have described actor communication as the most important directing skill.
 **Impact:** Actors trained in classical technique (most professional film and TV actors) are trained to play actions, pursue objectives, and encounter obstacles — not to indicate emotions. A director who says "be more sad" leaves the actor trying to demonstrate sadness (indicating) rather than experiencing a real emotional state that produces authentic performance. Directions using verbs ("you're trying to convince her she's wrong about you") give the actor something to do — creating real behavior the camera captures.
 

@@ -2,7 +2,7 @@
 name: design-bathroom-renovation-plan
 description: Use when planning a bathroom renovation — designing the layout within existing plumbing rough-ins and structural constraints, specifying fixtures, tiles, and ventilation, and producing a documented plan that contractors can bid against.
 source: Corder & Corder "The Complete Bathroom Book" (2007); NKBA (National Kitchen and Bath Association) Bathroom Planning Guidelines (2012); IPC International Plumbing Code 2021; IRC Building Code bathroom requirements
-tags: [bathroom-renovation, home-improvement, plumbing, design, renovation-planning, NKBA]
+tags: [bathroom-renovation, home-improvement, plumbing, design, renovation-planning, nkba]
 ---
 
 # Design Bathroom Renovation Plan
@@ -11,6 +11,7 @@ Plan a bathroom renovation by defining layout constraints, specifying fixtures w
 
 ## Why This Is Best Practice
 
+**Why best:** Documenting plumbing rough-ins, clearances, and fixture specs before demolition catches conflicts on paper instead of mid-renovation, where fixes cost far more and delay the project.
 **Adopted by:** The National Kitchen and Bath Association (NKBA) publishes the Bathroom Planning Guidelines — the industry standard for professional bathroom designers and contractors. Local building codes (IRC for residential) govern clearances, ventilation, GFCI outlet requirements, and structural limitations. All licensed contractors request a specification document before bidding; an undocumented renovation produces inconsistent bids and scope creep.
 **Impact:** Bathroom renovation averages $10,000–$25,000 for a full remodel; the most common cost overruns come from scope changes after work begins (moving plumbing rough-ins adds $500–$3,000 per fixture), discovered structural issues (waterproofing failures, rot under the subfloor), and missing code compliance items (no GFCI, insufficient ventilation). Thorough upfront planning captures 80% of these issues before work starts.
 

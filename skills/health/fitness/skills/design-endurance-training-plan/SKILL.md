@@ -10,6 +10,8 @@ verified: true
 
 Build a periodized endurance training plan using intensity distribution, progressive volume, and specificity to improve aerobic capacity and race performance.
 
+> **Disclaimer:** This is general training guidance, not medical advice. Consult a healthcare provider before starting or changing an endurance training program, especially with pre-existing health conditions, injury history, or new/worsening symptoms.
+
 ## Why This Is Best Practice
 
 **Adopted by:** World Athletics elite coach certification, USA Triathlon coaching frameworks, Olympic endurance programs (Norway, Kenya, Ethiopia), British Cycling performance coaching.

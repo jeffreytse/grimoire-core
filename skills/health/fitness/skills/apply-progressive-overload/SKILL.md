@@ -10,6 +10,8 @@ verified: true
 
 Systematically increase training demands over time to drive continuous physiological adaptation while managing injury risk.
 
+**Disclaimer:** This skill is educational, not medical advice. Consult a healthcare provider before starting or modifying a training program, especially with existing injuries or health conditions.
+
 ## Why This Is Best Practice
 
 **Adopted by:** All NSCA, ACSM, and CSCS-certified programming frameworks; Olympic weightlifting, powerlifting, and bodybuilding competition preparation; Army physical fitness training doctrine (FM 7-22).

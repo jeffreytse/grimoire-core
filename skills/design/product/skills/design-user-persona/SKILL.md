@@ -5,7 +5,7 @@ source: Cooper "The Inmates Are Running the Asylum" (SAMS, 1999); NNG "Personas"
 tags: [user-research, personas, ux, design-thinking, user-needs, product-strategy]
 ---
 
-# Create User Persona
+# Design User Persona
 
 Build 2–4 behavior-based persona profiles from research data to give the team a concrete, named representation of who they are designing for — and who they are not.
 

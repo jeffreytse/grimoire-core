@@ -10,6 +10,8 @@ verified: true
 
 Create an individualized, evidence-based weight management plan that combines caloric targets, behavioral strategies, and monitoring to achieve sustainable weight change.
 
+**Disclaimer:** This skill provides general, evidence-based educational guidance and is not medical advice. Consult a healthcare provider before starting any weight management plan, especially if you have underlying health conditions, take medications, or plan an aggressive caloric deficit.
+
 ## Why This Is Best Practice
 
 **Adopted by:** NIH National Weight Control Registry (studying 10,000+ successful long-term maintainers), USPSTF (recommends intensive behavioral counseling for obesity), ADA obesity management guidelines, CDC community health programs.

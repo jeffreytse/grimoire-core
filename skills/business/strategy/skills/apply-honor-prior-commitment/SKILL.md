@@ -6,7 +6,7 @@ tags: [commitment, reputation, moral-authority, trust, zuo-zhuan, spring-autumn,
 verified: true
 ---
 
-# Honor Prior Commitment
+# Apply Honor Prior Commitment
 
 When a prior public commitment has become tactically costly to honour, honour it visibly and completely — because the strategic asset created by demonstrated trustworthiness under cost exceeds the value of the short-term gain from breaking the commitment, and because the reputation for keeping commitments under cost is the only reliable signal of genuine trustworthiness, since commitments that are only kept when convenient prove nothing.
 

@@ -11,6 +11,7 @@ Design a travel emergency fund and financial contingency plan — establishing a
 
 ## Why This Is Best Practice
 
+**Why best:** Dedicated cash reserves and appropriate travel insurance close the two largest gaps in traveler financial planning — day-to-day liquidity for small emergencies and catastrophic-cost coverage for events like medical evacuation — so no single event bankrupts a traveler or strands them.
 **Adopted by:** The US Department of State Smart Traveler Enrollment Program (STEP) and CDC pre-travel guidance consistently recommend financial contingency planning as a primary pre-departure preparation. Squaremouth and InsureMyTrip are the leading travel insurance comparison platforms, documenting the most common claims categories (trip cancellation, medical, baggage). Travel insurance industry statistics document that medical evacuation costs — the single most dangerous financial exposure — can reach $50,000–300,000+ for serious illness or injury requiring repatriation.
 **Impact:** The most common reason travelers face financial crisis abroad is inadequate preparation for one of five events: medical emergency requiring hospitalization or evacuation; trip cancellation or significant itinerary change; lost, stolen, or damaged luggage and travel documents; emergency accommodation due to natural disaster, political instability, or accommodation failure; emergency flights home. Each of these events is low-probability but high-cost; insurance and a cash reserve together prevent any single event from producing financial catastrophe.
 

@@ -2,7 +2,7 @@
 name: prevent-gestational-diabetes
 description: Use when managing gestational diabetes risk — e.g., "GDM prevention during pregnancy", "failed glucose test", "gestational diabetes diet", "monitoring blood sugar while pregnant"
 source: ACOG Practice Bulletin 190 (2018); USPSTF GDM Screening 2021; Cochrane Dietary Interventions GDM 2017; ADA Standards of Care 2024
-tags: [pregnancy, gestational-diabetes, GDM, glucose, screening, health]
+tags: [pregnancy, gestational-diabetes, gdm, glucose, screening, health]
 verified: true
 ---
 
@@ -50,4 +50,4 @@ Reduce GDM risk through diet and monitoring; manage confirmed GDM with evidence-
 - Cutting all carbs — very low carb causes starvation ketosis, which harms fetal brain development.
 - Not monitoring fasting glucose — fasting hyperglycemia is the most common pattern missed with diet changes alone.
 
-> **Health Disclaimer:** Gestational diabetes management requires supervision by an OB-GYN, maternal-fetal medicine specialist, or endocrinologist. Insulin initiation and dose adjustment must be medically supervised.
+> **Health Disclaimer:** This is not medical advice. Gestational diabetes management requires supervision by a qualified healthcare provider — an OB-GYN, maternal-fetal medicine specialist, or endocrinologist. Insulin initiation and dose adjustment must be medically supervised.

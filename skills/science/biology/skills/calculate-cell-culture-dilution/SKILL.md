@@ -2,7 +2,7 @@
 name: calculate-cell-culture-dilution
 description: Use when performing serial dilutions, calculating cell plating density, determining colony forming units (CFU), or preparing drug concentration gradients for cell culture experiments.
 source: Current Protocols in Cell Biology (Bonifacino et al.); ATCC Cell Culture Basics Guide; Freshney "Culture of Animal Cells" 7th ed. (2016)
-tags: [cell-culture, serial-dilution, CFU, plating-density, cell-counting, laboratory-calculations]
+tags: [cell-culture, serial-dilution, cfu, plating-density, cell-counting, laboratory-calculations]
 ---
 
 # Calculate Cell Culture Dilution
@@ -11,6 +11,7 @@ Perform serial dilutions, calculate plating densities, determine CFU/mL from col
 
 ## Why This Is Best Practice
 
+**Why best:** Systematic dilution and plating calculations replace guesswork with reproducible math, preventing compounding errors that silently invalidate cell-based experiments.
 **Adopted by:** ATCC, DSMZ, and every quality-certified cell culture laboratory use standardized dilution and plating calculations as GLP requirements. Pharmaceutical companies conducting cell-based assays use validated dilution schemes per ICH Q2(R1) analytical validation guidelines.
 **Impact:** Cell density at plating is the single most important variable controlling proliferation rate, morphology, and metabolic state in culture experiments. Freshney (2016) shows that cells seeded too densely undergo contact inhibition and differentiation; too sparsely, cells fail to condition the medium and may not proliferate. Serial dilution errors compound multiplicatively — a 2× error at step 1 of a 5-step dilution series produces a 32× final error. Systematic calculation eliminates these errors.
 

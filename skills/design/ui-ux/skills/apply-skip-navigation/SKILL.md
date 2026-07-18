@@ -6,7 +6,7 @@ tags: [accessibility, wcag, a11y, skip-link, keyboard-navigation, page-navigatio
 related: [apply-keyboard-accessibility, write-semantic-html-structure, design-accessibility-standards]
 ---
 
-# Implement Skip Navigation
+# Apply Skip Navigation
 
 Add skip links, meaningful page titles, and descriptive link text so keyboard users can navigate efficiently without traversing repeated content on every page load.
 

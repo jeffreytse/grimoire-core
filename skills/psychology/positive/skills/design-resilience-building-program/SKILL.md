@@ -66,3 +66,7 @@ Sources: Bonanno, G.A. (2004). American Psychologist, 59(1), 20-28. APA (2012). 
 - Active PTSD or clinical-level depression requiring therapeutic intervention before resilience programming.
 - Organizational contexts where the primary problem is systemic (toxic leadership, unsafe working conditions) — resilience programs in abusive contexts gaslight employees into adapting to what should be changed.
 - When resources for adequate dosage (multi-week program) are not available — a superficial one-session intervention may be worse than nothing by creating false confidence.
+
+## Disclaimer
+
+This program is educational and skill-building in nature, not a substitute for therapy. Participants showing signs of clinical distress, trauma, or crisis should be referred to a licensed mental health professional for evaluation and treatment.

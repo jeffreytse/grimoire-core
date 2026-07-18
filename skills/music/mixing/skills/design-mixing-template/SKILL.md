@@ -6,7 +6,7 @@ tags: [music-mixing, daw-template, signal-flow, music-production]
 verified: true
 ---
 
-# Design Mix Template
+# Design Mixing Template
 
 Build a reusable DAW mix template that standardizes signal flow, bus architecture, and processing chains to enable faster, more consistent mixing.
 

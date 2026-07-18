@@ -6,7 +6,7 @@ tags: [commitment-device, irreversibility, force-multiplier, han-xin, records-of
 verified: true
 ---
 
-# Commit with No Retreat
+# Apply Commit with No Retreat
 
 Identify where hedging is degrading performance — the preserved exit that makes full commitment feel unnecessary — then deliberately destroy that exit before the operation begins, so that the only path remaining is forward; because the performance gap between a team that cannot retreat and a team that can is not motivational but structural: the brain allocates differently when escape is genuinely impossible.
 

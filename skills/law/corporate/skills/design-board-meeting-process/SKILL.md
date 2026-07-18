@@ -59,3 +59,7 @@ Sources: NACD Director Professionalism (2023); Robert's Rules of Order, Newly Re
 - When conducting an advisory board meeting (advisory boards have no fiduciary authority; lighter process applies).
 - When a written consent in lieu of meeting is more appropriate for a routine approval (faster and simpler for non-controversial actions).
 - When the entity is a nonprofit with different governance obligations and stakeholder structures.
+
+## Disclaimer
+
+This skill provides general governance process guidance, not legal advice. Board procedures have fiduciary and statutory implications that vary by jurisdiction and entity type — consult legal counsel for matters involving corporate law compliance, fiduciary duty, or litigation risk.

@@ -10,6 +10,8 @@ verified: true
 
 Calculate the break-even point in units and revenue, and use cost-volume-profit (CVP) analysis to model the impact of pricing, volume, and cost changes on profitability.
 
+**Disclaimer:** This skill provides general management accounting education, not financial advice. Consult a qualified accountant or financial advisor before making business or investment decisions.
+
 ## Why This Is Best Practice
 
 **Adopted by:** CIMA (Chartered Institute of Management Accountants, 227,000+ members) includes CVP analysis as a core management accounting technique; Horngren's "Cost Accounting" is the most widely used cost accounting textbook globally (50+ years, 16 editions); used universally in business planning, pricing decisions, and feasibility analysis.

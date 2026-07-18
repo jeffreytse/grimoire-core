@@ -2,7 +2,7 @@
 name: design-seismic-hazard-assessment
 description: Use when conducting a seismic hazard assessment for engineering design, land use planning, or risk management — including probabilistic seismic hazard analysis (PSHA), ground motion characterization, site amplification, and communication of hazard to decision-makers.
 source: McGuire "Seismic Hazard and Risk Analysis" (2004, EERI); Cornell (1968) "Engineering Seismic Risk Analysis" (BSSA); Kramer "Geotechnical Earthquake Engineering" (1996); ASCE 7-22 Seismic Design Standard
-tags: [seismic-hazard, PSHA, earthquake-engineering, ground-motion, risk-assessment, structural-engineering]
+tags: [seismic-hazard, psha, earthquake-engineering, ground-motion, risk-assessment, structural-engineering]
 ---
 
 # Design Seismic Hazard Assessment
@@ -11,6 +11,7 @@ Conduct a probabilistic seismic hazard analysis (PSHA) by characterizing seismic
 
 ## Why This Is Best Practice
 
+**Why best:** PSHA replaces deterministic maximum credible earthquake methods with a probabilistic framework that properly accounts for earthquake recurrence, ground motion variability, and epistemic uncertainty across multiple seismic sources — producing hazard estimates that are testable against observed ground motions rather than single-scenario guesses.
 **Adopted by:** USGS National Seismic Hazard Maps (the basis for US building codes), ASCE 7 seismic design standard, Eurocode 8 (European seismic design), IBC (International Building Code), and nuclear regulatory agencies worldwide (IAEA SSG-9, NRC RG 1.165) use PSHA as the standard methodology. The PEER NGA-West2 and NGA-East ground motion databases represent the global state of practice for ground motion prediction.
 **Impact:** Cornell (1968) introduced PSHA as a unified framework for quantifying earthquake hazard — it replaced deterministic maximum credible earthquake (MCE) methods that systematically over- or under-designed structures by ignoring earthquake recurrence. PSHA has since been validated by comparison of predicted vs. observed ground motions in major earthquakes (Northridge 1994, Kobe 1995, Christchurch 2011). Building codes based on PSHA have demonstrably reduced structural collapse rates.
 

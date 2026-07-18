@@ -11,6 +11,7 @@ Make evidence-based tactical and personnel adjustments during competition using 
 
 ## Why This Is Best Practice
 
+**Why best:** Structured observation → diagnosis → decision beats reactive, scoreline-driven changes because it separates plan failure from execution failure before acting, targets the single highest-leverage adjustment, and avoids the working-memory overload and risk-averse behavior that emotional in-game reactions cause.
 **Adopted by:** Bill Walsh's 49ers coaching system, Nick Saban's Alabama football program, and every major sport's elite coaching education programs teach in-game adjustment as a distinct competency — separate from pre-game preparation. The NFL's "two-minute drill" and NBA's "last possession" preparation are examples of structured adjustment protocols integrated into practice.
 **Impact:** Carling et al. (2005) analysis of elite soccer showed that 60-70% of tactical substitutions in the Premier League are reactive (responding to in-game dynamics) rather than planned. Coaches who diagnose accurately within the first 15-20 minutes of a half make more effective half-time adjustments. Emotional or scoreline-driven adjustments ("we're losing, go more attacking") rather than tactical adjustments are the most common source of coaching error during competition.
 

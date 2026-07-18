@@ -51,4 +51,4 @@ Apply the count-to-10 method to detect changes in fetal movement and act on redu
 - Counting during sleep hours — fetal sleep cycles are 20–40 min; pick an active window post-meal.
 - Stopping counts "because baby passed yesterday" — count daily from 28 weeks through delivery.
 
-> **Health Disclaimer:** Decreased fetal movement is a warning sign, not a certainty of distress. Prompt clinical evaluation (NST, biophysical profile) by your provider is always the correct response.
+> **Health Disclaimer:** This guidance is not medical advice. Decreased fetal movement is a warning sign, not a certainty of distress. Prompt clinical evaluation (NST, biophysical profile) by your healthcare provider is always the correct response.

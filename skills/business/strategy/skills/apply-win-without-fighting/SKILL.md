@@ -6,7 +6,7 @@ tags: [sun-tzu, art-of-war, deterrence, positioning, win-without-fighting, pre-c
 verified: true
 ---
 
-# Win Without Fighting
+# Apply Win Without Fighting
 
 Before committing to direct competitive confrontation, exhaust the strategic options that operate at higher levels: first attempt to disrupt the opponent's plans directly; if that fails, attack their alliances and support systems; only escalate to direct confrontation when higher-level options have been exhausted or are not available — because direct confrontation is the most expensive, most destructive, and least controllable form of competition, and each higher strategic level is cheaper, faster, and more decisive when it works.
 

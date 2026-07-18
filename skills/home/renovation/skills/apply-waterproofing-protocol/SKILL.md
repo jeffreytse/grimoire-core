@@ -11,6 +11,7 @@ Apply a continuous waterproofing membrane to shower and wet area substrates befo
 
 ## Why This Is Best Practice
 
+**Why best:** Continuous membrane before tiling is the only method that keeps water out of the substrate entirely — tile and grout are not waterproof on their own, so the membrane underneath is what actually stops intrusion.
 **Adopted by:** The Tile Council of North America (TCNA) Handbook — the definitive installation standard used by all professional tile setters — requires a waterproofing membrane in all wet areas (Method W244 for showers). Schluter Systems (Kerdi), Laticrete (HydroBan), and Mapei (Mapelastic) are the three leading membrane systems, all compliant with ANSI A118.10. IICRC (Institute of Inspection, Cleaning and Restoration Certification) S500 water damage restoration standards cite improper shower waterproofing as a primary cause of structural water damage claims.
 **Impact:** The most expensive bathroom renovation failures are water-related: a shower without continuous waterproofing allows water behind the tile, degrading the substrate (drywall, cement board, or wood framing) over months to years, producing mold, rot, structural damage, and eventual tile failure. Repairing water damage behind a failed shower requires full demo and reinstallation — a $5,000–$15,000 repair that proper waterproofing at $200–$500 in materials would have prevented.
 

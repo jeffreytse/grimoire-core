@@ -1,7 +1,7 @@
 ---
 name: apply-hydration-protocol
 description: Use when an athlete needs a hydration strategy for training or competition — to prevent dehydration-induced performance decline, avoid overhydration risk, and maintain electrolyte balance across varying sweat rates and environmental conditions.
-source: ACSM "Position Stand: Exercise and Fluid Replacement" (Sawka et al., 2007, Med Sci Sports Exerc); Noakes "Waterlogged: The Serious Problem of Overhydration in Endurance Sports" (2012); Casa et al. (2000) "National Athletic Trainers' Association Position Statement"
+source: "ACSM \"Position Stand: Exercise and Fluid Replacement\" (Sawka et al., 2007, Med Sci Sports Exerc); Noakes \"Waterlogged: The Serious Problem of Overhydration in Endurance Sports\" (2012); Casa et al. (2000) \"National Athletic Trainers' Association Position Statement\""
 tags: [hydration, sports-nutrition, sweat-rate, electrolytes, performance, heat-illness-prevention]
 ---
 
@@ -11,6 +11,7 @@ Design a pre-, during-, and post-exercise hydration strategy that prevents dehyd
 
 ## Why This Is Best Practice
 
+**Why best:** Structured hydration protocols translate direct physiological evidence (dehydration thresholds, EAH risk) into individualized, monitorable practice rather than generic "drink lots of water" advice.
 **Adopted by:** ACSM, ADA, Dietitians of Canada, NATA, and IOC all publish hydration guidelines that form the basis of national sport organization hydration policies. Military training programs, professional team sports medical staff, and endurance event organizers use structured hydration protocols to prevent performance decline and heat illness.
 **Impact:** ACSM Position Stand cites that dehydration of >2% body mass decreases aerobic performance in temperate conditions and by more under heat stress; >4% impairs cognitive function and strength. Conversely, Noakes et al. showed that following the "drink to thirst" principle vs. scheduled forced drinking prevents exercise-associated hyponatremia (EAH) — a potentially fatal condition caused by overdrinking, particularly in slow endurance athletes.
 

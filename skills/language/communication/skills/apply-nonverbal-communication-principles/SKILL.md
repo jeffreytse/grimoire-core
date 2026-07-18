@@ -11,6 +11,7 @@ Apply nonverbal communication principles — eye contact, posture, gesture, and 
 
 ## Why This Is Best Practice
 
+**Why best:** Nonverbal signals are processed by listeners faster and more automatically than verbal content, and when nonverbal and verbal messages conflict, listeners trust the nonverbal signal — making deliberate nonverbal calibration a higher-leverage lever on credibility and rapport than word choice alone in high-stakes in-person settings.
 **Adopted by:** Albert Mehrabian's research on nonverbal communication (1971) — often cited as "55% body language, 38% tone, 7% words" — is widely referenced across leadership, negotiation, and sales training (though the finding specifically applies to emotional communication, not all communication). The FBI's behavioral analysis unit, professional negotiators (Voss "Never Split the Difference"), and executive coaches (Goman, Cuddy) all teach nonverbal communication as a primary professional skill. TED Talk coaching prepares speakers extensively on nonverbal alignment before content.
 **Impact:** Incongruence between verbal and nonverbal messages is detected by listeners faster than conscious awareness (Ekman 2003) — a speaker saying "I'm confident" while avoiding eye contact and hunching sends a contradictory signal that undermines the verbal claim. Nonverbal alignment increases perceived credibility, trustworthiness, and authority. Conversely, nonverbal signals of dominance or discomfort in high-stakes negotiations directly affect outcomes.
 

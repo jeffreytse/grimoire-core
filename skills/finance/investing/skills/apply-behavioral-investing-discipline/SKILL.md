@@ -1,7 +1,7 @@
 ---
 name: apply-behavioral-investing-discipline
 description: Use when market volatility, a large gain, or a large loss is tempting a deviation from an investment plan — e.g., "should I sell during a crash?", "should I chase this hot stock?", "I panic-sold, what now?"
-source: Kahneman & Tversky, "Prospect Theory: An Analysis of Decision under Risk" (Econometrica, 1979); DALBAR "Quantitative Analysis of Investor Behavior" (annual studies); Morningstar "Mind the Gap" studies
+source: "Kahneman & Tversky, \"Prospect Theory: An Analysis of Decision under Risk\" (Econometrica, 1979); DALBAR \"Quantitative Analysis of Investor Behavior\" (annual studies); Morningstar \"Mind the Gap\" studies"
 tags: [finance, investing, behavioral-finance, loss-aversion, discipline, risk-management]
 related: [design-rebalancing-strategy, apply-dollar-cost-averaging, audit-investment-thesis]
 ---

@@ -6,7 +6,7 @@ tags: [music, production, mixing, daw, template, gain-staging, bus-routing, orga
 verified: true
 ---
 
-# Design Mix Template
+# Design Production Mix Template
 
 Build a reusable DAW session template that enforces correct gain staging, bus architecture, and track organization before a single audio file is loaded.
 

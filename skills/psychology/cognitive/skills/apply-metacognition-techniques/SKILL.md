@@ -9,8 +9,11 @@ tags: [psychology, metacognition, learning, self-regulation, study-skills, cogni
 
 Apply metacognitive techniques — calibration checking, self-explanation, planning, monitoring, and evaluation — to improve self-regulated learning, reduce the illusion of knowing, and build accurate assessment of one's own comprehension.
 
+**Disclaimer:** These techniques address study and learning performance, not mental health. If study struggles are tied to anxiety, attention difficulties, or other distress that persists, consult a mental health professional rather than relying on self-directed techniques alone.
+
 ## Why This Is Best Practice
 
+**Why best:** Metacognitive strategies (calibration, self-explanation, retrieval practice) are among the most replicated, highest-effect-size interventions in learning science, directly closing the gap between felt understanding and actual retrievable knowledge — a gap plain re-reading never closes.
 **Adopted by:** John Flavell coined the term metacognition in 1979; his framework is the theoretical basis for self-regulated learning research. Kruger & Dunning's 1999 paper ("Unskilled and Unaware of It") demonstrated that novice learners systematically overestimate their competence, a bias known as the Dunning-Kruger effect. Roediger & Karpicke's research on test-enhanced learning (2006) found that retrieval practice dramatically outperforms re-reading for long-term retention. These findings are synthesized in Barry Zimmerman's self-regulated learning framework, which is the basis for effective learning design in educational psychology.
 **Impact:** The illusion of knowing (Glenberg et al., 1982) — the feeling of understanding while reading that evaporates when tested — is the primary failure mode in passive learning. Students who re-read notes feel like they know the material because recognition feels like comprehension; testing reveals the gap. Metacognitive techniques interrupt the illusion by requiring active generation and self-assessment rather than passive recognition.
 

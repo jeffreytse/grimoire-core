@@ -11,6 +11,7 @@ Design a presentation's argument architecture by analyzing the audience's curren
 
 ## Why This Is Best Practice
 
+**Why best:** Structure determines whether an audience can follow and be moved by an argument at all — leading with the answer and building tension through contrast aligns with how audiences actually process and retain information, rather than how presenters intuitively want to build suspense toward a conclusion.
 **Adopted by:** McKinsey uses Barbara Minto's Pyramid Principle as the standard for all client communication and presentation structure. TED Talks follow Duarte's narrative arc framework as described in "Resonate." Anderson's "The Official TED Guide to Public Speaking" — the internal training document used for all TED presenters — treats structure as the most important determinant of talk success. Business schools (HBS, Stanford GSB) teach presentation structure as a core communication skill in MBA programs.
 **Impact:** Duarte's analysis of the most successful TED talks (including Al Gore's "An Inconvenient Truth" and Steve Jobs' product launches) identifies a consistent narrative structure — alternating between "what is" and "what could be" — that creates tension and resolution that keeps audiences engaged. Audiences process presentations that match their existing mental model easily and resist those that don't. Structure is the presenter's control of the audience's cognitive journey.
 

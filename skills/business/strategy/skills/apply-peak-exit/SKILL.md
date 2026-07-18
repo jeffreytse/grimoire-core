@@ -1,7 +1,7 @@
 ---
 name: apply-peak-exit
 description: Use when you hold a position, initiative, or advantage that is still producing positive results — to identify whether you are at or approaching the optimal stopping point, and exit before the peak rather than after, because the signals that tell you to stop typically arrive after the best exit moment has passed
-source: "智囊 (Zhìnáng) 上智部 (Superior Wisdom) 知止 — Feng Menglong (~1624 AD); Annie Duke "Quit" (2022); optimal stopping theory (Ferguson 1989); Buffett "be fearful when others are greedy""
+source: '智囊 (Zhìnáng) 上智部 (Superior Wisdom) 知止 — Feng Menglong (~1624 AD); Annie Duke "Quit" (2022); optimal stopping theory (Ferguson 1989); Buffett "be fearful when others are greedy"'
 tags: [strategy, decision-making, timing, exit-strategy, risk-management]
 verified: true
 ---

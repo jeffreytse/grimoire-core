@@ -1,7 +1,7 @@
 ---
 name: design-tax-loss-harvesting-plan
 description: Use when reducing capital gains taxes in a taxable brokerage account — e.g., "what is tax-loss harvesting?", "how do I harvest losses?", "when should I TLH?", "wash sale rule?"
-source: IRS Publication 550 (Investment Income and Expenses); Vanguard "Tax-loss harvesting: A portfolio and wealth planning perspective" (2020); Betterment TLH research; Schwab tax strategy guides
+source: "IRS Publication 550 (Investment Income and Expenses); Vanguard \"Tax-loss harvesting: A portfolio and wealth planning perspective\" (2020); Betterment TLH research; Schwab tax strategy guides"
 tags: [finance, investing, tax-loss-harvesting, capital-gains, tax-efficiency, taxable-account, wash-sale]
 verified: true
 ---

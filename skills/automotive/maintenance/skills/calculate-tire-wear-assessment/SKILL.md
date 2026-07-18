@@ -11,6 +11,7 @@ Measure tread depth, interpret wear pattern type, calculate remaining safe life,
 
 ## Why This Is Best Practice
 
+**Why best:** Tread depth thresholds and systematic wear-pattern diagnosis catch both the immediate safety risk (inadequate wet-traction) and the root cause (alignment, inflation, suspension) — replacing tires without fixing the cause just repeats the failure.
 **Adopted by:** NHTSA (National Highway Traffic Safety Administration) mandates minimum 2/32" tread depth in the US; EU regulations require 1.6mm (≈2/32"). AAA recommends proactive replacement at 4/32" for wet-weather safety. Fleet operators (UPS, FedEx, airline ground vehicles) use systematic tire assessment schedules to prevent blowout-related incidents.
 **Impact:** NHTSA data shows tires contribute to ~664 fatal crashes annually in the US — most due to worn tread, under-inflation, or damage. Wet stopping distance at 4/32" tread is 50% longer than at 8/32"; at 2/32" it doubles relative to new tires. Beyond safety, misidentifying the cause of uneven wear leads to repeat failure — worn tires are a symptom; the root cause (alignment, inflation, suspension) must also be corrected.
 

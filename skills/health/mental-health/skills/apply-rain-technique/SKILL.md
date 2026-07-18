@@ -2,7 +2,7 @@
 name: apply-rain-technique
 description: Use when you are overwhelmed by a difficult emotion — anxiety, shame, anger, grief, craving — and need a structured mindfulness practice to work with it rather than avoid or act out of it.
 source: 'Brach, "Radical Compassion", Viking (2019); Brach, "True Refuge", Anchor Books (2013); Hayes et al., "Acceptance and Commitment Therapy", Guilford Press (2012); Kabat-Zinn, "Full Catastrophe Living" (1990) — MBSR foundation; Siegel, "The Mindful Brain", Norton (2007)'
-tags: [mindfulness, emotion-regulation, anxiety, self-compassion, RAIN, difficult-emotions, mental-health]
+tags: [mindfulness, emotion-regulation, anxiety, self-compassion, rain, difficult-emotions, mental-health]
 ---
 
 # Apply RAIN Technique
@@ -123,4 +123,4 @@ The shift is not always dramatic. Sometimes RAIN produces significant relief; so
 - **Confusing Nurture with rationalization** — "I shouldn't feel this way because logically..." is not Nurture; Nurture is warmth, not logic; save logical reframing for after RAIN is complete
 - **Applying RAIN only to acute crises** — RAIN is also highly effective for low-grade chronic states (mild anxiety, low-level shame, background restlessness) where the emotion is too diffuse to feel urgent; daily application to small emotional experiences builds the skill for larger ones
 
-> For mental health concerns, consult a qualified mental health professional.
+> This technique is not a substitute for medical advice. For mental health concerns, consult a qualified mental health professional or healthcare provider.

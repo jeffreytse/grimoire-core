@@ -6,7 +6,7 @@ tags: [tactical-doctrine, playbook, force-multiplier, scaling, systematisation, 
 verified: true
 ---
 
-# Build Tactical Doctrine
+# Design Tactical Doctrine
 
 Identify the expert judgment that drives superior outcomes in your domain, observe and document the decision patterns of top performers as explicit rules with situational triggers, test those rules with average practitioners until they can execute without deep expertise, and maintain the resulting doctrine as a living system — so that organisational performance is no longer bounded by the supply of exceptional individuals.
 

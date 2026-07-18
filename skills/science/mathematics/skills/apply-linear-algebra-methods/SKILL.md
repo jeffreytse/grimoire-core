@@ -11,6 +11,7 @@ Solve linear systems, decompose matrices, and compute eigenstructures using nume
 
 ## Why This Is Best Practice
 
+**Why best:** Numerically stable decompositions (LU, QR, Cholesky, SVD) avoid the error amplification of naive approaches (explicit inversion, normal equations), and matching the algorithm to matrix structure (symmetric, sparse, overdetermined) is faster and more accurate than a one-size-fits-all method.
 **Adopted by:** Linear algebra is the computational foundation of NumPy/SciPy (Python), MATLAB, R, Julia, and every numerical computing library. Google's PageRank, PCA in data science, finite element analysis in engineering, quantum mechanics, and computer graphics all reduce to matrix operations. LAPACK (Linear Algebra PACKage) is the authoritative numerical library used by all major scientific software.
 **Impact:** Strang (2016) is the most widely used undergraduate linear algebra textbook globally, with MIT OpenCourseWare making it freely accessible. The eigenvalue problem — and its numerical solution via QR algorithm — underlies Google PageRank, principal component analysis, and quantum mechanics. Golub & Van Loan (2013) quantify the backward stability properties of major algorithms: unstable methods (e.g., normal equations for least squares) amplify errors quadratically vs. numerically stable methods (QR decomposition).
 

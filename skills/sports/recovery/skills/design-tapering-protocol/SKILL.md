@@ -1,7 +1,7 @@
 ---
 name: design-tapering-protocol
 description: Use when an endurance or strength athlete needs to peak for a major competition — reducing training volume systematically over 1-3 weeks to dissipate fatigue while preserving the fitness built during the training block.
-source: Mujika "Tapering and Peaking for Optimal Performance" (2009); Bosquet et al. (2007) "Effects of Tapering on Performance: A Meta-Analysis" (Med Sci Sports Exerc); Mujika & Padilla (2003) "Scientific Bases for Pre-Competition Tapering" (Med Sci Sports Exerc)
+source: "Mujika \"Tapering and Peaking for Optimal Performance\" (2009); Bosquet et al. (2007) \"Effects of Tapering on Performance: A Meta-Analysis\" (Med Sci Sports Exerc); Mujika & Padilla (2003) \"Scientific Bases for Pre-Competition Tapering\" (Med Sci Sports Exerc)"
 tags: [tapering, peaking, competition-preparation, periodization, endurance, performance-peak, fatigue-management]
 ---
 
@@ -11,6 +11,7 @@ Reduce training volume systematically in the weeks before a major competition to
 
 ## Why This Is Best Practice
 
+**Why best:** Fatigue accumulated during training masks the fitness actually built; systematically dissipating that fatigue while preserving training intensity reveals the fitness as performance, which is why tapering reliably outperforms tapering-free approaches into a major competition.
 **Adopted by:** Olympic endurance programs (swimming, athletics, cycling, rowing), powerlifting and weightlifting coaches, and triathlon coaches all use explicit tapering as the final phase of the annual training plan. Every sub-2:06 marathon runner arrives at the start line following a structured 2-3 week taper. Elite swimming programs produce their best times at competition, not in training, due to planned taper timing.
 **Impact:** Bosquet et al. (2007) meta-analysis of 27 studies (n=741 athletes) found that tapering improved performance by 2-3% on average — meaningful at elite levels where <1% separates medalists. The meta-analysis found that volume reduction of 41-60% over 2 weeks with maintained intensity produced the largest performance gains. Intensity reduction during taper (the most common mistake) negated performance gains. Mujika (2009) established that the fatigue accumulated during training blocks masks the underlying fitness — taper removes the fatigue to reveal the fitness.
 

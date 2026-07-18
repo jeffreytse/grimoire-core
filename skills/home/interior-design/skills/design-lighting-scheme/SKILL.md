@@ -5,12 +5,13 @@ source: Philips Lighting Design Guide (2016); IESNA (Illuminating Engineering So
 tags: [lighting-design, interior-design, home, ambient-lighting, task-lighting, accent-lighting]
 ---
 
-# Design Residential Lighting Scheme
+# Design Lighting Scheme
 
 Design a layered lighting scheme for a residential room by combining ambient, task, and accent layers — creating a flexible system with independent control that serves multiple uses and moods without relying on a single overhead fixture.
 
 ## Why This Is Best Practice
 
+**Why best:** Layering ambient, task, and accent light gives independent control over function and mood, avoiding the flattening, shadow-harsh, one-brightness-fits-nothing result of a single overhead fixture.
 **Adopted by:** The Illuminating Engineering Society of North America (IESNA) and International Association of Lighting Designers (IALD) both define the three-layer model (ambient/task/accent) as the foundational framework for residential and commercial lighting design. Philips, GE Current, and OSRAM all structure their residential lighting education around this model. Architectural lighting consultants apply layered design for all high-end residential projects.
 **Impact:** Single-source overhead lighting (the standard default in most homes) flattens a room, produces harsh shadows on faces, and cannot adapt to different activities (reading vs. entertaining vs. relaxing). Research from the Lighting Research Center (Troy, NY) shows that layered lighting with separate dimmable controls is the primary determinant of a room being perceived as comfortable and inviting. Designing a lighting scheme before construction or renovation is 60–80% cheaper than retrofitting: switching, circuits, and fixture locations are determined when walls are open.
 

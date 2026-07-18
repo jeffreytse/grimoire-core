@@ -1,7 +1,7 @@
 ---
 name: apply-hyrums-law
 description: Use when designing APIs, evolving existing interfaces, or planning a change to system behavior — to account for the fact that all observable behavior will be depended upon by someone, regardless of what the documented contract says.
-source: 'Hyrum Wright "Hyrum\'s Law" (hyrumslaw.com); Winters, Manshreck & Wright "Software Engineering at Google" (O\'Reilly, 2020) ch.1; Rich Hickey "Spec-ulation Keynote" (Clojure/conj 2016); Martin Fowler "Tolerant Reader" (martinfowler.com, 2011)'
+source: 'Hyrum Wright "Hyrum''s Law" (hyrumslaw.com); Winters, Manshreck & Wright "Software Engineering at Google" (O''Reilly, 2020) ch.1; Rich Hickey "Spec-ulation Keynote" (Clojure/conj 2016); Martin Fowler "Tolerant Reader" (martinfowler.com, 2011)'
 tags: [api-design, compatibility, contracts, evolution, software-engineering, systems-thinking, dependencies]
 verified: true
 ---

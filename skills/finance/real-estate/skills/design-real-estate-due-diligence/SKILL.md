@@ -10,6 +10,8 @@ verified: true
 
 Execute a comprehensive real estate due diligence process that identifies risks, validates assumptions, and protects the buyer from hidden liabilities before closing.
 
+*This skill provides general due diligence guidance, not financial advice. Consult a licensed financial advisor, attorney, and other qualified professionals before making any real estate investment decision.*
+
 ## Why This Is Best Practice
 
 **Adopted by:** CCIM Institute, RICS (Royal Institution of Chartered Surveyors), Urban Land Institute (ULI, 45,000+ members), and all institutional real estate investors (pension funds, REITs, PE firms) require formal due diligence before closing.

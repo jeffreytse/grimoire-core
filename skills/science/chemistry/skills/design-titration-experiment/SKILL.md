@@ -11,6 +11,7 @@ Design an accurate titrimetric analysis by selecting the appropriate titration t
 
 ## Why This Is Best Practice
 
+**Why best:** Systematic titration design (correct titrant type, standardization, indicator match, controlled procedure) directly produces the ±0.1% precision titrimetry is known for — each step closes a specific failure mode that otherwise degrades accuracy.
 **Adopted by:** Titrimetric methods are the backbone of USP/EP pharmaceutical testing (acid value, base value, Karl Fischer moisture), food safety testing (acidity, vitamin C content), environmental monitoring (alkalinity, hardness), and industrial quality control. ISO 8655 governs pipette accuracy for titrimetry; ASTM publishes standardized titration methods for petroleum and polymer industries.
 **Impact:** Harris (2016) demonstrates that a well-designed titration can achieve ±0.1% relative precision — among the most accurate of all analytical techniques. The primary failure modes (unstandardized titrant, wrong indicator, endpoint detection error) are all eliminated by systematic design. USP requires titrant standardization before use for all compendial titrations.
 

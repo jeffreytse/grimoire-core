@@ -6,7 +6,7 @@ tags: [entrepreneurship, unit-economics, saas-metrics, finance, startups]
 verified: true
 ---
 
-# Calculate Unit Economics
+# Calculate Startup Unit Economics
 
 Compute and interpret the unit-level profitability metrics that determine whether a business can scale sustainably.
 

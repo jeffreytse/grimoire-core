@@ -11,6 +11,7 @@ Build a staged, criteria-based progression from injury through recovery to full 
 
 ## Why This Is Best Practice
 
+**Why best:** Criteria-based, staged RTP replaces guesswork with objective functional milestones, catching athletes who are time-eligible but not tissue-ready — the gap where most reinjuries occur.
 **Adopted by:** IOC, FIFA Medical Committee, UEFA Medical Committee, and national sporting bodies publish return-to-play frameworks that are used across elite sport medicine. NFL, NBA, and EPL clubs employ sports medicine teams that follow structured RTP protocols for every significant injury. Military service branches use criteria-based return-to-duty frameworks modeled on the same principles.
 **Impact:** Ardern et al. (2016) World Congress consensus found that athletes who complete a structured, staged RTP protocol with objective milestones have significantly lower reinjury rates than those cleared on time-based decisions alone. For ACL reconstruction specifically, athletes who pass strength symmetry ≥90% have reinjury rates 4-8× lower than those cleared at standard time (9 months) without functional testing. The cost of reinjury — in health, absence, and career trajectory — makes criterion-based RTP one of the highest-ROI medical interventions in sports.
 

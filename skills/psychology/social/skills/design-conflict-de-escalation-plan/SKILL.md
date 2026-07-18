@@ -2,7 +2,7 @@
 name: design-conflict-de-escalation-plan
 description: Use when facing an escalating conflict situation — designing a conflict de-escalation approach that reduces emotional temperature, creates safety for dialogue, identifies underlying needs, and builds conditions for collaborative resolution rather than adversarial win-lose outcomes.
 source: Rosenberg "Nonviolent Communication" 3rd ed. (2015); Fisher & Ury "Getting to Yes" (1981); Gottman "The Seven Principles for Making Marriage Work" (1999); George & Papp "Conflict Resolution" APA Practice Guidelines (2019); Winslade & Monk "Narrative Mediation" (2000)
-tags: [psychology, conflict-resolution, de-escalation, communication, NVC, negotiation, social]
+tags: [psychology, conflict-resolution, de-escalation, communication, nvc, negotiation, social]
 ---
 
 # Design Conflict De-escalation Plan
@@ -11,6 +11,7 @@ Design a conflict de-escalation approach — using physiological regulation, ack
 
 ## Why This Is Best Practice
 
+**Why best:** Combines physiological regulation, acknowledgment-first sequencing, and interest-based reframing into one approach validated across therapy, negotiation, and crisis-intervention domains — addressing both the nervous-system and the communication-structure roots of escalation, rather than treating conflict as a purely rational disagreement.
 **Adopted by:** Marshall Rosenberg's Nonviolent Communication (NVC) is used in conflict resolution training in schools, prisons, corporations, and international mediation contexts globally. Fisher and Ury's "Getting to Yes" — the foundational negotiation text from the Harvard Negotiation Project — has trained more professional negotiators than any other single text. John Gottman's research on relationship conflict has produced the most validated predictive model of conflict outcomes (his "Four Horsemen" model predicts relationship dissolution with 90%+ accuracy). Crisis intervention programs (CPI, AVADE) train de-escalation specifically for high-risk conflict situations.
 **Impact:** Gottman's research shows that conflict style (not conflict frequency) predicts relationship outcomes; couples who use repair attempts, physiological self-regulation, and curiosity rather than contempt and stonewalling during conflict produce significantly better long-term outcomes. De-escalation training for police, mental health workers, and corrections staff produces 30–60% reductions in physical confrontations and use-of-force incidents (Crisis Prevention Institute data). The techniques work because they interrupt the neurological threat response that produces irrational, destructive conflict behavior.
 
@@ -88,3 +89,7 @@ Resolution requires moving from adversarial to collaborative framing:
 ## When NOT to Use
 
 - Physical safety threats: when physical safety is at immediate risk, de-escalation attempts may not be appropriate or effective; prioritize physical safety first; follow crisis intervention protocols appropriate to the context; professional crisis intervention training (CPI) applies in high-risk settings.
+
+## Disclaimer
+
+This skill offers general conflict de-escalation guidance and is not a substitute for professional help. If conflict involves abuse, violence, or serious emotional distress, consult a mental health professional or licensed mediator/therapist.

@@ -1,7 +1,7 @@
 ---
 name: design-incentive-systems
 description: Use when designing governance, organizational processes, or operational controls — to audit whether each desired outcome requires individual virtue to produce, and replace virtue-reliance with structural mechanisms that make good behavior the rational self-interested choice
-source: "荀子 (Xunzi) 性恶篇 (~3rd century BC) — 人之性恶，其善者伪也 (Human nature is bad; goodness is constructed through institution); Jensen & Meckling "Theory of the Firm" (1976) — principal-agent problem, alignment through incentive structure; Thaler & Sunstein "Nudge" (2008) — choice architecture; Munger "Poor Charlie's Almanack" — Show me the incentive and I'll show you the outcome"
+source: '荀子 (Xunzi) 性恶篇 (~3rd century BC) — 人之性恶，其善者伪也 (Human nature is bad; goodness is constructed through institution); Jensen & Meckling "Theory of the Firm" (1976) — principal-agent problem, alignment through incentive structure; Thaler & Sunstein "Nudge" (2008) — choice architecture; Munger "Poor Charlie''s Almanack" — Show me the incentive and I''ll show you the outcome'
 tags: [governance, organizational-design, incentives, systems-thinking, institutional-design, behavioral-economics]
 verified: true
 ---

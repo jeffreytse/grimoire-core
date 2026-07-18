@@ -53,4 +53,4 @@ Create a structured physical and emotional recovery timeline for the 12 weeks af
 - Skipping pelvic floor physiotherapy — leads to undetected prolapse, persistent incontinence, and pain with intercourse.
 - Returning to sit-ups or crunches without checking for diastasis recti — worsens abdominal separation.
 
-> **Health Disclaimer:** Postpartum recovery is highly individual and depends on birth type, complications, and pre-existing conditions. All return-to-exercise timelines should be cleared by your OB-GYN and a pelvic floor physiotherapist.
+> **Health Disclaimer:** This is not medical advice. Postpartum recovery is highly individual and depends on birth type, complications, and pre-existing conditions. All return-to-exercise timelines should be cleared by your healthcare provider (OB-GYN) and a pelvic floor physiotherapist.

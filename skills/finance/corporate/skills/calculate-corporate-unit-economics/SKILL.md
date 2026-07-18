@@ -6,7 +6,7 @@ tags: [finance, corporate, saas, unit-economics, ltv, cac, payback-period]
 verified: true
 ---
 
-# Calculate Unit Economics
+# Calculate Corporate Unit Economics
 
 Measure per-unit profitability to determine whether a business model is viable and scalable.
 

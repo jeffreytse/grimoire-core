@@ -10,6 +10,8 @@ verified: true
 
 Systematically build stress tolerance and adaptive coping through progressive exposure to managed stressors, equipping people to perform under pressure before the real stressor arrives.
 
+**Disclaimer:** This is not a substitute for professional mental health care. If active PTSD, trauma symptoms, or crisis are present, consult a licensed mental health professional before applying this practice.
+
 ## Why This Is Best Practice
 
 **Adopted by:** US Army Master Resilience Training program (1.1 million soldiers trained), NASA astronaut psychological preparation, US Olympic Committee sport psychology, WHO occupational stress programs, VA PTSD prevention programs.

@@ -1,7 +1,7 @@
 ---
 name: apply-razor-and-blades
 description: Use when designing a product line with a durable base unit and a proprietary recurring consumable or complement — deciding whether to price the base unit near or below cost to drive high-margin recurring sales, rather than pricing every unit for standalone profit.
-source: King C. Gillette's disposable-blade safety-razor strategy (patented 1904); Chris Anderson, "Free: The Future of a Radical Price" (2009); standard strategy/marketing-textbook treatment of captive-product pricing and tying
+source: "King C. Gillette's disposable-blade safety-razor strategy (patented 1904); Chris Anderson, \"Free: The Future of a Radical Price\" (2009); standard strategy/marketing-textbook treatment of captive-product pricing and tying"
 tags: [pricing-strategy, complementary-goods, captive-product, monetization, business-model, recurring-revenue, unit-economics]
 related: [apply-strategic-sacrifice, apply-dependency-trap, design-pricing-strategy]
 ---

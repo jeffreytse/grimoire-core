@@ -6,7 +6,7 @@ tags: [copywriting, email, subject-line, open-rate, marketing]
 verified: true
 ---
 
-# Write High-Performing Email Subject Lines
+# Write Email Subject Line
 
 Apply psychological principles and empirical benchmarks to write subject lines that earn opens without inflating expectations or triggering spam filters.
 

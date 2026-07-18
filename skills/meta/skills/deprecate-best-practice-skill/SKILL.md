@@ -5,7 +5,7 @@ source: npm deprecation guidelines, IETF RFC obsolescence process (BCP 9), Seman
 tags: [skill-maintenance, staleness, deprecation, outdated-practice, maintainer, knowledge-freshness]
 ---
 
-# Deprecate Skill
+# Deprecate Best Practice Skill
 
 Mark an outdated grimoire skill for removal and, where possible, point users to the
 practice that supersedes it.

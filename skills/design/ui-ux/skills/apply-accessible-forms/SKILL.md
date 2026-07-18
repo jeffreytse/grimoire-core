@@ -6,7 +6,7 @@ tags: [accessibility, wcag, a11y, forms, labels, error-messages, autocomplete, s
 related: [design-accessibility-standards, apply-keyboard-accessibility, apply-aria-roles]
 ---
 
-# Implement Accessible Forms
+# Apply Accessible Forms
 
 Label every input, associate error messages programmatically, mark required fields visually and semantically, and enable browser autocomplete.
 

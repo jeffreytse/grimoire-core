@@ -2,7 +2,7 @@
 name: calculate-profitability-ratios
 description: Use when evaluating a company's financial performance, comparing competitors, or assessing investment quality — e.g., "what's a good profit margin?", "how do I calculate ROIC?", "what does ROE tell me?", "interpreting gross vs. operating margin"
 source: Graham & Dodd "Security Analysis" (1934); Damodaran "Applied Corporate Finance" (4th ed.); CFA Institute "Financial Statement Analysis"; McKinsey "Valuation" (Koller, Goedhart, Wessels, 7th ed.)
-tags: [finance, accounting, profitability-ratios, ROE, ROIC, margins, financial-analysis, valuation]
+tags: [finance, accounting, profitability-ratios, roe, roic, margins, financial-analysis, valuation]
 verified: true
 ---
 

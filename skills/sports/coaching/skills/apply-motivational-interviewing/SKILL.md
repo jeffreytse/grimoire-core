@@ -1,8 +1,8 @@
 ---
 name: apply-motivational-interviewing
 description: Use when a coach needs to have a conversation with an athlete who is resistant to change, low on motivation, or ambivalent about committing to a training or behavioral goal — to build intrinsic motivation rather than imposing external direction.
-source: Miller & Rollnick "Motivational Interviewing: Helping People Change" 3rd ed. (2013); Deci & Ryan Self-Determination Theory (1985, 2000); Mageau & Vallerand (2003) "The coach-athlete relationship: A motivational model" (J Sports Sci)
-tags: [motivational-interviewing, coaching, athlete-motivation, behavior-change, SDT, autonomy]
+source: "Miller & Rollnick \"Motivational Interviewing: Helping People Change\" 3rd ed. (2013); Deci & Ryan Self-Determination Theory (1985, 2000); Mageau & Vallerand (2003) \"The coach-athlete relationship: A motivational model\" (J Sports Sci)"
+tags: [motivational-interviewing, coaching, athlete-motivation, behavior-change, sdt, autonomy]
 ---
 
 # Apply Motivational Interviewing
@@ -11,6 +11,7 @@ Use the OARS technique and collaborative conversation to surface an athlete's in
 
 ## Why This Is Best Practice
 
+**Why best:** Coercive or advice-first approaches provoke defensiveness and produce only extrinsic compliance; MI evokes the athlete's own reasons for change, which SDT research ties to durable motivation and lower burnout.
 **Adopted by:** Olympic coaching programs (USOC mental performance division), addiction counseling (the origin domain), healthcare behavior change, and increasingly elite sport coaching education programs incorporate MI principles. The New Zealand All Blacks coaching staff, Wayne Smith in particular, has described MI-influenced approaches as part of their culture-building process.
 **Impact:** Mageau & Vallerand (2003) showed that autonomy-supportive coaching (giving choice, rationale, acknowledging feelings — all MI principles) predicts higher intrinsic motivation, greater persistence, and higher satisfaction than controlling coaching. Meta-analyses in healthcare show MI outperforms direct advice-giving for behavior change by 20-50% (Rubak et al., 2005). In sport: athletes high in intrinsic motivation (SDT framework) show 40% less burnout and 30% higher training consistency than extrinsically motivated counterparts.
 

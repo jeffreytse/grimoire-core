@@ -2,13 +2,15 @@
 name: design-character-strengths-plan
 description: Use when helping someone identify their top character strengths and design a structured plan to apply them in new ways — particularly for improving engagement, wellbeing, resilience, or role satisfaction.
 source: Peterson & Seligman "Character Strengths and Virtues" (2004); VIA Institute on Character; Gallup StrengthsFinder Research; Journal of Positive Psychology VIA Studies
-tags: [positive-psychology, strengths, wellbeing, character, VIA, engagement, flourishing]
+tags: [positive-psychology, strengths, wellbeing, character, via, engagement, flourishing]
 verified: true
 ---
 
 # Design Character Strengths Plan
 
 Identify an individual's top VIA character strengths and design a concrete, personalized plan to use them in new ways to increase engagement, meaning, and wellbeing.
+
+**This is not a substitute for mental health treatment.** If acute mental health symptoms (depression, anxiety, trauma, suicidal ideation) are present, refer to a licensed mental health professional — strengths work is a wellbeing adjunct, not clinical care.
 
 ## Why This Is Best Practice
 
@@ -68,6 +70,6 @@ Sources: Peterson & Seligman "Character Strengths and Virtues: A Handbook and Cl
 
 ## When NOT to Use
 
-- When acute mental health symptoms (depression, anxiety, trauma) are the primary presenting issue — strengths work is highly beneficial as an adjunct but cannot substitute for evidence-based clinical treatment in symptomatic individuals.
+- When acute mental health symptoms (depression, anxiety, trauma) are the primary presenting issue — strengths work is highly beneficial as an adjunct but cannot substitute for evidence-based clinical treatment in symptomatic individuals; refer to a licensed mental health professional.
 - When the organizational context is so misaligned with individual strengths that no realistic role or task crafting is possible — systemic career change counseling is needed before a within-role strengths plan can succeed.
 - As a performance management substitute — character strengths plans improve engagement and meaning; they are not designed to remediate specific skill deficits or behavioral violations that require direct performance feedback and accountability.

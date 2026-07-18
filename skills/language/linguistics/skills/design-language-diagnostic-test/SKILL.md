@@ -2,7 +2,7 @@
 name: design-language-diagnostic-test
 description: Use when assessing your own or a learner's proficiency in a language — designing a diagnostic test covering the four skills (reading, listening, writing, speaking) aligned to CEFR levels to identify current proficiency and specific weakness areas to guide study planning.
 source: Council of Europe "Common European Framework of Reference for Languages" (CEFR) A1–C2 descriptors; Bachman & Palmer "Language Assessment in Practice" (2010); Cambridge Assessment English IELTS/CELPIP design principles; Hughes "Testing for Language Teachers" 2nd ed. (2003)
-tags: [language-assessment, CEFR, language-learning, proficiency-testing, diagnostic, language-teaching]
+tags: [language-assessment, cefr, language-learning, proficiency-testing, diagnostic, language-teaching]
 ---
 
 # Design Language Diagnostic Test
@@ -11,6 +11,7 @@ Design a language proficiency diagnostic test aligned to CEFR levels covering al
 
 ## Why This Is Best Practice
 
+**Why best:** CEFR-aligned four-skill diagnosis anchors self-assessment to validated, standardized level descriptors instead of gut feel, surfacing the specific skill gaps that drive an efficient study plan.
 **Adopted by:** The Common European Framework of Reference for Languages (CEFR), developed by the Council of Europe, is the global standard for describing language proficiency used by Cambridge Assessment, Alliance Française, Instituto Cervantes, Goethe-Institut, and all major language certification bodies worldwide. IELTS, TOEFL, DELF/DALF, and HSK are all based on or aligned to proficiency level frameworks. Language teachers and programs use diagnostic assessment to place students correctly and identify specific skills deficits.
 **Impact:** Learning a language without knowing your current level produces inefficient study — too-easy materials are boring; too-hard materials are demotivating. A diagnostic identifies the specific skill gap (speaking fluency despite reading competence, or reading without listening comprehension) so time is invested where it produces the largest improvement. Self-diagnosis without structure tends to overestimate productive skills (speaking) and underestimate receptive skills (reading), producing study plans that reinforce strength rather than address weakness.
 

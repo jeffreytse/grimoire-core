@@ -6,7 +6,7 @@ tags: [three-kingdoms, recruiting, talent, liu-bei, zhuge-liang, co-founder, adv
 verified: true
 ---
 
-# Recruit with Devotion
+# Apply Recruit with Devotion
 
 Attract extraordinary people who screen for genuine understanding and commitment by approaching them personally, demonstrating specific comprehension of their work, accepting refusals as signals rather than rejections, and returning with evidence that each specific skepticism has been heard and addressed.
 

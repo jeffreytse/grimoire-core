@@ -1,7 +1,7 @@
 ---
 name: apply-reversal-probe
 description: Use when you need to discover another party's true position, interest, or timeline and direct questioning would produce diplomatic or socially expected answers rather than genuine disclosure
-source: "Guiguzi 鬼谷子 "反应" Chapter 2 (~4th century BC) — "反以知彼，覆以知己"; Voss "Never Split the Difference" (2016) — accusation audit and no-oriented questions; Miller & Rollnick "Motivational Interviewing" 3rd ed. (2012) — rolling with resistance"
+source: 'Guiguzi 鬼谷子 "反应" Chapter 2 (~4th century BC) — "反以知彼，覆以知己"; Voss "Never Split the Difference" (2016) — accusation audit and no-oriented questions; Miller & Rollnick "Motivational Interviewing" 3rd ed. (2012) — rolling with resistance'
 tags: [strategy, negotiation, discovery, communication, elicitation]
 verified: true
 ---

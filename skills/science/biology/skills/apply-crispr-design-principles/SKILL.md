@@ -2,7 +2,7 @@
 name: apply-crispr-design-principles
 description: Use when designing a CRISPR-Cas9 (or Cas12/Cas13) gene editing experiment — selecting guide RNAs, evaluating on-target efficiency and off-target risk, choosing delivery strategy, and designing assays to confirm editing outcome.
 source: Doench et al. (2016) "Optimized sgRNA design to maximize activity and minimize off-target effects" (Nature Biotechnology); Hsu et al. (2013) "DNA targeting specificity of RNA-guided Cas9 nucleases" (Nature Biotechnology); Addgene CRISPR Guide (www.addgene.org/guides/crispr)
-tags: [CRISPR, gene-editing, sgRNA, Cas9, off-target, molecular-biology, genome-editing]
+tags: [crispr, gene-editing, sgrna, cas9, off-target, molecular-biology, genome-editing]
 ---
 
 # Apply CRISPR Design Principles
@@ -11,6 +11,7 @@ Design a CRISPR genome editing experiment by selecting high-efficiency guide RNA
 
 ## Why This Is Best Practice
 
+**Why best:** Systematic gRNA scoring and off-target prediction replace guesswork with measurable efficiency and specificity, cutting failed edits and unintended mutations before they reach a bench or a patient.
 **Adopted by:** NIH, Broad Institute, Wellcome Sanger Institute, and every major research institution conducting genome editing use systematic CRISPR design tools (Benchling, CRISPOR, CHOPCHOP, Cas-OFFinder) rather than ad hoc guide selection. The FDA's guidance on CRISPR-based therapeutics requires comprehensive off-target analysis as a prerequisite for IND filing.
 **Impact:** Doench et al. (2016) showed that guide RNA efficiency varies by more than 100-fold depending on sequence context — random guide selection produces high failure rates. Hsu et al. (2013) demonstrated that off-target cleavage occurs at sequences with up to 5 mismatches, particularly in the seed region — making systematic off-target prediction essential. The first human CRISPR clinical trials (Vertex/CRISPR Therapeutics CTX001) validated that systematic design followed by rigorous confirmation produces safe editing outcomes.
 

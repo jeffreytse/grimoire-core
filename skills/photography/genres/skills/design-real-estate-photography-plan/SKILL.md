@@ -2,7 +2,7 @@
 name: design-real-estate-photography-plan
 description: Use when planning a real estate or architectural photography session — designing the shot list, staging checklist, equipment setup (wide-angle, tripod, flash), and HDR or ambient-flash blend workflow to produce images that accurately represent the property and meet MLS listing standards.
 source: Kubik "Real Estate Photography" (2016); PFRE (PhotosForRealEstate.com) workflow documentation; Gerlach "Focus on Photography" (2008); National Association of Realtors (NAR) listing image guidelines; Rooms to a T interior photography blog
-tags: [photography, real-estate, architectural, interior-photography, HDR, flash, wide-angle]
+tags: [photography, real-estate, architectural, interior-photography, hdr, flash, wide-angle]
 ---
 
 # Design Real Estate Photography Plan
@@ -11,6 +11,7 @@ Design a real estate photography session plan — covering shot list, staging ch
 
 ## Why This Is Best Practice
 
+**Why best:** Interior real estate photography faces a technical problem general photography skills don't address — the 6–10 stop exposure gap between bright windows and dark interiors — and requires a documented shot list and staging discipline to avoid reshoots and misrepresentation claims.
 **Adopted by:** The National Association of Realtors (NAR) data shows that 97% of buyers search online and listings with professional photography receive significantly more inquiries than those with smartphone photos. PhotosForRealEstate.com (PFRE) is the primary professional training resource for real estate photography in North America, with documented workflow standards used by thousands of professional real estate photographers.
 **Impact:** A home that sells in 32 days with amateur photography vs. 9 days with professional photography is a documented difference in the real estate industry. Professional real estate photography must convey space, light, and condition accurately — misrepresentation leads to wasted showing appointments. The technical challenges (exposure ranges from bright windows to dark corners within the same frame) require specific workflows that general photography skills don't cover.
 

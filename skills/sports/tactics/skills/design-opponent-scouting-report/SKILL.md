@@ -11,6 +11,7 @@ Build a structured analysis of an opponent that surfaces actionable tactical pat
 
 ## Why This Is Best Practice
 
+**Why best:** Systematic opponent analysis replaces coach memory and gut feel with verifiable patterns — turning vague impressions ("they seem to like the left side") into specific, testable game-plan instructions.
 **Adopted by:** Every elite team sport organization (EPL clubs, NFL franchises, NBA teams, international rugby programs) employs performance analysts to produce structured opponent scouting reports. The New Zealand All Blacks, USWNT, and Golden State Warriors coaching staff have published the use of video analysis and scouting systems as core components of preparation.
 **Impact:** Hughes & Franks (2008) demonstrated that systematic performance analysis produces more accurate identification of opponent patterns than coach memory alone — coaches typically recall <60% of key match events accurately within 30 minutes of a game. Film-based scouting in the NFL has been credited as a primary driver of coaching advantage since the Walsh 49ers era. Structured scouting enables players to mentally rehearse specific opponent behaviors before the match — reducing cognitive load during competition.
 

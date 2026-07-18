@@ -13,6 +13,7 @@ Build a periodized resistance training program by matching volume, intensity, an
 
 **Adopted by:** NSCA (National Strength and Conditioning Association) certified coaches across professional sport organizations — NFL, NBA, EPL clubs, Olympic programs, and military conditioning units — use periodized strength programming as the standard. Virtually every high-performance sport organization employs an S&C coach to design phase-specific resistance programs.
 **Impact:** Kraemer & Ratamess (2004 meta-analysis in Sports Medicine) demonstrated that periodized resistance training produces significantly greater strength gains than non-periodized programs; Rhea et al. (2002) showed that daily undulating periodization produced 28% greater strength improvements than linear periodization in a 12-week trial. The combination of correct rep range, load, and progressive overload accounts for over 60% of the variation in strength outcome.
+**Why best:** Periodized programming manipulates volume and intensity systematically over time, preventing the plateau and overtraining risk of static programs while matching physiological adaptation to the athlete's competition calendar.
 
 ## Steps
 

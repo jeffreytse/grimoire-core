@@ -52,4 +52,4 @@ Map the full pregnancy visit cadence — tests, screenings, and decisions — by
 - Missing GBS swab window (must be done at 35–37 weeks; earlier results are unreliable).
 - No postpartum visit plan — 40–50% of maternal deaths occur in the postpartum period (ACOG 2018).
 
-> **Health Disclaimer:** This skill provides general guidance. Individual care plans must be established with a licensed OB-GYN, midwife, or maternal-fetal medicine specialist. Clinical decisions depend on personal medical history, gestational age, and risk factors.
+> **Health Disclaimer:** This skill provides general guidance, not medical advice. Individual care plans must be established with a licensed healthcare provider (OB-GYN, midwife, or maternal-fetal medicine specialist). Clinical decisions depend on personal medical history, gestational age, and risk factors.

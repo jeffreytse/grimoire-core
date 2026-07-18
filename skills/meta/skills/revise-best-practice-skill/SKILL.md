@@ -5,7 +5,7 @@ source: IETF RFC errata process (BCP 9), MDN Web Docs contribution guidelines, W
 tags: [skill-revision, quality-debt, targeted-fix, contributor, maintainer, review-pass]
 ---
 
-# Revise Skill
+# Revise Best Practice Skill
 
 Update an existing grimoire SKILL.md to resolve specific findings without touching validated content.
 

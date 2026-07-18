@@ -2,7 +2,7 @@
 name: design-numerical-simulation
 description: Use when designing a numerical simulation — including Monte Carlo, finite difference, finite element, or agent-based models — specifying convergence criteria, uncertainty quantification, validation strategy, and computational resource requirements.
 source: Press et al. "Numerical Recipes" 3rd ed. (2007); Law "Simulation Modeling and Analysis" 5th ed. (2015); Saltelli et al. "Global Sensitivity Analysis" (2008); Oberkampf & Roy "Verification and Validation in Scientific Computing" (2010)
-tags: [numerical-simulation, Monte-Carlo, finite-element, convergence, uncertainty-quantification, validation]
+tags: [numerical-simulation, monte-carlo, finite-element, convergence, uncertainty-quantification, validation]
 ---
 
 # Design Numerical Simulation
@@ -11,6 +11,7 @@ Design a rigorous numerical simulation by defining the mathematical model, selec
 
 ## Why This Is Best Practice
 
+**Why best:** Formal Verification and Validation (V&V) separates "solved the equations right" from "solved the right equations" — collapsing that distinction is how false-precision results reach production decisions.
 **Adopted by:** NASA, DOE national laboratories, ESA, and every major engineering company use formal Verification and Validation (V&V) frameworks for numerical simulations. ASME V&V 10 (structural mechanics), V&V 20 (fluid mechanics), and AIAA G-077A (aeronautics) are the authoritative standards. The FDA's "Assessing the Credibility of Computational Modeling and Simulation" (2023) requires V&V for medical device simulations.
 **Impact:** Oberkampf & Roy (2010) demonstrate that simulation errors can be classified as verification errors (solving the equations wrong) vs. validation errors (solving the wrong equations) — a distinction that is critical for corrective action. The Space Shuttle Challenger and Columbia accidents were partly attributable to computational model failures that were not adequately validated. Quantifying simulation uncertainty (via sensitivity analysis and uncertainty propagation) is what separates credible simulations from false-precision tools.
 

@@ -1,7 +1,7 @@
 ---
 name: build-inclusion-practices
 description: Use when a manager wants to create a team environment where people from different backgrounds have equitable access to voice, visibility, advancement opportunities, and meaningful work — beyond just having diverse representation on the team.
-source: Catalyst "Inclusive Leadership: The View From Six Countries" (2012, 1,500 employees); McKinsey "Diversity Wins" (2020); Project Include "Starting from Within" framework; Kecia Thomas "Inclusion Paradox" research
+source: "Catalyst \"Inclusive Leadership: The View From Six Countries\" (2012, 1,500 employees); McKinsey \"Diversity Wins\" (2020); Project Include \"Starting from Within\" framework; Kecia Thomas \"Inclusion Paradox\" research"
 tags: [inclusion, diversity, equity, belonging, manager, bias, equitable-practices, underrepresented]
 ---
 
@@ -11,6 +11,7 @@ Create team conditions where employees from all backgrounds have equal access to
 
 ## Why This Is Best Practice
 
+**Why best:** Inclusion practices convert diverse representation into equitable access to voice, opportunity, and advancement — without them, diversity produces presence without participation.
 **Adopted by:** Catalyst's research (1,500 employees across six countries, 2012) identifies inclusive leadership behaviors as the primary driver of innovation and engagement in diverse teams; McKinsey's "Diversity Wins" report (2020, 1,000+ companies, 15 countries) is the most rigorous large-scale study of diversity's business impact; Project Include — founded by Ellen Pao and 7 other technology executives — provides the most operationally specific inclusion guidance for technology organizations; the Human Rights Campaign's Equality Index evaluates inclusion practices at 1,100+ companies annually
 **Impact:** McKinsey "Diversity Wins" (2020) found companies in the top quartile for ethnic diversity were 36% more likely to achieve above-average profitability than companies in the bottom quartile, and those in the top quartile for gender diversity were 25% more likely to achieve above-average profitability; Catalyst research (2013, 1,500 employees) found that employees with inclusive managers report 70% higher team innovation and are 45% more likely to report high team morale; Deloitte's Global Human Capital Trends survey (2017, 10,000+ respondents) found that 69% of employees felt their organization's diversity efforts were not creating equal opportunities at the team level — indicating that diversity programs without manager-level inclusion behavior produce minimal impact
 

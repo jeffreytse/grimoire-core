@@ -1,7 +1,7 @@
 ---
 name: run-card-sorting
 description: Use when designing or evaluating information architecture — navigation structure, menu labels, content categorization — to align the organization with how users mentally group and label concepts.
-source: NNG "Card Sorting" guideline; Spencer "Card Sorting: Designing Usable Categories" (Rosenfeld Media, 2009); IBM Design Thinking IA practices
+source: "NNG \"Card Sorting\" guideline; Spencer \"Card Sorting: Designing Usable Categories\" (Rosenfeld Media, 2009); IBM Design Thinking IA practices"
 tags: [user-research, information-architecture, card-sorting, navigation, ia, ux-research, mental-models]
 ---
 

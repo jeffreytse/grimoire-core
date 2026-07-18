@@ -1,7 +1,7 @@
 ---
 name: apply-transparent-rules
 description: Use when designing governance, organizational policy, or team operating standards — to publish rules explicitly, permanently, and publicly before situations arise, so that enforcement is predictable and independent of the enforcer's discretion
-source: "左传 (Zuozhuan) 昭公六年 (536 BC) — Zichan casts Zheng's penal code in bronze: "铸刑书"; Leventhal "What Should Be Done with Equity Theory?" (1980) — procedural justice requires advance publication, consistency, and unbiasedness; Tyler & Lind "A Relational Model of Authority" (1992) — rule legitimacy derives from known-in-advance, consistent application"
+source: '左传 (Zuozhuan) 昭公六年 (536 BC) — Zichan casts Zheng''s penal code in bronze: "铸刑书"; Leventhal "What Should Be Done with Equity Theory?" (1980) — procedural justice requires advance publication, consistency, and unbiasedness; Tyler & Lind "A Relational Model of Authority" (1992) — rule legitimacy derives from known-in-advance, consistent application'
 tags: [governance, policy, organizational-design, trust, leadership, fairness]
 verified: true
 ---

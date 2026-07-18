@@ -2,15 +2,16 @@
 name: diagnose-electrical-fault
 description: Use when a vehicle has a blown fuse, inoperative accessory, warning light, or intermittent electrical failure — applying a systematic test sequence (visual, OBD-II codes, voltage/continuity testing) to isolate the fault to a specific component or circuit without replacing parts blindly.
 source: ASE A6 Electrical/Electronic Systems Study Guide; Bosch Automotive Handbook 10th ed. (2018); Hollander "Electrical Troubleshooting for Vehicles" (2015)
-tags: [automotive, electrical, diagnosis, OBD-II, multimeter, fault-isolation, troubleshooting]
+tags: [automotive, electrical, diagnosis, obd-ii, multimeter, fault-isolation, troubleshooting]
 ---
 
-# Diagnose Automotive Electrical Fault
+# Diagnose Electrical Fault
 
 Isolate an automotive electrical fault to a specific component or circuit using OBD-II codes, multimeter voltage and continuity tests, and systematic visual inspection — before replacing any parts.
 
 ## Why This Is Best Practice
 
+**Why best:** Systematic circuit-level diagnosis (OBD-II code retrieval, then circuit and component testing) isolates the actual fault instead of guessing, avoiding costly unnecessary part replacement.
 **Adopted by:** ASE A6 Electrical/Electronic Systems is a standalone certification reflecting the complexity of modern vehicle electrical systems. Professional diagnostic procedures (per Bosch Automotive Handbook and OEM service manuals) require OBD-II code retrieval and circuit testing before part replacement. AutoZone, O'Reilly, and most parts stores offer free OBD-II scanning — reducing shotgun part replacement.
 **Impact:** Modern vehicles have 50–100 Electronic Control Units (ECUs) controlling everything from emissions to comfort features. A "random" symptom (intermittent stall, flickering dash) is rarely random — it has a traceable electrical cause. Replacing parts without testing (the "swapperoo" method) costs $100–$1,000 in unnecessary parts and often doesn't fix the problem. A multimeter and 30 minutes of methodical testing identifies the specific failed component.
 

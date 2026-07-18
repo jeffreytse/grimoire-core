@@ -11,6 +11,7 @@ Plan an oil painting from ground preparation through layered execution using und
 
 ## Why This Is Best Practice
 
+**Why best:** Layered oil technique separates value, color, and luminosity into distinct passes and enforces fat-over-lean drying order — the sequence that prevents cracking while giving the painter control classical ateliers still teach today.
 **Adopted by:** Flemish masters (Van Eyck, Rembrandt, Vermeer) developed the layered oil painting process still taught at contemporary ateliers (Florence Academy of Art, Ingbretson Workshop, Grand Central Atelier). The fat-over-lean rule is physics: lean paint dries faster and forms the stable base; fat paint dries slower and must flex over it. Violating this rule causes delamination visible in poorly preserved museum works. Modern representational instruction (Juliette Aristides, Richard Schmid) integrates both classical layered technique and alla prima (wet-into-wet) depending on the desired result.
 **Impact:** The layered process separates concerns: value in the underpainting, color in the block-in, atmosphere and luminosity in the final glazes. Painters who attempt all three simultaneously (one-session alla prima without planning) often produce muddy mid-tones and lose the luminosity that glazes provide. Understanding both methods gives the painter control over when to use each.
 

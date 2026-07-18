@@ -11,6 +11,7 @@ Determine the optimal effort distribution across a race distance to minimize tim
 
 ## Why This Is Best Practice
 
+**Why best:** Even or negative-split pacing avoids the early acidosis and glycogen depletion that positive splitting locks in, and it is the pattern behind every elite endurance record — physiologically grounded pacing beats going out hard and hanging on.
 **Adopted by:** Elite marathon programs (Nike Breaking2/Eliud Kipchoge's team), professional cycling teams (Team Sky/Ineos), and national endurance coaching bodies (USATF, British Cycling) use physiologically-derived pacing models. World record performances in middle-distance and long-distance events are almost universally achieved with even or slightly negative splits.
 **Impact:** Tucker et al. (2006) analyzed world record performances across running distances and found that the fastest times use a relatively even pace with a slight positive split (faster first half by <3%). Abbiss & Laursen (2008) review found that positive pacing (going out too fast) consistently produces slower overall times than even or negative pacing, due to early glycogen depletion and acidosis that cannot be compensated later. Negative splitting the marathon (faster second half) is the strategy behind every sub-2:05 performance in history.
 

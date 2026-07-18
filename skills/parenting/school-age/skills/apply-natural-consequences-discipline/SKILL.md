@@ -1,7 +1,7 @@
 ---
 name: apply-natural-consequences-discipline
 description: Use when a school-age child (6–12) repeats a problematic behavior despite correction — applying natural and logical consequences as a discipline approach that builds internal motivation and problem-solving instead of relying on punishment and external control.
-source: Dreikurs & Grey "A New Approach to Discipline: Logical Consequences" (1968); Nelsen "Positive Discipline" 6th ed. (2011); American Psychological Association "Effective Discipline to Raise Healthy Children" (2018); Gershoff "More Harm Than Good: A Summary of Research on Corporal Punishment" (2013)
+source: 'Dreikurs & Grey "A New Approach to Discipline: Logical Consequences" (1968); Nelsen "Positive Discipline" 6th ed. (2011); American Psychological Association "Effective Discipline to Raise Healthy Children" (2018); Gershoff "More Harm Than Good: A Summary of Research on Corporal Punishment" (2013)'
 tags: [parenting, discipline, school-age, behavior, natural-consequences, positive-discipline]
 ---
 
@@ -11,6 +11,7 @@ Apply natural and logical consequences as a discipline approach for school-age c
 
 ## Why This Is Best Practice
 
+**Why best:** Punishment-based discipline suppresses behavior only while the authority is watching and correlates with worse long-term outcomes; natural/logical consequences teach the child what actually happens as a result of choices, building internal regulation that persists without supervision.
 **Adopted by:** Rudolf Dreikurs and Loren Grey's "Logical Consequences" framework (1968) is the foundational text in progressive child discipline. Jane Nelsen's "Positive Discipline" (sold 6+ million copies) operationalizes this approach for parents. The American Psychological Association's 2018 policy statement recommends positive discipline approaches and explicitly opposes corporal punishment and harsh verbal discipline. The AAP (American Academy of Pediatrics) made the same recommendation in 2018, citing research showing punishment-based discipline increases aggression, anxiety, and antisocial behavior without improving long-term compliance.
 **Impact:** Research by Gershoff (2013) reviewed 88 studies and found physical punishment associated with 17 harmful outcomes and 0 beneficial ones. Natural and logical consequences, by contrast, teach the child what happens in the real world when choices are made — building internal regulation rather than behavior that only occurs when an authority is watching.
 

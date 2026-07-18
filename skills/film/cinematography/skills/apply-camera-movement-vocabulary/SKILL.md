@@ -1,8 +1,8 @@
 ---
 name: apply-camera-movement-vocabulary
 description: Use when planning camera movement for a scene — selecting from the vocabulary of dolly, pan, tilt, crane, track, Steadicam, and handheld movement with knowledge of what each communicates emotionally and narratively to make deliberate visual storytelling choices.
-source: Katz "Shot by Shot: Visualizing from Concept to Screen" (1991); Brown "Cinematography" 4th ed. (2011); ASC Manual 10th ed. (2013); Mascelli "The Five C's of Cinematography" (1965)
-tags: [cinematography, camera-movement, visual-storytelling, dolly, crane, Steadicam, film-language]
+source: "Katz \"Shot by Shot: Visualizing from Concept to Screen\" (1991); Brown \"Cinematography\" 4th ed. (2011); ASC Manual 10th ed. (2013); Mascelli \"The Five C's of Cinematography\" (1965)"
+tags: [cinematography, camera-movement, visual-storytelling, dolly, crane, steadicam, film-language]
 ---
 
 # Apply Camera Movement Vocabulary
@@ -11,6 +11,7 @@ Select and apply camera movement types (dolly, pan/tilt, crane, Steadicam, handh
 
 ## Why This Is Best Practice
 
+**Why best:** Each camera movement carries a fixed set of emotional and narrative associations built up over a century of film craft — treating movement as vocabulary rather than decoration lets a filmmaker choose the exact psychological effect a moment needs instead of guessing.
 **Adopted by:** Camera movement is a primary tool of cinematic visual language, codified in film theory (Katz "Shot by Shot," Eisenstein's montage theory) and professional craft manuals (ASC Manual, Mascelli "The Five C's"). Every film school teaches camera movement as a distinct visual grammar. Directors from Kubrick (steadicam, long tracking shots) to Spielberg (dolly-in on reaction) to the Dardenne Brothers (observational handheld) build signature styles on specific movement choices.
 **Impact:** Each camera movement type communicates a different emotional and narrative quality that static composition cannot achieve. A dolly-in creates psychological intimacy; a crane rise signals revelation or isolation; handheld following a character creates urgency and proximity. Using the wrong movement type for a scene — or moving the camera without clear motivation — creates visual noise that distracts from performance and narrative. Deliberate movement selection multiplies emotional impact.
 

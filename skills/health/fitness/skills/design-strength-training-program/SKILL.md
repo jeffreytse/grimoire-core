@@ -1,6 +1,6 @@
 ---
 name: design-strength-training-program
-description: Use when creating a resistance training program to build muscular strength, hypertrophy, or power for a specific individual
+description: Use when creating a resistance (weightlifting) training program to build muscular strength, hypertrophy, or power for a specific individual — distinct from designing general/sport-agnostic training periodization
 source: NSCA "Essentials of Strength Training and Conditioning" (4th ed.); Zatsiorsky & Kraemer "Science and Practice of Strength Training" (2006); Schoenfeld "Science and Development of Muscle Hypertrophy" (2016)
 tags: [fitness, strength-training, programming, hypertrophy]
 verified: true
@@ -9,6 +9,8 @@ verified: true
 # Design Strength Training Program
 
 Build a periodized resistance training program that optimizes strength or hypertrophy while managing fatigue and injury risk.
+
+> **Disclaimer:** This skill provides general fitness programming guidance, not medical advice. Consult a healthcare provider before beginning any new training program, especially if you have existing injuries, cardiovascular conditions, or other health concerns.
 
 ## Why This Is Best Practice
 

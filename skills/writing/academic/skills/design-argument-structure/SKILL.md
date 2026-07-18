@@ -12,6 +12,7 @@ Design a logical argument structure for academic or policy writing — developin
 ## Why This Is Best Practice
 
 **Adopted by:** Stephen Toulmin's "The Uses of Argument" (1958) — Toulmin's model of argumentation (claim, data, warrant, backing, rebuttal, qualifier) is the standard framework in academic argumentation, debate coaching, and rhetoric instruction at universities worldwide. Booth, Colomb & Williams' "The Craft of Research" is the primary academic writing methodology text used at US universities. Graff & Birkenstein's "They Say / I Say" has been adopted at over 1,500 institutions and is the most widely used academic writing pedagogy text.
+**Why best:** The Toulmin model forces explicit articulation of the warrant connecting evidence to claim, rather than leaving that logical link implicit — this is the single structural feature that distinguishes rigorous academic argument from mere assertion, which is why it has displaced ad hoc argument structures across debate, law, and research writing pedagogy.
 **Impact:** Undisciplined arguments have three common failures: theses that are too broad to be argued; evidence without explicit logical connections to the claim; and omission of counterarguments that a reader will raise. Each failure undermines the argument's credibility with an academic audience. The Toulmin framework addresses all three by requiring explicit articulation of the claim, the supporting data, and — crucially — the warrant that connects the data to the claim.
 
 ## Steps

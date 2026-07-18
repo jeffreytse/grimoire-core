@@ -10,6 +10,8 @@ verified: true
 
 Structure evidence-based recovery strategies between training sessions to maximize adaptation, reduce injury risk, and prevent overtraining.
 
+**Disclaimer:** This skill provides general fitness guidance, not medical advice. Consult a healthcare provider before starting any recovery protocol, especially with existing health conditions or injuries.
+
 ## Why This Is Best Practice
 
 **Adopted by:** NSCA, AIS (Australian Institute of Sport), USOC (United States Olympic Committee) athlete performance programs, NFL/NBA/EPL sports science departments.

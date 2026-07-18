@@ -11,6 +11,7 @@ Create a structured, consistent approach to delivering performance feedback that
 
 ## Why This Is Best Practice
 
+**Why best:** Grounded in decades-validated motor learning research and adopted by elite coaching institutions — combines specificity, ratio-balance, and timing to maximize learning effect size while preserving athlete confidence.
 **Adopted by:** USGA teaching programs, PGA Teaching Manual, USTA coaching certification, and UEFA coaching education all include feedback methodology as core curriculum. John Wooden's coaching philosophy — which produced 10 NCAA championships at UCLA — centered on specific, immediate, corrective feedback delivered at high frequency with minimal praise or criticism.
 **Impact:** Hattie & Timperley (2007) meta-analysis of 7,000+ studies found feedback has one of the highest effect sizes on learning (d=0.79), but only when it is specific, timely, and actionable. Magill (2014) synthesis of motor learning research shows that augmented feedback (external feedback from a coach) accelerates skill acquisition in early learning, but over-reliance retards self-regulatory skill development. The optimal feedback frequency decreases as skill level increases.
 

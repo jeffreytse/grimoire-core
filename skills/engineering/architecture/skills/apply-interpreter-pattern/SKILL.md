@@ -1,7 +1,7 @@
 ---
 name: apply-interpreter-pattern
 description: Use when you need to interpret sentences in a simple language — defining a grammar as a class hierarchy where each rule is a class and interpreting an expression is traversing that hierarchy.
-source: Gamma, Helm, Johnson, Vlissides, "Design Patterns: Elements of Reusable Object-Oriented Software" (1994) pp. 243–255; Python ast module; SQL query parsers; regular expression engines; Excel formula evaluation
+source: "Gamma, Helm, Johnson, Vlissides, \"Design Patterns: Elements of Reusable Object-Oriented Software\" (1994) pp. 243–255; Python ast module; SQL query parsers; regular expression engines; Excel formula evaluation"
 tags: [design-patterns, behavioral, interpreter, oop, developer, language-processing, expression-evaluation]
 related: [apply-composite-pattern, apply-visitor-pattern, apply-solid-principles]
 ---

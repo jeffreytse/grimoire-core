@@ -11,6 +11,7 @@ Design a trip wardrobe that maximizes outfit combinations per piece, covers mult
 
 ## Why This Is Best Practice
 
+**Why best:** Carry-on-only travel eliminates baggage fees, lost-luggage risk, and decision fatigue, while a unified color system multiplies wearable outfit combinations from a fixed, minimal piece count.
 **Adopted by:** Carry-on-only travel is endorsed by all major frequent traveler resources (Rick Steves, OneBag.com, PackHacker) as the standard for traveler efficiency — eliminating luggage fees ($30–$70/bag on most airlines), baggage claim time, and lost luggage risk. The minimalist travel wardrobe approach is a specialization of capsule wardrobe theory applied to the constraint of limited luggage volume.
 **Impact:** The average traveler packs 60–70% more than they use on a trip. The extra clothing occupies valuable luggage space, adds weight (above airline limits), and creates decision fatigue without adding outfit options — most extra items are "just in case" items that never get worn. A systematically designed travel wardrobe with a unified color palette and maximum-combination piece selection produces more outfit variety from fewer pieces than an unplanned suitcase.
 

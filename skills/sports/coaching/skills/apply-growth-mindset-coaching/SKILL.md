@@ -1,7 +1,7 @@
 ---
 name: apply-growth-mindset-coaching
 description: Use when a coach wants to build a team or individual athlete culture that treats setbacks as learning opportunities, effort as controllable, and improvement as the primary measure of success — to prevent fixed-mindset responses to failure and adversity.
-source: Dweck "Mindset: The New Psychology of Success" (2006); Duckworth "Grit: The Power of Passion and Perseverance" (2016); USOC Mental Performance Program; Dweck et al. (2014) "Academic Tenacity" (Bill & Melinda Gates Foundation)
+source: 'Dweck "Mindset: The New Psychology of Success" (2006); Duckworth "Grit: The Power of Passion and Perseverance" (2016); USOC Mental Performance Program; Dweck et al. (2014) "Academic Tenacity" (Bill & Melinda Gates Foundation)'
 tags: [growth-mindset, coaching, mental-skills, resilience, grit, athlete-psychology, culture]
 ---
 
@@ -13,6 +13,7 @@ Build a growth mindset culture in athletes by consistently linking effort to imp
 
 **Adopted by:** US Olympic and Paralympic Committee mental performance programs, NCAA Division I coaching staffs, and elite youth academies (including Ajax, Aspire Academy, and IMG Academy) explicitly teach growth mindset principles. Numerous national governing bodies include Dweck's framework in their coaching education curricula.
 **Impact:** Dweck (2006) experimental studies showed that teaching a growth mindset improved academic performance in students from underperforming schools significantly more than control conditions. In sport: Gucciardi et al. (2009) found that athletes coached in growth mindset frameworks showed greater resilience after performance setbacks and higher perceived competence. Athletes with growth mindsets practice more deliberately, persist longer through plateaus, and view competition as a test rather than a threat.
+**Why best:** Praise or reward systems targeting outcomes (see `apply-positive-reinforcement-training`) shape a specific behavior; growth mindset coaching instead targets the athlete's causal belief about *why* ability changes, which generalizes across skills, opponents, and adversity rather than reinforcing one narrow behavior.
 
 ## Steps
 

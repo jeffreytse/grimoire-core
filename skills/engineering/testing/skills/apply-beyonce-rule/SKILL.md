@@ -1,12 +1,12 @@
 ---
 name: apply-beyonce-rule
 description: Use when deciding whether to protect a behavior with a test, responding to an unexpected breakage, or reviewing code that depends on undocumented behavior — if a behavior matters enough to depend on, it needs a test; if it breaks without one, you have no standing to complain.
-source: 'Winters, Manshreck & Wright "Software Engineering at Google" (O\'Reilly, 2020) ch.11; Titus Winters "C++ as a Live at Head Language" (CppCon 2017); attributed to Beyoncé "Single Ladies" (Columbia Records, 2008)'
+source: "Winters, Manshreck & Wright \"Software Engineering at Google\" (O'Reilly, 2020) ch.11; Titus Winters \"C++ as a Live at Head Language\" (CppCon 2017); attributed to Beyoncé \"Single Ladies\" (Columbia Records, 2008)"
 tags: [testing, contracts, dependencies, api-design, software-engineering, behavioral-testing]
 verified: true
 ---
 
-# Apply Beyoncé Rule
+# Apply Beyonce Rule
 
 If you liked it then you shoulda put a ring on it: if a behavior matters enough to depend on, write a test for it — if it breaks and no test caught it, you implicitly said you didn't care.
 

@@ -6,7 +6,7 @@ tags: [finance, investing, technical-analysis, williams-percent-r, overbought-ov
 related: [calculate-bollinger-bands, apply-guppy-multiple-moving-average, apply-kostolany-egg-theory]
 ---
 
-# Calculate Williams %R
+# Calculate Williams Percent R
 
 Calculate Williams %R — the position of the current closing price relative to the recent high-low trading range — to identify potential short-term overbought or oversold conditions, as a momentum-based signal distinct from and complementary to longer-horizon fundamental valuation methods.
 

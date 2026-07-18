@@ -11,6 +11,7 @@ Systematically test the battery, alternator, and charging circuit to identify th
 
 ## Why This Is Best Practice
 
+**Why best:** A fixed test sequence — battery load test before alternator test before parasitic-drain test — catches the actual fault instead of guessing, because each stage's result depends on the previous stage being confirmed good first.
 **Adopted by:** ASE (Automotive Service Excellence) certification requires systematic charging system diagnosis as part of A6 Electrical/Electronic Systems competency. All major auto repair chains (Firestone, Jiffy Lube, Midas) offer free battery and alternator testing as a standard service. OBD-II scan tools used by professional technicians prioritize charging system voltage codes as primary electrical diagnostics.
 **Impact:** The most common diagnosis error is replacing the battery when the alternator is the fault — or replacing the alternator when the battery (unable to hold a charge) is masking a good alternator. AAA data shows that battery-related calls represent ~20% of roadside assistance requests. A systematic test sequence takes 10–15 minutes and eliminates guesswork, preventing the second-most expensive diagnostic error in automotive service: replacing good parts.
 

@@ -1,7 +1,7 @@
 ---
 name: apply-adversarial-verification
 description: Use when you have received information from a party that has motivation to mislead you — to verify claims under adversarial conditions using designed tests, inconsistency detection, and independent corroboration rather than accepting stated information at face value
-source: "智囊 (Zhìnáng) 察智部 (Investigative Wisdom) — Feng Menglong (~1624 AD); CIA "Psychology of Intelligence Analysis" Richards Heuer (1999) — Analysis of Competing Hypotheses; Structured Analytic Techniques for Intelligence Analysis (2010)"
+source: '智囊 (Zhìnáng) 察智部 (Investigative Wisdom) — Feng Menglong (~1624 AD); CIA "Psychology of Intelligence Analysis" Richards Heuer (1999) — Analysis of Competing Hypotheses; Structured Analytic Techniques for Intelligence Analysis (2010)'
 tags: [investigation, due-diligence, verification, deception-detection, decision-making]
 verified: true
 ---

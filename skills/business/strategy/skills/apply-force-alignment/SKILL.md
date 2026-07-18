@@ -1,7 +1,7 @@
 ---
 name: apply-force-alignment
 description: Use when evaluating a strategy or major initiative — to categorize major external forces as tailwinds (working with you) or headwinds (requiring you to overcome), and systematically prefer strategies that work WITH dominant forces rather than against them
-source: "荀子 (Xunzi) 天论篇 (~3rd century BC) — 天行有常，不因尧存，不因桀亡…制天命而用之; Bezos 2004 Amazon shareholder letter — "work with trends, not against them"; Christensen "The Innovator's Dilemma" (1997) — incumbents fail by fighting disruption rather than riding it; Deming "Out of the Crisis" (1986) — tampering with system forces makes outcomes worse"
+source: "荀子 (Xunzi) 天论篇 (~3rd century BC) — 天行有常，不因尧存，不因桀亡…制天命而用之; Bezos 2004 Amazon shareholder letter — \"work with trends, not against them\"; Christensen \"The Innovator's Dilemma\" (1997) — incumbents fail by fighting disruption rather than riding it; Deming \"Out of the Crisis\" (1986) — tampering with system forces makes outcomes worse"
 tags: [strategy, market-forces, competitive-positioning, trend-analysis, organizational-design]
 verified: true
 ---

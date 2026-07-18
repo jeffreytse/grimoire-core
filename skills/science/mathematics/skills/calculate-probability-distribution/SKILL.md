@@ -2,7 +2,7 @@
 name: calculate-probability-distribution
 description: Use when working with probability distributions — identifying the correct distribution for a phenomenon, computing probabilities and quantiles, fitting distributions to data, and checking distributional assumptions statistically.
 source: DeGroot & Schervish "Probability and Statistics" 4th ed. (2012); Casella & Berger "Statistical Inference" 2nd ed. (2002); Johnson et al. "Univariate Discrete Distributions" 3rd ed. (2005)
-tags: [probability, statistics, distribution-fitting, hypothesis-testing, Bayesian, quantiles, random-variables]
+tags: [probability, statistics, distribution-fitting, hypothesis-testing, bayesian, quantiles, random-variables]
 ---
 
 # Calculate Probability Distribution
@@ -11,6 +11,7 @@ Identify and apply the correct probability distribution for a phenomenon — com
 
 ## Why This Is Best Practice
 
+**Why best:** Correct distribution identification underpins valid probability estimates, parameter fits, and goodness-of-fit conclusions; using the wrong family silently corrupts every downstream calculation.
 **Adopted by:** Actuarial science (loss distributions), reliability engineering (lifetime distributions), queueing theory (arrival processes), machine learning (likelihood functions), Bayesian inference (prior/posterior), and risk management all depend on correct probability distribution selection. SOA (Society of Actuaries) and CAS (Casualty Actuarial Society) exams test distribution fitting as a core competency. SciPy, R, and MATLAB provide standardized implementations of >100 distributions.
 **Impact:** Misidentifying the distribution for a phenomenon leads to incorrect probability estimates. DeGroot & Schervish (2012) demonstrate that the difference between normal and heavy-tailed (e.g., Cauchy) distribution assumptions produces probability estimates that differ by orders of magnitude in the tails — precisely where risk decisions are made. Fitting a normal distribution to financial returns (which are leptokurtic) underestimates tail risk (Black Swan events) catastrophically.
 

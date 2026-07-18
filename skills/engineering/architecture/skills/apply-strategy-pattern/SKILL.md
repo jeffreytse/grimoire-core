@@ -1,7 +1,7 @@
 ---
 name: apply-strategy-pattern
 description: Use when you have multiple algorithms or behaviors that can be swapped for a given task — encapsulating each algorithm in its own class and making them interchangeable at runtime.
-source: Gamma, Helm, Johnson, Vlissides, "Design Patterns: Elements of Reusable Object-Oriented Software" (1994) pp. 315–323; Java Comparator; Python sorted(key=); scikit-learn estimator API; AWS SDK retry strategies
+source: 'Gamma, Helm, Johnson, Vlissides, "Design Patterns: Elements of Reusable Object-Oriented Software" (1994) pp. 315–323; Java Comparator; Python sorted(key=); scikit-learn estimator API; AWS SDK retry strategies'
 tags: [design-patterns, behavioral, strategy, oop, developer, algorithm-selection, open-closed]
 related: [apply-state-pattern, apply-template-method-pattern, apply-solid-principles]
 ---

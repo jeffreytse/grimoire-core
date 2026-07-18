@@ -1,15 +1,19 @@
 ---
 name: apply-social-proof-principles
 description: Use when designing persuasive communications, product pages, or social environments — applying social proof principles (testimonials, user counts, expert endorsement, social sharing metrics, popularity signals) to reduce decision uncertainty and increase adoption of a desired behavior or choice.
-source: Cialdini "Influence: The Psychology of Persuasion" rev. ed. (2021); Goldstein & Cialdini "Social Norms Approach" (2007); Asch "Studies of Independence and Conformity" (1951); Sunstein "Going to Extremes" (2009); Nielsen Norman Group UX research on social proof
-tags: [psychology, social-proof, persuasion, influence, social-norms, marketing, UX]
+source: "Cialdini \"Influence: The Psychology of Persuasion\" rev. ed. (2021); Goldstein & Cialdini \"Social Norms Approach\" (2007); Asch \"Studies of Independence and Conformity\" (1951); Sunstein \"Going to Extremes\" (2009); Nielsen Norman Group UX research on social proof"
+tags: [psychology, social-proof, persuasion, influence, social-norms, marketing, ux]
 ---
 
 # Apply Social Proof Principles
 
 Apply social proof principles — testimonials, social counts, expert endorsements, peer behavior visibility, and similarity-based proof — to reduce decision uncertainty and increase adoption of desired behaviors in product design, communications, and social environments.
 
+**Disclaimer:** These techniques draw on psychological research and are intended for ethical persuasion in product, marketing, and communication design. They are not a substitute for advice from a mental health professional, and should not be used to manipulate vulnerable individuals or exploit psychological distress.
+
 ## Why This Is Best Practice
+
+**Why best:** Grounded in decades of peer-reviewed persuasion and conformity research, validated by large-scale industry A/B testing, and consistently applied by the world's largest e-commerce and platform companies — evidence spans lab experiments, field studies, and production-scale conversion data.
 
 **Adopted by:** Robert Cialdini's "Influence: The Psychology of Persuasion" (1984, revised 2021) is the most cited book in marketing, behavioral economics, and persuasion research — social proof is one of his six principles of influence. Solomon Asch's conformity experiments (1951) demonstrated the power of perceived consensus. The Nielsen Norman Group applies these principles systematically to UX/product design research. Amazon, Airbnb, Booking.com, and every major e-commerce platform design their social proof systems from these principles.
 **Impact:** Cialdini's research on social proof in donation fundraising showed that adding "most people give $X" increased both donation rate and average donation amount significantly. E-commerce A/B test data (collected by Nielsen Norman, Conversion Rate Experts, and others) consistently shows 20–270% conversion rate increases from social proof elements depending on placement and relevance. The mechanism: when uncertain, people look to others' choices as information about the correct choice; social proof reduces decision uncertainty.

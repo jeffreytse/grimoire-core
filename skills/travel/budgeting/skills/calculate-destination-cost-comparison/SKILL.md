@@ -11,6 +11,7 @@ Calculate and compare the all-in cost of multiple travel destinations — coveri
 
 ## Why This Is Best Practice
 
+**Why best:** Systematic all-in cost comparison across destinations — rather than comparing flight price alone — surfaces the true budget ceiling before commitment, catching non-obvious costs (visas, vaccinations, insurance, currency conversion) that routinely blow past ad-hoc estimates.
 **Adopted by:** Tools like Numbeo, Budget Your Trip, and Nomad List aggregate real traveler cost data across thousands of destinations, enabling systematic cost comparison. Travel bloggers and personal finance writers consistently identify destination cost comparison as the most impactful budget decision — where you go determines your budget ceiling more than how you travel once there. Rome2Rio provides comprehensive multi-modal transport cost and time comparisons.
 **Impact:** The difference in daily cost between budget destinations (Thailand: $30–60/day), mid-range destinations (France: $100–200/day), and premium destinations (Norway, Switzerland: $200–400/day) means that the same annual travel budget can fund either 3 months in Southeast Asia or 2 weeks in Scandinavia. Travelers who choose destinations before calculating costs often under-budget significantly; unexpected costs (visas, vaccinations, airport transfers, tourist taxes, currency conversion) routinely add 15–30% to estimated trip cost.
 

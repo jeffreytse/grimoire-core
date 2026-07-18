@@ -6,7 +6,7 @@ tags: [zhuge-liang, constraint-removal, innovation, bottleneck, logistics, theor
 verified: true
 ---
 
-# Remove Binding Constraint
+# Apply Binding Constraint Removal
 
 Identify the single operational limit that is currently preventing your strategic goal — verify it is actually the binding constraint and not a symptom of a deeper one — then invest to solve it as an engineering or capability problem, rather than optimising around it as every competitor does, gaining structural advantage that is durable because competitors have built their entire operation on the assumption the constraint is permanent.
 

@@ -1,7 +1,7 @@
 ---
 name: apply-mediator-pattern
 description: Use when many objects communicate with each other in complex, tangled ways — centralizing all interaction in a mediator object so that components only talk to the mediator, not to each other.
-source: Gamma, Helm, Johnson, Vlissides, "Design Patterns: Elements of Reusable Object-Oriented Software" (1994) pp. 273–282; chat room servers; aviation air traffic control; React event handling architecture; MediatR library (.NET)
+source: 'Gamma, Helm, Johnson, Vlissides, "Design Patterns: Elements of Reusable Object-Oriented Software" (1994) pp. 273–282; chat room servers; aviation air traffic control; React event handling architecture; MediatR library (.NET)'
 tags: [design-patterns, behavioral, mediator, oop, developer, decoupling, event-coordination]
 related: [apply-observer-pattern, apply-facade-pattern, apply-low-coupling]
 ---

@@ -2,11 +2,13 @@
 name: apply-acceptance-commitment-therapy
 description: Use when helping someone reduce psychological suffering caused by rigid avoidance, fusion with unhelpful thoughts, or values-behavior disconnection — particularly for anxiety, depression, chronic pain, or stress.
 source: Hayes "Get Out of Your Mind and Into Your Life" (2005); Hayes, Strosahl & Wilson "Acceptance and Commitment Therapy" (2012); ACBS (Association for Contextual Behavioral Science); Journal of Consulting and Clinical Psychology ACT meta-analyses
-tags: [therapy, psychology, ACT, acceptance, mindfulness, values, flexibility, CBT]
+tags: [therapy, psychology, act, acceptance, mindfulness, values, flexibility, cbt]
 verified: true
 ---
 
-# Apply Acceptance and Commitment Therapy
+# Apply Acceptance Commitment Therapy
+
+> **Disclaimer:** This skill is educational and not a substitute for care from a licensed mental health professional. Anyone experiencing significant psychological distress should consult a mental health professional.
 
 Use ACT's six core processes to build psychological flexibility and help people act in accordance with their values despite difficult thoughts and feelings.
 
@@ -66,6 +68,6 @@ Sources: Hayes, Strosahl & Wilson "Acceptance and Commitment Therapy: The Proces
 
 ## When NOT to Use
 
-- During acute psychiatric crisis (active psychosis, severe suicidal ideation with plan) — stabilization and safety protocols take precedence before introducing flexibility-based interventions.
+- During acute psychiatric crisis (active psychosis, severe suicidal ideation with plan) — stabilization and safety protocols take precedence before introducing flexibility-based interventions; refer to a mental health professional immediately.
 - When the problem is primarily skills deficit rather than avoidance — someone who lacks social skills needs skills training first; ACT addresses the avoidance of using skills, not the absence of skills.
 - When cultural or religious context makes ACT's individualistic values framework misaligned with the client's worldview — adapt or select a culturally concordant approach.

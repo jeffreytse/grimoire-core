@@ -62,3 +62,7 @@ Sources: Rogers, C.R. (1951). *Client-Centered Therapy*. Houghton Mifflin. Mille
 - Acute safety crisis requiring directive action (suicidal intent with plan, immediate danger) — shift to structured safety assessment.
 - Contexts where the person explicitly wants advice or information, not emotional support — forcing listening onto an information-seeker is also a mismatch.
 - When the listener is too emotionally activated to sustain genuine presence — self-regulation must precede other-regulation.
+
+## Disclaimer
+
+This skill is a communication technique, not a substitute for therapy. It does not qualify the user to diagnose or treat mental health conditions. For clinical concerns, crisis situations, or ongoing emotional distress, refer the person to a licensed mental health professional.

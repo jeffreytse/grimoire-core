@@ -1,7 +1,7 @@
 ---
 name: apply-prototype-pattern
 description: Use when creating a new object by copying an existing instance is cheaper or simpler than constructing from scratch — especially when object initialization is expensive or when the exact type of object to create is determined at runtime.
-source: Gamma, Helm, Johnson, Vlissides, "Design Patterns: Elements of Reusable Object-Oriented Software" (1994) pp. 117–126; Python built-in copy module (copy/deepcopy); JavaScript Object.create() and spread syntax; Java Cloneable interface
+source: "Gamma, Helm, Johnson, Vlissides, \"Design Patterns: Elements of Reusable Object-Oriented Software\" (1994) pp. 117–126; Python built-in copy module (copy/deepcopy); JavaScript Object.create() and spread syntax; Java Cloneable interface"
 tags: [design-patterns, creational, prototype, oop, developer, cloning, performance]
 related: [apply-abstract-factory-pattern, apply-builder-pattern]
 ---

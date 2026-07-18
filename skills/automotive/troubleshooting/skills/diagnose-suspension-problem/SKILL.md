@@ -11,6 +11,7 @@ Systematically identify failing suspension and steering components through sympt
 
 ## Why This Is Best Practice
 
+**Why best:** Symptom-to-component mapping is systematic, not guesswork — matches ASE-certified diagnostic method.
 **Adopted by:** ASE (Automotive Service Excellence) A4 certification covers suspension and steering diagnosis as a distinct domain. Monroe and KYB (major shock absorber manufacturers) publish suspension diagnostic flowcharts used industry-wide by service technicians. Hunter Engineering's wheel alignment systems (used by 90% of US tire shops) require suspension diagnosis before alignment service.
 **Impact:** Suspension components rarely fail in isolation. A worn stabilizer bar link causes a thumping noise over bumps; worn ball joints cause wandering and clunking; weak struts cause bouncing and extended braking distances. Misidentifying the symptom leads to replacing the wrong component — the problem recurs and the old part was wasted. Systematic symptom-to-component mapping eliminates guesswork.
 

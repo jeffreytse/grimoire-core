@@ -10,6 +10,8 @@ verified: true
 
 Structure an equity compensation plan that attracts and retains talent, complies with tax and accounting rules, and preserves cap table integrity from founding through exit.
 
+> **Disclaimer:** This skill provides general educational guidance, not legal advice. Equity compensation plans involve binding tax, securities, and corporate law obligations — engage qualified legal counsel to draft and review plan documents before granting any equity.
+
 ## Why This Is Best Practice
 
 **Adopted by:** NVCA model plan documents are used as the foundation for equity plans by the majority of VC-backed US startups. Carta data shows 85% of Series A and later companies use ISO/NQO option structures aligned with the NVCA model. Major tech companies including Google, Stripe, and Airbnb base their plans on these frameworks.

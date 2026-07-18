@@ -2,7 +2,7 @@
 name: apply-reduction-sauce-method
 description: Use when making pan sauces, wine reductions, or glazes — applying deglazing, stock addition, and controlled reduction to produce a concentrated, glossy sauce from pan fond without flour thickening.
 source: Escoffier "Le Guide Culinaire" (1903); CIA "The Professional Chef" 9th ed. (2011); McGee "On Food and Cooking" 2nd ed. (2004); Child "Mastering the Art of French Cooking" (1961)
-tags: [sauces, reduction, pan-sauce, deglazing, cooking-technique, French-cuisine]
+tags: [sauces, reduction, pan-sauce, deglazing, cooking-technique, french-cuisine]
 ---
 
 # Apply Reduction Sauce Method
@@ -11,6 +11,7 @@ Produce a concentrated, glossy pan sauce by deglazing the pan fond, adding stock
 
 ## Why This Is Best Practice
 
+**Why best:** Reduction produces a clear, glossy, intensely flavored sauce through concentration alone, without the starch opacity of a roux — the standard technique underlying all classical pan sauces, jus, and demi-glace derivatives.
 **Adopted by:** The reduction-based pan sauce is the fundamental sauce technique in classical French cooking (Escoffier) and the core technique behind all jus, demi-glace derivatives, and restaurant pan sauces. CIA, Le Cordon Bleu, and commercial kitchen training worldwide establish this as the standard. Reduction is the basis for stocks, sauces, and glazes across French, Italian, Spanish, and Asian professional cuisines.
 **Impact:** Flour-thickened sauces (roux-based) add starch opacity and can mask the flavor of a pan; reduction produces a clear, glossy, intensely flavored sauce from the same pan drippings with no added opacity. McGee (2004) explains the mechanism: as water evaporates, dissolved proteins, sugars, and collagen concentrate, naturally thickening the liquid and deepening its color and flavor — achieving texture through concentration rather than thickening agents.
 

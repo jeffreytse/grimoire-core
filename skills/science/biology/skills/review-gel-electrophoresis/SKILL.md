@@ -1,8 +1,8 @@
 ---
 name: review-gel-electrophoresis
 description: Use when analyzing agarose or polyacrylamide gel electrophoresis results — to correctly identify bands, assess purity and integrity of nucleic acid or protein samples, and systematically troubleshoot unexpected results.
-source: Sambrook & Russell "Molecular Cloning: A Laboratory Manual" 4th ed. (2012); Current Protocols in Molecular Biology (Ausubel et al.); Bio-Rad Electrophoresis Technical Guide
-tags: [gel-electrophoresis, agarose-gel, DNA-analysis, protein-analysis, troubleshooting, molecular-biology]
+source: "Sambrook & Russell \"Molecular Cloning: A Laboratory Manual\" 4th ed. (2012); Current Protocols in Molecular Biology (Ausubel et al.); Bio-Rad Electrophoresis Technical Guide"
+tags: [gel-electrophoresis, agarose-gel, dna-analysis, protein-analysis, troubleshooting, molecular-biology]
 ---
 
 # Review Gel Electrophoresis
@@ -11,6 +11,7 @@ Accurately read electrophoresis results by comparing band positions to size stan
 
 ## Why This Is Best Practice
 
+**Why best:** Band sizing against a co-run ladder plus systematic control-lane interpretation catches misreads before they propagate into false conclusions.
 **Adopted by:** Gel electrophoresis interpretation is a core competency in every molecular biology, biochemistry, and clinical laboratory. FDA, EMA, and ICH guidelines require gel-based quality controls for nucleic acid therapeutics and molecular diagnostics. Good Laboratory Practice (GLP) standards mandate documented interpretation procedures for regulated laboratories.
 **Impact:** Misinterpretation of gel results leads to false conclusions about PCR success, restriction digestion completeness, protein expression, or sample purity. In regulated contexts (clinical diagnostics, pharmaceutical QC), misread gels cause downstream process failures and costly repeats. Systematic interpretation — including band sizing against a ladder and assessment of smearing/degradation — prevents the most common analytical errors.
 

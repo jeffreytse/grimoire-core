@@ -13,6 +13,7 @@ Design a systematic risk assessment for adventure travel activities — identify
 
 **Adopted by:** The National Outdoor Leadership School (NOLS) risk management model is the industry standard for outdoor education and adventure guiding programs globally. The Adventure Travel Trade Association (ATTA) uses systematic risk assessment as a requirement for member operators. The US Army's Risk Management process (FM 5-19) is the formal military standard; adapted versions are used in commercial adventure operations. Wilderness medicine research (WMS) provides the evidence base for medical risk factors at altitude, underwater, and in remote environments.
 **Impact:** Adventure travel accidents are the leading cause of injury death among travelers, second only to road traffic accidents. Most are preventable: analysis of mountaineering fatalities (Williamson & Weiss, 2012) found that 60%+ involved errors in risk assessment or go/no-go decision-making — proceeding despite observable hazard indicators. Systematic pre-activity risk assessment documents hazards, creates explicit criteria for turning back, and plans emergency response before the emotional commitment of the activity makes objective judgment difficult.
+**Why best:** Pre-established, written go/no-go criteria and emergency plans made when calm outperform in-moment judgment, which is degraded by sunk cost, summit fever, and group social pressure at exactly the point risk is highest.
 
 ## Steps
 

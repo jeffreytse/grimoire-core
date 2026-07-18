@@ -6,7 +6,7 @@ tags: [expansion, alliance, sequencing, competitive-strategy, market-entry, comp
 verified: true
 ---
 
-# Ally Far, Attack Near
+# Apply Ally Far, Attack Near
 
 When expanding against multiple competitors sequentially, first identify which distant actors could intervene to rescue your immediate targets; form alliances with those distant actors to neutralise the rescue option; then attack near targets in sequence, closest first — because attacking without neutralising the rescue option allows any target to hold out until reinforced, and attacking distant targets while near threats remain creates a two-front vulnerability that your opponents can exploit.
 

@@ -2,7 +2,7 @@
 name: apply-active-questioning-technique
 description: Use when interviewing, coaching, managing a team, conducting research, or deepening understanding in any conversation — applying Socratic questioning, open/closed question sequencing, and probing techniques to draw out deeper information and build mutual understanding.
 source: Cialdini "Influence" (1984); Marquardt "Leading with Questions" (2014); Socratic Method (Plato "Meno," "Phaedrus"); TRACOM Social Styles research; Rackham "SPIN Selling" (1988)
-tags: [communication, questioning, active-listening, coaching, leadership, Socratic-method]
+tags: [communication, questioning, active-listening, coaching, leadership, socratic-method]
 ---
 
 # Apply Active Questioning Technique
@@ -11,6 +11,7 @@ Apply systematic questioning techniques — open/closed question sequencing, pro
 
 ## Why This Is Best Practice
 
+**Why best:** Systematic questioning surfaces the speaker's own frame, evidence, and assumptions instead of imposing the questioner's — producing better information and stronger mutual understanding than telling or presenting ever can.
 **Adopted by:** Socratic questioning has been the foundation of Western philosophical and educational dialogue since Plato (400 BCE). Michael Marquardt (George Washington University) documents question-based leadership in "Leading with Questions" as the primary tool of transformational leaders across industries. Neil Rackham's SPIN Selling methodology (used by IBM, Xerox) demonstrated that sales representatives who ask more questions (especially problem and implication questions) outsell those who present features by 3:1 in complex sales. Coaches, therapists, journalists, and researchers all rely on systematic questioning as a core professional competency.
 **Impact:** Leaders and communicators who ask good questions get better information, build stronger rapport, and help others develop their own thinking — rather than creating dependency on the questioner's solutions. Harvard Business Review (Gino, 2018) reports that people who ask follow-up questions in conversations are perceived as significantly more intelligent and likable. The quality of the question determines the quality of the answer.
 

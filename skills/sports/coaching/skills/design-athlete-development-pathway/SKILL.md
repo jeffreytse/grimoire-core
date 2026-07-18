@@ -2,7 +2,7 @@
 name: design-athlete-development-pathway
 description: Use when a coach, club, or national federation needs to structure a long-term plan for developing athletes from youth through elite levels — matching training content, competition volume, and specialization timing to each developmental stage.
 source: Balyi & Hamilton "Long-Term Athlete Development" (2004); Côté "The Influence of the Family in the Development of Talent in Sport" (The Sport Psychologist, 1999); USOC American Development Model; UK Sport Talent Pathway framework
-tags: [athlete-development, LTAD, youth-sport, talent-development, coaching, specialization]
+tags: [athlete-development, ltad, youth-sport, talent-development, coaching, specialization]
 ---
 
 # Design Athlete Development Pathway
@@ -11,6 +11,7 @@ Structure a stage-based plan that develops athletes appropriately by age and mat
 
 ## Why This Is Best Practice
 
+**Why best:** Matching training content, competition volume, and specialization timing to biological and psychosocial developmental stage — rather than chronological age or current performance — produces higher adult performance, lower injury rates, and lower dropout than early single-sport specialization.
 **Adopted by:** Hockey Canada, US Skiing, UK Athletics, Swimming Canada, and dozens of national governing bodies have adopted LTAD-based frameworks. FIFA, UEFA, and The FA use stage-based youth academies. The IOC Consensus Statement on Youth Athletic Development (2015) explicitly supports staged, age-appropriate training over early specialization.
 **Impact:** Côté et al. (2009) found that early sampling (diverse sports) through age 12-13 predicts higher adult performance and lower dropout rates than early specialization. Baker et al. (2009) showed that elite athletes in most sports participated in more diverse activities during childhood than sub-elite comparators. The DFB (German Football Association) overhauled youth development using LTAD principles after 2004 — resulting in Germany winning the 2014 World Cup with the most academy-developed squad in the tournament.
 

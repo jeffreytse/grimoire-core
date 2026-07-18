@@ -59,3 +59,7 @@ Sources: Modigliani & Miller "The Cost of Capital, Corporation Finance and the T
 - When valuing a single project that differs significantly from the company's overall risk profile (use APV or project-specific rate).
 - When the company has no debt or minimal debt (simply use the cost of equity; WACC = Ke when D/V ≈ 0).
 - When the company is in financial distress (WACC assumes the firm is a going concern; distressed firms require different valuation approaches).
+
+## Disclaimer
+
+This skill is for educational and analytical purposes only and does not constitute financial advice. Consult a qualified financial advisor before making investment or capital budgeting decisions.

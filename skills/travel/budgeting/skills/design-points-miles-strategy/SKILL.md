@@ -11,6 +11,7 @@ Design a credit card points and airline miles accumulation strategy — selectin
 
 ## Why This Is Best Practice
 
+**Why best:** Transfer-partner redemptions turn points worth ~1 cent as statement credit into 2–8 cents in premium travel value; matching the ecosystem and card mix to the traveler's actual spend and goals is what captures that spread instead of leaving it on the table.
 **Adopted by:** The Points Guy (ThePointsGuy.com), NerdWallet, and Frequent Miler are the primary consumer resources for rewards optimization, collectively reaching millions of travelers. Major banks (Chase, American Express, Capital One, Citi) design their card rewards programs around documented consumer behavior patterns that this strategy is designed to exploit. Travel rewards programs are a multi-billion dollar industry precisely because most cardholders earn points but redeem them suboptimally (at low value).
 **Impact:** The average card rewards program earns the bank significant profit because most cardholders redeem at the lowest-value redemption options (gift cards, statement credits) rather than for travel. Points optimally redeemed for premium international travel can be worth 2–8 cents per point; the same points redeemed as statement credit are worth ~1 cent. A traveler who earns 100,000 Chase points and redeems for statement credit gets $1,000 in value; the same points transferred to United Airlines and redeemed for a business-class international flight can be worth $3,000–8,000.
 

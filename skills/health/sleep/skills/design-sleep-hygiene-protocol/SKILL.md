@@ -61,3 +61,7 @@ Sources: Hauri "Sleep Hygiene" Am Sleep Disorders Assoc (1977); AASM Practice Pa
 - For sleep disorders requiring medical diagnosis: obstructive sleep apnea (needs CPAP), restless legs syndrome (needs medical evaluation), narcolepsy (requires specialist management)
 - For acute insomnia during a specific stressor (normal adaptation; apply sleep hygiene but expect resolution with stressor removal)
 - As a substitute for CBT-I in chronic insomnia — sleep hygiene is one component; sleep restriction and stimulus control (the most effective components) must be added for clinical insomnia
+
+## Disclaimer
+
+This protocol is educational and not medical advice. Persistent sleep problems, suspected sleep disorders, or any condition affecting sleep should be evaluated by a healthcare provider.

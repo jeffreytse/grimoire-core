@@ -1,7 +1,7 @@
 ---
 name: apply-graph-theory-analysis
 description: Use when analyzing networks, relationships, or connectivity problems using graph theory — including graph representation, traversal algorithms, shortest path, minimum spanning tree, centrality measures, and community detection.
-source: West "Introduction to Graph Theory" 2nd ed. (2001); Newman "Networks: An Introduction" (2010); Diestel "Graph Theory" 5th ed. (2017, free online); NetworkX documentation (Hagberg et al., 2008)
+source: 'West "Introduction to Graph Theory" 2nd ed. (2001); Newman "Networks: An Introduction" (2010); Diestel "Graph Theory" 5th ed. (2017, free online); NetworkX documentation (Hagberg et al., 2008)'
 tags: [graph-theory, network-analysis, shortest-path, centrality, algorithms, combinatorics, data-structures]
 ---
 
@@ -11,6 +11,7 @@ Represent and analyze networks using graph theory — selecting appropriate grap
 
 ## Why This Is Best Practice
 
+**Why best:** Graph theory gives exact algorithms with proven complexity bounds for structural questions (reachability, shortest path, connectivity) that ad-hoc heuristics get wrong on non-trivial networks.
 **Adopted by:** Google (PageRank = eigenvector centrality of the web graph), social network analysis (Facebook, LinkedIn graph algorithms), logistics (UPS/FedEx routing = shortest path on road networks), computational biology (protein interaction networks, metabolic pathways), and electrical engineering (circuit analysis = Kirchhoff's laws on a graph). NetworkX (Python) and igraph (R/Python/C) are the dominant open-source graph analysis libraries.
 **Impact:** Newman (2010) established the theoretical foundations of network science — demonstrating that most real networks have scale-free degree distributions (hubs), small-world properties (short paths despite large size), and community structure. These properties determine resilience, information spread, and vulnerability in ways that aggregate statistics miss entirely. The PageRank algorithm (Brin & Page, 1998) — a specialization of eigenvector centrality — generates ~$140B+ annual revenue for Google by identifying authoritative web pages.
 

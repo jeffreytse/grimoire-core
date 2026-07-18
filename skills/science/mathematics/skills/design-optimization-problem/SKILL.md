@@ -11,6 +11,7 @@ Formulate an optimization problem correctly — defining decision variables, obj
 
 ## Why This Is Best Practice
 
+**Why best:** Correct formulation (variable types, convexity, constraint structure) determines whether a solver finds a certifiable global optimum in seconds or gets stuck in a local optimum or times out entirely — the mathematical structure of the problem, not solver tuning, is what makes optimization tractable.
 **Adopted by:** Optimization is the mathematical engine behind supply chain management (logistics companies: UPS, Amazon), financial portfolio optimization (Markowitz model, BlackRock), machine learning (gradient descent), engineering design (aerospace, automotive), and power grid dispatch (every electrical utility). Gurobi, CPLEX, and MOSEK are the gold-standard commercial solvers; GLPK, HiGHS, and SciPy are free alternatives.
 **Impact:** Boyd & Vandenberghe (2004) demonstrated that convex optimization problems can be solved globally and efficiently — the key insight is that convexity identification determines whether a globally optimal solution is achievable or only a local optimum. An incorrectly formulated problem (non-convex when convex reformulation exists) can increase solve time from seconds to hours or produce local optima mistaken for global solutions.
 

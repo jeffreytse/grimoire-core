@@ -10,6 +10,8 @@ verified: true
 
 Estimate theoretical one-repetition maximum from sub-maximal reps-to-failure data, or verify with direct testing, to enable precise percentage-based training prescriptions.
 
+**Disclaimer:** This is not medical advice. Consult a healthcare provider before beginning any maximal or near-maximal strength testing, especially with pre-existing joint, cardiac, or orthopedic conditions.
+
 ## Why This Is Best Practice
 
 **Adopted by:** NSCA strength testing protocols, USAPL/IPF powerlifting competition standards, NFL Combine testing (225 lb bench reps to failure → 1RM estimate), college athletic performance programs.

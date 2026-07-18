@@ -49,4 +49,4 @@ Execute an evidence-based Kegel protocol to prevent incontinence and prepare the
 - Not relaxing fully between contractions — partial relaxation prevents strength gains.
 - Stopping training after delivery — the postpartum period is when continuation is most protective.
 
-> **Health Disclaimer:** Pelvic floor dysfunction (pain, heaviness, prolapse symptoms) warrants referral to a pelvic floor physiotherapist before starting any PFMT protocol. This skill addresses prevention in low-risk pregnancy.
+> **Health Disclaimer:** This skill provides general educational information, not medical advice. Pelvic floor dysfunction (pain, heaviness, prolapse symptoms) warrants referral to a pelvic floor physiotherapist before starting any PFMT protocol. Consult your healthcare provider before beginning this or any exercise protocol during pregnancy. This skill addresses prevention in low-risk pregnancy.

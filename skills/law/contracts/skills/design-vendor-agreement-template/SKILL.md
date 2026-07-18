@@ -10,6 +10,8 @@ verified: true
 
 Build a comprehensive, reusable vendor agreement template that protects business interests across SLAs, liability caps, data handling, and exit rights so procurement moves faster without sacrificing legal rigor.
 
+> **Disclaimer:** This skill provides general contract-drafting guidance, not legal advice. Have every template reviewed by qualified legal counsel in each governing jurisdiction before use.
+
 ## Why This Is Best Practice
 
 **Adopted by:** IACCM members (including IBM, Microsoft, Cisco, and 70,000+ contracting professionals worldwide) use standardized contract templates as a primary tool for reducing negotiation cycle time. The UK Cabinet Office mandates template-based procurement agreements for all central government vendor contracts. ICC templates are used in over 150 countries.

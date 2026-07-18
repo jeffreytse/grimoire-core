@@ -2,7 +2,7 @@
 name: design-perinatal-mental-health-plan
 description: Use when addressing mental health during pregnancy or postpartum — e.g., "depression during pregnancy", "EPDS screening", "perinatal anxiety", "postpartum depression risk", "antidepressants while pregnant"
 source: Cox et al. BJOG 1987 (EPDS); ACOG Committee Opinion 757 (2018); NICE Antenatal/Postnatal Mental Health NG192 (2020); SAMHSA Perinatal Mental Health 2020
-tags: [pregnancy, mental-health, perinatal-depression, EPDS, anxiety, postpartum, health]
+tags: [pregnancy, mental-health, perinatal-depression, epds, anxiety, postpartum, health]
 verified: true
 ---
 

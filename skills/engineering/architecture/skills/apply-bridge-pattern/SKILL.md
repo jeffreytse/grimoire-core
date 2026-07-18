@@ -1,7 +1,7 @@
 ---
 name: apply-bridge-pattern
-description: Use when you need to vary both an abstraction and its implementation independently — avoiding an exponential class hierarchy that results from combining them through inheritance.
-source: Gamma, Helm, Johnson, Vlissides, "Design Patterns: Elements of Reusable Object-Oriented Software" (1994) pp. 151–161; Java AWT (abstraction: Shape hierarchy; implementation: rendering pipeline); Android View system; JDBC (abstraction: Connection; implementation: vendor driver)
+description: "Use when you need to vary both an abstraction and its implementation independently — avoiding an exponential class hierarchy that results from combining them through inheritance."
+source: "Gamma, Helm, Johnson, Vlissides, \"Design Patterns: Elements of Reusable Object-Oriented Software\" (1994) pp. 151–161; Java AWT (abstraction: Shape hierarchy; implementation: rendering pipeline); Android View system; JDBC (abstraction: Connection; implementation: vendor driver)"
 tags: [design-patterns, structural, bridge, oop, developer, extensibility, abstraction-implementation]
 related: [apply-adapter-pattern, apply-composition-over-inheritance, apply-solid-principles]
 ---

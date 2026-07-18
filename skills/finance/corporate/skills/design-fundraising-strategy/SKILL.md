@@ -2,7 +2,7 @@
 name: design-fundraising-strategy
 description: Use when planning to raise external capital for a business — e.g., "how do I raise a seed round?", "what should my Series A look like?", "how much dilution is acceptable?", "VC vs. angel vs. bootstrap?"
 source: Andreessen Horowitz "How to Raise a Seed Round"; Y Combinator fundraising guide; Brad Feld "Venture Deals" (2019); Cooley LLP term sheet guide; Pitchbook VC market data (2023)
-tags: [finance, corporate, fundraising, venture-capital, seed-round, Series-A, dilution, startup]
+tags: [finance, corporate, fundraising, venture-capital, seed-round, series-a, dilution, startup]
 verified: true
 ---
 

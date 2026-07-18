@@ -1,7 +1,7 @@
 ---
 name: design-reading-habit-program
 description: Use when designing a sustained reading habit for school-age children (6–12) — structuring reading time, creating a book selection system, building reading stamina, and making reading intrinsically motivated rather than a compliance activity.
-source: Gallagher "Readicide: How Schools Are Killing Reading and What You Can Do About It" (2009); Allington "What Really Matters for Struggling Readers" 3rd ed. (2011); Anderson "The Reading Zone" 2nd ed. (2007); NAEP National Assessment of Educational Progress reading research; Cunningham & Stanovich "What Reading Does for the Mind" (1998)
+source: "Gallagher \"Readicide: How Schools Are Killing Reading and What You Can Do About It\" (2009); Allington \"What Really Matters for Struggling Readers\" 3rd ed. (2011); Anderson \"The Reading Zone\" 2nd ed. (2007); NAEP National Assessment of Educational Progress reading research; Cunningham & Stanovich \"What Reading Does for the Mind\" (1998)"
 tags: [parenting, reading, school-age, literacy, habit-building, education]
 ---
 
@@ -11,6 +11,7 @@ Design a sustained reading habit program for school-age children — building re
 
 ## Why This Is Best Practice
 
+**Why best:** Reading volume is the strongest predictor of reading achievement, and volume only sustains when reading is intrinsically motivated rather than compliance-driven — so habit design must prioritize choice, low-friction access, and positive experience over comprehension checks or assigned books.
 **Adopted by:** Richard Allington's research (the most cited researcher on reading development) demonstrates that the single strongest predictor of reading achievement is reading volume — how much children actually read. Nancie Atwell's independent reading workshop model (adopted by thousands of schools) is built on free choice, high volume reading. Cunningham and Stanovich's 1998 research documented that reading volume in elementary school predicted vocabulary, knowledge, and academic achievement in high school more strongly than any other single variable.
 **Impact:** The Matthew Effect in reading (Stanovich, 1986) describes how skilled readers read more, encounter more words, develop larger vocabularies, which makes them better readers — while poor readers avoid reading, encounter fewer words, and fall further behind. Breaking this cycle requires high-volume, intrinsically motivated reading, not skills-drill. Children who read 20 minutes per day encounter approximately 1.8 million words per year — children who read 1 minute per day encounter approximately 8,000. This difference compounds annually.
 

@@ -2,13 +2,15 @@
 name: design-flexibility-mobility-program
 description: Use when an individual needs a systematic program to improve joint mobility, muscular flexibility, and movement quality for fitness, injury prevention, or sport
 source: Cook "Movement" (2010); McGill "Low Back Disorders" 3rd ed. (2015); NSCA Flexibility and Mobility Guidelines; FMS (Functional Movement Screen) research base
-tags: [flexibility, mobility, FMS, stretching, movement-quality, joint-health, injury-prevention]
+tags: [flexibility, mobility, fms, stretching, movement-quality, joint-health, injury-prevention]
 verified: true
 ---
 
-# Design Flexibility and Mobility Program
+# Design Flexibility Mobility Program
 
 Build a periodized flexibility and mobility program that improves joint range of motion, movement pattern quality, and neuromuscular control using evidence-based screening and progressive loading.
+
+**This is not medical advice.** Consult a healthcare provider before starting this program if you have joint pain, spine conditions, a recent injury, or any diagnosed musculoskeletal disorder.
 
 ## Why This Is Best Practice
 
@@ -56,3 +58,4 @@ Sources: Cook, G. "Movement" (2010); McGill, S. "Low Back Disorders" 3rd ed. (20
 
 - When restricted range of motion is due to structural joint changes (severe osteoarthritis, post-surgical hardware, congenital hypermobility syndromes) — these require medical assessment before mobility loading
 - When the individual has an acute muscle strain or ligament sprain — stretching an acutely injured tissue prolongs healing; wait for the acute phase (72 hours minimum) to pass before resuming mobility work on the injured area
+- This program is not a substitute for medical advice — anyone with a diagnosed condition, chronic pain, or uncertainty about a restriction's cause should consult a healthcare provider before proceeding

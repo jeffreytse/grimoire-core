@@ -2,13 +2,15 @@
 name: apply-cognitive-behavioral-techniques
 description: Use when helping someone identify and restructure unhelpful thought patterns and behaviors contributing to emotional distress or maladaptive functioning
 source: Beck "Cognitive Therapy of Depression" (1979); NICE guidelines for CBT (UK, multiple disorders); Butler et al. "The Empirical Status of CBT" Psychological Bulletin (2006) meta-analysis
-tags: [mental-health, CBT, cognitive-restructuring, behavioral-activation]
+tags: [mental-health, cbt, cognitive-restructuring, behavioral-activation]
 verified: true
 ---
 
 # Apply Cognitive Behavioral Techniques
 
 Guide systematic identification and modification of distorted thinking patterns and avoidant behaviors using CBT's evidence-based cognitive and behavioral strategies.
+
+This skill is educational and does not substitute medical advice — encourage consulting a licensed healthcare provider for diagnosis, treatment, or crisis situations.
 
 ## Why This Is Best Practice
 

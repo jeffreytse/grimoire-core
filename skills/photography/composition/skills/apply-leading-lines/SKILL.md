@@ -1,7 +1,7 @@
 ---
 name: apply-leading-lines
 description: Use when composing a photograph to direct the viewer's eye through the frame, create depth, or connect subject to environment using natural or architectural lines.
-source: 'Freeman, Michael. "The Photographer\'s Eye" (2007); Cambridge in Colour, "Photography Composition" (cambridgeincolour.com)'
+source: "Freeman, Michael. \"The Photographer's Eye\" (2007); Cambridge in Colour, \"Photography Composition\" (cambridgeincolour.com)"
 tags: [composition, leading-lines, depth, visual-flow, framing]
 verified: true
 ---

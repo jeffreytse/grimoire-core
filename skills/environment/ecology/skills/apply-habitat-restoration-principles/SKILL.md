@@ -11,6 +11,7 @@ Plan a habitat restoration project by defining reference ecosystems, selecting n
 
 ## Why This Is Best Practice
 
+**Why best:** A reference-ecosystem-driven, successional approach targets the actual limiting factors — invasive competition, soil mismatch, missing disturbance regimes — instead of just planting natives and hoping; this is why it is the codified international standard rather than an ad hoc alternative.
 **Adopted by:** The Society for Ecological Restoration (SER) published the international standard for restoration practice (2004, updated 2021), adopted by UN Environment Programme, IUCN, and national conservation agencies worldwide. The UN Decade on Ecosystem Restoration (2021–2030) is built on SER principles. The Nature Conservancy, WWF, and Wildlife Trusts apply these principles in thousands of active restoration projects.
 **Impact:** Habitat restoration without a reference ecosystem model and successional planting plan fails at high rates — species planted without understanding competitive dynamics and soil requirements die, and invasive species rapidly recolonize disturbed sites. Studies of grassland restorations show that sites with systematic invasive removal and successional planting have 3–5× higher native species establishment rates than sites planted without preparation.
 

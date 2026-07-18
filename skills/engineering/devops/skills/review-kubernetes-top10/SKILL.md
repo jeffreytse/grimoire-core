@@ -5,7 +5,7 @@ source: 'OWASP Kubernetes Top 10 2022 (owasp.org/www-project-kubernetes-top-ten/
 tags: [security, owasp, kubernetes, audit, rbac, containers, devops]
 ---
 
-# Review Kubernetes Top 10
+# Review Kubernetes Top10
 
 Audit Kubernetes clusters against the OWASP Kubernetes Top 10 (2022) using kubectl commands, kube-bench, and configuration inspection — covering K01 through K10 with specific test procedures and remediation steps.
 

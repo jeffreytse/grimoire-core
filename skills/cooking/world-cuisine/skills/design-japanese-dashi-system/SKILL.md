@@ -1,8 +1,8 @@
 ---
 name: design-japanese-dashi-system
 description: Use when building a Japanese cooking practice or restaurant menu — designing the dashi preparation system (kombu, katsuobushi, niboshi, shiitake) appropriate for the dish type, flavor profile, and production scale, applying ichiban and niban dashi hierarchy.
-source: Tsuji "Japanese Cooking: A Simple Art" (1980); Murata "Kikunoi: Kaiseki" (2006); Shimizu "Shunju: New Japanese Cuisine" (2006); NHK World Japan "Japanese Food Guide" (2019)
-tags: [Japanese-cuisine, dashi, umami, stock, cooking-fundamentals, washoku]
+source: 'Tsuji "Japanese Cooking: A Simple Art" (1980); Murata "Kikunoi: Kaiseki" (2006); Shimizu "Shunju: New Japanese Cuisine" (2006); NHK World Japan "Japanese Food Guide" (2019)'
+tags: [japanese-cuisine, dashi, umami, stock, cooking-fundamentals, washoku]
 ---
 
 # Design Japanese Dashi System
@@ -11,6 +11,7 @@ Design the dashi preparation approach for a cooking context by selecting the cor
 
 ## Why This Is Best Practice
 
+**Why best:** Dashi achieves umami synergy (glutamate + inosinate, ~8x stronger combined than either alone) that no shortcut replicates without MSG, and its ichiban/niban hierarchy matches dashi strength to dish delicacy rather than treating stock as one-size-fits-all.
 **Adopted by:** Dashi is the foundational stock of Japanese cuisine (washoku), recognized by UNESCO as Intangible Cultural Heritage (2013). Tokio Tsuji's "Japanese Cooking: A Simple Art" — the definitive English-language reference — treats dashi as the most important technique in the entire tradition. Kaiseki restaurants, ramen shops, and Japanese home cooks structure their entire cooking practice around dashi production. The Japanese Culinary Academy and professional training programs for Japanese chefs make dashi the first and most emphasized skill.
 **Impact:** Japanese cuisine achieves depth of flavor through glutamate and inosinate synergy (the scientific basis of umami, discovered by Kikunae Ikeda in 1908 by studying kombu). Kombu contains glutamate; katsuobushi contains inosinate — their combination produces umami up to 8x stronger than either alone. A correctly made dashi achieves this synergy in 30 minutes; inferior substitutes (dashi powder, commercial broth) use MSG to approximate it but lack the clean finish of natural dashi.
 

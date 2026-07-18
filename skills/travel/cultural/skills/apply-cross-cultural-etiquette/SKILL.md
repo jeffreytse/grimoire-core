@@ -11,6 +11,7 @@ Apply cross-cultural etiquette by researching destination-specific social norms 
 
 ## Why This Is Best Practice
 
+**Why best:** Grounded in Hofstede's empirically validated cultural dimensions framework and Lewis's decades of cross-cultural business consulting, this approach replaces guesswork with documented, country-specific behavioral norms — reducing the risk of relationship-damaging violations that ad hoc politeness cannot anticipate.
 **Adopted by:** Richard Lewis's "When Cultures Collide" is used in international business training programs at multinational companies (IBM, Unilever, Deutsche Bank) and international MBA programs globally. Geert Hofstede's cultural dimensions framework (used by the World Bank, UN, and international development organizations) provides the academic foundation for cross-cultural behavioral analysis. David Ricks' "Blunders in International Business" documents hundreds of documented commercial and diplomatic failures from cultural ignorance.
 **Impact:** Ricks documents cases including Chevrolet's Nova (No va = "doesn't go" in Spanish) losing the Latin American market; Gerber baby food displaying a baby on the label in African markets where, unlike in the US, labels showed the food's contents (implying the jar contained processed baby); and countless business deals lost to greetings done wrong, business cards mishandled, or gifts given inappropriately. In diplomatic and social contexts, cultural violations range from minor awkwardness to serious offense requiring formal apology.
 

@@ -2,7 +2,7 @@
 name: calculate-customer-lifetime-value
 description: Use when calculating how much a customer is worth, pricing acquisition costs, or evaluating unit economics — e.g., "what's our LTV?", "how much can we spend to acquire a customer?", "LTV:CAC ratio?", "what's our payback period?"
 source: Gupta, Lehmann & Stuart "Valuing Customers" (Journal of Marketing Research, 2004); SaaStr LTV/CAC framework; Andreessen Horowitz "16 Startup Metrics"; Harvard Business Review customer value research
-tags: [finance, corporate, LTV, CLV, customer-lifetime-value, unit-economics, CAC, SaaS]
+tags: [finance, corporate, ltv, clv, customer-lifetime-value, unit-economics, cac, saas]
 verified: true
 ---
 

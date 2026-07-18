@@ -61,4 +61,4 @@ Evaluate the full spectrum of pharmacologic and non-pharmacologic labor pain opt
 - Waiting too long for epidural — placing epidural during intense active labor or transition is more difficult; discuss timing preferences with anesthesiology.
 - Dismissing non-pharmacologic options for unmedicated births — continuous labor support alone reduces epidural use and increases satisfaction.
 
-> **Health Disclaimer:** Pain management options available depend on your delivery setting, gestational health status, and anesthesia team. Discuss your preferences at your 36-week visit and confirm options available at your delivery location.
+> **Health Disclaimer:** This plan is not medical advice. Pain management options available depend on your delivery setting, gestational health status, and anesthesia team. Discuss your preferences with your healthcare provider at your 36-week visit and confirm options available at your delivery location.

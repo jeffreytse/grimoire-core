@@ -54,3 +54,7 @@ Sources: Walker "Why We Sleep" (2017) Ch. 3; Herxheimer & Petrie "Melatonin for 
 - When crossing fewer than 3 time zones — circadian disruption is minor and resolves within 1–2 days with normal sleep; a structured protocol is unnecessary.
 - When a trip is shorter than the adaptation period (2–3 days for 6+ time zones) — maintaining home time zone sleep schedule may be more practical than adapting then readapting.
 - When the traveler has a diagnosed circadian rhythm disorder (delayed sleep phase, non-24-hour disorder) — these require specialist chronobiological intervention, not general jet lag protocols.
+
+## Disclaimer
+
+This protocol is general guidance, not medical advice. Melatonin is a hormone with drug interactions (sedatives, anticoagulants, immunosuppressants, diabetes medication) and contraindications (pregnancy, autoimmune conditions, seizure disorders). Consult a healthcare provider before starting melatonin or altering sleep schedules, especially with existing sleep, cardiac, psychiatric, or circadian rhythm conditions.

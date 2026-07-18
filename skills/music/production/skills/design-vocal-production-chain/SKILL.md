@@ -11,6 +11,7 @@ Design the full vocal production signal chain — from microphone selection and 
 
 ## Why This Is Best Practice
 
+**Why best:** The vocal carries the melody and lyric that listeners connect to most directly, so errors anywhere in its chain — bad mic choice, untreated room, wrong processing order — are more audible and less forgivable than errors on any other track. A disciplined signal chain (mic → environment → EQ → compression → de-essing → effects, in that order) fixes problems at the source instead of masking them downstream, which is the only way to get a vocal that is both polished and natural.
 **Adopted by:** Lead vocals are the most important element in most popular music productions; every professional recording engineer and producer prioritizes the vocal chain above all other elements. Berklee's vocal recording curriculum and Roey Izhaki's "Mixing Audio" both dedicate more content to vocal processing than any other element. Bob Power, Andrew Scheps, and Chris Lord-Alge are among the engineers whose vocal chain approaches are most studied in the production community.
 **Impact:** A poorly recorded vocal cannot be corrected by processing; a well-recorded vocal in a treated room with an appropriate microphone requires minimal processing to sound professional. The production chain described here eliminates common vocal recording and mixing problems (room ambience, sibilance, inconsistent dynamics, harsh presence frequencies) that make amateur vocals sound amateurish.
 

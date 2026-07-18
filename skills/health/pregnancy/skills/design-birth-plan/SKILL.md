@@ -62,4 +62,4 @@ Create a concise, realistic birth preferences document that supports informed co
 - Omitting the cesarean section section — 32% of US births are cesarean; having preferences documented reduces surprise and distress.
 - Not reviewing with the OB at 36 weeks — some preferences (e.g., water birth) may not be available at your facility.
 
-> **Health Disclaimer:** Birth plans are communication tools, not medical contracts. Clinical decisions during labor are made by your care team based on the safety of you and your baby. Discuss all preferences with your OB or midwife well before your due date.
+> **Health Disclaimer:** This is not medical advice. Birth plans are communication tools, not medical contracts. Clinical decisions during labor are made by your care team based on the safety of you and your baby. Discuss all preferences with your healthcare provider (OB or midwife) well before your due date.

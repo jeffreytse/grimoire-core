@@ -6,7 +6,7 @@ tags: [competitive-strategy, capability-concealment, deng-xiaoping, sun-tzu, mar
 verified: true
 ---
 
-# Conceal Growing Capability
+# Apply Conceal Growing Capability
 
 During a growth or recovery phase when you are not yet strong enough to withstand a dominant player's preemptive response, proactively manage your apparent capability and competitive intent — appearing weaker, more limited, or more deferential than you are — so that the dominant player does not perceive you as a threat requiring action until you have reached the strength threshold at which their intervention can be absorbed or countered.
 

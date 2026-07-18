@@ -11,6 +11,7 @@ Set up and manage a home compost system using correct carbon-to-nitrogen ratios,
 
 ## Why This Is Best Practice
 
+**Why best:** Composting follows the science of aerobic decomposition — balancing carbon and nitrogen inputs, moisture, and oxygen to let thermophilic bacteria convert waste into stable humus faster and more reliably than passive decay.
 **Adopted by:** The USDA NRCS (Natural Resources Conservation Service) promotes composting as the primary organic matter recycling method in residential and small-farm contexts. The RHS, Rodale Institute, and all organic gardening organizations teach composting as foundational to soil health. Home composting diverts 30% of household waste from landfill (EPA estimate) and produces a soil amendment worth $5–$15 per cubic foot if purchased commercially.
 **Impact:** Lowenfels (2010) documents the soil food web — compost is not merely fertilizer; it is the inoculant for an active biological community (bacteria, fungi, protozoa, nematodes) that feeds plants and suppresses pathogens. A garden with regular compost inputs builds soil organic matter over time, reducing water needs by 20–30% (improved water retention), reducing fertilizer needs, and improving disease resistance. Landfilled food waste produces methane; composted food waste produces carbon.
 

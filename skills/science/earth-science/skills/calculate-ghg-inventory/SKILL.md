@@ -2,7 +2,7 @@
 name: calculate-ghg-inventory
 description: Use when calculating the greenhouse gas (GHG) emissions of an activity, organization, product, or project — applying the GHG Protocol Corporate Standard or ISO 14064 to quantify Scope 1, 2, and 3 emissions in CO₂-equivalent units.
 source: GHG Protocol Corporate Accounting and Reporting Standard (World Resources Institute, 2004); ISO 14064-1:2018; IPCC Sixth Assessment Report (AR6) Global Warming Potentials; EPA Emission Factors Hub
-tags: [carbon-footprint, GHG-emissions, climate, sustainability, Scope-1-2-3, CO2-equivalent, lifecycle-assessment]
+tags: [carbon-footprint, ghg-emissions, climate, sustainability, scope-1-2-3, co2-equivalent, lifecycle-assessment]
 ---
 
 # Calculate GHG Inventory
@@ -11,6 +11,7 @@ Quantify greenhouse gas emissions using GHG Protocol methodology — inventoryin
 
 ## Why This Is Best Practice
 
+**Why best:** GHG Protocol + ISO 14064 give a standardized, auditable method for quantifying emissions across scopes — using current IPCC GWP factors and documented boundaries avoids both understating footprint (skipping Scope 3) and misstating it (stale GWP values), the two most common failure modes in carbon accounting.
 **Adopted by:** GHG Protocol standards are used by >90% of Fortune 500 companies that report emissions and are required by CDP (Carbon Disclosure Project), TCFD (Task Force on Climate-related Financial Disclosures), and SEC climate disclosure rules (2024). ISO 14064-1 is the basis for third-party verification of corporate GHG inventories. The Science Based Targets initiative (SBTi) requires GHG Protocol-aligned inventories for target validation.
 **Impact:** The IPCC AR6 (2021) quantified global warming potential (GWP₁₀₀) for all GHGs — the updated factors change total emissions estimates for industries using refrigerants, methane, or N₂O significantly vs. AR4 values. Organizations using wrong GWP values systematically misstate their footprint. Scope 3 emissions typically account for 70-90% of an organization's total impact — organizations reporting only Scope 1+2 miss the vast majority of their climate risk.
 

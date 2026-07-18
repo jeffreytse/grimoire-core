@@ -1,7 +1,7 @@
 ---
 name: apply-builder-pattern
 description: Use when constructing a complex object requires many steps or parameters — especially when the same construction process should produce different representations, or when telescoping constructors become unreadable.
-source: Gamma, Helm, Johnson, Vlissides, "Design Patterns: Elements of Reusable Object-Oriented Software" (1994) pp. 97–106; widely adopted in Java (StringBuilder, Lombok @Builder), Python (dataclasses + builder idiom), Kotlin (apply/also scope functions), Go (functional options)
+source: "Gamma, Helm, Johnson, Vlissides, \"Design Patterns: Elements of Reusable Object-Oriented Software\" (1994) pp. 97–106; widely adopted in Java (StringBuilder, Lombok @Builder), Python (dataclasses + builder idiom), Kotlin (apply/also scope functions), Go (functional options)"
 tags: [design-patterns, creational, builder, oop, developer, readability, complex-construction]
 related: [apply-abstract-factory-pattern, apply-factory-method-pattern]
 ---

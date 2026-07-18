@@ -68,3 +68,7 @@ Sources: Cialdini, R.B. (1984/2006). *Influence: The Psychology of Persuasion*. 
 - Contexts where the influence goal conflicts with the target's genuine interests or informed consent.
 - High-stakes irreversible decisions where the person needs full deliberative time (medical procedures, major legal commitments).
 - When accurate information alone is sufficient — applying influence techniques to already-persuaded audiences wastes resources and can feel patronizing.
+
+## Disclaimer
+
+This skill provides general communication and persuasion strategy guidance, not psychological treatment. It is not a substitute for professional advice from a mental health professional. If influence is being applied in a context involving vulnerable individuals, coercive control, or psychological harm, consult a mental health professional before proceeding.

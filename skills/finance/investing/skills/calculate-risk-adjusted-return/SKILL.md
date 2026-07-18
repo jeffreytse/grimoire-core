@@ -10,6 +10,8 @@ verified: true
 
 Calculate and interpret risk-adjusted return metrics to evaluate investment performance fairly across different risk levels and portfolio types.
 
+> **Disclaimer:** This skill is for educational and informational purposes only and does not constitute financial advice. Consult a qualified financial advisor before making investment decisions.
+
 ## Why This Is Best Practice
 
 **Adopted by:** CFA Institute (200,000+ members) teaches risk-adjusted performance metrics as the standard for investment evaluation; Morningstar uses Sharpe ratio and risk-adjusted ratings for all fund ratings; institutional investors (pension funds, endowments) require risk-adjusted metrics in all manager selection and evaluation.

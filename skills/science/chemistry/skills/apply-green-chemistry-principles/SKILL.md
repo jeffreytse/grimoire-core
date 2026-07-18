@@ -1,8 +1,8 @@
 ---
 name: apply-green-chemistry-principles
 description: Use when designing or evaluating a chemical synthesis, process, or laboratory procedure — applying the 12 Principles of Green Chemistry to reduce waste, hazards, energy consumption, and environmental impact.
-source: Anastas & Warner "Green Chemistry: Theory and Practice" (1998); ACS Green Chemistry Institute 12 Principles; EPA Green Chemistry Program; Sheldon (2007) "The E Factor" (Green Chem)
-tags: [green-chemistry, sustainability, waste-reduction, atom-economy, hazard-reduction, chemical-synthesis, E-factor]
+source: "Anastas & Warner ''Green Chemistry: Theory and Practice'' (1998); ACS Green Chemistry Institute 12 Principles; EPA Green Chemistry Program; Sheldon (2007) \"The E Factor\" (Green Chem)"
+tags: [green-chemistry, sustainability, waste-reduction, atom-economy, hazard-reduction, chemical-synthesis, e-factor]
 ---
 
 # Apply Green Chemistry Principles
@@ -11,6 +11,7 @@ Evaluate and redesign chemical processes using the 12 Principles of Green Chemis
 
 ## Why This Is Best Practice
 
+**Why best:** Green chemistry replaces after-the-fact waste treatment and hazard mitigation with upfront synthesis design choices — atom economy and reagent/solvent selection — that prevent waste and hazards from ever being created, at lower cost and risk than remediation.
 **Adopted by:** ACS (American Chemical Society), RSC (Royal Society of Chemistry), EPA Green Chemistry Program, and the pharmaceutical industry (via ACS GCI Pharmaceutical Roundtable) have all institutionalized green chemistry metrics. REACH (EU chemicals regulation) and EPA TSCA reform incentivize green chemistry by requiring hazard assessment for new chemicals. Companies including Pfizer, GSK, and AstraZeneca use the E factor and PMI (Process Mass Intensity) as mandatory KPIs for process chemistry.
 **Impact:** Sheldon (2007) quantified waste in chemical industries: fine chemicals generate 5-50 kg waste per kg product; pharmaceuticals generate 25-100+ kg/kg. The E factor (waste kg per product kg) is the most-cited green chemistry metric. Atom economy (Trost, 1991) — the percentage of reagent mass incorporated into the product — mathematically identifies inherently wasteful reactions before any experiment is run. Green chemistry approaches to Ibuprofen synthesis (Hoechst process) reduced E factor from 26 to 1.4, saving thousands of tons of waste annually at industrial scale.
 

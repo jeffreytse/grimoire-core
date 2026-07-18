@@ -11,6 +11,7 @@ Maximize sleep quality and duration to accelerate athletic recovery, sharpen rea
 
 ## Why This Is Best Practice
 
+**Why best:** Sleep is the single highest-leverage recovery lever available to athletes — unlike supplements or modalities with marginal effect sizes, sleep extension produces measurable gains in speed, accuracy, and reaction time while directly cutting injury risk, and it is fully within an athlete's control.
 **Adopted by:** Stanford Sleep Research Center has worked directly with the Golden State Warriors, San Francisco 49ers, Phoenix Suns, and San Jose Sharks. US Military special operations units (SEAL teams, Rangers) receive sleep optimization training. NBA players including LeBron James, Kobe Bryant, and Roger Federer have publicly described prioritizing 8-10 hours of sleep as a primary performance strategy.
 **Impact:** Mah et al. (2011) Stanford study on basketball players found that sleep extension to 10 hours/night for 5-7 weeks improved sprint times by 5%, shooting accuracy by 9%, reaction time, and mood. Fullagar et al. (2015) review found that sleep deprivation of even 30 minutes reduces submaximal aerobic performance, cognitive function, and decision-making accuracy. Athletes sleeping <6 hours/night have 170% higher injury risk than those sleeping ≥8 hours (Milewski et al., 2014, J Pediatric Orthopaedics).
 

@@ -11,6 +11,7 @@ Convert between celestial coordinate systems — equatorial (RA/Dec), horizontal
 
 ## Why This Is Best Practice
 
+**Why best:** Rigorous coordinate transformation with full precession, nutation, aberration, and refraction correction is the only approach that yields astrometric accuracy — approximate or single-epoch methods accumulate arcminute-to-degree errors that break telescope pointing and source identification.
 **Adopted by:** IAU (International Astronomical Union) defines the reference frames (ICRS — International Celestial Reference System) and the standard corrections (SOFA library) used by all professional observatories, space telescopes (Hubble, JWST), and satellite tracking. NASA JPL uses DE440 ephemeris with full astrometric corrections for solar system position predictions. Gaia mission astrometry achieves µas-level precision using complete IAU 2006/2000B precession-nutation models.
 **Impact:** Meeus (1998) is the definitive practical reference for astronomical algorithms — all major planetarium software (Stellarium, Cartes du Ciel, SkySafari) implements Meeus algorithms. Position errors from ignoring precession accumulate at ~50 arcsec/year (J2000 vs current epoch) — significant enough to cause telescope pointing failures and make guide star identification ambiguous. Professional astrometry requires sub-arcsecond accuracy, only achievable with full correction chains.
 

@@ -59,3 +59,7 @@ Sources: CCIM "Foundations of Commercial Real Estate"; RICS Valuation — Profes
 - When evaluating land or development sites without rental income (use residual value or IRR instead).
 - When the property is for personal use (not an investment — no yield calculation applies).
 - When the investment horizon is less than 5 years (transaction costs and yield calculations favor long-hold strategies).
+
+## Disclaimer
+
+This is general educational information, not financial advice. Consult a licensed financial advisor, accountant, or property investment professional before making an investment decision.

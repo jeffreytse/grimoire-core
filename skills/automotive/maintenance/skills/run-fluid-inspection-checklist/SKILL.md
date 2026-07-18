@@ -11,6 +11,7 @@ Inspect all vehicle fluids systematically — checking level and condition for e
 
 ## Why This Is Best Practice
 
+**Why best:** Fluid inspection catches leaks, contamination, and degradation before they cause catastrophic mechanical failure, at near-zero cost and time.
 **Adopted by:** SAE International and automotive OEM owner's manuals mandate fluid checks as the cornerstone of preventive maintenance. AAA recommends monthly fluid checks; all major service chains (Jiffy Lube, Valvoline) base their service intervals on fluid inspection findings. Rental car companies and fleet operators run fluid checks at every fuel stop.
 **Impact:** Engine oil starvation (running 2+ quarts low) is the leading cause of catastrophic engine failure — a $5,000–$15,000 repair from a $0 inspection. Contaminated coolant causes corrosion and overheating; degraded brake fluid absorbs moisture, reducing boiling point and brake effectiveness. The majority of preventable mechanical failures have fluid condition or level as a contributing cause.
 

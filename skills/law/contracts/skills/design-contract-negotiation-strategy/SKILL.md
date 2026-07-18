@@ -10,6 +10,8 @@ verified: true
 
 Plan and execute a principled contract negotiation strategy that achieves your best possible outcome while preserving the relationship.
 
+> **Disclaimer:** This skill provides negotiation strategy guidance, not legal advice. Consult qualified legal counsel before finalizing or signing any contract.
+
 ## Why This Is Best Practice
 
 **Adopted by:** Harvard Negotiation Project (Fisher, Ury, Patton) is the most widely taught negotiation framework globally — used in law schools, MBA programs, and by major law firms; "Getting to Yes" has sold 15 million copies and is the foundational text for commercial negotiation.

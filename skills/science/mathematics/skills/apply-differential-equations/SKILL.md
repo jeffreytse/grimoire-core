@@ -2,7 +2,7 @@
 name: apply-differential-equations
 description: Use when modeling or solving differential equations — classifying ODE/PDE type, selecting analytical or numerical solution methods, validating solutions, and interpreting the physical or mathematical meaning of the result.
 source: Strogatz "Nonlinear Dynamics and Chaos" 2nd ed. (2014); Boyce & DiPrima "Elementary Differential Equations" 11th ed. (2017); Hairer et al. "Solving Ordinary Differential Equations" (1993); Burden & Faires "Numerical Analysis" 10th ed. (2016)
-tags: [differential-equations, ODE, PDE, numerical-methods, dynamical-systems, mathematical-modeling]
+tags: [differential-equations, ode, pde, numerical-methods, dynamical-systems, mathematical-modeling]
 ---
 
 # Apply Differential Equations
@@ -11,6 +11,7 @@ Classify, solve, and validate differential equations — choosing between analyt
 
 ## Why This Is Best Practice
 
+**Why best:** Matching solution method to equation structure (analytical form vs. stiffness-aware numerical solver) avoids both wasted derivation effort and numerically invalid results — the wrong solver on a stiff system produces exponentially growing errors, while an available closed form makes numerical approximation unnecessary.
 **Adopted by:** Differential equations model virtually all physical, biological, chemical, and engineering systems. Newton's laws, Maxwell's equations, Schrödinger equation, Navier-Stokes, the SIR epidemic model, Black-Scholes option pricing, and population dynamics are all differential equations. MATLAB ODE Suite, SciPy's solve_ivp, and Mathematica NDSolve are the standard numerical tools used in research and industry worldwide.
 **Impact:** Strogatz (2014) demonstrates that even qualitative analysis of ODEs (phase portraits, stability analysis) reveals system behavior without solving explicitly — a method used in epidemiology (epidemic thresholds), neuroscience (neural firing patterns), and climate modeling (tipping points). Hairer et al. (1993) showed that choosing the wrong solver for a stiff ODE (e.g., explicit RK4 on a stiff chemical kinetics problem) produces exponentially growing errors and requires time steps 1000× smaller than the implicit alternative.
 

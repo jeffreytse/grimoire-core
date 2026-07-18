@@ -6,7 +6,7 @@ tags: [accessibility, wcag, a11y, pointer, gestures, motor-accessibility, speech
 related: [apply-keyboard-accessibility, apply-hover-content, design-accessibility-standards]
 ---
 
-# Implement Pointer Accessibility
+# Apply Pointer Accessibility
 
 Ensure all functionality works with a single pointer and a simple tap — by providing alternatives
 to multi-point gestures, activating on pointer-up not pointer-down, matching visible labels to

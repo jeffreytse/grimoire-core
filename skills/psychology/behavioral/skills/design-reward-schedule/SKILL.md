@@ -11,8 +11,11 @@ Design a reinforcement schedule for behavior maintenance — selecting and apply
 
 ## Why This Is Best Practice
 
+**Why best:** Reinforcement schedule selection is the mechanism that determines whether a trained behavior collapses the moment external rewards stop or persists with minimal ongoing management — using the wrong schedule for the maintenance goal is a well-documented, avoidable failure mode.
 **Adopted by:** B.F. Skinner's operant conditioning research (1938) and Ferster & Skinner's "Schedules of Reinforcement" (1957) remain the foundational experimental work on reinforcement schedules, replicated thousands of times across species and behavior types. These principles are applied in applied behavior analysis (ABA), organizational behavior management (OBM), game design (variable ratio schedules are the psychological basis of all casino gambling and most social media engagement loops), and educational psychology.
 **Impact:** The same behavior produces dramatically different maintenance, resistance-to-extinction, and response-rate patterns depending on which reinforcement schedule it was trained under. Continuous reinforcement builds habits quickly but extinguishes quickly when reinforcement stops; variable ratio schedules produce the highest response rates and the most resistance to extinction. Selecting the wrong schedule for the maintenance goal produces either rapid habit extinction or unsustainable high-effort behavior patterns.
+
+**Disclaimer:** This skill covers behavioral-engineering technique, not clinical treatment. It is not a substitute for consultation with a mental health professional — for behavior problems tied to mental health conditions, trauma, or compulsive/addictive patterns, consult a qualified mental health professional rather than relying on schedule design alone.
 
 ## Steps
 

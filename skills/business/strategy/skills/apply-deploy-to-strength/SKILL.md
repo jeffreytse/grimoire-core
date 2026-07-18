@@ -6,7 +6,7 @@ tags: [zhuge-liang, deployment, capability-matching, role-fit, talent, three-kin
 verified: true
 ---
 
-# Deploy to Strength
+# Apply Deploy to Strength
 
 Before assigning someone to a high-stakes role, map the specific capability profile the role actually requires — not a generic "strong performer" template — and match it against what each candidate specifically has; a gap in the role-critical requirement is a match failure regardless of the candidate's overall excellence, and deploying excellence-as-proxy for role-specific fit produces failure.
 

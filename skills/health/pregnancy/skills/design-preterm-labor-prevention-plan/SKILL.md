@@ -53,4 +53,4 @@ Apply risk-stratified interventions — progesterone, cervical monitoring, and c
 - Using multiple gestation protocols for singleton — progesterone does not prevent preterm birth in multiples (increases risk in some studies).
 - Not referring to MFM for cerclage decision — cerclage has specific indications; placing without criteria increases preterm labor risk.
 
-> **Health Disclaimer:** Preterm birth prevention requires specialist involvement. Refer to a maternal-fetal medicine (MFM) specialist for cervical length <25 mm, prior preterm birth, or any suspected preterm labor. Go to L&D triage for any contractions before 37 weeks.
+> **Health Disclaimer:** This is not medical advice. Preterm birth prevention requires specialist involvement. Consult your healthcare provider or a maternal-fetal medicine (MFM) specialist for cervical length <25 mm, prior preterm birth, or any suspected preterm labor. Go to L&D triage for any contractions before 37 weeks.

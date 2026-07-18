@@ -1,7 +1,7 @@
 ---
 name: apply-consequence-clarity
 description: Use when designing behavioral feedback systems — performance management, compliance mechanisms, software quality loops, or habit formation — to ensure consequences are clear, certain, and swift, because certainty and timing determine behavior modification more than magnitude
-source: "商君书 (Shāng Jūn Shū) 赏刑篇 (~4th century BC) — 赏罚明 (consequences must be clear), 赏罚必 (consequences must be certain), 赏罚速 (consequences must be swift); B.F. Skinner operant conditioning — timing and consistency of reinforcement determine behavior change more than magnitude; Nagin "Deterrence in the Twenty-First Century" (2013) — certainty reduces crime more than severity"
+source: "商君书 (Shāng Jūn Shū) 赏刑篇 (~4th century BC) — 赏罚明 (consequences must be clear), 赏罚必 (consequences must be certain), 赏罚速 (consequences must be swift); B.F. Skinner operant conditioning — timing and consistency of reinforcement determine behavior change more than magnitude; Nagin \"Deterrence in the Twenty-First Century\" (2013) — certainty reduces crime more than severity"
 tags: [governance, behavioral-design, performance-management, incentives, feedback, compliance]
 verified: true
 ---

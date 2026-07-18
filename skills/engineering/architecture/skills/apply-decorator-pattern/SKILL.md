@@ -1,7 +1,7 @@
 ---
 name: apply-decorator-pattern
 description: Use when you need to add responsibilities to individual objects dynamically — without modifying the class and without the combinatorial explosion that results from subclassing every combination of features.
-source: Gamma, Helm, Johnson, Vlissides, "Design Patterns: Elements of Reusable Object-Oriented Software" (1994) pp. 175–184; Java I/O streams (BufferedInputStream, GZIPOutputStream); Python @functools.wraps; Django middleware stack
+source: "Gamma, Helm, Johnson, Vlissides, \"Design Patterns: Elements of Reusable Object-Oriented Software\" (1994) pp. 175–184; Java I/O streams (BufferedInputStream, GZIPOutputStream); Python @functools.wraps; Django middleware stack"
 tags: [design-patterns, structural, decorator, oop, developer, extensibility, dynamic-behavior]
 related: [apply-composition-over-inheritance, apply-proxy-pattern, apply-solid-principles]
 ---

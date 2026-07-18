@@ -11,6 +11,7 @@ Solve physics problems systematically using conservation laws — identifying th
 
 ## Why This Is Best Practice
 
+**Why best:** Conservation laws convert dynamics problems into algebra by exploiting an underlying symmetry, avoiding error-prone force-by-force integration of the equations of motion.
 **Adopted by:** Noether's theorem (1915) established that every symmetry of a physical system corresponds to a conserved quantity — the mathematical foundation of all conservation laws. Conservation laws are the foundation of classical mechanics (Newton-Euler equations), quantum mechanics (commuting observables), special relativity (four-momentum conservation), and particle physics (Standard Model).
 **Impact:** Conservation laws reduce multi-variable dynamics problems to algebraic equations — solving what would otherwise require complex differential equations. Goldstein (2002) demonstrates that the Lagrangian/Hamiltonian formalism unifies conservation law application across all classical physics. In engineering, conservation of momentum is the basis for rocket propulsion analysis, jet engine thrust calculation, and hydraulic force calculations — domains where Newton's laws applied directly become intractable.
 

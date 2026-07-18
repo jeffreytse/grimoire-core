@@ -1,7 +1,8 @@
 ---
 name: run-reference-check
 description: Use when evaluating a finalist candidate for a role — to conduct structured phone reference calls that surface specific performance evidence, development needs, and potential red flags that interviews cannot reveal.
-source: Smart & Street "Who: The A Method for Hiring" (Ballantine Books, 2008) — Chapter 7 "References"; Chamorro-Premuzic "The Talent Delusion" (Piatkus, 2017); SHRM "Reference Checking" best practice guide
+source: >-
+  Smart & Street "Who: The A Method for Hiring" (Ballantine Books, 2008) — Chapter 7 "References"; Chamorro-Premuzic "The Talent Delusion" (Piatkus, 2017); SHRM "Reference Checking" best practice guide
 tags: [reference-check, hiring, candidate-evaluation, talent-acquisition, interview, background, due-diligence, performance-verification]
 ---
 

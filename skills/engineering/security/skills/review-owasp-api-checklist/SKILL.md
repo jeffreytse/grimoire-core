@@ -5,7 +5,7 @@ source: 'OWASP API Security Top 10 2023 (owasp.org/www-project-api-security/); O
 tags: [security, owasp, api-security, audit, review, penetration-testing, developer]
 ---
 
-# Review OWASP API Security Checklist
+# Review OWASP API Checklist
 
 Systematically check an API against all 10 OWASP API Security Top 10 (2023) vulnerability classes — producing a finding list with severity, evidence, and remediation references.
 

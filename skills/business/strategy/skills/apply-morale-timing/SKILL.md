@@ -1,7 +1,7 @@
 ---
 name: apply-morale-timing
 description: Use when facing an aggressive opening demand, threat, hostile objection, or competitive move — to determine whether to respond immediately or wait out the initial emotional peak before engaging, because the timing of your response determines whether you negotiate from the opponent's emotional frame or your own
-source: "左传 (Zuozhuan) 庄公十年 (~4th century BC) — Cao Gui after Battle of Changshao: "一鼓作气，再而衰，三而竭。彼竭我盈，故克之"; Fisher & Ury "Getting to Yes" (1981) — never respond to threats at first expression; Voss "Never Split the Difference" (2016) — first no is not the real no"
+source: '左传 (Zuozhuan) 庄公十年 (~4th century BC) — Cao Gui after Battle of Changshao: "一鼓作气，再而衰，三而竭。彼竭我盈，故克之"; Fisher & Ury "Getting to Yes" (1981) — never respond to threats at first expression; Voss "Never Split the Difference" (2016) — first no is not the real no'
 tags: [negotiation, timing, morale, emotional-intelligence, competitive-response]
 verified: true
 ---

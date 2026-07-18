@@ -1,12 +1,14 @@
 ---
 name: apply-schema-therapy
 description: Use when addressing deep, longstanding emotional and behavioral patterns — particularly personality disorders, chronic depression, relationship dysfunction, or childhood-rooted emotional difficulties that have not responded to standard CBT.
-source: 'Young "Schema Therapy: A Practitioner's Guide" (2003); Young, Klosko & Weishaar "Schema Therapy" (2003); ISST (International Society of Schema Therapy); Journal of Behavior Therapy and Experimental Psychiatry'
-tags: [therapy, psychology, schema, personality, CBT, emotional-patterns, trauma, relationships]
+source: "Young \"Schema Therapy: A Practitioner's Guide\" (2003); Young, Klosko & Weishaar \"Schema Therapy\" (2003); ISST (International Society of Schema Therapy); Journal of Behavior Therapy and Experimental Psychiatry"
+tags: [therapy, psychology, schema, personality, cbt, emotional-patterns, trauma, relationships]
 verified: true
 ---
 
 # Apply Schema Therapy
+
+> **Disclaimer:** This skill is educational and intended to support, not replace, care from a licensed mental health professional. Schema therapy — especially personality disorder and trauma work — requires trained clinical judgment and supervision; do not use this as a substitute for professional diagnosis or treatment.
 
 Identify and restructure maladaptive early schemas — deep-seated emotional patterns rooted in unmet childhood needs — to break chronic cycles of distress and dysfunction.
 

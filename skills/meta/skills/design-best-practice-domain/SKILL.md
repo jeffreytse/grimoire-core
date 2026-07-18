@@ -5,7 +5,7 @@ source: Apache Software Foundation project governance, npm package organization 
 tags: [domain-creation, knowledge-architecture, subdomain-design, contributor, maintainer, domain-release]
 ---
 
-# Design Domain
+# Design Best Practice Domain
 
 Architect a new grimoire domain or sub-domain: decide structure, create plugin files, write seed skills, and verify quality before release.
 
