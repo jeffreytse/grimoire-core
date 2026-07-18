@@ -9,7 +9,7 @@
     "name": {
       "type": "string",
       "maxLength": 50,
-      "pattern": "^[a-z][a-z0-9]*(-[a-z][a-z0-9]*)+$",
+      "pattern": "^[a-z][a-z0-9]*(-[a-z0-9]+)+$",
       "description": "Verb-first kebab-case skill name, ≤50 chars"
     },
     "description": {
@@ -27,7 +27,7 @@
       "type": "array",
       "items": {
         "type": "string",
-        "pattern": "^[a-z][a-z0-9-]*$"
+        "pattern": "^[a-z0-9][a-z0-9-]*$"
       },
       "minItems": 3,
       "maxItems": 8,
@@ -64,6 +64,10 @@
         "pattern": "^[a-z][a-z0-9]*(-[a-z][a-z0-9]*)+$"
       },
       "description": "Companion skill names used in sequence or parallel"
+    },
+    "duplicate-reviewed": {
+      "type": "boolean",
+      "description": "true if a maintainer has reviewed and intentionally accepted overlap with a similar skill"
     }
   },
   "additionalProperties": false,

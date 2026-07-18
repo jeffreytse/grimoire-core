@@ -1,17 +1,14 @@
-.PHONY: validate test-schema check-duplicates fix-frontmatter \
+.PHONY: validate test-schema \
         update-plugin-manifest check-manifest bump-version help
 
-validate: ## Validate all SKILL.md files against STANDARD.md
-	bash scripts/validate-skill.sh --all
+validate: ## Validate all SKILL.md files (quality + duplicates)
+	grimoire validate skills/
 
-test-schema: ## Run validate-skill.sh conformance test suite
-	bash scripts/test-schema.sh
+test-schema: ## Run conformance test suite against schema/tests fixtures
+	grimoire validate --test-schema schema/tests
 
-check-duplicates: ## Detect near-duplicate skills added vs origin/main
-	bash scripts/check-duplicates.sh
-
-fix-frontmatter: ## Fix unquoted YAML frontmatter values in skill files
-	python3 scripts/fix-yaml-frontmatter.py
+fix-frontmatter: ## Fix validation errors via AI (deterministic pre-fix + AI fallback)
+	grimoire validate skills/ --fix
 
 update-plugin-manifest: ## Auto-generate skills list in .claude-plugin/plugin.json
 	python3 scripts/update-plugin-manifest.py

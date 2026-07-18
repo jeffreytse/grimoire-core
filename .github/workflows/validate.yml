@@ -6,29 +6,27 @@ on:
   pull_request:
 
 jobs:
-  validate-skills:
+  validate:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - name: Validate all SKILL.md files
-        run: bash scripts/validate-skill.sh --all
-
-  conformance:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v4
+      - uses: actions/setup-go@v5
+        with:
+          go-version: stable
+          cache: false
+      - name: Get cache week
+        id: date
+        run: echo "week=$(date +'%Y-%U')" >> $GITHUB_OUTPUT
+      - name: Cache grimoire binary
+        id: cache-grimoire
+        uses: actions/cache@v4
+        with:
+          path: ~/go/bin/grimoire
+          key: ${{ runner.os }}-grimoire-latest-${{ steps.date.outputs.week }}
+      - name: Install grimoire
+        if: steps.cache-grimoire.outputs.cache-hit != 'true'
+        run: go install github.com/jeffreytse/grimoire@latest
+      - name: Validate all skills (quality + duplicates)
+        run: grimoire validate skills/
       - name: Run conformance test suite
-        run: bash scripts/test-schema.sh
-
-  check-duplicates:
-    if: github.event_name == 'pull_request'
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v4
-        with:
-          fetch-depth: 0
-      - uses: actions/setup-node@v4
-        with:
-          node-version: '20'
-      - name: Check for near-duplicate skills
-        run: bash scripts/check-duplicates.sh
+        run: grimoire validate --test-schema schema/tests

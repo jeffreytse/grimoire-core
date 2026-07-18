@@ -24,8 +24,8 @@ body:
     id: validator
     attributes:
       label: Validator used
-      description: "validate-skill.sh (grimoire reference) or your own conformant implementation"
-      placeholder: "scripts/validate-skill.sh (grimoire reference)"
+      description: "grimoire validate (reference implementation) or your own conformant implementation"
+      placeholder: "grimoire validate skills/"
     validations:
       required: true
   - type: checkboxes
