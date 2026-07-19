@@ -81,7 +81,7 @@ The model knows SOLID, DDD, Google SRE, and the ABA Model Rules. Without explici
 - 🔍 **You don't know what you don't know.** Grimoire surfaces the governing standard you didn't know applied.
 - 🤖 **Knowing is not enough. Grimoire enforces.** Specific steps, verifiable criteria, repeatable results. Not summaries — verdicts.
 - 🌍 **The world's best practices belong to everyone.** McKinsey charges $1M. Senior lawyers bill $800/hr. The practices they follow are not proprietary. Grimoire makes them free — as executable steps, cited and verified.
-- 🧱 **Every profession. Every AI.** 1000+ skills across 27 domains. Works with Claude, Codex, Cursor, Gemini, OpenCode, and OpenClaw.
+- 🧱 **Every profession. Every AI.** 1000+ skills across 27 domains. Works with Claude, Copilot, Codex, Cursor, Gemini, OpenCode, OpenClaw, and Antigravity.
 - 🔬 **Not just distribution — enforcement.** Skills registries distribute files. grimoire-core provides the practice rules `grimoire check` validates your project against. 1000+ skills are both instructions for your AI *and* compliance criteria for your codebase.
 
 | Repo | Role | Unique value |
@@ -202,7 +202,7 @@ Installing grimoire-core gives you both: 1000+ skills your AI can invoke, and th
 
 | Domain | Sub-domains |
 |--------|-------------|
-| [meta](./skills/meta/) | suggest-best-practice, start-best-practice, analyze, discover, plan, compare, review, teach, apply-bpdd, check-compliance, write-skill, review-skill, … |
+| [meta](./skills/meta/) | suggest-best-practice, plan-best-practice-solution, discover-best-practices, learn-best-practice, learn-grimoire, teach-best-practice, explain-best-practice, write-best-practice-skill, review-best-practice-skill, … |
 | [engineering](./skills/engineering/) | development, frontend, architecture, testing, reliability, devops, cloud, networking, security, data, ai, hardware, mobile, performance, project-management, product, documentation |
 | [business](./skills/business/) | strategy, operations, leadership, entrepreneurship, hr |
 | [science](./skills/science/) | biology, physics, chemistry, mathematics, earth-science, astronomy |

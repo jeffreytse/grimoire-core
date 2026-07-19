@@ -1248,7 +1248,7 @@
 
 ---
 
-## Grimoire (29) <a name="grimoire"></a>
+## Grimoire (31) <a name="grimoire"></a>
 
 - [`check-best-practice-compliance`](./skills/meta/skills/check-best-practice-compliance/) — Use when the user wants to check whether any artifact or work product aligns with their stated best practice preferences — e.g., "check compliance", "linter for best practices", "are we following our pinned practices?", "check this document against our standards".
 - [`configure-grimoire`](./skills/meta/skills/configure-grimoire/) — Use when the user wants to view, edit, remove, or validate their grimoire settings — including reading current preferences, changing or deleting a setting, switching a named profile, or checking settings.toml for contradictions and expired entries.
@@ -1266,6 +1266,8 @@
 - [`explain-best-practice`](./skills/meta/skills/explain-best-practice/) — Use when the user wants to understand WHY a practice works — not just apply it. Covers the problem it solves, its origin, the evidence base, how the mechanism works, failure modes, and common misconceptions. Educational mode, not application mode.
 - [`fix-best-practice-finding`](./skills/meta/skills/fix-best-practice-finding/) — Use when the user wants to fix a specific compliance finding from a check-best-practice-compliance report — e.g., "fix this finding", "resolve violation #3", "fix the SRP violation in UserService", "close this linter error".
 - [`install-grimoire`](./skills/meta/skills/install-grimoire/) — Use when the user wants to install or uninstall grimoire skills by domain or individual skill, upgrade grimoire to the latest version, clean up broken symlinks, or list what skills are available.
+- [`learn-best-practice`](./skills/meta/skills/learn-best-practice/) — Use when the user wants to actually internalize an installed best practice — not just understand or apply it once, but build durable recall and independent competence so they can use it correctly later without an AI assistant present. Combines active-recall testing, spaced-review scheduling, and a portable memory aid. Distinct from explain-best-practice (one-time why) and teach-best-practice (explaining to others).
+- [`learn-grimoire`](./skills/meta/skills/learn-grimoire/) — Use when the user wants to get oriented on grimoire itself — what it is, why it exists, its core concepts, and how to actually use it day to day. For a brand-new user who just installed grimoire, or an existing user who has been using it without understanding the system underneath. Distinct from learn-best-practice (durable retention of one specific installed practice) and explain-best-practice (why one specific practice works).
 - [`start-best-practice`](./skills/meta/skills/start-best-practice/) — Use when the user is about to begin any task or action — writing, coding, designing, planning — before they have started. Fires proactively on task-start signals to apply the most relevant best practice before the user discovers they needed it.
 - [`pin-best-practice-preference`](./skills/meta/skills/pin-best-practice-preference/) — Use when the user wants to save a best practice preference for a domain or subdomain so future sessions automatically apply it without re-matching.
 - [`plan-best-practice-solution`](./skills/meta/skills/plan-best-practice-solution/) — Use when a problem requires coordinating 2+ best practices in sequence — whether across one domain or many — e.g. "apply defensive programming", "launch a startup", "handle a workplace medical emergency", "going through a divorce while buying a house."
