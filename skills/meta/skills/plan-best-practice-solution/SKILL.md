@@ -133,7 +133,7 @@ Collect all choices before starting execution. Only proceed once every step has 
 For each skill in the sequence (using user-decided skills from Step 5):
 1. Announce: `Applying step N: [skill-name]`
 2. If step N is flagged as a **multi-skill sub-problem**: recursively invoke `plan-best-practice-solution` for that sub-problem (max recursion depth: 2 additional levels). Announce: `Step N is a multi-skill sub-problem — running a nested plan:`
-3. Load and run the skill (or nested plan) fully
+3. Before running, check whether this step depends on current, situation-specific facts the skill can't encode generically (a current rate, regulation, tool behavior, recent event). If so, search the internet for that context first and announce it: "Checking current [X] for step N..." Keep the query itself general and factual (e.g. "current mortgage rates," not the user's specific financial or personal details). If no internet-access tool is available in this environment, say so explicitly and proceed on best available knowledge — flag the gap as unverified rather than silently skipping the check or asserting it was confirmed. After searching, state what was found (or that nothing conclusive turned up) before proceeding — don't just announce the check and discard the result. Then load and run the skill (or nested plan) fully, grounded in what was found (or best available knowledge, if unverified).
 4. After completion, reassess before proceeding:
    - Did the output reveal new constraints or sub-problems?
    - Are any remaining skills now unnecessary?
@@ -182,6 +182,7 @@ Omit Skipped and Needs manual research sections if everything resolved cleanly.
 - If a sub-problem is opaque (dimensions unknown until skills execute), delegate to `apply-best-practice-tree`
 - **Three-way routing for sub-problems:** single-skill → execute directly; multi-skill known → recurse `plan-best-practice-solution`; opaque → `apply-best-practice-tree`
 - **Recursion depth limit:** max 2 additional nesting levels (root → level 1 → level 2). At level 2, force flat execution even if further decomposition is possible — flag remainder as manual research
+- Search the internet for current, situation-specific facts before running a step when its skill's generic guidance depends on something that changes over time (rates, regulations, tool behavior) — announce this check, don't do it silently or ask permission first; if unavailable, say so and flag as unverified
 
 ## Examples
 

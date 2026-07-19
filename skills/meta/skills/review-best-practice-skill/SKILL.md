@@ -99,6 +99,7 @@ Extract: full frontmatter, all `##` section headers, full body content.
 
 - Does the content reference tools, APIs, or practices that are outdated or superseded?
 - Does the "Adopted by" claim reflect current (not historical) practice?
+- Search the internet to verify — don't rely on training-data recall alone, since it may predate recent changes. Confirm whether the cited institution/source still holds this position and whether the referenced tool/API is still current before flagging or clearing this criterion. If no internet-access tool is available in this environment, say so explicitly and proceed on best available knowledge — flag the claim as unverified rather than silently skipping the check or asserting it was confirmed. After searching, state what was found (or that nothing conclusive turned up) before proceeding — don't just announce the check and discard the result.
 
 ### 9. Output structured verdict
 

@@ -83,6 +83,8 @@ The `source` field must be verifiable. Match source type to domain:
 | Design | Apple HIG, Material Design, Nielsen Norman Group |
 | Sports | NSCA CSCS, USA Weightlifting, Olympic coaching methodology |
 
+If you're not certain a source is still current, credible, or holds this position — or the topic is new or fast-moving — search the internet to verify before citing it. Don't rely solely on training-data recall for facts that can change (adoption status, current tool/API names, recent institutional guidance). If no internet-access tool is available in this environment (e.g. network disabled, sandboxed, or no search tool configured), say so explicitly and proceed on best available knowledge — flag the claim as unverified rather than silently skipping the check or asserting it was confirmed. After searching, state what was found (or that nothing conclusive turned up) before proceeding — don't just announce the check and discard the result.
+
 Failing source examples: "industry standard", "widely known", "common practice".
 
 ### 4. Write the frontmatter
@@ -195,6 +197,7 @@ alphabetical order within the domain section before the entry.
 
 - Run `suggest-best-practice` first — never create a duplicate
 - Verify majority top-tier adoption before writing anything
+- Search the internet to verify sources and adoption claims when uncertain or the topic is recent — don't rely solely on training-data recall; if no internet-access tool is available, say so and flag the claim as unverified
 - `description` field describes triggering conditions ONLY — no workflow summary
 - Must pass `review-best-practice-skill` before opening a PR
 - If contested 50/50 among top-tier, do not write the skill

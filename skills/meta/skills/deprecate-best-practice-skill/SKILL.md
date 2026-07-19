@@ -32,6 +32,8 @@ Sources: npm deprecation model, MDN Web Docs obsolescence guidelines, Aghajani e
 
 ### 1. Confirm the skill meets staleness criteria
 
+Before judging these criteria, search the internet to verify the source institution's current guidance, the newer practice's actual adoption level, and whether the referenced tool/API still exists at scale — don't rely solely on training-data recall, which may predate the change prompting this review. If no internet-access tool is available in this environment, say so explicitly and proceed on best available knowledge — flag the claim as unverified rather than silently skipping the check or asserting it was confirmed. After searching, state what was found (or that nothing conclusive turned up) before proceeding — don't just announce the check and discard the result.
+
 A skill qualifies for deprecation if ANY of the following are true:
 
 - The source institution has revised its position and the skill no longer reflects it

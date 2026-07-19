@@ -51,6 +51,8 @@ Structural changes invalidate content — if you improve wording in a step that 
 
 Fix the flagged item. Don't touch adjacent text that wasn't flagged.
 
+If the finding involves a citation, adoption claim, or a tool/API's current status, search the internet to confirm the corrected information is accurate before writing it in — don't replace one unverified claim with another. If no internet-access tool is available in this environment, say so explicitly and proceed on best available knowledge — flag the fix as unverified rather than silently skipping the check or asserting it was confirmed. After searching, state what was found (or that nothing conclusive turned up) before proceeding — don't just announce the check and discard the result.
+
 ```
 ❌ Citation wrong → rewrite entire Why section
 ✅ Citation wrong → replace the one sentence containing the citation

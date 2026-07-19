@@ -175,7 +175,11 @@ After the user answers, treat their answer as additional domain context and re-r
 
 ### 4. Apply the matched skill
 
-Load the skill using the Skill tool and follow its steps exactly.
+Before applying, check: does the user's situation depend on current, specific, or fast-changing facts the skill itself can't encode — a jurisdiction's current regulation, a tool's current API/behavior, a current rate or price, a recent event? If so, search the internet for that specific context first, and announce it: "Checking current [X] before applying [skill-name]..." Keep the query itself general and factual (e.g. "current mortgage rates," not the user's specific financial or personal details). If no internet-access tool is available in this environment, say so explicitly and proceed on best available knowledge — flag the gap as unverified rather than silently skipping the check or asserting it was confirmed. After searching, state what was found (or that nothing conclusive turned up) before proceeding — don't just announce the check and discard the result.
+
+Then load the skill using the Skill tool and follow its steps, grounded in that current context (or in best available knowledge, if unverified).
+
+If nothing situation-specific needs verifying, load the skill using the Skill tool and follow its steps exactly.
 
 ### 5. Check for cross-domain coverage
 
@@ -201,6 +205,7 @@ Do not chain more than 2 skills without user confirmation. If 3+ skills are need
 - Never hallucinate skill names — only reference skills that exist in installed domains
 - Announce the matched skill before applying — don't silently load skills
 - If a skill is not installed, include the install command in the suggestion
+- Search the internet for current, situation-specific facts before applying a skill when its generic guidance depends on something that changes over time (rates, regulations, tool behavior) — announce this check, don't do it silently or ask permission first; if unavailable, say so and flag as unverified
 
 ## Examples
 

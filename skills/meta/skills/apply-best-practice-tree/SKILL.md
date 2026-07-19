@@ -87,7 +87,7 @@ Then collect the user's choice using the best available method for your platform
 
 ### 3. Apply the skill and extract sub-problems
 
-Load and run the matched skill. After it completes, identify the sub-problems it surfaces:
+Before running, check whether this sub-problem depends on current, situation-specific facts the skill can't encode generically. If so, search the internet for that context first and announce it: "Checking current [X]...". If no internet-access tool is available in this environment, say so explicitly and proceed on best available knowledge — flag the gap as unverified rather than silently skipping the check or asserting it was confirmed. After searching, state what was found (or that nothing conclusive turned up) before proceeding — don't just announce the check and discard the result. Keep the query itself general and factual (e.g. "current mortgage rates," not the user's specific financial or personal details). Then load and run the matched skill. After it completes, identify the sub-problems it surfaces:
 - Outputs that require further action
 - Decisions that branch into independent paths
 - Prerequisites the skill revealed
@@ -187,6 +187,7 @@ Omit the "Needs manual research" section if everything resolved cleanly.
 - Maximum recursion depth: 3 — flag anything deeper as needing manual research. **Depth measurement:** Depth counts skill invocation levels — root call = depth 0, each skill it invokes = depth 1, each skill those invoke = depth 2, etc. Depth 3 = 4 total invocation levels (0→1→2→3). Breadth (number of sibling skills at the same depth) is not capped by the depth limit.
 - When called from within `plan-best-practice-solution` for a deep sub-problem, treat the sub-problem as the top-level input — do not re-classify at the multi-domain level
 - When decomposing manually (no match), limit to 2–4 sub-problems — more indicates a domain boundary, not depth
+- Search the internet for current, situation-specific facts before running a matched skill when its generic guidance depends on something that changes over time (rates, regulations, tool behavior) — announce this check, don't do it silently or ask permission first; if unavailable, say so and flag as unverified
 
 ## Common Mistakes
 
