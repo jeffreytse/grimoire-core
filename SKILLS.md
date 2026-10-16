@@ -1,6 +1,6 @@
 # Skills Directory
 
-1158 skills across 27 domains.
+1169 skills across 27 domains.
 
 [Install](./README.md#%EF%B8%8F-install) · [Contribute](./CONTRIBUTING.md) · [Standard](./STANDARD.md)
 
@@ -14,7 +14,7 @@
 - [Cooking (24)](#cooking)
 - [Design (65)](#design)
 - [Education (29)](#education)
-- [Engineering (252)](#engineering)
+- [Engineering (263)](#engineering)
 - [Environment (17)](#environment)
 - [Fashion (16)](#fashion)
 - [Film (16)](#film)
@@ -527,7 +527,7 @@
 
 ---
 
-## Engineering (260) <a name="engineering"></a>
+## Engineering (271) <a name="engineering"></a>
 
 ### ai
 
@@ -809,6 +809,17 @@
 - [`review-authentication-security`](./skills/engineering/security/skills/review-authentication-security/) — Use when penetration testing or auditing authentication mechanisms — executing WSTG OTG-AUTHN test cases for username enumeration, brute force, default credentials, weak lockout, MFA bypass, and password reset flaws.
 - [`review-owasp-asvs`](./skills/engineering/security/skills/review-owasp-asvs/) — Use when auditing a web application's security posture against a structured verification standard — applying OWASP ASVS Level 1, 2, or 3 requirements to find and document security gaps across authentication, session management, access control, cryptography, and input validation.
 - [`review-session-management-security`](./skills/engineering/security/skills/review-session-management-security/) — Use when penetration testing or auditing session handling — executing WSTG OTG-SESS test cases for session token analysis, cookie attribute verification, CSRF, session fixation, and logout completeness.
+- [`apply-static-before-dynamic-analysis`](./skills/engineering/security/skills/apply-static-before-dynamic-analysis/) — Use when beginning reverse engineering of an unfamiliar binary — run basic static analysis (strings, imports, headers, disassembly overview) before any dynamic/behavioral analysis, because static analysis is cheap, safe, and builds falsifiable hypotheses about the binary's purpose that dynamic analysis can then target and confirm, rather than running the binary blind and hoping to observe the relevant behavior.
+- [`apply-isolated-analysis-environment`](./skills/engineering/security/skills/apply-isolated-analysis-environment/) — Use when executing or dynamically analyzing an untrusted or potentially malicious binary — do it only inside a fully isolated, network-controlled, snapshot-and-revert virtual machine, never on a host system or a shared network, because dynamic analysis requires actually running code whose full behavior is unknown, and any containment failure can compromise real infrastructure or data.
+- [`apply-unpacking-before-analysis`](./skills/engineering/security/skills/apply-unpacking-before-analysis/) — Use when a binary's strings, imports, and disassembly look sparse, garbled, or unusually small relative to its file size — identify the packer and unpack or dump the binary at its original entry point before attempting further static analysis, because analyzing a packed binary directly only reveals the packer's unpacking stub, not the actual payload's logic.
+- [`apply-decompiler-assisted-triage`](./skills/engineering/security/skills/apply-decompiler-assisted-triage/) — Use when analyzing a function or module in a disassembler — read the decompiler's pseudocode output first to build a fast high-level understanding of the logic, and drop down to raw disassembly only for the specific instructions the decompiler renders unreliably, rather than reading every instruction of the raw disassembly line by line.
+- [`apply-known-library-identification`](./skills/engineering/security/skills/apply-known-library-identification/) — Use when beginning analysis of a binary that statically links third-party or standard-library code — run signature-based library identification first and label matched functions as known, before manually analyzing anything, so analysis effort concentrates on the binary's custom logic.
+- [`apply-incremental-annotation-workflow`](./skills/engineering/security/skills/apply-incremental-annotation-workflow/) — Use when reverse engineering any non-trivial binary — rename functions and variables and add comments directly in the disassembler/decompiler's own database as understanding develops, rather than keeping separate notes, because the renamed database is itself a persistent, cumulative, binary-synchronized record of what's already been understood.
+- [`apply-patch-diffing-technique`](./skills/engineering/security/skills/apply-patch-diffing-technique/) — Use when a patched and an unpatched version of the same binary are both available — structurally diff the two to directly localize what changed, rather than re-analyzing either binary from scratch, because the specific functions that changed between versions are exactly where a fixed vulnerability (or a newly introduced feature) is located.
+- [`apply-reverse-engineering-legal-scoping`](./skills/engineering/security/skills/apply-reverse-engineering-legal-scoping/) — Use when planning any reverse engineering work on software you don't own the source of — establish the specific legal basis for the work before starting, and confine the work strictly to that basis's documented scope, because these exemptions are narrower than commonly assumed and don't cover cloning, trade-secret extraction, or unauthorized circumvention.
+- [`apply-dynamic-instrumentation-over-manual-stepping`](./skills/engineering/security/skills/apply-dynamic-instrumentation-over-manual-stepping/) — Use when the behavior you need to observe depends on many input variations, loop iterations, or runtime states — write a scripted dynamic-instrumentation hook that logs or modifies the specific calls and data of interest across an entire run, rather than manually single-stepping through a debugger, because manual stepping doesn't scale past a handful of executions.
+- [`apply-anti-analysis-detection-awareness`](./skills/engineering/security/skills/apply-anti-analysis-detection-awareness/) — Use when dynamically analyzing a binary that may be deliberately evasive — check for anti-debugging, anti-VM, and timing-based analysis-detection logic before trusting the observed behavior, because a binary that detects it's being analyzed and alters its behavior in response will produce results that don't reflect how it behaves in a real, unanalyzed environment.
+- [`apply-network-behavior-correlation`](./skills/engineering/security/skills/apply-network-behavior-correlation/) — Use when analyzing a sample that communicates over a network — capture and correlate its actual network traffic with the code-level behavior identified through static and dynamic analysis, because the most actionable indicators for detection and triage are frequently only fully observable in live network behavior, not in code-level analysis alone.
 
 ### blockchain
 
