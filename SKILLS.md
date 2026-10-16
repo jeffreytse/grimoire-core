@@ -1,6 +1,6 @@
 # Skills Directory
 
-1147 skills across 27 domains.
+1158 skills across 27 domains.
 
 [Install](./README.md#%EF%B8%8F-install) · [Contribute](./CONTRIBUTING.md) · [Standard](./STANDARD.md)
 
@@ -10,10 +10,10 @@
 
 - [Art (18)](#art)
 - [Automotive (16)](#automotive)
-- [Business (179)](#business)
+- [Business (185)](#business)
 - [Cooking (24)](#cooking)
 - [Design (65)](#design)
-- [Education (27)](#education)
+- [Education (29)](#education)
 - [Engineering (252)](#engineering)
 - [Environment (17)](#environment)
 - [Fashion (16)](#fashion)
@@ -29,8 +29,8 @@
 - [Parenting (16)](#parenting)
 - [Pets (16)](#pets)
 - [Photography (27)](#photography)
-- [Productivity (26)](#productivity)
-- [Psychology (39)](#psychology)
+- [Productivity (27)](#productivity)
+- [Psychology (41)](#psychology)
 - [Science (52)](#science)
 - [Sports (46)](#sports)
 - [Travel (16)](#travel)
@@ -107,7 +107,7 @@
 
 ---
 
-## Business (212) <a name="business"></a>
+## Business (218) <a name="business"></a>
 
 ### entrepreneurship
 
@@ -120,6 +120,7 @@
 - [`apply-market-size-first-screening`](./skills/business/entrepreneurship/skills/apply-market-size-first-screening/) — Use when evaluating an early-stage investment opportunity — screening for a genuinely large addressable market first, before assessing team or product quality, since even excellent execution in a small market caps the achievable outcome, while a large market can produce an outsized result even from imperfect execution.
 - [`apply-moonshot-technology-investing`](./skills/business/entrepreneurship/skills/apply-moonshot-technology-investing/) — Use when evaluating a technically ambitious, high-uncertainty breakthrough technology investment — accepting a much higher individual-investment failure rate than standard venture investing in exchange for the possibility of a genuinely transformative, category-defining outcome most investors wouldn't accept the technical risk to pursue.
 - [`apply-non-consensus-category-conviction`](./skills/business/entrepreneurship/skills/apply-non-consensus-category-conviction/) — Use when evaluating an investment in an unproven category or business model that the prevailing market consensus actively doubts or dismisses — betting on the category and founder ahead of any price or market validation signal, based on independently-formed conviction rather than following consensus.
+- [`apply-product-market-fit-test`](./skills/business/entrepreneurship/skills/apply-product-market-fit-test/) — Use when deciding whether a startup has found product-market fit before investing in growth, sales, or scaling — survey active users with Sean Ellis's "how would you feel if you could no longer use this product" question and treat 40%+ answering "very disappointed" as the threshold, rather than relying on founder intuition or vanity metrics, because premature scaling before this threshold is met is the leading documented cause of early-stage startup failure.
 - [`audit-founder-quality`](./skills/business/entrepreneurship/skills/audit-founder-quality/) — Use when evaluating a startup investment opportunity — assessing the founder's execution capability, adaptability, and long-term vision as the primary signal, since a business plan will likely change while founder quality is the more durable predictor of outcome.
 - [`calculate-startup-unit-economics`](./skills/business/entrepreneurship/skills/calculate-startup-unit-economics/) — Use when computing or auditing a business's unit-level profitability including CAC, LTV, payback period, and contribution margin
 - [`design-go-to-market-strategy`](./skills/business/entrepreneurship/skills/design-go-to-market-strategy/) — Use when launching a new product, entering a new market, or planning the commercialization approach for a startup or new business unit
@@ -129,6 +130,7 @@
 ### hr
 
 - [`apply-hay-job-evaluation`](./skills/business/hr/skills/apply-hay-job-evaluation/) — Use when comparing very differently-titled roles for compensation banding, leveling, or organizational design — score each role's inherent Know-How, Problem Solving, and Accountability, because job titles and informal seniority perceptions don't provide a comparable basis on their own
+- [`apply-talent-density-culture`](./skills/business/hr/skills/apply-talent-density-culture/) — Use when deciding whether to keep a team member whose performance is adequate but not exceptional — apply the keeper test (would you fight to keep this person if they said they were leaving for a similar role elsewhere?) instead of tolerating adequate performance indefinitely, pairing fast departures with generous severance and above-market pay for keepers, because a team of only high performers executes at a level an average-performer team cannot reach.
 - [`design-compensation-structure`](./skills/business/hr/skills/design-compensation-structure/) — Use when building or redesigning a salary band structure, total rewards framework, or compensation philosophy for an organization
 - [`design-employee-onboarding`](./skills/business/hr/skills/design-employee-onboarding/) — Use when creating or improving a new employee onboarding program, first-day experience, or ramp plan for a role or organization
 - [`design-performance-review-system`](./skills/business/hr/skills/design-performance-review-system/) — Use when building or redesigning an employee performance review process, evaluation framework, or feedback cadence for an organization
@@ -253,9 +255,11 @@
 - [`apply-diffusion-of-innovations`](./skills/business/strategy/skills/apply-diffusion-of-innovations/) — Use when predicting or accelerating how a new product, technology, policy, or behavior will spread through a population — classifying the target population into adopter categories and diagnosing an innovation's relative advantage, compatibility, complexity, trialability, and observability, to identify what's actually slowing adoption rather than assuming awareness or price alone explain it.
 - [`apply-digital-divide-diagnostic`](./skills/business/strategy/skills/apply-digital-divide-diagnostic/) — Use when a target population isn't adopting a digital product, service, or program and the cause isn't obvious — diagnose which of four independent access barriers (motivational, physical/material, skills, or usage) is actually blocking adoption before designing an intervention, rather than defaulting to "we need more devices" or "we need more marketing."
 - [`apply-dormant-asset-revival`](./skills/business/strategy/skills/apply-dormant-asset-revival/) — Use when a dormant or discredited asset — brand, regulatory licence, platform, or abandoned standard — retains residual value that can serve as a vehicle for something new, enabling access or legitimacy faster than building from scratch
+- [`apply-door-in-the-face`](./skills/business/strategy/skills/apply-door-in-the-face/) — Use when you want the other party to accept a specific request or position — open with a larger, genuinely plausible request you expect to be refused, then immediately retreat to your actual target as a visible concession, because the perceived retreat triggers reciprocal concession pressure and a contrast effect that both increase compliance with the smaller request beyond what asking for it directly would produce.
 - [`apply-early-intervention`](./skills/business/strategy/skills/apply-early-intervention/) — Use when you detect early warning signals — technical debt accumulating, customer relationship cooling, team friction forming, process degrading — to intervene while the problem is still small and cheap, because intervention cost increases nonlinearly with delay
 - [`apply-earnings-myopia-defense`](./skills/business/strategy/skills/apply-earnings-myopia-defense/) — Use when a company's investment decisions — R&D spending, long-term infrastructure, maintenance — are being evaluated against their effect on the next quarterly earnings report, before letting that pressure cut or delay a genuinely positive-long-term-value investment
 - [`apply-economy-of-force`](./skills/business/strategy/skills/apply-economy-of-force/) — Use when planning a competitive campaign to ensure the means of winning do not destroy what you are competing for — avoiding pyrrhic victories, preserving resources for follow-on engagements, and using proportionate force at each stage
+- [`apply-emergent-scaling`](./skills/business/strategy/skills/apply-emergent-scaling/) — Use when a validated approach is working at its current scale and the question of pushing it much further (10x, 100x) comes up — treat what happens at that larger scale as a genuinely open, separately testable question rather than assuming diminishing returns
 - [`apply-fast-follower-strategy`](./skills/business/strategy/skills/apply-fast-follower-strategy/) — Use when deciding whether to pioneer a new product category or market first, or deliberately let competitors validate it before entering with superior execution — per Duan Yongping's 敢为天下后 ("dare to follow, not pioneer") principle.
 - [`apply-five-commander-virtues`](./skills/business/strategy/skills/apply-five-commander-virtues/) — Use when assessing, developing, or hiring for leadership capability — to evaluate a leader against the five virtues that Sun Tzu identifies as determinants of strategic success and diagnose which virtue deficits are causing organisational or competitive failures
 - [`apply-five-factors-assessment`](./skills/business/strategy/skills/apply-five-factors-assessment/) — Use when preparing for any competitive engagement — product launch, market entry, negotiation, or campaign — to audit your position across the five strategic dimensions before committing resources
@@ -270,6 +274,7 @@
 - [`apply-indirect-strategy`](./skills/business/strategy/skills/apply-indirect-strategy/) — Use when direct confrontation with a stronger or entrenched opponent would be costly, slow, or unwinnable — to win by undermining their strategy, dependencies, or position rather than attacking their strength directly
 - [`apply-insight-synthesis`](./skills/business/strategy/skills/apply-insight-synthesis/) — Use when you've gathered a substantial body of research or data and are about to write up or present it — stop gathering, cluster the findings by underlying pattern rather than by source or chronology, and repeatedly ask "so what does this mean for the decision" until you reach a small number of specific, actionable insights
 - [`apply-interest-alignment`](./skills/business/strategy/skills/apply-interest-alignment/) — Use when entering a negotiation, sales conversation, or persuasion effort where the other party's stated position may not reflect what they actually need — discover the underlying interest before presenting your proposal
+- [`apply-interest-tracing-analysis`](./skills/business/strategy/skills/apply-interest-tracing-analysis/) — Use when evaluating a policy proposal, political statement, or organizational decision framed in moral or "for the common good" terms — before accepting that framing, identify the specific benefit being distributed, who receives it, who bears the offsetting cost, and why this allocation was chosen among alternatives
 - [`apply-inversion`](./skills/business/strategy/skills/apply-inversion/) — Use when solving a hard problem, stress-testing a plan, or identifying risks by reasoning backwards from failure instead of forwards from goals.
 - [`apply-key-person-targeting`](./skills/business/strategy/skills/apply-key-person-targeting/) — Use when the competitive outcome is controlled by a single decision-maker, gatekeeper, or linchpin — and engaging the broader organisation is slower and more expensive than influencing the key person directly
 - [`apply-legitimacy-control`](./skills/business/strategy/skills/apply-legitimacy-control/) — Use when seeking durable market authority without direct confrontation — to control or heavily influence the existing source of legitimacy in a market so that competitors must conform to your terms while appearing to follow a neutral authority
@@ -314,6 +319,7 @@
 - [`apply-tactical-empathy-negotiation`](./skills/business/strategy/skills/apply-tactical-empathy-negotiation/) — Use when negotiating and direct requests or arguments aren't surfacing the other party's real position — mirror their last few words to prompt elaboration, label the emotion you observe without asking if it's true, ask calibrated how/what questions instead of making demands, frame the cost of disagreement in loss terms, and invoke fairness explicitly
 - [`apply-terrain-strategy`](./skills/business/strategy/skills/apply-terrain-strategy/) — Use when choosing where to compete or commit resources — to classify the competitive terrain, avoid fighting on ground that advantages the opponent, and create or occupy terrain that structurally favours your position
 - [`apply-via-negativa`](./skills/business/strategy/skills/apply-via-negativa/) — Use when improving a system, product, process, or decision framework — to identify and remove non-essential elements, fragilities, and complexity rather than adding features or capabilities, because subtraction produces more durable improvement than addition
+- [`apply-vertical-integration-strategy`](./skills/business/strategy/skills/apply-vertical-integration-strategy/) — Use when a product's performance still falls short of what customers need on the dimension that matters most — integrate and control the full interdependent stack so you can optimize the interfaces a modular, standards-based competitor cannot renegotiate on demand, and switch to modular best-of-breed assembly once that dimension is already good enough, because integration's advantage specifically depends on the bottleneck still being unmet.
 - [`apply-viable-path-analysis`](./skills/business/strategy/skills/apply-viable-path-analysis/) — Use when facing dominant incumbents on multiple fronts where direct competition is impossible — to identify the one viable sequence of achievable positions that creates a platform for reaching the ultimate objective, rather than attacking what cannot be won
 - [`apply-vrio`](./skills/business/strategy/skills/apply-vrio/) — Use when assessing whether a resource, capability, or asset is actually a source of durable competitive advantage — before betting a strategy on it, acquiring it, or defending it as a core differentiator.
 - [`design-tactical-doctrine`](./skills/business/strategy/skills/design-tactical-doctrine/) — Use when your organisation's performance depends on the judgment of a few exceptional individuals — to encode that expert judgment into systematic, teachable doctrine that average practitioners can execute, decoupling performance from individual talent and scaling excellence across the organisation
@@ -472,7 +478,7 @@
 
 ---
 
-## Education (27) <a name="education"></a>
+## Education (29) <a name="education"></a>
 
 ### assessment
 
@@ -506,6 +512,8 @@
 - [`apply-sq3r`](./skills/education/learning-science/skills/apply-sq3r/) — Use when reading a textbook chapter, research paper, technical document, or any dense non-fiction text — to maximize comprehension and retention on first pass by converting passive reading into active questioning and retrieval.
 - [`apply-cross-domain-learning`](./skills/education/learning-science/skills/apply-cross-domain-learning/) — Use when deciding how to allocate learning time across fields, feeling stuck or stale after deep specialization in one domain, or building a deliberate practice of studying unrelated disciplines to generate transferable insight rather than committing all learning time to a single specialty.
 - [`apply-productive-failure-technique`](./skills/education/learning-science/skills/apply-productive-failure-technique/) — Use when designing how a new concept or problem-solving skill is introduced — deliberately have learners attempt a problem beyond their current ability BEFORE any direct instruction, then consolidate with explicit teaching that contrasts their failed attempts against the canonical solution, rather than teaching the correct method first and practicing afterward.
+- [`apply-elaborative-interrogation`](./skills/education/learning-science/skills/apply-elaborative-interrogation/) — Use when studying factual or conceptual material — for each fact or claim, explicitly ask and answer "why would this be true?" or "how does this work?" rather than simply rereading or restating it, because generating a causal explanation that connects the fact to what you already know produces measurably better retention than passive review or simple what-based questioning.
+- [`apply-sleep-dependent-consolidation`](./skills/education/learning-science/skills/apply-sleep-dependent-consolidation/) — Use when scheduling learning, practice, or study sessions for durable retention — protect a full sleep cycle (or at minimum a nap containing slow-wave sleep) immediately after the session rather than cramming further material or pulling an all-nighter, and protect sleep beforehand too, because sleep stages actively consolidate memory and sleep deprivation on either side measurably impairs both new encoding and retention of what was just learned.
 
 ### teaching
 
@@ -1538,10 +1546,11 @@
 
 ---
 
-## Productivity (26) <a name="productivity"></a>
+## Productivity (27) <a name="productivity"></a>
 
 ### focus
 
+- [`apply-attention-restoration-theory`](./skills/productivity/focus/skills/apply-attention-restoration-theory/) — Use when directed-attention fatigue shows up as rising irritability, distractibility, or difficulty concentrating despite effort — take a restorative break involving soft fascination, like a walk outdoors or a view of trees or water, rather than a "hard fascination" break like social media or video, because effortless engagement with inherently interesting natural stimuli replenishes directed-attention capacity in a way plain rest or other stimulation does not.
 - [`apply-deep-work`](./skills/productivity/focus/skills/apply-deep-work/) — Use when planning sessions for cognitively demanding work that requires sustained uninterrupted concentration
 - [`apply-deep-work-principles`](./skills/productivity/focus/skills/apply-deep-work-principles/) — Use when designing a work schedule, environment, or practice to enable sustained, distraction-free, cognitively demanding work
 - [`apply-energy-management`](./skills/productivity/focus/skills/apply-energy-management/) — Use when your time management system is in place but you still feel unproductive, exhausted, or unable to sustain quality work — to shift from managing time to managing physical, emotional, mental, and purpose energy.
@@ -1583,7 +1592,7 @@
 
 ---
 
-## Psychology (41) <a name="psychology"></a>
+## Psychology (43) <a name="psychology"></a>
 
 ### behavioral
 
@@ -1619,11 +1628,13 @@
 - [`apply-regret-minimization`](./skills/psychology/cognitive/skills/apply-regret-minimization/) — Use when facing a major irreversible decision — career change, starting a company, relocating, committing to a relationship — to evaluate choices by projecting your future self's retrospective judgment rather than current-moment anxiety.
 - [`apply-rumination-interruption`](./skills/psychology/cognitive/skills/apply-rumination-interruption/) — Use when you notice yourself repeatedly, passively replaying the causes or consequences of a negative event without arriving at any new insight or plan — interrupt the cycle with a concrete behavioral break, shift from abstract self-evaluation to concrete process-focused thinking, and use self-distancing or an absorbing activity
 - [`apply-schema-therapy`](./skills/psychology/cognitive/skills/apply-schema-therapy/) — Use when addressing deep, longstanding emotional and behavioral patterns — particularly personality disorders, chronic depression, relationship dysfunction, or childhood-rooted emotional difficulties that have not responded to standard CBT.
+- [`apply-slippery-slope-fallacy-check`](./skills/psychology/cognitive/skills/apply-slippery-slope-fallacy-check/) — Use when evaluating an argument that claims a first step will inevitably trigger a chain of increasingly severe consequences — require independent evidence or a stated causal mechanism for each link in the chain before accepting the conclusion, and reject the argument if any link's probability is merely asserted, because an unsupported chain of "this will lead to that" is a fallacy even when the final consequence described is genuinely undesirable.
 - [`apply-statistical-prediction-preference`](./skills/psychology/cognitive/skills/apply-statistical-prediction-preference/) — Use when a validated statistical model, checklist, or actuarial formula exists for a prediction task — hiring, credit risk, medical diagnosis, parole/recidivism, quality forecasting — and you are tempted to override it with expert intuition or "holistic" case-by-case judgment
 - [`design-cognitive-load-reduction`](./skills/psychology/cognitive/skills/design-cognitive-load-reduction/) — Use when designing learning materials, interfaces, or complex work environments — applying cognitive load theory to reduce extraneous load and support germane learning
 
 ### positive
 
+- [`apply-circle-of-influence`](./skills/psychology/positive/skills/apply-circle-of-influence/) — Use when deciding where to direct limited time, energy, or effort — classify each issue as within your Circle of Influence (things you can act on and change) or only within your Circle of Concern (things you care about but currently can't change), and concentrate effort on the former
 - [`apply-confucian-life-stage-framework`](./skills/psychology/positive/skills/apply-confucian-life-stage-framework/) — Use when the user wants to reflect on where they stand developmentally by age or decade, self-assess life-stage progress, or plan what comes next as they age
 - [`apply-gratitude-journaling`](./skills/psychology/positive/skills/apply-gratitude-journaling/) — Use when establishing a daily or weekly practice to improve wellbeing, reduce depression symptoms, or shift habitual negative attentional bias — by writing specific, concrete things you are grateful for using the evidence-based format that produces lasting mood effects.
 - [`apply-grit-under-volatility`](./skills/psychology/positive/skills/apply-grit-under-volatility/) — Use when pursuing a long-term goal involving sustained setbacks, discouragement, or volatility — a new venture, a difficult skill, a volatile position — and others, including credible experts, advise you to quit, because long-term perseverance separates those who eventually succeed from the larger group who exit early

@@ -3,7 +3,7 @@ name: apply-lean-startup-methodology
 description: Use when a validated problem is ready to move into building — deciding what minimum viable product to build first, what to measure to test whether it actually solves the problem, and whether to pivot or persevere — bridging the gap between problem-validation interviews and post-launch growth experimentation.
 source: Eric Ries, "The Lean Startup" (Crown Business, 2011); Steve Blank, "The Four Steps to the Epiphany" (2005); documented case studies including IMVU, Dropbox, and Zappos
 tags: [lean-startup, mvp, validated-learning, pivot, entrepreneurship, product-development, innovation-accounting]
-related: [run-customer-discovery, run-growth-experiment, apply-probe-strategy, write-business-plan]
+related: [run-customer-discovery, run-growth-experiment, apply-probe-strategy, write-business-plan, apply-product-market-fit-test]
 ---
 
 # Apply Lean Startup Methodology

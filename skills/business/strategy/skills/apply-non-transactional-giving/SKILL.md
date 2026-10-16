@@ -3,7 +3,7 @@ name: apply-non-transactional-giving
 description: Use when building long-term relationships, networks, or organizational loyalty — to give help, information, introductions, and resources without explicit expectation of return, because non-transactional generosity creates more durable social capital than tracked exchanges
 source: "荣枯鉴·解厄篇 (Feng Dao, ~10th century AD) — 施恩勿望报，望报休施恩 (Give without expecting return; if you expect return, don't give); Robert Cialdini \"Influence\" (1984) — reciprocity principle, strongest when gift feels voluntary not transactional; Adam Grant \"Give and Take\" (2013) — givers who don't track returns outperform matchers and takers over 5+ year time horizons; Keith Ferrazzi \"Never Eat Alone\" (2005); Putnam \"Bowling Alone\" (2000) — social capital formation"
 tags: [strategy, relationship-building, influence, network-effects, leadership, social-capital]
-related: [apply-differentiated-reciprocity, apply-solicited-advice-discipline, design-relationship-tiering-system, apply-reverse-mentoring-strategy, apply-value-first-posting]
+related: [apply-differentiated-reciprocity, apply-solicited-advice-discipline, design-relationship-tiering-system, apply-reverse-mentoring-strategy, apply-value-first-posting, apply-circle-of-influence]
 verified: true
 ---
 

@@ -3,7 +3,7 @@ name: apply-forensic-accounting-short-thesis
 description: Use when evaluating a specific company as a potential short candidate — conducting detailed forensic analysis of financial statements for signs of aggressive accounting, revenue recognition manipulation, or outright fraud, rather than shorting based on valuation or sentiment alone.
 source: James Chanos, Kynikos Associates founder; documented forensic accounting-based short-selling career, notably the pre-collapse Enron short thesis
 tags: [finance, investing, forensic-accounting, short-selling, fraud-detection, chanos]
-related: [audit-systemic-credit-bubble-risk, audit-inventory-growth-red-flag, apply-long-short-equity-strategy]
+related: [audit-systemic-credit-bubble-risk, audit-inventory-growth-red-flag, apply-long-short-equity-strategy, apply-interest-tracing-analysis]
 ---
 
 # Apply Forensic Accounting Short Thesis

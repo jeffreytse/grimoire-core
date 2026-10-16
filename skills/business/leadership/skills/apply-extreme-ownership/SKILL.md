@@ -2,6 +2,7 @@
 name: apply-extreme-ownership
 description: Use when leading a team and outcomes are falling short — to apply the principle that the leader owns every result, including failures caused by team members, as the non-negotiable foundation for improving performance and building trust.
 source: 'Willink & Babin, "Extreme Ownership: How U.S. Navy SEALs Lead and Win", St. Martin''s Press (2015); Ng, Sorensen & Eby, "Locus of control at work", Journal of Organizational Behavior (2006) — meta-analysis; Bandura, "Self-efficacy: The exercise of control", Freeman (1997); Rotter, "Generalized expectancies for internal versus external control of reinforcement", Psychological Monographs (1966)'
+related: [apply-circle-of-influence]
 tags: [leadership, accountability, ownership, teams, responsibility, locus-of-control, performance]
 ---
 

@@ -3,7 +3,7 @@ name: apply-perspective-triangulation
 description: Use when assessing a complex, ambiguous organization, conflict, product, or strategic situation you are embedded in — deliberately gather multiple, structurally different vantage points (varying role, distance, and angle) before concluding you understand its true shape, because any single viewpoint, including your own carefully-reasoned one, only ever reveals a partial cross-section.
 source: '苏轼 (Su Shi), "题西林壁" (Written on the Wall of West Forest Temple), 1084 AD — 橫看成嶺側成峰，遠近高低各不同；不識廬山真面目，只緣身在此山中; Norman K. Denzin, "The Research Act: A Theoretical Introduction to Sociological Methods" (1978) — data/investigator/theory/methodological triangulation; Center for Creative Leadership, "Benchmarks" 360-degree feedback instrument (1980s–present)'
 tags: [decision-making, systems-thinking, blind-spots, triangulation, organizational-diagnosis, strategy]
-related: [apply-reference-class-forecasting, apply-systems-iceberg, apply-devils-advocate-technique]
+related: [apply-reference-class-forecasting, apply-systems-iceberg, apply-devils-advocate-technique, apply-interest-tracing-analysis]
 ---
 
 # Apply Perspective Triangulation

@@ -3,6 +3,7 @@ name: apply-sq3r
 description: Use when reading a textbook chapter, research paper, technical document, or any dense non-fiction text — to maximize comprehension and retention on first pass by converting passive reading into active questioning and retrieval.
 source: 'Francis P. Robinson, "Effective Study", Ohio State University Press (1946); Thomas & Robinson, "Improving Reading in Every Class" (1972, PQ4R extension); Hattie, "Visible Learning" (2009); National Reading Panel Report (2000); Dunlosky et al., "Improving Students'' Learning With Effective Learning Techniques", Psychological Science in the Public Interest (2013)'
 tags: [reading-comprehension, active-reading, study, sq3r, learner, retention]
+related: [apply-elaborative-interrogation]
 ---
 
 # Apply SQ3R

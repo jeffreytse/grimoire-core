@@ -3,7 +3,7 @@ name: apply-devils-advocate-technique
 description: Use when a group or individual is converging on a conclusion and about to commit to it — before an irreversible decision, a major bet, or locking in a plan — to deliberately construct and test the strongest case against the prevailing consensus view, rather than assuming early agreement means the view is correct.
 source: 'Irving Janis "Victims of Groupthink" (1972) and "Groupthink" 2nd ed. (1982) — case-study contrast between the Bay of Pigs decision (groupthink symptoms present, no antidotes) and the Cuban Missile Crisis ExComm process (antidotes applied — designated devil''s advocate, outside-expert consultation, independent subgroups, a second-chance meeting before final commitment); CIA "Team B" competitive analysis exercises; U.S. Intelligence Community "Structured Analytic Techniques" tradecraft standard'
 tags: [critical-thinking, groupthink, decision-making, dissent, consensus, cognitive-bias, red-teaming]
-related: [apply-clinamen-deviation-technique, apply-adversarial-verification, apply-constructive-dissent, apply-premortem, apply-mental-models-framework, apply-perspective-triangulation, apply-reference-class-forecasting]
+related: [apply-clinamen-deviation-technique, apply-adversarial-verification, apply-constructive-dissent, apply-premortem, apply-mental-models-framework, apply-perspective-triangulation, apply-reference-class-forecasting, apply-slippery-slope-fallacy-check]
 ---
 
 # Apply Devil's Advocate Technique

@@ -3,7 +3,7 @@ name: apply-deliberate-practice
 description: Use when designing a practice regimen to build expert performance in any skill domain — to structure sessions around specific weaknesses, immediate feedback, and focused repetition at the edge of current ability rather than comfortable repetitive performance.
 source: 'Ericsson, Krampe & Tesch-Römer, "The Role of Deliberate Practice in the Acquisition of Expert Performance", Psychological Review (1993); Ericsson & Pool, "Peak: Secrets from the New Science of Expertise", Houghton Mifflin (2016); Bloom, "Developing Talent in Young People" (1985); Chase & Simon, "Perception in Chess", Cognitive Psychology (1973)'
 tags: [deliberate-practice, expertise, skill-acquisition, performance, learning, feedback, mastery]
-related: [apply-cross-domain-learning, apply-productive-failure-technique]
+related: [apply-cross-domain-learning, apply-productive-failure-technique, apply-sleep-dependent-consolidation]
 ---
 
 # Apply Deliberate Practice

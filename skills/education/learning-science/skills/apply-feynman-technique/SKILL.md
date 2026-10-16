@@ -3,7 +3,7 @@ name: apply-feynman-technique
 description: Use when learning a new concept, diagnosing why understanding feels shallow, or preparing to explain complex material — to verify genuine comprehension by explaining the topic in plain language, identify exactly where the explanation breaks down, and fill those gaps until the explanation is clear and jargon-free.
 source: Feynman (Gleick "Genius", Norton 1992); Oakley "A Mind for Numbers" (Tarcher/Penguin, 2014); Chi et al. "Eliciting Self-Explanations Improves Understanding" (Cognitive Science, 1994); Dunlosky et al. "Improving Students' Learning With Effective Learning Techniques" (Psychological Science in the Public Interest, 2013); Nestojko et al. "Expecting to Teach Enhances Learning" (Memory & Cognition, 2014)
 tags: [learning, comprehension-verification, self-explanation, gap-identification, teaching, study-technique, knowledge-depth]
-related: [apply-spaced-repetition, apply-retrieval-practice, apply-socratic-questioning]
+related: [apply-spaced-repetition, apply-retrieval-practice, apply-socratic-questioning, apply-elaborative-interrogation]
 ---
 
 # Apply Feynman Technique

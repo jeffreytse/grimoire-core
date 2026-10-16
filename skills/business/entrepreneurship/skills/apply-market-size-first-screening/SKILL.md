@@ -3,7 +3,7 @@ name: apply-market-size-first-screening
 description: Use when evaluating an early-stage investment opportunity — screening for a genuinely large addressable market first, before assessing team or product quality, since even excellent execution in a small market caps the achievable outcome, while a large market can produce an outsized result even from imperfect execution.
 source: Don Valentine, founder of Sequoia Capital; documented "invest in markets, not just people" screening philosophy
 tags: [venture-capital, market-sizing, tam, portfolio-construction, entrepreneurship]
-related: [audit-founder-quality, calculate-tam-sam-som, apply-ten-bagger-strategy]
+related: [audit-founder-quality, calculate-tam-sam-som, apply-ten-bagger-strategy, apply-product-market-fit-test]
 ---
 
 # Apply Market-Size-First Screening

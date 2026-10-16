@@ -3,6 +3,7 @@ name: apply-energy-management
 description: Use when your time management system is in place but you still feel unproductive, exhausted, or unable to sustain quality work — to shift from managing time to managing physical, emotional, mental, and purpose energy.
 source: 'Loehr, Jim & Schwartz, Tony. "The Power of Full Engagement" (2003); Schwartz, Tony. "Be Excellent at Anything" (2010); Peretz Lavie ultradian rhythm research'
 tags: [energy, recovery, performance, focus, wellbeing]
+related: [apply-attention-restoration-theory]
 verified: true
 ---
 

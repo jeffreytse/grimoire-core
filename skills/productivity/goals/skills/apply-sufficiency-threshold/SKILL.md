@@ -2,6 +2,7 @@
 name: apply-sufficiency-threshold
 description: Use when deciding whether to continue optimizing, pursuing, or acquiring — to define "enough" as an explicit target before you start, and treat reaching that threshold as success rather than continuing to maximize, because maximizing without a defined endpoint produces worse outcomes than satisficing with a clear one
 source: "道德经 第三十三章、第四十六章 (Laozi, ~6th–4th century BC) — 知足者富 (Ch. 33), 知足常乐 (Ch. 46); Herbert Simon satisficing theory (1956, Nobel Prize 1978); Barry Schwartz \"The Paradox of Choice\" (2004); Morgan Housel \"The Psychology of Money\" (2020) — the 'enough' number; Kurt Vonnegut / Joseph Heller 'enough' concept; Warren Buffett on the costs of not knowing when to stop"
+related: [apply-circle-of-influence]
 tags: [decision-making, goals, optimization, behavioral-economics, risk-management]
 verified: true
 ---

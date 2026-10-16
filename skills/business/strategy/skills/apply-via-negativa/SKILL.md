@@ -3,7 +3,7 @@ name: apply-via-negativa
 description: Use when improving a system, product, process, or decision framework — to identify and remove non-essential elements, fragilities, and complexity rather than adding features or capabilities, because subtraction produces more durable improvement than addition
 source: "道德经 第四十八章 (Laozi, ~6th–4th century BC) — 为学日益，为道日损，损之又损，以至于无为; Nassim Nicholas Taleb \"Antifragile\" (2012) — via negativa; Steve Jobs / Apple design philosophy — 'design is saying no to 1,000 things'; Dieter Rams '10 Principles of Good Design' — Principle 10: good design is as little design as possible; Greg McKeown \"Essentialism\" (2014); Unix philosophy (Ken Thompson, Dennis Ritchie, ~1970) — do one thing well"
 tags: [strategy, design, simplification, product-management, systems-thinking, decision-making]
-related: [apply-barbell-strategy]
+related: [apply-barbell-strategy, apply-vertical-integration-strategy]
 verified: true
 ---
 

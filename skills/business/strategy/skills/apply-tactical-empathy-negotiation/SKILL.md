@@ -3,7 +3,7 @@ name: apply-tactical-empathy-negotiation
 description: Use when negotiating and direct requests or arguments aren't surfacing the other party's real position — mirror their last few words to prompt elaboration, label the emotion you observe without asking if it's true, ask calibrated how/what questions instead of making demands, frame the cost of disagreement in loss terms, and invoke fairness explicitly, because these specific tactics draw out information and cooperation that direct questioning and argument do not.
 source: 'Chris Voss & Tahl Raz, "Never Split the Difference: Negotiating As If Your Life Depended On It", HarperBusiness (2016) — Voss is a former lead FBI international kidnapping negotiator and founder of The Black Swan Group; Kahneman & Tversky prospect theory (loss aversion) as cited in apply-reversal-probe and apply-nudge-design-principles'
 tags: [negotiation, communication, tactical-empathy, persuasion, sales]
-related: [apply-reversal-probe, apply-open-close-dialogue, apply-ackerman-bargaining]
+related: [apply-reversal-probe, apply-open-close-dialogue, apply-ackerman-bargaining, apply-door-in-the-face]
 ---
 
 # Apply Tactical Empathy Negotiation
