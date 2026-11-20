@@ -3,7 +3,7 @@ name: apply-fail-fast
 description: Use when writing functions, modules, or services to assert internal assumptions — preconditions, postconditions, invariants — so that violated assumptions produce an immediate, loud error at the point of violation rather than propagating corrupt state downstream.
 source: Hunt & Thomas, "The Pragmatic Programmer" (2nd ed. 2019) §23; Hoare, "An Axiomatic Basis for Computer Programming", CACM 1969; Martin Fowler, "Fail Fast" (martinfowler.com, 2004); widely adopted at Google, Amazon (SRE), Erlang/OTP
 tags: [fail-fast, assertions, invariants, error-handling, developer, debugging, reliability, defect-reduction]
-related: [validate-external-input, diagnose-bug]
+related: [validate-external-input, diagnose-bug, apply-illegal-states-unrepresentable]
 ---
 
 # Apply Fail-Fast

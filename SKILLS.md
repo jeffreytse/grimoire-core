@@ -1,6 +1,6 @@
 # Skills Directory
 
-1169 skills across 27 domains.
+1185 skills across 27 domains.
 
 [Install](./README.md#%EF%B8%8F-install) · [Contribute](./CONTRIBUTING.md) · [Standard](./STANDARD.md)
 
@@ -14,7 +14,7 @@
 - [Cooking (24)](#cooking)
 - [Design (65)](#design)
 - [Education (29)](#education)
-- [Engineering (263)](#engineering)
+- [Engineering (278)](#engineering)
 - [Environment (17)](#environment)
 - [Fashion (16)](#fashion)
 - [Film (16)](#film)
@@ -34,7 +34,7 @@
 - [Science (52)](#science)
 - [Sports (46)](#sports)
 - [Travel (16)](#travel)
-- [Writing (31)](#writing)
+- [Writing (32)](#writing)
 
 ---
 
@@ -527,7 +527,7 @@
 
 ---
 
-## Engineering (271) <a name="engineering"></a>
+## Engineering (286) <a name="engineering"></a>
 
 ### ai
 
@@ -557,12 +557,15 @@
 ### architecture
 
 - [`apply-abstraction`](./skills/engineering/architecture/skills/apply-abstraction/) — Use when designing modules, services, or class hierarchies — especially when callers depend on concrete implementations, when swapping one provider requires changing multiple call sites, or when tests require the real implementation to run.
+- [`apply-boundary-validation`](./skills/engineering/architecture/skills/apply-boundary-validation/) — Use when wiring input validation, error handling, or a framework adapter — concentrate guards where data crosses a system boundary (CLI args, config, network calls, external APIs), parse it into a domain type there, and let everything inside trust that type without re-validating or re-checking it.
 - [`apply-composition-over-inheritance`](./skills/engineering/architecture/skills/apply-composition-over-inheritance/) — Use when designing relationships between classes or modules — especially when tempted to extend a class to reuse its behavior, or when an inheritance hierarchy is becoming deep or brittle.
 - [`apply-controller-pattern`](./skills/engineering/architecture/skills/apply-controller-pattern/) — Use when deciding which non-UI class should handle a system operation or external event — especially when business logic leaks into UI handlers, or when the same system operation is triggered from multiple interfaces (web, CLI, API).
 - [`apply-creator-pattern`](./skills/engineering/architecture/skills/apply-creator-pattern/) — Use when deciding which class should be responsible for creating instances of another class — especially when object creation is scattered across the codebase, or when constructors are called in classes that have no other relationship to the created object.
+- [`apply-data-dominance`](./skills/engineering/architecture/skills/apply-data-dominance/) — Use when choosing core types, data structures, or sequencing scaffold-versus-feature work before writing logic — get the data's shape and ownership right first; the right structure makes the surrounding code and algorithm obvious instead of a design problem in its own right.
 - [`apply-domain-driven-design`](./skills/engineering/architecture/skills/apply-domain-driven-design/) — Use when designing complex business software where the domain logic is the primary source of complexity and where miscommunication between technical and business teams causes bugs
 - [`apply-encapsulation`](./skills/engineering/architecture/skills/apply-encapsulation/) — Use when a class's internal state is accessed or mutated from outside — especially when callers reach into fields directly, when invariants are violated by external setters, or when internal data structures leak into the public API.
 - [`apply-high-cohesion`](./skills/engineering/architecture/skills/apply-high-cohesion/) — Use when assigning responsibilities to classes — especially when a class is hard to name, does work unrelated to its core concept, or a single change requires understanding an entire class to avoid breaking something.
+- [`apply-idempotent-operations`](./skills/engineering/architecture/skills/apply-idempotent-operations/) — Use when designing a state-changing operation, lifecycle step, or processing loop that can run amid crashes, retries, or restarts — derive each run from the current state compared against the goal state, rather than from what the previous run meant to do, so the operation converges to the same correct end state no matter how many times it runs or where a prior run stopped.
 - [`apply-indirection`](./skills/engineering/architecture/skills/apply-indirection/) — Use when two components are directly coupled and that coupling causes problems — especially when changing one component forces changes in the other, or when a component cannot be tested without its direct dependency.
 - [`apply-information-expert`](./skills/engineering/architecture/skills/apply-information-expert/) — Use when deciding which class should be responsible for a computation, validation, or operation — especially when the same data is accessed from multiple places to perform the same calculation, or when a class delegates all its work to another class that holds the actual data.
 - [`apply-inheritance-correctly`](./skills/engineering/architecture/skills/apply-inheritance-correctly/) — Use when deciding whether a class should extend another — especially when tempted to inherit for code reuse, when instanceof checks appear in callers, or when an override weakens the parent's contract.
@@ -572,6 +575,7 @@
 - [`apply-polymorphism`](./skills/engineering/architecture/skills/apply-polymorphism/) — Use when behavior varies based on type — especially when if/switch statements check the type of an object to decide what to do, or when adding a new variant requires editing an existing class.
 - [`apply-protected-variations`](./skills/engineering/architecture/skills/apply-protected-variations/) — Use when a point of variation or instability is identified in a design — especially when a third-party dependency, algorithm, or external interface is likely to change and other components should not be affected.
 - [`apply-pure-fabrication`](./skills/engineering/architecture/skills/apply-pure-fabrication/) — Use when no domain class is a suitable home for a responsibility — especially when assigning a responsibility to a domain object would violate high cohesion or low coupling by introducing infrastructure concerns (database, email, logging) into domain objects.
+- [`apply-shared-nothing-architecture`](./skills/engineering/architecture/skills/apply-shared-nothing-architecture/) — Use when concurrent actors might write to the same file, branch, key, or state object — eliminate the sharing first by giving each actor its own partition, and merge only where the state is read; serialize access structurally (a lock, a single writer, compare-and-swap) only when one shared writer is a genuine invariant.
 - [`apply-solid-principles`](./skills/engineering/architecture/skills/apply-solid-principles/) — Use when designing or reviewing classes and modules in OOP code — especially when tests are hard to write, changes ripple unexpectedly, or classes accumulate unrelated responsibilities.
 - [`apply-strangler-fig-pattern`](./skills/engineering/architecture/skills/apply-strangler-fig-pattern/) — Use when replacing a legacy system or component incrementally without a full rewrite, by routing traffic progressively from the old system to a new implementation.
 - [`audit-technical-debt`](./skills/engineering/architecture/skills/audit-technical-debt/) — Use when assessing, cataloging, or prioritizing technical debt in an existing codebase or system
@@ -678,8 +682,14 @@
 - [`write-database-migration`](./skills/engineering/development/skills/write-database-migration/) — Use when changing a database schema — adding or removing columns, creating tables, adding indexes, or altering constraints.
 - [`write-openapi-spec`](./skills/engineering/development/skills/write-openapi-spec/) — Use when writing or reviewing an OpenAPI 3.x specification — to apply naming conventions, schema reuse, error modeling, pagination, security schemes, and examples that make the spec complete, consistent, and usable as a contract.
 - [`write-regression-test`](./skills/engineering/development/skills/write-regression-test/) — Use when fixing any bug — to write a failing automated test that reproduces the bug before implementing the fix, ensuring the fix is verified and the bug cannot silently recur.
+- [`apply-illegal-states-unrepresentable`](./skills/engineering/development/skills/apply-illegal-states-unrepresentable/) — Use when a type's fields can be combined into states that shouldn't exist — redesign the type (discriminated unions, parsed domain types, state machines) so the invalid combination cannot be constructed at all, rather than validating against it at runtime.
 - [`apply-idiomatic-code`](./skills/engineering/development/skills/apply-idiomatic-code/) — Use when writing or reviewing code in a specific language or ecosystem — especially when contributors from different language backgrounds write in conflicting styles, or when code compiles but feels foreign to native speakers of the language.
 - [`apply-predictable-code`](./skills/engineering/development/skills/apply-predictable-code/) — Use when writing or reviewing functions and modules — especially when callers encounter surprising side effects, error handling is inconsistent, or debugging requires tracing hidden state changes.
+- [`apply-convention-codification`](./skills/engineering/development/skills/apply-convention-codification/) — Use when you catch yourself writing the same code-review comment or instruction a second time, or notice a recurring correction on the same mistake — encode the rule as a lint rule, type constraint, CI check, or script instead of relying on a written note or memory to catch it next time.
+- [`apply-hypothesis-driven-debugging`](./skills/engineering/development/skills/apply-hypothesis-driven-debugging/) — Use when two or more fixes that share an assumption have failed the same test or gate — write the shared assumption down as a falsifiable hypothesis and test it directly with an observation that would come out differently if the assumption is wrong, before attempting another fix that relies on it.
+- [`apply-reader-load-reduction`](./skills/engineering/development/skills/apply-reader-load-reduction/) — Use when reviewing or shaping code that's hard to trace — count the layers a reader must cross between a question and its answer, and the hidden or mutable state they must hold in their head; collapse one-caller wrappers and shrink mutable scope until both are low.
+- [`apply-change-impact-analysis`](./skills/engineering/development/skills/apply-change-impact-analysis/) — Use when about to ship a change you don't fully trust, or when asked "what could this break" — find the one fact the change's safety actually depends on, trace effects beyond what a caller search shows (serialized formats, downstream consumers, timing, feature flags), and prove the safety claim by running real code instead of handing back a convincing-sounding writeup.
+- [`refactor-ai-generated-code`](./skills/engineering/development/skills/refactor-ai-generated-code/) — Use when reviewing or cleaning up code that was substantially written by an AI coding assistant — check specifically for the recurring patterns AI assistants introduce (unnecessary comments, defensive checks and try/catch blocks abnormal for the surrounding trusted code, `any`-casts used only to silence the type checker, unneeded nesting) and remove them without changing behavior.
 
 ### devops
 
@@ -697,6 +707,8 @@
 - [`apply-kubernetes-security`](./skills/engineering/devops/skills/apply-kubernetes-security/) — Use when deploying workloads to Kubernetes — configuring RBAC, network policies, pod security standards, secrets management, and admission controls to prevent privilege escalation and lateral movement.
 - [`design-cicd-pipeline-security`](./skills/engineering/devops/skills/design-cicd-pipeline-security/) — Use when designing or hardening CI/CD pipelines — securing secret injection, restricting pipeline permissions, signing artifacts, and preventing supply chain attacks in GitHub Actions, GitLab CI, or Jenkins.
 - [`review-kubernetes-top10`](./skills/engineering/devops/skills/review-kubernetes-top10/) — Use when auditing a Kubernetes cluster or reviewing a deployment for security — systematically checking all 10 OWASP Kubernetes Top 10 (2022) vulnerability classes with test commands and remediation guidance.
+- [`apply-toil-elimination`](./skills/engineering/devops/skills/apply-toil-elimination/) — Use when facing non-trivial manual work that will recur — edits, migrations, analyses, checks — even if it won't repeat many times; build the tool that does it or proves it (a script, codemod, generator, or rerunnable check) instead of doing it by hand, with the tool itself as the artifact a reviewer can rerun.
+- [`apply-small-batch-delivery`](./skills/engineering/devops/skills/apply-small-batch-delivery/) — Use when sequencing multi-step work — sweeps, migrations, runs of similar edits — and when stacking commits or pull requests; break the work into small units that each end in a verifiable state, check each before advancing to the next, and order delivery so the sequence itself proves the work to a reviewer.
 
 ### documentation
 
@@ -733,6 +745,7 @@
 - [`diagnose-memory-leak`](./skills/engineering/performance/skills/diagnose-memory-leak/) — Use when a process shows continuously growing memory usage that doesn't stabilize, when OOM kills are occurring in production, or when heap dumps are needed to identify object accumulation
 - [`profile-web-vitals`](./skills/engineering/performance/skills/profile-web-vitals/) — Use when diagnosing web performance problems or preparing a performance audit for a website or web application
 - [`run-load-test`](./skills/engineering/performance/skills/run-load-test/) — Use when validating system performance before a launch, during capacity planning, after significant code or infrastructure changes, or when investigating SLO latency budget breaches
+- [`apply-benchmark-rigor`](./skills/engineering/performance/skills/apply-benchmark-rigor/) — Use when you are about to trust, report, or act on a measured number — a speedup, a regression, a throughput, a latency, or an eval result — find what actually limits it and rule out that it measured something other than the work intended, rather than trusting a single run or a plausible-looking result.
 
 ### product
 
@@ -741,6 +754,7 @@
 - [`write-prfaq`](./skills/engineering/product/skills/write-prfaq/) — Use when defining a new product, feature, or service before committing resources to build it — especially for initiatives with unclear customer value, competing solution approaches, or significant investment required. Trigger before writing a PRD or technical spec for any initiative above a certain size threshold.
 - [`write-release-note`](./skills/engineering/product/skills/write-release-note/) — Use when writing user-facing release notes for a software product release
 - [`write-user-story`](./skills/engineering/product/skills/write-user-story/) — Use when writing user stories, acceptance criteria, or backlog items for product features
+- [`apply-product-simplicity`](./skills/engineering/product/skills/apply-product-simplicity/) — Use when a product, UX, or feature-scope tradeoff comes up — choose fewer, more polished features and user delight over implementation convenience or feature count, and require every feature, control, and option to justify its place in the core experience.
 
 ### project-management
 
@@ -847,6 +861,7 @@
 - [`apply-verification-volume-scaling`](./skills/engineering/testing/skills/apply-verification-volume-scaling/) — Use when deciding how much test and verification code to write around a piece of core logic, now that AI can generate it at near-zero marginal cost — classify the logic by consequence-of-failure tier, then scale up generated, disposable stress tests, mutation tests, and edge-case harnesses for the higher tiers
 - [`apply-test-driven-development`](./skills/engineering/testing/skills/apply-test-driven-development/) — Use when implementing any business logic, fixing bugs, or when the correctness of a function's behavior under various inputs needs to be proved
 - [`audit-diff-coverage`](./skills/engineering/testing/skills/audit-diff-coverage/) — Use when reviewing a pull request or code change for test adequacy — measure test coverage specifically on the lines changed in that diff, not whole-file or whole-codebase coverage, since a codebase can have high aggregate coverage while the specific lines just added or modified are completely untested.
+- [`apply-test-behavior-not-implementation`](./skills/engineering/testing/skills/apply-test-behavior-not-implementation/) — Use when writing, reviewing, or deciding whether to keep a test — assert only what the code's users can observe, never internal call order or intermediate data, and judge each test with two mutations: breaking real behavior should fail it, changing only internals should not.
 - [`audit-test-coverage`](./skills/engineering/testing/skills/audit-test-coverage/) — Use when evaluating the adequacy of a test suite, identifying coverage gaps, or deciding where to add tests
 - [`design-contract-testing`](./skills/engineering/testing/skills/design-contract-testing/) — Use when multiple teams maintain independent services that communicate via APIs, or when integration test environments are slow, expensive, or unavailable
 - [`fix-flaky-test`](./skills/engineering/testing/skills/fix-flaky-test/) — Use when a test passes and fails non-deterministically without code changes — to identify the root cause category and eliminate the flakiness rather than retrying or skipping the test.
@@ -1837,7 +1852,7 @@
 
 ---
 
-## Writing (31) <a name="writing"></a>
+## Writing (32) <a name="writing"></a>
 
 ### academic
 
@@ -1880,6 +1895,7 @@
 
 - [`apply-pyramid-principle`](./skills/writing/technical/skills/apply-pyramid-principle/) — Use when writing a business document, memo, email, or presentation where the reader needs to understand a recommendation or conclusion quickly.
 - [`design-documentation-architecture`](./skills/writing/technical/skills/design-documentation-architecture/) — Use when planning the overall structure and information architecture of a documentation system for a product, API, or software project
+- [`apply-ai-writing-tell-removal`](./skills/writing/technical/skills/apply-ai-writing-tell-removal/) — Use when editing AI-generated or AI-assisted prose before it's published — check for and remove recurring stylistic tells (false-contrast constructions, compulsive rule-of-three listing, excessive em-dashes, hedge-stacking, unearned grandiosity) that read as generated rather than written.
 - [`design-documentation-structure`](./skills/writing/technical/skills/design-documentation-structure/) — Use when organizing or reorganizing documentation for a project, product, or knowledge base
 - [`write-api-docs`](./skills/writing/technical/skills/write-api-docs/) — Use when writing or improving API reference documentation, endpoint descriptions, or OpenAPI specifications
 - [`write-api-documentation`](./skills/writing/technical/skills/write-api-documentation/) — Use when writing or reviewing API reference documentation, endpoint descriptions, or developer-facing SDK documentation

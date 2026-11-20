@@ -3,7 +3,7 @@ name: audit-test-coverage
 description: Use when evaluating the adequacy of a test suite, identifying coverage gaps, or deciding where to add tests
 source: Martin Fowler "TestCoverage" (martinfowler.com); mutation testing (Pitest for Java, mutmut for Python); Google Testing Blog
 tags: [test-coverage, mutation-testing, quality, testing, audit]
-related: [apply-property-based-testing, audit-diff-coverage]
+related: [apply-property-based-testing, audit-diff-coverage, apply-test-behavior-not-implementation]
 verified: true
 ---
 

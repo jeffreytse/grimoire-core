@@ -3,6 +3,7 @@ name: apply-encapsulation
 description: Use when a class's internal state is accessed or mutated from outside — especially when callers reach into fields directly, when invariants are violated by external setters, or when internal data structures leak into the public API.
 source: Grady Booch, "Object-Oriented Analysis and Design with Applications" (1994); David West, "Object Thinking" (2004); Allen Holub, "Holub on Patterns" (2004)
 tags: [oop, encapsulation, information-hiding, data-hiding, invariants, coupling, design-principles]
+related: [apply-illegal-states-unrepresentable]
 ---
 
 # Apply Encapsulation
