@@ -125,6 +125,36 @@ name = "my-project"
 # "jeffreytse/grimoire-core" = "1.2.3" # exact pin
 ```
 
+**MCP mode — skills on demand, nothing copied into your agent:**
+
+```bash
+grimoire mcp install                      # Claude Code: register the server, add the CLAUDE.md instruction + prompt hook
+grimoire mcp install --target all         # every supported agent on your PATH
+grimoire mcp install --target codex,gemini
+grimoire mcp install --scope project      # this repo only (commit the files to share)
+grimoire mcp uninstall --target all       # undo
+```
+
+| Agent | Scopes | Server registered via | Instruction written to |
+| --- | --- | --- | --- |
+| Claude Code | user, project | `claude mcp add` | `~/.claude/CLAUDE.md` / `./CLAUDE.md` |
+| Codex | user | `codex mcp add` | `~/.codex/AGENTS.md` |
+| Gemini CLI | user, project | `gemini mcp add` | `~/.gemini/GEMINI.md` / `./GEMINI.md` |
+| GitHub Copilot CLI | user | `copilot mcp add` | `~/.copilot/copilot-instructions.md` |
+| OpenCode | user, project | `opencode.json` (`mcp.grimoire`) | `~/.config/opencode/AGENTS.md` / `./AGENTS.md` |
+| Pi | user, project | `~/.pi/agent/mcp.json` / `.pi/mcp.json` | `~/.pi/agent/AGENTS.md` / `./AGENTS.md` |
+| Kimi Code | user, project | `~/.kimi-code/mcp.json` / `.kimi-code/mcp.json` | `~/.kimi-code/AGENTS.md` / `./AGENTS.md` |
+| OMP | user, project | `~/.omp/agent/mcp.json` / `.omp/mcp.json` | `~/.omp/agent/AGENTS.md` / `.omp/AGENTS.md` |
+| Antigravity | user | `~/.gemini/config/mcp_config.json` | — (agy has no user-level instruction file; add the line to a project `AGENTS.md`) |
+
+**Run a specific skill:** type `/grimoire:skill <skill-name>` (Claude Code slash command), or write `grimoire:<skill-name> [task]` in any agent, e.g. `grimoire:propose-conventional-commit`. A mistyped name comes back with "did you mean" suggestions.
+
+**Prompt hook (Claude Code):** an instruction alone is advisory — the model often decides a task doesn't need a skill. `grimoire mcp install` therefore also adds a `UserPromptSubmit` hook (`grimoire hook prompt`) that runs on every prompt: `grimoire:<name>` loads that skill, otherwise the best-matching skills are put in front of the model, and small talk gets nothing. Other hooks are kept; `--no-hook` skips it. Other agents rely on the instruction file.
+
+**Workflows in MCP mode:** the meta workflows (`suggest-best-practice`, `plan-best-practice-solution`, …) find and load the skills they chain through grimoire's MCP tools, so they work the same as in skills mode. Practice pins are read from and written to `grimoire.toml` in both modes.
+
+Re-running is safe: existing registrations and instructions are detected, nothing is duplicated, and an older `start-best-practice` trigger is replaced. Start a new agent session afterwards (in Claude Code, `/mcp` lists grimoire as connected). Gemini keeps MCP servers disabled in folders you haven't trusted. The agent then finds and loads skills through `grimoire_search_skills` and `grimoire_get_skill` instead of preloading every skill into context. Run `grimoire update` to refresh skills. For other MCP clients, `grimoire mcp config --target cursor|windsurf|cline` prints the config snippet.
+
 ## 🤖 Agent Support
 
 Two ways in: the agent's **native plugin** command, or the [grimoire CLI](https://github.com/jeffreytse/grimoire), which links skills into the agent's skills folder and works for every agent below.
@@ -175,6 +205,8 @@ Claude: Situation matches: write-value-proposition + design-go-to-market + apply
 /negotiate-salary          # structure your compensation negotiation
 ```
 
+In MCP mode, skills are not agent slash commands — write `grimoire:<skill-name> [task]` (any agent) or `/grimoire:skill <skill-name>` (Claude Code) instead, e.g. `grimoire:negotiate-salary I have an offer at $140k`.
+
 **Common paths:**
 
 | You want to… | Use |
@@ -186,6 +218,8 @@ Claude: Situation matches: write-value-proposition + design-go-to-market + apply
 | Complex problem — sub-problems emerge during execution | `/apply-best-practice-tree` |
 | Don't know what practices exist for a topic | `/discover-best-practices` |
 | About to start a task — want to catch gaps first | `/start-best-practice` |
+
+`start-best-practice` runs automatically before every request only in skills mode (CLI `grimoire install` writes that trigger). In MCP mode the prompt hook suggests matching skills instead; route explicitly with `grimoire:start-best-practice`.
 
 ## 📦 Using as a Package
 
@@ -353,6 +387,8 @@ One-sentence purpose.
 2. Run `/write-best-practice-skill` — it guides you through the format step by step
 3. Open a PR — `/review-best-practice-skill` runs automatically and flags any gaps
 4. Merge after review passes
+
+A skill that loads or scores *other* skills must work in both skills mode and MCP mode: include the [Skill Access](./STANDARD.md#skill-access-conditional) section from STANDARD.md, give install hints for every route, and keep practice pins in `grimoire.toml`.
 
 > This workflow applies to contributions to **this repository** (the official package). Skills in your own package have no such requirement — see [docs/user-package.md](./docs/user-package.md).
 
