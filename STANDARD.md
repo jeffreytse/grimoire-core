@@ -344,6 +344,30 @@ Collect confirm via platform-aware prompt:
 - **`AskUserQuestion` limit**: max 4 options. For choices with >4 options, use plain numbered list on all platforms — don't merge semantically distinct choices to fit the cap
 - Full reference: [`docs/agent-interactive-ui.md`](./docs/agent-interactive-ui.md)
 
+### Skill Access (conditional)
+
+grimoire delivers skills two ways: **skills mode** (skills installed into the agent — CLI `grimoire install` or a native plugin) and **MCP mode** (`grimoire mcp install` — nothing installed in the agent; skills are fetched through grimoire's MCP tools). A skill that finds, scores, or loads *other* skills must work in both.
+
+**Rule:** if your skill invokes another skill or scans installed skills, include this section verbatim before `## Steps`, then write "installed skills" and "load" / "invoke" in the steps — never "the Skill tool" or a `/skill-name` command alone.
+
+```markdown
+## Skill Access
+
+This skill finds and loads other grimoire skills. Use whichever access this session has:
+- **Skills mode** — grimoire skills are installed in the agent: they are listed in context; load one with the Skill tool (or its `/skill-name` command).
+- **MCP mode** — grimoire MCP tools are available (`grimoire_get_skill`, …): find candidates with `grimoire_search_skills` (one focused query per need) or `grimoire_list_skills` for a domain; load one with `grimoire_get_skill`. Score and name only skills these tools return.
+
+Below, "installed skills" means the skills reachable this way, and "load" / "invoke" means the matching loader.
+```
+
+**Install hints:** when no installed skill covers a domain, name all three routes rather than one agent's command:
+
+```markdown
+Claude Code plugin: `/plugin install grimoire-[domain]@grimoire` · grimoire CLI: `grimoire install --domain [domain]` · MCP mode: add a package that covers it (`grimoire_package_add`, CLI `grimoire package add <repo>`)
+```
+
+**Preferences:** read and write practice pins only in `grimoire.toml` (`[standards.<domain>.<subdomain>]`) — project, `~/.config/grimoire/`, or `/etc/grimoire/`. Never a separate preferences file.
+
 ---
 
 ## 5 Quality Criteria
