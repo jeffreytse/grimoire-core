@@ -2,15 +2,19 @@
 
 ## Installation
 
-Add grimoire to the `plugin` array in your `opencode.json` (global or project-level):
+```bash
+opencode plugin 'github:jeffreytse/grimoire-core#main' -g   # -g: global config; omit for project
+```
+
+Or add it to the `plugin` array in your `opencode.json` (global or project-level):
 
 ```json
 {
-  "plugin": ["grimoire@git+https://github.com/jeffreytse/grimoire.git"]
+  "plugin": ["github:jeffreytse/grimoire-core#main"]
 }
 ```
 
-Restart OpenCode. The plugin registers all grimoire skills automatically.
+Restart OpenCode. The plugin registers every nested `skills/` folder of grimoire-core and injects the `AGENTS.md` bootstrap context.
 
 ## Usage
 
@@ -18,7 +22,7 @@ Use OpenCode's native `skill` tool:
 
 ```
 use skill tool to list skills
-use skill tool to load engineering/development/propose-conventional-commit
+use skill tool to load propose-conventional-commit
 ```
 
 ## Updating
@@ -27,8 +31,14 @@ To pin a specific version:
 
 ```json
 {
-  "plugin": ["grimoire@git+https://github.com/jeffreytse/grimoire.git#v1.0.0"]
+  "plugin": ["github:jeffreytse/grimoire-core#v1.0.0"]
 }
+```
+
+## Alternative: grimoire CLI
+
+```bash
+grimoire install --target opencode --global   # links skills into ~/.config/opencode/skills
 ```
 
 ## Troubleshooting

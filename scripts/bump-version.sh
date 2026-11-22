@@ -30,7 +30,10 @@ find "$REPO_ROOT" \( \
   -path '*/.claude-plugin/plugin.json' -o \
   -path '*/.codex-plugin/plugin.json'  -o \
   -path '*/.cursor-plugin/plugin.json' -o \
-  -name 'gemini-extension.json' \
+  -name 'gemini-extension.json' -o \
+  -path "$REPO_ROOT/package.json" -o \
+  -path "$REPO_ROOT/plugin.json" -o \
+  -path "$REPO_ROOT/.agy/plugin.json" \
 \) | while read -r f; do
   sed -i '' "s/\"version\": \"${OLD_VERSION}\"/\"version\": \"${NEW_VERSION}\"/" "$f"
 done
@@ -41,5 +44,7 @@ COUNT=$(find "$REPO_ROOT" \( \
   -path '*/.cursor-plugin/plugin.json' -o \
   -name 'gemini-extension.json' \
 \) | wc -l | tr -d ' ')
+
+python3 "$REPO_ROOT/scripts/gen-manifests.py"
 
 echo "Bumped $OLD_VERSION → $NEW_VERSION in VERSION + $COUNT manifest files."

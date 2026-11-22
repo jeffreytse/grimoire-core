@@ -1,43 +1,25 @@
 # Installing grimoire-core for Antigravity CLI (agy)
 
-## One-command install (recommended)
+## Recommended: grimoire CLI
 
 ```bash
-agy plugin install https://github.com/jeffreytse/grimoire-core
+curl -fsSL https://raw.githubusercontent.com/jeffreytse/grimoire/main/scripts/install.sh | bash
+grimoire install --global --target antigravity
 ```
 
-Stages under `~/.gemini/config/plugins/grimoire-core/`.
+This links each skill into `~/.gemini/antigravity-cli/skills/<name>/`, the
+one-level layout agy discovers.
 
-## Local install
+## Why not `agy plugin install`?
 
-```bash
-git clone https://github.com/jeffreytse/grimoire-core
-agy plugin install ./grimoire-core
-```
-
-Or install via the bundled `.agy/` entry point:
-
-```bash
-agy plugin install ./grimoire-core/.agy
-```
-
-## Pin a release
-
-```bash
-git clone --branch v0.1.0 --depth 1 https://github.com/jeffreytse/grimoire-core
-agy plugin install ./grimoire-core
-```
+grimoire-core keeps skills nested as
+`skills/<domain>/<sub>/skills/<name>/SKILL.md`. `agy plugin install` only scans
+`skills/*/` and ignores a manifest `skills` list, so it would register the 27
+domain folders rather than the skills inside them. Use the grimoire CLI
+until agy supports declared skill paths.
 
 ## Uninstall
 
 ```bash
-agy plugin uninstall grimoire-core
-```
-
-## Alternative: grimoire CLI
-
-The [grimoire CLI](https://github.com/jeffreytse/grimoire) manages skills across all agents:
-
-```bash
-grimoire install --target antigravity
+grimoire uninstall --target antigravity
 ```

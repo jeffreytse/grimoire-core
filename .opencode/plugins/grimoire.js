@@ -23,11 +23,41 @@ const normalizePath = (p, homeDir) => {
   return path.resolve(normalized);
 };
 
+// Skills live at skills/<domain>/<sub>/skills/<name>/SKILL.md (and
+// skills/meta/skills/<name>/SKILL.md). OpenCode scans each path one level
+// deep, so register every nested `skills` folder.
+const findSkillDirs = (root) => {
+  const out = [];
+  const walk = (dir) => {
+    let entries;
+    try {
+      entries = fs.readdirSync(dir, { withFileTypes: true });
+    } catch {
+      return;
+    }
+    for (const e of entries) {
+      if (!e.isDirectory() || e.name.startsWith('.')) continue;
+      const full = path.join(dir, e.name);
+      if (e.name !== 'skills') {
+        walk(full);
+        continue;
+      }
+      // Skip empty placeholder folders: keep only those holding a skill.
+      const hasSkill = fs.readdirSync(full, { withFileTypes: true }).some(
+        (c) => c.isDirectory() && fs.existsSync(path.join(full, c.name, 'SKILL.md')),
+      );
+      if (hasSkill) out.push(full);
+    }
+  };
+  walk(root);
+  return out.sort();
+};
+
 let _bootstrapCache = undefined;
 
 export const GrimoirePlugin = async ({ client, directory }) => {
   const homeDir = os.homedir();
-  const skillsDir = path.resolve(__dirname, '../../skills');
+  const skillsDirs = findSkillDirs(path.resolve(__dirname, '../../skills'));
   const envConfigDir = normalizePath(process.env.OPENCODE_CONFIG_DIR, homeDir);
   const configDir = envConfigDir || path.join(homeDir, '.config/opencode');
 
@@ -65,8 +95,8 @@ ${toolMapping}
     config: async (config) => {
       config.skills = config.skills || {};
       config.skills.paths = config.skills.paths || [];
-      if (!config.skills.paths.includes(skillsDir)) {
-        config.skills.paths.push(skillsDir);
+      for (const dir of skillsDirs) {
+        if (!config.skills.paths.includes(dir)) config.skills.paths.push(dir);
       }
     },
 

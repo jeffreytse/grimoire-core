@@ -1,0 +1,428 @@
+{
+  "name": "grimoire",
+  "interface": {
+    "displayName": "grimoire"
+  },
+  "plugins": [
+    {
+      "name": "grimoire",
+      "source": {
+        "source": "local",
+        "path": "./"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL",
+        "products": [
+          "CODEX"
+        ]
+      },
+      "category": "Productivity"
+    },
+    {
+      "name": "grimoire-meta",
+      "source": {
+        "source": "local",
+        "path": "./skills/meta"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL",
+        "products": [
+          "CODEX"
+        ]
+      },
+      "category": "Productivity"
+    },
+    {
+      "name": "grimoire-engineering",
+      "source": {
+        "source": "local",
+        "path": "./skills/engineering"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL",
+        "products": [
+          "CODEX"
+        ]
+      },
+      "category": "Productivity"
+    },
+    {
+      "name": "grimoire-writing",
+      "source": {
+        "source": "local",
+        "path": "./skills/writing"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL",
+        "products": [
+          "CODEX"
+        ]
+      },
+      "category": "Productivity"
+    },
+    {
+      "name": "grimoire-design",
+      "source": {
+        "source": "local",
+        "path": "./skills/design"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL",
+        "products": [
+          "CODEX"
+        ]
+      },
+      "category": "Productivity"
+    },
+    {
+      "name": "grimoire-business",
+      "source": {
+        "source": "local",
+        "path": "./skills/business"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL",
+        "products": [
+          "CODEX"
+        ]
+      },
+      "category": "Productivity"
+    },
+    {
+      "name": "grimoire-science",
+      "source": {
+        "source": "local",
+        "path": "./skills/science"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL",
+        "products": [
+          "CODEX"
+        ]
+      },
+      "category": "Productivity"
+    },
+    {
+      "name": "grimoire-marketing",
+      "source": {
+        "source": "local",
+        "path": "./skills/marketing"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL",
+        "products": [
+          "CODEX"
+        ]
+      },
+      "category": "Productivity"
+    },
+    {
+      "name": "grimoire-health",
+      "source": {
+        "source": "local",
+        "path": "./skills/health"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL",
+        "products": [
+          "CODEX"
+        ]
+      },
+      "category": "Productivity"
+    },
+    {
+      "name": "grimoire-finance",
+      "source": {
+        "source": "local",
+        "path": "./skills/finance"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL",
+        "products": [
+          "CODEX"
+        ]
+      },
+      "category": "Productivity"
+    },
+    {
+      "name": "grimoire-education",
+      "source": {
+        "source": "local",
+        "path": "./skills/education"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL",
+        "products": [
+          "CODEX"
+        ]
+      },
+      "category": "Productivity"
+    },
+    {
+      "name": "grimoire-film",
+      "source": {
+        "source": "local",
+        "path": "./skills/film"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL",
+        "products": [
+          "CODEX"
+        ]
+      },
+      "category": "Productivity"
+    },
+    {
+      "name": "grimoire-law",
+      "source": {
+        "source": "local",
+        "path": "./skills/law"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL",
+        "products": [
+          "CODEX"
+        ]
+      },
+      "category": "Productivity"
+    },
+    {
+      "name": "grimoire-cooking",
+      "source": {
+        "source": "local",
+        "path": "./skills/cooking"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL",
+        "products": [
+          "CODEX"
+        ]
+      },
+      "category": "Productivity"
+    },
+    {
+      "name": "grimoire-language",
+      "source": {
+        "source": "local",
+        "path": "./skills/language"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL",
+        "products": [
+          "CODEX"
+        ]
+      },
+      "category": "Productivity"
+    },
+    {
+      "name": "grimoire-art",
+      "source": {
+        "source": "local",
+        "path": "./skills/art"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL",
+        "products": [
+          "CODEX"
+        ]
+      },
+      "category": "Productivity"
+    },
+    {
+      "name": "grimoire-sports",
+      "source": {
+        "source": "local",
+        "path": "./skills/sports"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL",
+        "products": [
+          "CODEX"
+        ]
+      },
+      "category": "Productivity"
+    },
+    {
+      "name": "grimoire-productivity",
+      "source": {
+        "source": "local",
+        "path": "./skills/productivity"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL",
+        "products": [
+          "CODEX"
+        ]
+      },
+      "category": "Productivity"
+    },
+    {
+      "name": "grimoire-photography",
+      "source": {
+        "source": "local",
+        "path": "./skills/photography"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL",
+        "products": [
+          "CODEX"
+        ]
+      },
+      "category": "Productivity"
+    },
+    {
+      "name": "grimoire-music",
+      "source": {
+        "source": "local",
+        "path": "./skills/music"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL",
+        "products": [
+          "CODEX"
+        ]
+      },
+      "category": "Productivity"
+    },
+    {
+      "name": "grimoire-travel",
+      "source": {
+        "source": "local",
+        "path": "./skills/travel"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL",
+        "products": [
+          "CODEX"
+        ]
+      },
+      "category": "Productivity"
+    },
+    {
+      "name": "grimoire-psychology",
+      "source": {
+        "source": "local",
+        "path": "./skills/psychology"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL",
+        "products": [
+          "CODEX"
+        ]
+      },
+      "category": "Productivity"
+    },
+    {
+      "name": "grimoire-home",
+      "source": {
+        "source": "local",
+        "path": "./skills/home"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL",
+        "products": [
+          "CODEX"
+        ]
+      },
+      "category": "Productivity"
+    },
+    {
+      "name": "grimoire-environment",
+      "source": {
+        "source": "local",
+        "path": "./skills/environment"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL",
+        "products": [
+          "CODEX"
+        ]
+      },
+      "category": "Productivity"
+    },
+    {
+      "name": "grimoire-pets",
+      "source": {
+        "source": "local",
+        "path": "./skills/pets"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL",
+        "products": [
+          "CODEX"
+        ]
+      },
+      "category": "Productivity"
+    },
+    {
+      "name": "grimoire-fashion",
+      "source": {
+        "source": "local",
+        "path": "./skills/fashion"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL",
+        "products": [
+          "CODEX"
+        ]
+      },
+      "category": "Productivity"
+    },
+    {
+      "name": "grimoire-parenting",
+      "source": {
+        "source": "local",
+        "path": "./skills/parenting"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL",
+        "products": [
+          "CODEX"
+        ]
+      },
+      "category": "Productivity"
+    },
+    {
+      "name": "grimoire-automotive",
+      "source": {
+        "source": "local",
+        "path": "./skills/automotive"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL",
+        "products": [
+          "CODEX"
+        ]
+      },
+      "category": "Productivity"
+    }
+  ]
+}

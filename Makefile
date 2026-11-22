@@ -10,19 +10,11 @@ test-schema: ## Run conformance test suite against schema/tests fixtures
 fix-frontmatter: ## Fix validation errors via AI (deterministic pre-fix + AI fallback)
 	grimoire validate skills/ --fix
 
-update-plugin-manifest: ## Auto-generate skills list in .claude-plugin/plugin.json
-	python3 scripts/update-plugin-manifest.py
+update-plugin-manifest: ## Regenerate every agent manifest (skill folders, version) from skills/
+	python3 scripts/gen-manifests.py
 
-check-manifest: ## Verify plugin.json skill list matches actual dirs
-	@actual=$$(find skills -mindepth 1 -type d -name "skills" -not -empty | wc -l | tr -d ' '); \
-	listed=$$(python3 -c "import json; d=json.load(open('.claude-plugin/plugin.json')); print(len(d['skills']))"); \
-	echo "Actual skill dirs: $$actual"; \
-	echo "Listed in manifest: $$listed"; \
-	if [ "$$actual" != "$$listed" ]; then \
-		echo "MISMATCH — run: make update-plugin-manifest"; exit 1; \
-	else \
-		echo "OK"; \
-	fi
+check-manifest: ## Verify agent manifests match skills/ and VERSION
+	python3 scripts/gen-manifests.py --check
 
 bump-version: ## Bump skills library version — usage: make bump-version V=1.2.3
 	@test -n "$(V)" || (echo "Usage: make bump-version V=x.y.z"; exit 1)
