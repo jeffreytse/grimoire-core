@@ -23,9 +23,11 @@ Sources: Google Engineering Practices; ISO 9001:2015 §9.2 internal audit requir
 
 Resolution order — first match wins:
 1. Session memory — pinned this session only; not written to disk (highest precedence)
-2. `<project-root>/.grimoire/preferences.md` — project-level
-3. `~/.config/grimoire/preferences.md` OR `~/.grimoire/preferences.md` — global-level
-4. `CLAUDE.md` `## Grimoire Preferences` section — legacy fallback
+2. `<project-root>/grimoire.toml` — project config, committed to repo (read `[standards.domain.subdomain].practices[0]`)
+3. `~/.config/grimoire/grimoire.toml` — global config, this user (same key; `$XDG_CONFIG_HOME/grimoire/grimoire.toml` if set)
+4. `/etc/grimoire/grimoire.toml` — system config, all users on this machine (same key)
+
+Preferred: `grimoire_context` (MCP) or `grimoire context --json` (CLI) returns these already merged.
 
 For the relevant domain, check if a practice is already pinned:
 - **Pinned match (file)** → apply the pinned practice directly; skip scoring entirely. No further action needed — already persisted.
@@ -66,7 +68,7 @@ If no practice scores ≥ 0.4: state "No installed skills closely match this sol
 **No-practices early exit:** After resolving which practices apply to the artifact, if zero practices match (no installed skills cover this domain, or artifact type has no applicable practices), exit immediately. Output:
 ```
 No applicable practices found for [artifact-type/domain].
-[If no domain installed]: Install practices with: /plugin install grimoire-[domain]@grimoire
+[If no domain installed]: Install practices — Claude Code plugin: `/plugin install grimoire-[domain]@grimoire` · grimoire CLI: `grimoire install --domain [domain]` · MCP mode: add a package that covers it (`grimoire_package_add`, CLI `grimoire package add <repo>`)
 [If domain installed but no match]: This artifact type may not have grimoire coverage yet.
 ```
 Do not proceed to review with zero practices — the review would be empty and misleading.

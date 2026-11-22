@@ -17,6 +17,14 @@ Surface what best practices exist in a domain — before the user has a specific
 
 Sources: Nonaka & Takeuchi (1995) "The Knowledge-Creating Company"; NASA Human Factors Division (2003) crew resource management research; Nielsen Norman Group progressive disclosure guidelines
 
+## Skill Access
+
+This skill finds and loads other grimoire skills. Use whichever access this session has:
+- **Skills mode** — grimoire skills are installed in the agent: they are listed in context; load one with the Skill tool (or its `/skill-name` command).
+- **MCP mode** — grimoire MCP tools are available (`grimoire_get_skill`, …): find candidates with `grimoire_search_skills` (one focused query per need) or `grimoire_list_skills` for a domain; load one with `grimoire_get_skill`. Score and name only skills these tools return.
+
+Below, "installed skills" means the skills reachable this way, and "load" / "invoke" means the matching loader.
+
 ## Steps
 
 ### Step 1: Detect domain (silent)
@@ -37,9 +45,9 @@ What area are you working in? (e.g. software engineering, personal finance, cont
 
 ### Step 2: List available practices by subdomain
 
-Scan installed grimoire skills for the detected domain. Group by subdomain. For each skill, present one sentence framed as "why you should know this exists" — the gap it closes or what goes wrong without it:
+Scan installed skills (see Skill Access) for the detected domain — in MCP mode, `grimoire_list_skills` with that domain. Group by subdomain. For each skill, present one sentence framed as "why you should know this exists" — the gap it closes or what goes wrong without it:
 
-**Installed-only listing:** Only list skills from installed domains. Do not list or reference skills from uninstalled domains — they cannot be applied and listing them creates false expectations. If the user's domain has no installed skills, say: 'No skills installed for [domain]. Install with: `/plugin install grimoire-[domain]@grimoire`'
+**Installed-only listing:** Only list skills from installed domains. Do not list or reference skills from uninstalled domains — they cannot be applied and listing them creates false expectations. If the user's domain has no installed skills, say: 'No skills installed for [domain].' and give the install routes: Claude Code plugin: `/plugin install grimoire-[domain]@grimoire` · grimoire CLI: `grimoire install --domain [domain]` · MCP mode: add a package that covers it (`grimoire_package_add`, CLI `grimoire package add <repo>`)
 
 ```
 Best practices available for [domain]:
@@ -71,7 +79,7 @@ Selection criteria for this list (in priority order):
 
 ### Step 4: Close
 
-**Direct invocation with skill name:** If invoked directly with a specific skill name (e.g., `/discover-best-practices adapt-best-practice`), skip Steps 1–3 and go directly to showing that skill's full description including Why This Is Best Practice, Steps summary, and When NOT to Use.
+**Direct invocation with skill name:** If invoked directly with a specific skill name (e.g., `/discover-best-practices adapt-best-practice` or `grimoire:discover-best-practices adapt-best-practice`), skip Steps 1–3 and go directly to showing that skill's full description including Why This Is Best Practice, Steps summary, and When NOT to Use.
 
 End after presenting the list. Awareness was the goal — no prompt needed.
 
@@ -80,7 +88,7 @@ If the user follows up with "apply X", "tell me more about Y", or "how do I use 
 ## Rules
 
 - Never block, enforce, or pressure — this skill promotes awareness only
-- If no skills are installed for the detected domain, say so and offer the install command: `/plugin install grimoire-[domain]@grimoire`
+- If no skills are installed for the detected domain, say so and offer the install routes (Step 2) — match the user's setup, not one agent's command
 - If the user already has practices pinned in preferences for a subdomain, note them without re-promoting: "You already have [skill] pinned for [subdomain] — skipping that one."
 - Cap the list at 15 practices; if more are installed, group remainder as: "…and N more in [subdomain] — say 'more' to see them"
 - The "most commonly missed" highlight requires editorial judgment — prefer irreversible-consequence practices over optimization practices

@@ -24,7 +24,7 @@ Sources: Beck (2003) "Test-Driven Development: By Example"; Ford, Parsons, Kua (
 
 **Grimoire-first (preferred):** If grimoire MCP is connected, call `grimoire_context` — do NOT manually re-read settings files. `resolved_profiles` contains the fully expanded skill list per profile (5-step file search + 4-layer composition already applied). `domain_sections` has per-domain practices, thresholds, and fallback. `settings_sources` has per-field source attribution. Use these as the authoritative resolved spec.
 
-If CLI only (no MCP): run `grimoire context --json` or `grimoire settings` and read the same fields.
+If CLI only (no MCP): run `grimoire context --json` and read the same fields.
 
 **Fallback (grimoire not installed):** Read all settings layers in precedence order:
 

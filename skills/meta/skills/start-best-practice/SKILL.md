@@ -17,6 +17,14 @@ Entry point into grimoire. Routes any user input to the matching grimoire workfl
 
 Sources: Shingo (1986) "Zero Quality Control: Source Inspection and the Poka-Yoke System"; Haynes et al. (2009) NEJM; GitHub Engineering blog
 
+## Skill Access
+
+This skill finds and loads other grimoire skills. Use whichever access this session has:
+- **Skills mode** — grimoire skills are installed in the agent: they are listed in context; load one with the Skill tool (or its `/skill-name` command).
+- **MCP mode** — grimoire MCP tools are available (`grimoire_get_skill`, …): find candidates with `grimoire_search_skills` (one focused query per need) or `grimoire_list_skills` for a domain; load one with `grimoire_get_skill`. Score and name only skills these tools return.
+
+Below, "installed skills" means the skills reachable this way, and "load" / "invoke" means the matching loader.
+
 ## Steps
 
 ### Step 0: Route to grimoire workflow (silent)
@@ -48,7 +56,7 @@ Note: `analyze-best-practice-problem` has no direct routing row — vague or unc
 **Transparent passthrough (exit silently — grimoire not applicable):**
 - Primary verb is explanatory: *explain, describe, what is, how does, tell me about, define* — **exception:** "give me best practices for X" signals discovery, route to `discover-best-practices`
 - Conversational acknowledgment: "ok", "thanks", "looks good", "got it", "continue"
-- Explicit `/skill-name` invocations — user already knows what they want (see Rules)
+- Explicit skill invocations — `/skill-name`, `/grimoire:skill <name>`, or `grimoire:<name>` — user already knows what they want (see Rules)
 - Follow-up message in an ongoing execution (not a new intent)
 - User signals they know what they want: "just [verb]", "quickly [verb]", "I know how to…", "skip guidance", "no best practices"
 
@@ -73,7 +81,7 @@ Then stop — the routed skill handles everything from that point.
 
 | | `suggest-best-practice` | `start-best-practice` |
 |---|---|---|
-| Invocation | User invokes directly | Runs automatically before every request |
+| Invocation | User invokes directly | Runs before every request when the agent's instructions trigger it (skills mode); in MCP mode, invoke as `grimoire:start-best-practice` |
 | Unrelated inputs | N/A — user invokes directly | Exit silently (grimoire not installed) |
 | Low confidence | Asks clarifying question | Exits silently |
 | Scoring | Yes — scores all installed skills | No — routes only |
@@ -84,7 +92,7 @@ Then stop — the routed skill handles everything from that point.
 
 **Announcing a failed match**: if no row matches, say nothing and proceed. Interrupting the user for uncertain matches destroys trust.
 
-**Intercepting explicit skill invocations**: if the user said `/write-unit-test`, they already know what they want. Don't re-intercept.
+**Intercepting explicit skill invocations**: if the user said `/write-unit-test` or `grimoire:write-unit-test`, they already know what they want. Don't re-intercept.
 
 **Routing then not stopping**: after invoking a workflow skill, stop. The routed skill handles everything from that point.
 

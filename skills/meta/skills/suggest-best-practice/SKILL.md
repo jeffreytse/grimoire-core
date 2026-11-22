@@ -30,6 +30,14 @@ already know which domain and practice applies to their situation — eliminates
 Sources: Prerau (1990) expert system usability research, Nielsen Norman Group search
 UX guidelines, Google Search intent classification research
 
+## Skill Access
+
+This skill finds and loads other grimoire skills. Use whichever access this session has:
+- **Skills mode** — grimoire skills are installed in the agent: they are listed in context; load one with the Skill tool (or its `/skill-name` command).
+- **MCP mode** — grimoire MCP tools are available (`grimoire_get_skill`, …): find candidates with `grimoire_search_skills` (one focused query per need) or `grimoire_list_skills` for a domain; load one with `grimoire_get_skill`. Score and name only skills these tools return.
+
+Below, "installed skills" means the skills reachable this way, and "load" / "invoke" means the matching loader.
+
 ## Steps
 
 ### Step 0: Check preferences (silent)
@@ -39,6 +47,8 @@ Resolution order — first match wins:
 2. `<project-root>/grimoire.toml` — project config, committed to repo (read `[standards.domain.subdomain].practices[0]`)
 3. `~/.config/grimoire/grimoire.toml` — global config, this user (same key)
 4. `/etc/grimoire/grimoire.toml` — system config, all users on this machine (same key)
+
+Preferred: `grimoire_context` (MCP) or `grimoire context --json` (CLI) returns these already merged — read files directly only when neither is available.
 
 For the relevant domain, check if a practice is already pinned:
 - **Pinned match (file)** → apply the pinned practice directly; skip scoring entirely. No further action needed — already persisted.
@@ -70,7 +80,7 @@ If clear enough → proceed to Step 2.
 
 ### 2. Score candidate skills
 
-For each skill in the installed grimoire domains:
+For each installed skill (see Skill Access):
 
 ```
 score = (tag_overlap × 2) + (description_match × 3) + (domain_plausibility × 1)
@@ -114,13 +124,13 @@ Present a ranked list with recommendation and wait for user selection:
 Multiple best practices apply. Recommended: [top-skill-name]
 
 1. ★ [top-skill-name] — [one sentence: what problem it solves]  ← recommended
-   Domain: [domain/subdomain]  |  Score: [score]  |  Install: /plugin install grimoire-[subdomain]@grimoire
+   Domain: [domain/subdomain]  |  Score: [score]
 
 2. [skill-name] — [one sentence: what problem it solves]
-   Domain: [domain/subdomain]  |  Score: [score]  |  Install: /plugin install grimoire-[subdomain]@grimoire
+   Domain: [domain/subdomain]  |  Score: [score]
 
 3. [skill-name] — [one sentence]
-   Domain: [domain/subdomain]  |  Score: [score]  |  Install: ...
+   Domain: [domain/subdomain]  |  Score: [score]
 
 ```
 
@@ -147,7 +157,7 @@ Present the ranked list only, do not apply any skill:
 Best practices for: [topic]
 
 1. [skill-name] — [one sentence: what it solves]
-   Domain: [domain/subdomain]  |  Install: /plugin install grimoire-[subdomain]@grimoire
+   Domain: [domain/subdomain]
 
 2. ...
 ```
@@ -168,15 +178,15 @@ No installed skills match this situation closely.
 [One clarifying question to narrow the domain — e.g., "Is this about your code, your health, your finances, or something else?"]
 ```
 
-After the user answers, treat their answer as additional domain context and re-run Step 1 with the refined input — re-extract intent signals using the new domain information, then re-score in Step 2. If still no match after one clarification, state: "No installed skills cover this area — you may need to install a domain first."
+After the user answers, treat their answer as additional domain context and re-run Step 1 with the refined input — re-extract intent signals using the new domain information, then re-score in Step 2. If still no match after one clarification, state: "No installed skills cover this area — you may need to install a domain first." and give the install routes: Claude Code plugin: `/plugin install grimoire-[domain]@grimoire` · grimoire CLI: `grimoire install --domain [domain]` · MCP mode: add a package that covers it (`grimoire_package_add`, CLI `grimoire package add <repo>`).
 
 ### 4. Apply the matched skill
 
 Before applying, check: does the user's situation depend on current, specific, or fast-changing facts the skill itself can't encode — a jurisdiction's current regulation, a tool's current API/behavior, a current rate or price, a recent event? If so, search the internet for that specific context first, and announce it: "Checking current [X] before applying [skill-name]..." Keep the query itself general and factual (e.g. "current mortgage rates," not the user's specific financial or personal details). If no internet-access tool is available in this environment, say so explicitly and proceed on best available knowledge — flag the gap as unverified rather than silently skipping the check or asserting it was confirmed. After searching, state what was found (or that nothing conclusive turned up) before proceeding — don't just announce the check and discard the result.
 
-Then load the skill using the Skill tool and follow its steps, grounded in that current context (or in best available knowledge, if unverified).
+Then load the skill (see Skill Access) and follow its steps, grounded in that current context (or in best available knowledge, if unverified).
 
-If nothing situation-specific needs verifying, load the skill using the Skill tool and follow its steps exactly.
+If nothing situation-specific needs verifying, load the skill (see Skill Access) and follow its steps exactly.
 
 ### 5. Check for cross-domain coverage
 

@@ -17,6 +17,14 @@ Recursively apply the best-matching skill to a problem, match each resulting sub
 
 Sources: Knuth, *The Art of Computer Programming* (1968); Aamodt & Plaza, "Case-Based Reasoning: Foundational Issues" (1994); Rasiel, *The McKinsey Way* (1999)
 
+## Skill Access
+
+This skill finds and loads other grimoire skills. Use whichever access this session has:
+- **Skills mode** — grimoire skills are installed in the agent: they are listed in context; load one with the Skill tool (or its `/skill-name` command).
+- **MCP mode** — grimoire MCP tools are available (`grimoire_get_skill`, …): find candidates with `grimoire_search_skills` (one focused query per need) or `grimoire_list_skills` for a domain; load one with `grimoire_get_skill`. Score and name only skills these tools return.
+
+Below, "installed skills" means the skills reachable this way, and "load" / "invoke" means the matching loader.
+
 ## Steps
 
 ### Step 0: Problem clarity check (silent)
@@ -40,7 +48,7 @@ Do not announce this check — just route correctly.
 
 ### 2. Match the top-level problem to a skill
 
-Score all installed skills:
+Score all installed skills (see Skill Access):
 
 ```
 score = (tag_overlap × 2) + (description_match × 3) + (domain_plausibility × 1)
@@ -60,8 +68,8 @@ Route by result:
 No grimoire skill covers this problem area. Decomposition cannot begin without a root skill.
 
 Suggested next steps:
-  - /discover-best-practices — check if relevant skills exist in this domain
-  - /write-best-practice-skill — author a skill for this problem area
+  - discover-best-practices — check if relevant skills exist in this domain
+  - write-best-practice-skill — author a skill for this problem area
 ```
 Stop — do not proceed to Steps 3–6.
 

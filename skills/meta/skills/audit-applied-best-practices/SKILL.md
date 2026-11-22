@@ -144,36 +144,34 @@ If yes, for each undetected domain, ask: "Which practice do you use for [domain]
 ### Step 6: Write preferences file
 
 Ask where to save using a platform-aware prompt:
-- **Claude Code**: use `AskUserQuestion` — options: "This session only (Recommended)", "This project only → .grimoire/preferences.md", "All my projects → ~/.grimoire/preferences.md", "Both (project + global)"
+- **Claude Code**: use `AskUserQuestion` — options: "This session only (Recommended)", "This project only → grimoire.toml", "All my projects → ~/.config/grimoire/grimoire.toml", "Both (project + global)"
 - **OpenCode**: use `question` — same schema as `AskUserQuestion`
 - **Gemini CLI**: use `ask_user` — `type: "select"`, same four options
 - **All other platforms**:
   ```
   Save preferences to:
     [0] This session only  → in memory; not written to disk; resets when session ends
-    [1] This project only  → <project-root>/.grimoire/preferences.md
-    [2] All my projects    → ~/.grimoire/preferences.md
-                             (uses ~/.config/grimoire/preferences.md if XDG_CONFIG_HOME is set)
+    [1] This project only  → <project-root>/grimoire.toml   (committed to repo)
+    [2] All my projects    → ~/.config/grimoire/grimoire.toml
+                             ($XDG_CONFIG_HOME/grimoire/grimoire.toml if XDG_CONFIG_HOME is set)
     [3] Both (project + global)
   ```
 
-Write to selected location(s) in this format:
+Write to selected location(s) in `grimoire.toml` — the same file and keys `pin-best-practice-preference` writes and routing skills read. One section per domain/subdomain; the practice goes in `practices` (qualifier after `:`), the reason in `note`:
 
-```markdown
-# Grimoire Practice Preferences
+```toml
+[standards.engineering.development]
+practices = ["propose-conventional-commit: conventional commits format"]
+note = "required by semantic-release"
 
-<!-- Intentional choices. Routing skills will not suggest alternatives for pinned practices. -->
-
-## engineering/development
-- propose-conventional-commit: conventional commits format
-  reason: required by semantic-release
-
-## engineering/testing
-- write-unit-test: Jest, co-located test files
-  reason: team standard, enforced in CI
+[standards.engineering.testing]
+practices = ["write-unit-test: Jest, co-located test files"]
+note = "team standard, enforced in CI"
 ```
 
-If file already exists at the target path: append new domain sections only. Never silently overwrite existing pins. If a domain conflict exists, ask using a platform-aware confirm:
+With the grimoire CLI available, prefer `grimoire config add standards.<domain>.<subdomain>.practices "<practice>"` (add `-g` for global) over hand-editing — it validates the file.
+
+If file already exists at the target path: add new sections only; keep every other key. Never silently overwrite existing pins. If a domain conflict exists, ask using a platform-aware confirm:
 - **Claude Code**: use `AskUserQuestion` — options: "Replace with [new-skill] (Recommended)" and "Keep [existing-skill]"
 - **OpenCode**: use `question` — same schema as `AskUserQuestion`
 - **Gemini CLI**: use `ask_user` — `type: "confirm"`, question: `[domain] already has "[existing-skill]" pinned. Replace with "[new-skill]"?`
@@ -193,10 +191,11 @@ Preferences saved to [path]. Routing skills will now respect these choices.
 
 - Never overwrite existing preferences without explicit confirmation
 - Pin only what the user confirms as intentional — never auto-pin detected practices
-- Precedence order: session > project > global > CLAUDE.md fallback
+- Precedence order: session > project `grimoire.toml` > global `~/.config/grimoire/grimoire.toml` > system `/etc/grimoire/grimoire.toml`
 - Session-level pins are in-memory only — never written to disk, reset when session ends
 - Project-level file takes precedence over global for any domain where both exist
-- XDG compliance: use `$XDG_CONFIG_HOME/grimoire/preferences.md` if `XDG_CONFIG_HOME` is set, else `~/.grimoire/preferences.md`
+- XDG compliance: global file is `$XDG_CONFIG_HOME/grimoire/grimoire.toml` if `XDG_CONFIG_HOME` is set, else `~/.config/grimoire/grimoire.toml`
+- Never write a separate preferences file — `grimoire.toml` is the single store
 - If no `.git` directory and no files are accessible, ask the user to describe their domain and practices verbally — maximum 3 questions
 - After writing, always confirm the path and what was saved
 

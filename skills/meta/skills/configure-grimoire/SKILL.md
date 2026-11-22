@@ -42,7 +42,7 @@ Sources: XDG Base Directory Specification (freedesktop.org); VS Code settings do
 
 ### Step 2: Load settings
 
-**Grimoire-first (preferred):** If grimoire CLI is available, run `grimoire context` (human) or `grimoire settings` for the merged view with per-field source attribution. `grimoire settings` shows section headers (`[standards]`, `[standards.X]`) with active profiles automatically expanded to their resolved skill lists — no manual layer merging or profile resolution needed.
+**Grimoire-first (preferred):** If grimoire CLI is available, run `grimoire context` (human; `--json` for machine-readable) for the merged view with per-field source attribution and active profiles expanded to their resolved skill lists — no manual layer merging or profile resolution needed. For one key, `grimoire config get <key>` prints the resolved value and its source. With grimoire MCP connected, `grimoire_context` and `grimoire_config_get` return the same.
 
 **Fallback (grimoire not installed):** Resolve the active settings by merging in order (highest wins):
 

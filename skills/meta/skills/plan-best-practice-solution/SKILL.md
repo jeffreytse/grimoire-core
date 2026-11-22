@@ -17,6 +17,14 @@ Decompose a multi-skill problem into sub-problems, match each to the highest-con
 
 Sources: Rasiel, *The McKinsey Way* (1999); Kepner-Tregoe Problem Analysis; IDEO Human-Centered Design Field Guide (2015)
 
+## Skill Access
+
+This skill finds and loads other grimoire skills. Use whichever access this session has:
+- **Skills mode** — grimoire skills are installed in the agent: they are listed in context; load one with the Skill tool (or its `/skill-name` command).
+- **MCP mode** — grimoire MCP tools are available (`grimoire_get_skill`, …): find candidates with `grimoire_search_skills` (one focused query per need) or `grimoire_list_skills` for a domain; load one with `grimoire_get_skill`. Score and name only skills these tools return.
+
+Below, "installed skills" means the skills reachable this way, and "load" / "invoke" means the matching loader.
+
 ## Steps
 
 ### 1. Extract problem dimensions (silent)
@@ -48,7 +56,7 @@ Maximum 7 sub-problems. If more emerge, group related ones under a shared theme.
 
 ### 3. Match skills to sub-problems
 
-For each sub-problem, score all candidate skills:
+For each sub-problem, score the installed skills (see Skill Access) as candidates:
 
 ```
 score = (tag_overlap × 2) + (description_match × 3) + (domain_plausibility × 1)
