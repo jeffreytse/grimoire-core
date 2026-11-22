@@ -38,7 +38,7 @@
   </a>
 
   <a href="#-agent-support">
-    <img src="https://img.shields.io/badge/works%20with-Claude%20%C2%B7%20Codex%20%C2%B7%20Cursor%20%C2%B7%20Gemini%20%C2%B7%20OpenCode-blue"
+    <img src="https://img.shields.io/badge/works%20with-Claude%20%C2%B7%20Copilot%20%C2%B7%20Codex%20%C2%B7%20Gemini%20%C2%B7%20OpenCode%20%C2%B7%20Pi%20%C2%B7%20%2B8%20more-blue"
       alt="Works with" />
   </a>
 
@@ -81,7 +81,7 @@ The model knows SOLID, DDD, Google SRE, and the ABA Model Rules. Without explici
 - 🔍 **You don't know what you don't know.** Grimoire surfaces the governing standard you didn't know applied.
 - 🤖 **Knowing is not enough. Grimoire enforces.** Specific steps, verifiable criteria, repeatable results. Not summaries — verdicts.
 - 🌍 **The world's best practices belong to everyone.** McKinsey charges $1M. Senior lawyers bill $800/hr. The practices they follow are not proprietary. Grimoire makes them free — as executable steps, cited and verified.
-- 🧱 **Every profession. Every AI.** 1000+ skills across 27 domains. Works with Claude, Copilot, Codex, Cursor, Gemini, OpenCode, OpenClaw, and Antigravity.
+- 🧱 **Every profession. Every AI.** 1000+ skills across 27 domains. Works with Claude Code, Copilot, Codex, Gemini, OpenCode, OpenClaw, Antigravity, Pi, Kimi, OMP, DeepSeek Harness, Grok, Muse, MiniMax, and any agent that reads `~/.agents/skills`.
 - 🔬 **Not just distribution — enforcement.** Skills registries distribute files. grimoire-core provides the practice rules `grimoire check` validates your project against. 1000+ skills are both instructions for your AI *and* compliance criteria for your codebase.
 
 | Repo | Role | Unique value |
@@ -125,26 +125,33 @@ name = "my-project"
 # "jeffreytse/grimoire-core" = "1.2.3" # exact pin
 ```
 
-**Native plugin install (Claude Code):**
-
-```bash
-/plugin marketplace add jeffreytse/grimoire-core
-/plugin install grimoire@grimoire-core           # all domains
-/plugin install grimoire-engineering@grimoire-core  # one domain
-```
-
 ## 🤖 Agent Support
 
-| Agent | Plugin install | Script install |
-|-------|----------------|----------------|
-| Claude Code | `/plugin marketplace add jeffreytse/grimoire-core` then `/plugin install grimoire@grimoire-core` | `grimoire install --target claude` |
-| GitHub Copilot CLI | `copilot plugin marketplace add jeffreytse/grimoire-core` then `copilot plugin install grimoire@grimoire-core` | `grimoire install --target all` |
-| Gemini CLI | `gemini extensions install https://github.com/jeffreytse/grimoire-core` | `grimoire install --target gemini` |
-| OpenCode | See [`.opencode/INSTALL.md`](./.opencode/INSTALL.md) | `grimoire install --target opencode` |
-| Codex CLI | `AGENTS.md` auto-loaded | `grimoire install --target codex` |
-| Cursor | `AGENTS.md` context injection | `grimoire install --target cursor` |
-| OpenClaw | See [`.openclaw/INSTALL.md`](./.openclaw/INSTALL.md) | `grimoire install --target openclaw` |
-| Antigravity CLI (agy) | See [`.agy/INSTALL.md`](./.agy/INSTALL.md) | `grimoire install --target antigravity` |
+Two ways in: the agent's **native plugin** command, or the [grimoire CLI](https://github.com/jeffreytse/grimoire), which links skills into the agent's skills folder and works for every agent below.
+
+| Agent | Native plugin install | grimoire CLI |
+| --- | --- | --- |
+| Claude Code | `/plugin marketplace add jeffreytse/grimoire-core`<br>`/plugin install grimoire@grimoire` | `--target claude` |
+| GitHub Copilot CLI | `copilot plugin marketplace add jeffreytse/grimoire-core`<br>`copilot plugin install grimoire@grimoire` | `--target copilot` |
+| Codex | `codex plugin marketplace add jeffreytse/grimoire-core`<br>`codex plugin add grimoire@grimoire` | `--target codex` |
+| OpenCode | `opencode plugin 'github:jeffreytse/grimoire-core#main'` — see [`.opencode/INSTALL.md`](./.opencode/INSTALL.md) | `--target opencode` |
+| Pi | `pi install git:github.com/jeffreytse/grimoire-core` — see [`.pi/INSTALL.md`](./.pi/INSTALL.md) | `--target pi` |
+| Kimi Code | `/plugins install https://github.com/jeffreytse/grimoire-core` | `--target kimi` |
+| OMP (oh-my-pi) | `omp plugin marketplace add jeffreytse/grimoire-core`<br>`omp plugin install --scope user grimoire@grimoire` | `--target omp` |
+| Gemini CLI | `gemini extensions install https://github.com/jeffreytse/grimoire-core` (context only) | `--target gemini` |
+| Antigravity (agy) | not supported — see [`.agy/INSTALL.md`](./.agy/INSTALL.md) | `--target antigravity` |
+| OpenClaw | see [`.openclaw/INSTALL.md`](./.openclaw/INSTALL.md) | `--target openclaw` |
+| DeepSeek Harness | — | `--target dsh` |
+| Grok Build | — | `--target grok --global` |
+| Muse | — | `--target muse --global` |
+| MiniMax Code | — | `--target minimax --global` |
+| Any other agent | — | `--target agent` (`~/.agents/skills`) |
+
+Every CLI row is `grimoire install --target <name>`. Add `--global` for a user-wide install; Grok, Muse, and MiniMax are global-only because they load skills from a plugin bundle, which grimoire builds and registers for you.
+
+**Domain plugins:** native marketplaces also offer one plugin per domain, e.g. `grimoire-engineering@grimoire`. Skills are namespaced (`/grimoire-engineering:propose-conventional-commit`). For subdomain-level installs, use the grimoire CLI.
+
+**Verification status:** native installs for Claude Code, Copilot, Codex, and OpenCode are tested end to end. Pi, Kimi, and OMP native installs follow each agent's documented format but are untested. Gemini's extension loads `GEMINI.md` context only; use the CLI for its skills. Antigravity's plugin installer ignores declared skill paths, so it cannot find the nested skills.
 
 ## 🚀 Quick Start
 
@@ -401,12 +408,16 @@ Publish as `grimoire-<name>` (e.g. `grimoire-cooking`, `grimoire-fintech`) to ma
 
 ## 🔧 Maintainer
 
-**Update plugin manifest before each release** (keeps Claude Code marketplace in sync with new skills):
+**Regenerate agent manifests after adding, moving, or renaming skills** — skills live only under `skills/`, and each agent's manifest lists the nested skill folders explicitly:
 
 ```bash
-make update-plugin-manifest   # auto-generates .claude-plugin/plugin.json from directory structure
-make check-manifest           # CI gate: fails if manifest is out of sync
+make update-plugin-manifest   # regenerates .claude-plugin, .codex-plugin, .grok-plugin, .muse-plugin,
+                              #   kimi.plugin.json and package.json (pi.skills) from skills/ + VERSION
+make check-manifest           # CI gate: fails if any manifest is out of sync or a skill name is invalid
+make bump-version V=x.y.z     # bump VERSION and regenerate manifests
 ```
+
+Skill names must match their folder, use lowercase-hyphen, stay ≤ 64 characters, and be unique across all domains (the Agent Skills rule that Pi, Codex, and Kimi enforce).
 
 ## 📄 License
 
