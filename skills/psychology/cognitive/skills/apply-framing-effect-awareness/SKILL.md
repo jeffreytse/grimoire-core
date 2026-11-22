@@ -54,3 +54,5 @@ When identical outcomes can be described as a gain or a loss, present both frame
 
 - For routine, low-stakes decisions where the overhead of constructing and checking the opposite frame exceeds the value of the decision itself.
 - When only one frame is factually meaningful and no logically equivalent opposite frame actually exists — the technique applies specifically to outcomes that can be legitimately described as either a gain or a loss relative to some reference point.
+
+> For mental health concerns, consult a qualified mental health professional.

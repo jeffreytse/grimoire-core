@@ -52,3 +52,5 @@ Don't use a person's own self-assessed competence as a reliable proxy for their 
 
 - For a person who has already received substantial, accurate external feedback and demonstrated calibrated self-assessment in that specific domain — the effect is strongest for genuinely low performers without that feedback history.
 - In domains without a meaningful competence-judgment component (e.g., simple factual recall) where the original mechanism — lacking the skill to judge the skill — doesn't apply the same way.
+
+> For mental health concerns, consult a qualified mental health professional.

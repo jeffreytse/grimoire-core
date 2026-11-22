@@ -1,6 +1,6 @@
 ---
 name: apply-savoring-techniques
-description: Use when a positive experience is passing by unnoticed or its emotional benefit fades too quickly — deliberately prolong and amplify it through specific techniques (sharing it with someone, mentally photographing the moment, absorption in present sensation, or positive mental time travel to it afterward) rather than letting positive experience register passively, since deliberate savoring measurably extends and deepens the wellbeing benefit of positive events beyond what passive experiencing produces.
+description: Use when a positive experience is passing by unnoticed or its emotional benefit fades too quickly — deliberately prolong and amplify it (sharing it with someone, mentally photographing the moment, absorption in present sensation, or positive mental time travel afterward) rather than letting it register passively, since deliberate savoring measurably extends and deepens the wellbeing benefit of positive events.
 source: 'Fred B. Bryant and Joseph Veroff, "Savoring: A New Model of Positive Experience", Lawrence Erlbaum Associates (2007); Fred B. Bryant, "Savoring Beliefs Inventory: A Scale for Measuring Beliefs About Savouring", Journal of Mental Health, 12(2) (2003)'
 tags: [positive-psychology, wellbeing, emotion-regulation, savoring, subjective-wellbeing]
 related: [apply-gratitude-journaling, apply-flow-state-design]
@@ -54,3 +54,5 @@ Deliberately prolong and amplify a positive experience — through sharing it, m
 
 - During a genuinely urgent or safety-critical situation where full present attention needs to remain on the task rather than being redirected to savoring — savoring is appropriate for intentionally chosen pauses, not a substitute for necessary vigilance.
 - As a way to avoid processing a genuinely mixed or difficult experience — savoring techniques apply specifically to amplifying authentic positive experience, not to forcing a positive framing onto an experience that is genuinely difficult or requires different emotional processing.
+
+> For mental health concerns, consult a qualified mental health professional.

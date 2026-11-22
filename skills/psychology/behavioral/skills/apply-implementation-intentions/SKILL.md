@@ -54,3 +54,5 @@ Replace a vague goal intention with a specific if-then plan naming the exact sit
 
 - For a goal where the bottleneck is genuinely a lack of ability or resources rather than a lack of translating intention into action — implementation intentions address the intention-action gap specifically, not a missing skill or missing means.
 - For extremely simple, low-friction behaviors that already reliably happen without a plan — the technique adds the most value exactly where intention repeatedly fails to produce action, not universally.
+
+> For mental health concerns, consult a qualified mental health professional.

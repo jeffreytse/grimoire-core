@@ -54,3 +54,5 @@ When judging why someone did something, deliberately check for situational expla
 
 - When a genuine, demonstrated pattern across multiple, varied situations does point to a stable disposition — the correction is against premature dispositional attribution from a single incident, not against ever concluding a pattern is real once properly established.
 - In contexts (e.g., immediate safety decisions) where there's no time to gather situational information before acting — the correction applies to the subsequent judgment and feedback, not to necessary immediate action.
+
+> For mental health concerns, consult a qualified mental health professional.

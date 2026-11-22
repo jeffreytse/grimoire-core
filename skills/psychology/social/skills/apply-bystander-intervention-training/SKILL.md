@@ -55,3 +55,5 @@ Teach specific, low-barrier intervention options — direct, distract, delegate,
 
 - When the situation involves immediate physical danger requiring emergency response — direct physical intervention or immediate escalation to emergency services takes priority over the graded, lower-urgency options this model is designed for.
 - As a substitute for an organization's actual reporting and accountability systems — bystander intervention reduces the frequency and severity of harmful incidents in the moment; it does not replace formal investigation and accountability processes.
+
+> For mental health concerns, consult a qualified mental health professional.

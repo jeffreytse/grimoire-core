@@ -54,3 +54,5 @@ Plan repeated, low-friction, non-aversive exposure to a person, brand, product, 
 
 - When the stimulus is already clearly aversive to the audience — repetition in that case increases dislike, not liking, and the root aversion needs to be addressed first.
 - In contexts where unsolicited repeated contact is itself intrusive or unwelcome (e.g., unwanted personal contact, spam) — the technique assumes non-aversive, acceptable-frequency exposure, not contact the recipient has not consented to.
+
+> For mental health concerns, consult a qualified mental health professional.

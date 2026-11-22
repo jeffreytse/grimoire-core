@@ -54,3 +54,5 @@ Spread repetitions of the same material across expanding time intervals instead 
 
 - For material needed only once, immediately, with no requirement for durable retention — the overhead of building a spaced schedule isn't justified for genuinely one-off recall.
 - When initial exposure to the material hasn't happened yet — spacing governs the review schedule after first learning, not the first encounter with new material.
+
+> For mental health concerns, consult a qualified mental health professional.

@@ -54,3 +54,5 @@ When evaluating evidence for a hypothesis you're already leaning toward, activel
 
 - For low-stakes, reversible decisions where the cost of a structured multi-hypothesis analysis exceeds the cost of an occasional biased judgment.
 - When genuinely no plausible alternative hypothesis exists — forcing an artificial alternative for its own sake doesn't improve the analysis; the technique targets situations where real competing explanations exist and haven't been considered.
+
+> For mental health concerns, consult a qualified mental health professional.

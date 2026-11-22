@@ -55,3 +55,5 @@ Design the task so its challenge level is matched closely to the person's curren
 
 - For tasks that are inherently externally paced or safety-critical in ways that don't allow adjusting challenge to match individual skill (e.g., a fixed-procedure compliance task) — flow design applies to tasks where challenge level is actually an adjustable variable.
 - When the goal is quick, low-stakes task completion rather than sustained deep engagement — the structural investment flow design requires (clear goals, feedback systems, dynamic difficulty) isn't warranted for every task.
+
+> For mental health concerns, consult a qualified mental health professional.

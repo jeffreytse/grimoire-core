@@ -54,3 +54,5 @@ When deciding whether to continue or abandon something, evaluate only the future
 
 - When past investment carries genuine forward-looking information — for example, sunk learning or capability built up during a project that measurably improves the odds of future success is not a sunk cost in the fallacious sense; it's a real, if indirect, future benefit.
 - For decisions where the "cost" of re-evaluating from scratch (time, analysis effort) exceeds the stakes of the decision itself — not every minor continue-or-stop choice warrants a full re-analysis.
+
+> For mental health concerns, consult a qualified mental health professional.

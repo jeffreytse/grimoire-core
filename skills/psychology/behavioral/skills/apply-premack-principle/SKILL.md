@@ -54,3 +54,5 @@ Make access to an already high-frequency, naturally preferred behavior contingen
 
 - When no behavior in the person's repertoire is reliably higher-frequency than the target behavior — the principle requires an actual, demonstrable preference differential to work with.
 - For behaviors that carry safety or ethical requirements that shouldn't be contingent on anything (e.g., basic needs) — the Premack Principle applies to optional, preference-driven behavior, not to withholding necessities as leverage.
+
+> For mental health concerns, consult a qualified mental health professional.

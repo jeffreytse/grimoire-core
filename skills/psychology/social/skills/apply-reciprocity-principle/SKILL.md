@@ -54,3 +54,5 @@ Give something genuine and unsolicited first — information, a favor, a concess
 
 - When the "gift" would need to be insincere or manufactured specifically to create obligation — using reciprocity manipulatively, rather than genuinely, is an ethical misuse of the principle and tends to backfire once recognized.
 - In contexts where any appearance of inducing obligation is inappropriate (e.g., certain professional, legal, or fiduciary relationships with strict rules against gifts or favors) — check applicable conduct rules before applying.
+
+> For mental health concerns, consult a qualified mental health professional.

@@ -1,6 +1,6 @@
 ---
 name: apply-common-ingroup-identity-model
-description: Use when two previously separate, sometimes rival groups need to cooperate — merging teams, departments, or organizations after an acquisition, or coalitions formed around a shared goal — and existing group boundaries are producing favoritism toward one's own group and friction with the other; recategorize both groups under a shared superordinate identity (a unifying team name, mission, or symbol that includes both) rather than merely suppressing group identity or asking people to ignore it, since a genuinely inclusive shared identity measurably reduces intergroup bias while mere contact alone often does not.
+description: Use when two previously separate or rival groups must cooperate — merging teams, departments, or organizations after an acquisition, or coalitions around a shared goal — and group boundaries produce in-group favoritism and friction; recategorize both under a shared superordinate identity (a unifying name, mission, or symbol) rather than suppressing group identity, since an inclusive shared identity measurably reduces intergroup bias where mere contact often does not.
 source: 'Samuel L. Gaertner and John F. Dovidio, "Reducing Intergroup Bias: The Common Ingroup Identity Model", Psychology Press (2000); Samuel L. Gaertner, John F. Dovidio, Phyllis A. Anastasio, Betty A. Bachman, Mary C. Rust, "The Common Ingroup Identity Model: Recategorization and the Reduction of Intergroup Bias", European Review of Social Psychology, 4(1) (1993)'
 tags: [intergroup-relations, organizational-psychology, team-integration, bias-reduction, social-identity]
 related: [apply-bystander-intervention-training, apply-fundamental-attribution-error-correction]
@@ -54,3 +54,5 @@ Recategorize two previously separate groups under a shared, genuinely inclusive 
 
 - When one group has a legitimate claim to distinct treatment or protections that a forced shared identity would erase inappropriately (e.g., protected cultural or legal distinctions) — the model applies to reducing unnecessary ingroup/outgroup friction, not to erasing legitimate, protected differences.
 - For adversarial relationships with a genuine, irreconcilable conflict of interest — the model assumes an achievable shared goal exists; it isn't a substitute for resolving an actual zero-sum conflict.
+
+> For mental health concerns, consult a qualified mental health professional.

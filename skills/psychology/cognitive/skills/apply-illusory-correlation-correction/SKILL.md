@@ -1,6 +1,6 @@
 ---
 name: apply-illusory-correlation-correction
-description: Use when a claimed pattern linking two variables — a minority group and rare bad behavior, a distinctive event and an outcome, a superstition and a result — rests on memorable anecdotes rather than counted base rates; check the actual joint frequency of both variables across all four combinations (present/present, present/absent, absent/present, absent/absent) before accepting the correlation, since distinctive co-occurrences are disproportionately memorable and produce a perceived correlation stronger than, or absent from, the real data.
+description: Use when a claimed pattern linking two variables — a minority group and rare bad behavior, a distinctive event and an outcome, a superstition and a result — rests on memorable anecdotes rather than counted base rates; check the joint frequency across all four combinations before accepting the correlation, since distinctive co-occurrences are disproportionately memorable and produce a perceived correlation stronger than, or absent from, the real data.
 source: 'Loren J. Chapman and Jean P. Chapman, "Genesis of Popular but Erroneous Psychodiagnostic Observations", Journal of Abnormal Psychology, 72(3) (1967); David L. Hamilton and Robert K. Gifford, "Illusory Correlation in Interpersonal Perception: A Cognitive Basis of Stereotypic Judgments", Journal of Experimental Social Psychology, 12(4) (1976)'
 tags: [cognitive-bias, statistical-reasoning, stereotyping, critical-thinking, judgment-and-decision-making]
 related: [apply-confirmation-bias-mitigation, apply-availability-heuristic-correction]
@@ -54,3 +54,5 @@ Before accepting that two variables are linked, check the actual joint frequency
 
 - When a real, systematically sampled base-rate comparison already exists and shows a genuine difference — the correction applies to unverified, anecdote-driven correlation claims, not to claims already backed by checked data.
 - For domains where gathering the full joint-frequency data is genuinely infeasible and a provisional, explicitly-labeled-as-uncertain judgment is required anyway — the goal is to avoid false confidence, not to block all reasoning under uncertainty.
+
+> For mental health concerns, consult a qualified mental health professional.

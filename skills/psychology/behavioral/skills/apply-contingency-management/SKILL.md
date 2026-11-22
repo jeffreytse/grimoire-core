@@ -1,6 +1,6 @@
 ---
 name: apply-contingency-management
-description: Use when trying to increase a specific, objectively verifiable target behavior — substance-use abstinence, medication adherence, session attendance — in a context where motivation alone has repeatedly failed; deliver a tangible incentive immediately and consistently upon objective verification of the target behavior, with escalating value for consecutive successes and reset on failure, since immediate, verified, tangible reinforcement produces larger behavior change than delayed or unverified reinforcement.
+description: Use when trying to increase a specific, objectively verifiable target behavior — substance-use abstinence, medication adherence, session attendance — where motivation alone has repeatedly failed; deliver a tangible incentive immediately upon objective verification, escalating for consecutive successes and resetting on failure, since immediate, verified, tangible reinforcement produces larger behavior change than delayed or unverified reinforcement.
 source: 'Stephen T. Higgins, Alan J. Budney, et al., "Incentives Improve Outcome in Outpatient Behavioral Treatment of Cocaine Dependence", Archives of General Psychiatry, 51(7) (1994); National Institute on Drug Abuse, "Principles of Drug Addiction Treatment: A Research-Based Guide", NIH Publication No. 18-4180 (2018, contingency management section)'
 tags: [behavior-modification, addiction-treatment, reinforcement, operant-conditioning, evidence-based-treatment]
 related: [design-token-economy-system, design-reward-schedule, apply-premack-principle]
@@ -55,4 +55,4 @@ Deliver a tangible incentive immediately and consistently upon objective verific
 - Outside a structured clinical or supervised program with the ability to objectively verify the target behavior — without verification, the core mechanism doesn't apply.
 - As a substitute for addressing acute safety risk, withdrawal management, or co-occurring psychiatric conditions, which require their own appropriate clinical treatment alongside any contingency management component.
 
-> For mental health or substance use concerns, consult a qualified mental health or addiction treatment professional.
+> For mental health or substance use concerns, consult a qualified mental health professional or addiction treatment specialist.
