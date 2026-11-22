@@ -18,6 +18,14 @@ Validate a `.grimoire/profiles/<name>.toml` file — check format, verify skills
 
 Sources: XDG Base Directory Specification (freedesktop.org); npm publish validation; Grimoire `docs/profiles.md`
 
+## Skill Access
+
+This skill finds and loads other grimoire skills. Use whichever access this session has:
+- **Skills mode** — grimoire skills are installed in the agent: they are listed in context; load one with the Skill tool (or its `/skill-name` command).
+- **MCP mode** — grimoire MCP tools are available (`grimoire_get_skill`, …): find candidates with `grimoire_search_skills` (one focused query per need) or `grimoire_list_skills` for a domain; load one with `grimoire_get_skill`. Score and name only skills these tools return.
+
+Below, "installed skills" means the skills reachable this way, and "load" / "invoke" means the matching loader.
+
 ## Steps
 
 ### 1. Locate the profile file
@@ -92,12 +100,12 @@ Profile: my-team (4 skills)
   ✓ apply-solid-principles        — found
   ✓ apply-domain-driven-design    — found
   ⚠ apply-twelve-factor-app       — not installed
-    Install: grimoire --skill engineering/architecture/apply-twelve-factor-app
+    Install — Claude Code plugin: /plugin install grimoire-engineering@grimoire · grimoire CLI: grimoire install --skill engineering/architecture/apply-twelve-factor-app · MCP mode: add a package that covers it (grimoire_package_add, CLI grimoire package add <repo>)
   ✓ apply-kiss-principle          — found
 
 Result: PASS with 1 warning
 
-Next: /share-best-practice-profile my-team
+Next: invoke share-best-practice-profile for my-team
 ```
 
 If errors exist (missing required fields, zero valid skills), result is `FAIL`.

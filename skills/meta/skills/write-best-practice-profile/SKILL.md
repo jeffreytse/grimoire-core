@@ -18,6 +18,14 @@ Create a `.grimoire/profiles/<name>.toml` file that bundles a curated set of ski
 
 Sources: XDG Base Directory Specification (freedesktop.org); Grimoire `docs/profiles.md`
 
+## Skill Access
+
+This skill finds and loads other grimoire skills. Use whichever access this session has:
+- **Skills mode** — grimoire skills are installed in the agent: they are listed in context; load one with the Skill tool (or its `/skill-name` command).
+- **MCP mode** — grimoire MCP tools are available (`grimoire_get_skill`, …): find candidates with `grimoire_search_skills` (one focused query per need) or `grimoire_list_skills` for a domain; load one with `grimoire_get_skill`. Score and name only skills these tools return.
+
+Below, "installed skills" means the skills reachable this way, and "load" / "invoke" means the matching loader.
+
 ## Steps
 
 ### 1. Gather profile identity
@@ -132,8 +140,8 @@ Confirm: `✓ Written to .grimoire/profiles/my-team.toml`
 
 ```
 Activate now?     profiles = ["my-team"] in grimoire.toml
-Validate first?   /review-best-practice-profile my-team
-Share publicly?   /share-best-practice-profile my-team
+Validate first?   invoke review-best-practice-profile for my-team
+Share publicly?   invoke share-best-practice-profile for my-team
 ```
 
 ## Common Mistakes

@@ -17,6 +17,14 @@ Architect a new grimoire domain or sub-domain: decide structure, create plugin f
 
 Sources: Apache Software Foundation incubation policy, npm scoped packages documentation, Library of Congress Classification Outline
 
+## Skill Access
+
+This skill finds and loads other grimoire skills. Use whichever access this session has:
+- **Skills mode** — grimoire skills are installed in the agent: they are listed in context; load one with the Skill tool (or its `/skill-name` command).
+- **MCP mode** — grimoire MCP tools are available (`grimoire_get_skill`, …): find candidates with `grimoire_search_skills` (one focused query per need) or `grimoire_list_skills` for a domain; load one with `grimoire_get_skill`. Score and name only skills these tools return.
+
+Below, "installed skills" means the skills reachable this way, and "load" / "invoke" means the matching loader.
+
 ## Steps
 
 ### 1. Qualify the domain
@@ -135,7 +143,7 @@ For each new installable unit (domain + each sub-domain), add an entry to `.clau
 Add a row to the domains table in `README.md`:
 
 ```markdown
-| [Domain](./skills/<domain>/) | Subdomain 1, Subdomain 2, ... | `/plugin install grimoire-<domain>@grimoire` |
+| [Domain](./skills/<domain>/) | Subdomain 1, Subdomain 2, ... | Claude Code plugin: `/plugin install grimoire-<domain>@grimoire` · grimoire CLI: `grimoire install --domain <domain>` · MCP mode: add a package that covers it (`grimoire_package_add`, CLI `grimoire package add <repo>`) |
 ```
 
 ### 9. Audit the domain design
@@ -152,7 +160,7 @@ PR description must include:
 - Sub-domains created
 - Seed skills written (names + one-line purpose each)
 - audit-best-practice-domain output (all PASS)
-- Install command for users: `/plugin install grimoire-<domain>@grimoire`
+- Install routes for users: Claude Code plugin: `/plugin install grimoire-<domain>@grimoire` · grimoire CLI: `grimoire install --domain <domain>` · MCP mode: add a package that covers it (`grimoire_package_add`, CLI `grimoire package add <repo>`)
 
 ## Rules
 

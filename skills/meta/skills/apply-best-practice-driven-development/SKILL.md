@@ -18,6 +18,14 @@ Systematically align any project or artifact to its stated best practice prefere
 
 Sources: Beck (2003) "Test-Driven Development: By Example"; Ford, Parsons, Kua (2017) "Building Evolutionary Architectures"; Nagappan et al. (2008) "Realizing Quality Improvement Through Test Driven Development"
 
+## Skill Access
+
+This skill finds and loads other grimoire skills. Use whichever access this session has:
+- **Skills mode** — grimoire skills are installed in the agent: they are listed in context; load one with the Skill tool (or its `/skill-name` command).
+- **MCP mode** — grimoire MCP tools are available (`grimoire_get_skill`, …): find candidates with `grimoire_search_skills` (one focused query per need) or `grimoire_list_skills` for a domain; load one with `grimoire_get_skill`. Score and name only skills these tools return.
+
+Below, "installed skills" means the skills reachable this way, and "load" / "invoke" means the matching loader.
+
 ## Steps
 
 ### 1. Resolve the effective spec (silent)
@@ -43,7 +51,7 @@ grimoire.toml          (local — committed, --local)
 - Apply `disabled` entries — remove those skills from the spec
 - Drop any practice overridden by a higher-precedence layer
 
-**Empty spec guard:** If the resolved spec contains zero practices (all domains empty or settings file missing), stop immediately. Do not proceed to Step 2. Output: "No practices are configured. Run `/pin-best-practice-preference` or `/apply-best-practice-profile` to set preferences first, then retry BPDD."
+**Empty spec guard:** If the resolved spec contains zero practices (all domains empty or settings file missing), stop immediately. Do not proceed to Step 2. Output: "No practices are configured. Invoke `pin-best-practice-preference` or `apply-best-practice-profile` to set preferences first, then retry BPDD."
 
 ---
 
@@ -126,7 +134,7 @@ Next: apply-solid-principles (FAIL, 40% coverage)
 
 ### 6. Green — implement
 
-Read the `"practice"` field from each failing diagnostic in the JSON report — that value is the grimoire skill to invoke. `"practice": "apply-solid-principles"` → `/apply-solid-principles`; `"practice": "apply-domain-driven-design"` → `/apply-domain-driven-design`; and so on. Re-run `check-best-practice-compliance` for this practice after each change until it passes.
+Read the `"practice"` field from each failing diagnostic in the JSON report — that value is the grimoire skill to invoke. `"practice": "apply-solid-principles"` → load `apply-solid-principles`; `"practice": "apply-domain-driven-design"` → load `apply-domain-driven-design`; and so on. Re-run `check-best-practice-compliance` for this practice after each change until it passes.
 
 ---
 

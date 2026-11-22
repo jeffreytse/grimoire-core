@@ -18,13 +18,21 @@ Build durable, independent competence with a specific installed best practice, s
 
 Sources: Roediger & Karpicke, "The Power of Testing Memory," Perspectives on Psychological Science (2006); Cepeda et al., "Distributed Practice in Verbal Recall Tasks," Psychological Bulletin (2006); Ebbinghaus, "Memory: A Contribution to Experimental Psychology" (1885); Rohrer & Taylor, "The Shuffling of Mathematics Problems Improves Learning," Instructional Science (2007)
 
+## Skill Access
+
+This skill finds and loads other grimoire skills. Use whichever access this session has:
+- **Skills mode** — grimoire skills are installed in the agent: they are listed in context; load one with the Skill tool (or its `/skill-name` command).
+- **MCP mode** — grimoire MCP tools are available (`grimoire_get_skill`, …): find candidates with `grimoire_search_skills` (one focused query per need) or `grimoire_list_skills` for a domain; load one with `grimoire_get_skill`. Score and name only skills these tools return.
+
+Below, "installed skills" means the skills reachable this way, and "load" / "invoke" means the matching loader.
+
 ## Steps
 
 ### Step 1: Identify what to learn
 
 Confirm the specific installed practice (or small set of practices) the user wants to internalize. If ambiguous, ask which one, or match against installed skills using the standard scoring model.
 
-**Uninstalled skill fallback:** If the named practice isn't installed (not present in `.grimoire/` or listed in `SKILLS.md`), check whether it exists in a cloned skill repo on disk instead — the current working directory or a path the user names, containing a `skills/` directory (the only structural requirement for grimoire package discovery). If the target `SKILL.md` is found there, read it directly from that path and proceed with the full retention loop, stating which path the content came from — installation is only required for a skill to auto-trigger during normal routing, not to learn from it directly. If the skill isn't found installed or in any cloned repo on disk, say so and give the install/clone command.
+**Uninstalled skill fallback:** If the named practice isn't installed (not reachable per Skill Access), check whether it exists in a cloned skill repo on disk instead — the current working directory or a path the user names, containing a `skills/` directory (the only structural requirement for grimoire package discovery). If the target `SKILL.md` is found there, read it directly from that path and proceed with the full retention loop, stating which path the content came from — installation is only required for a skill to auto-trigger during normal routing, not to learn from it directly. If the skill isn't found installed or in any cloned repo on disk, say so and give the install/clone command.
 
 ### Step 2: Baseline check
 
@@ -54,7 +62,7 @@ If the user is learning several practices in one session, mix scenarios across t
 
 ### Step 8: Offer to install, if it wasn't already installed
 
-If the practice was read from a cloned repo rather than an installed copy (per Step 1's fallback), offer once the learning loop completes: "Want to install `[skill-name]` as a global skill now, so it auto-triggers automatically going forward? [y/n]" If yes, hand off to `install-grimoire` with the specific skill path pre-filled (`grimoire install --skill [domain]/[subdomain]/[skill-name]`) rather than re-implementing the install/confirm/report flow here. If the practice was already installed, skip this offer entirely — asking to install something already installed is just noise.
+If the practice was read from a cloned repo rather than an installed copy (per Step 1's fallback), offer once the learning loop completes: "Want to install `[skill-name]` as a global skill now, so it auto-triggers automatically going forward? [y/n]" If yes, hand off to `install-grimoire` with the specific skill pre-filled (skills mode: `grimoire install --skill [domain]/[subdomain]/[skill-name]`; Claude Code plugin: `/plugin install grimoire-[domain]@grimoire`; MCP mode: add the package that holds it — `grimoire_package_add`, CLI `grimoire package add <repo>`) rather than re-implementing the install/confirm/report flow here. If the practice was already installed, skip this offer entirely — asking to install something already installed is just noise.
 
 ## Rules
 

@@ -17,6 +17,14 @@ Read, update, or validate `grimoire.toml` — the single source of truth for all
 
 Sources: XDG Base Directory Specification (freedesktop.org); VS Code settings documentation; Git config documentation (`git help config`)
 
+## Skill Access
+
+This skill finds and loads other grimoire skills. Use whichever access this session has:
+- **Skills mode** — grimoire skills are installed in the agent: they are listed in context; load one with the Skill tool (or its `/skill-name` command).
+- **MCP mode** — grimoire MCP tools are available (`grimoire_get_skill`, …): find candidates with `grimoire_search_skills` (one focused query per need) or `grimoire_list_skills` for a domain; load one with `grimoire_get_skill`. Score and name only skills these tools return.
+
+Below, "installed skills" means the skills reachable this way, and "load" / "invoke" means the matching loader.
+
 ## Steps
 
 **Platform-aware prompts:** Claude Code → `AskUserQuestion`; OpenCode → `question` (same schema); Gemini CLI → `ask_user`; all other platforms → the inline `[y/n]`/numbered-list block shown at each step. Steps below say "platform-aware confirm/select" and give only the "other platforms" content, since that's what differs per step.
@@ -38,8 +46,6 @@ Sources: XDG Base Directory Specification (freedesktop.org); VS Code settings do
 | "show status", "project health", "compliance health" | run `grimoire status` directly |
 | "add package", "remove package", "list packages", "manage skill sources" | route to `install-grimoire` |
 
----
-
 ### Step 2: Load settings
 
 **Grimoire-first (preferred):** If grimoire CLI is available, run `grimoire context` (human; `--json` for machine-readable) for the merged view with per-field source attribution and active profiles expanded to their resolved skill lists — no manual layer merging or profile resolution needed. For one key, `grimoire config get <key>` prints the resolved value and its source. With grimoire MCP connected, `grimoire_context` and `grimoire_config_get` return the same.
@@ -53,8 +59,6 @@ Sources: XDG Base Directory Specification (freedesktop.org); VS Code settings do
 ```
 
 Within any file, cascade by specificity: `[standards.domain.subdomain] > [standards.domain]` — a subdomain section overrides its parent domain section for the same key; unset keys inherit from the domain level.
-
----
 
 ### Step 3a: Show
 
@@ -75,8 +79,6 @@ Effective settings for engineering/architecture:
 ```
 
 Show which file each key came from if multiple files contribute.
-
----
 
 ### Step 3b: Edit
 
@@ -112,8 +114,6 @@ After file selection, confirm and write. Never write invalid TOML.
 
 **Post-edit validate:** After writing the settings change, offer: 'Validate settings now? This will show the resolved effective spec and confirm your change took effect. [y/n]'. If yes, invoke `check-best-practice-compliance` with scope=[current project] to show the resolved spec.
 
----
-
 ### Step 3c: Remove
 
 Ask which file to remove from (platform-aware select — see Steps intro). Options: "This project (local) → grimoire.toml (Recommended)", "All projects (global) → ~/.config/grimoire/grimoire.toml", "System (all users) → /etc/grimoire/grimoire.toml". Other platforms:
@@ -138,8 +138,6 @@ If removing from the project file would expose a global default the user didn't 
 
 After confirmation, remove the key or section. If the domain section becomes empty, use a platform-aware confirm (see Steps intro) to ask whether to remove the section header too.
 
----
-
 ### Step 3d: Config add / remove
 
 For list-type keys, use add/remove instead of set — they are idempotent and preserve other list values:
@@ -152,8 +150,6 @@ grimoire config remove <key> <value> [--global]
 Supported list keys: `standards.profiles`, `standards.<domain>.practices`, `standards.<domain>.disabled`.
 
 Show the effective list after the operation using `grimoire config get <key>`.
-
----
 
 ### Step 3e: Switch profile
 
@@ -177,8 +173,6 @@ Active practices:
 ```
 
 To reset to default: grimoire config unset standards.engineering.architecture.active-profile
-
----
 
 ### Step 3f: Validate
 

@@ -17,6 +17,14 @@ Scan existing work to map which best practices are already in use, then let the 
 
 Sources: ISO 9001:2015 §4.1; Kotter (1996) "Leading Change"; BSI Group (2019) ISO certification outcomes study; Nielsen Norman Group contextual inquiry guidelines
 
+## Skill Access
+
+This skill finds and loads other grimoire skills. Use whichever access this session has:
+- **Skills mode** — grimoire skills are installed in the agent: they are listed in context; load one with the Skill tool (or its `/skill-name` command).
+- **MCP mode** — grimoire MCP tools are available (`grimoire_get_skill`, …): find candidates with `grimoire_search_skills` (one focused query per need) or `grimoire_list_skills` for a domain; load one with `grimoire_get_skill`. Score and name only skills these tools return.
+
+Below, "installed skills" means the skills reachable this way, and "load" / "invoke" means the matching loader.
+
 ## Steps
 
 ### Step 1: Detect work type (silent)

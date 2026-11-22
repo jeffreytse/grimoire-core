@@ -18,6 +18,14 @@ Run a compliance check against any artifact using the resolved effective prefere
 
 Sources: Sadowski et al. (2015) "Tricorder: Building a Program Analysis Ecosystem Inside Google"; Ford, Parsons, Kua (2017) "Building Evolutionary Architectures"; ESLint architecture documentation
 
+## Skill Access
+
+This skill finds and loads other grimoire skills. Use whichever access this session has:
+- **Skills mode** — grimoire skills are installed in the agent: they are listed in context; load one with the Skill tool (or its `/skill-name` command).
+- **MCP mode** — grimoire MCP tools are available (`grimoire_get_skill`, …): find candidates with `grimoire_search_skills` (one focused query per need) or `grimoire_list_skills` for a domain; load one with `grimoire_get_skill`. Score and name only skills these tools return.
+
+Below, "installed skills" means the skills reachable this way, and "load" / "invoke" means the matching loader.
+
 ## Steps
 
 ### 1. Resolve the effective spec (silent)
@@ -190,7 +198,7 @@ For each FAIL, offer to invoke the relevant grimoire skill, or run the full BPDD
 Fix with:
   [1] audit-gdpr-compliance    — add DPA section and liability clause
   [2] apply-domain-driven-design — extract domain model
-  [a] Run full BPDD cycle      → /apply-best-practice-driven-development
+  [a] Run full BPDD cycle      → invoke `apply-best-practice-driven-development`
   [w] Start grimoire watch     — re-check on every file save (local dev continuous mode)
 ```
 

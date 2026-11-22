@@ -18,6 +18,14 @@ Fix one specific compliance finding from a `check-best-practice-compliance` repo
 
 Sources: LSP specification §3.16 (Code Action); ESLint architecture documentation; VS Code Language Server Extension Guide
 
+## Skill Access
+
+This skill finds and loads other grimoire skills. Use whichever access this session has:
+- **Skills mode** — grimoire skills are installed in the agent: they are listed in context; load one with the Skill tool (or its `/skill-name` command).
+- **MCP mode** — grimoire MCP tools are available (`grimoire_get_skill`, …): find candidates with `grimoire_search_skills` (one focused query per need) or `grimoire_list_skills` for a domain; load one with `grimoire_get_skill`. Score and name only skills these tools return.
+
+Below, "installed skills" means the skills reachable this way, and "load" / "invoke" means the matching loader.
+
 ## Steps
 
 ### 1. Identify the finding
@@ -80,9 +88,9 @@ Read `"practice"` from the finding — that value is the grimoire skill to invok
 
 The domain skill receives this context and focuses only on the identified violation — not a general application of the practice across the whole artifact.
 
-**Uninstalled skill fallback:** Before invoking, check if the skill named in the `practice` field is installed. If not installed, stop: '[skill-name] is not installed. Install it with `/plugin install grimoire-[domain]@grimoire`, then retry this fix.' Do not attempt to apply the practice without the skill.
+**Uninstalled skill fallback:** Before invoking, check if the skill named in the `practice` field is installed. If not installed, stop: '[skill-name] is not installed. Install it — Claude Code plugin: `/plugin install grimoire-[domain]@grimoire` · grimoire CLI: `grimoire install --domain [domain]` · MCP mode: add a package that covers it (`grimoire_package_add`, CLI `grimoire package add <repo>`) — then retry this fix.' Do not attempt to apply the practice without the skill.
 
-Example: for `"practice": "apply-solid-principles"` with `"criterion": "srp"` at `src/UserService.ts §12–45`, invoke `/apply-solid-principles` with the context: "Fix SRP violation at §12–45: UserService handles auth, email, and billing. Extract concerns into separate services."
+Example: for `"practice": "apply-solid-principles"` with `"criterion": "srp"` at `src/UserService.ts §12–45`, invoke `apply-solid-principles` with the context: "Fix SRP violation at §12–45: UserService handles auth, email, and billing. Extract concerns into separate services."
 
 ---
 
@@ -92,7 +100,7 @@ Re-run `check-best-practice-compliance` scoped to:
 - The affected artifact (`[s] Specific artifact`)
 - Filtered to the affected practice
 
-Scope: re-check only the `uri` + `range` from the original finding — not the full artifact. If the re-check surfaces new findings elsewhere, list them but do not fix them now — route to a fresh `/check-best-practice-compliance` run.
+Scope: re-check only the `uri` + `range` from the original finding — not the full artifact. If the re-check surfaces new findings elsewhere, list them but do not fix them now — route to a fresh `check-best-practice-compliance` run.
 
 Confirm the specific finding is resolved — no longer appears in diagnostics with matching `uri` + `code`.
 

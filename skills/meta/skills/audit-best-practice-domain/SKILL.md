@@ -31,6 +31,14 @@ actionable counts that track over time.
 Sources: Wikipedia Featured Article review criteria, npm package registry audit tooling,
 Bacchelli & Bird (ICSE 2013)
 
+## Skill Access
+
+This skill finds and loads other grimoire skills. Use whichever access this session has:
+- **Skills mode** — grimoire skills are installed in the agent: they are listed in context; load one with the Skill tool (or its `/skill-name` command).
+- **MCP mode** — grimoire MCP tools are available (`grimoire_get_skill`, …): find candidates with `grimoire_search_skills` (one focused query per need) or `grimoire_list_skills` for a domain; load one with `grimoire_get_skill`. Score and name only skills these tools return.
+
+Below, "installed skills" means the skills reachable this way, and "load" / "invoke" means the matching loader.
+
 ## Steps
 
 ### 1. Identify the audit target
@@ -52,7 +60,7 @@ If zero files found: report "Domain has no skills yet" and stop.
 
 ### 3. Apply `review-best-practice-skill` to each file
 
-**Error handling:** If a domain referenced in the audit target does not exist in the installed skills index, stop and output: 'Domain not found: [domain-name]. Run /discover-best-practices to see installed domains.' If a skill file is missing or malformed (can't be parsed), mark it as UNREADABLE in the report and continue with remaining skills — do not abort the entire audit.
+**Error handling:** If a domain referenced in the audit target does not exist in the installed skills index, stop and output: 'Domain not found: [domain-name]. Invoke `discover-best-practices` to see installed domains.' If a skill file is missing or malformed (can't be parsed), mark it as UNREADABLE in the report and continue with remaining skills — do not abort the entire audit.
 
 For each SKILL.md, run the full `review-best-practice-skill` evaluation:
 - Check frontmatter (name, description, source, tags)

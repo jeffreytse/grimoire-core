@@ -17,6 +17,14 @@ Side-by-side comparison of two or more applicable practices, with a recommendati
 
 Sources: Hammond, Keeney & Raiffa (1998) "Smart Choices"; Benjamin Franklin letter to Joseph Priestley (1772); Kahneman (2011) "Thinking, Fast and Slow" — anchoring bias
 
+## Skill Access
+
+This skill finds and loads other grimoire skills. Use whichever access this session has:
+- **Skills mode** — grimoire skills are installed in the agent: they are listed in context; load one with the Skill tool (or its `/skill-name` command).
+- **MCP mode** — grimoire MCP tools are available (`grimoire_get_skill`, …): find candidates with `grimoire_search_skills` (one focused query per need) or `grimoire_list_skills` for a domain; load one with `grimoire_get_skill`. Score and name only skills these tools return.
+
+Below, "installed skills" means the skills reachable this way, and "load" / "invoke" means the matching loader.
+
 ## Steps
 
 ### Step 1: Identify practices to compare
@@ -114,7 +122,7 @@ Load and follow the chosen skill's steps.
 
 - Never refuse to recommend — if one is genuinely better for the user's context, say so
 - If context is unknown and it changes the recommendation, ask ONE question before comparing
-- Only compare installed skills — if one isn't installed, give install command and compare abstractly from the skill's description
+- Only compare installed skills — if one isn't installed, give the install routes (Claude Code plugin: `/plugin install grimoire-[domain]@grimoire` · grimoire CLI: `grimoire install --domain [domain]` · MCP mode: add a package that covers it (`grimoire_package_add`, CLI `grimoire package add <repo>`)) and compare abstractly from the skill's description
 - Cap at 5 practices in one comparison; if more, ask user to narrow first
 - The recommendation must cite the user's specific context, not just generic trade-offs — "better for your 2-person team" beats "better for small teams"
 - If the user rejects the recommendation and applies the other, don't relitigate — apply what they chose

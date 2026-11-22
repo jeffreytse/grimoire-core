@@ -18,6 +18,14 @@ Activate one or more named practice profiles, pinning their skills as preference
 
 Sources: XDG Base Directory Specification (freedesktop.org); Grimoire `docs/profiles.md`
 
+## Skill Access
+
+This skill finds and loads other grimoire skills. Use whichever access this session has:
+- **Skills mode** — grimoire skills are installed in the agent: they are listed in context; load one with the Skill tool (or its `/skill-name` command).
+- **MCP mode** — grimoire MCP tools are available (`grimoire_get_skill`, …): find candidates with `grimoire_search_skills` (one focused query per need) or `grimoire_list_skills` for a domain; load one with `grimoire_get_skill`. Score and name only skills these tools return.
+
+Below, "installed skills" means the skills reachable this way, and "load" / "invoke" means the matching loader.
+
 ## Steps
 
 ### 1. Detect the requested profile names
@@ -59,7 +67,7 @@ If a TOML file is found, read its `[[skills]]` list.
 If no file is found and the tag query returns no skills for a name, **stop immediately** — do not guess or invent a profile. Output:
 ```
 Profile not found: [profile-name]
-Available profiles: [list installed profiles, or 'none installed — run /discover-best-practices to see what's available']
+Available profiles: [list installed profiles, or 'none installed — invoke `discover-best-practices` to see what's available']
 ```
 Do not continue resolving remaining profiles while a named profile is unresolvable — surface the error first so the user can correct the name or install the missing profile.
 

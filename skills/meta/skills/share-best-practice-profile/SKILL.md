@@ -18,6 +18,14 @@ Publish a validated practice profile so others can install and use it.
 
 Sources: npm `eslint-config-*` ecosystem; VS Code extension pack format; Grimoire `docs/profiles.md`
 
+## Skill Access
+
+This skill finds and loads other grimoire skills. Use whichever access this session has:
+- **Skills mode** — grimoire skills are installed in the agent: they are listed in context; load one with the Skill tool (or its `/skill-name` command).
+- **MCP mode** — grimoire MCP tools are available (`grimoire_get_skill`, …): find candidates with `grimoire_search_skills` (one focused query per need) or `grimoire_list_skills` for a domain; load one with `grimoire_get_skill`. Score and name only skills these tools return.
+
+Below, "installed skills" means the skills reachable this way, and "load" / "invoke" means the matching loader.
+
 ## Steps
 
 ### 1. Confirm the profile is reviewed
@@ -118,13 +126,14 @@ Then activate:
 
 **Install command:** Include the exact version or commit in the install command so recipients get the exact profile reviewed:
 ```
-/plugin install [profile-name]@[version-or-commit]
+curl -fsSL https://raw.githubusercontent.com/<user>/grimoire-profile-[profile-name]/[version-or-commit]/[profile-name].toml \
+  -o .grimoire/profiles/[profile-name].toml
 ```
 If no version is tagged, include the Git commit SHA. A profile install without a version pin can drift as the source changes.
 
 **Profile versioning strategy:**
-1. **Git tag** (preferred): tag the commit that contains the profile with a semver tag: `git tag profiles/[profile-name]/v1.0.0`. Install command: `/plugin install [profile-name]@v1.0.0`
-2. **Commit SHA** (fallback): if no tag exists, use the full commit SHA. Install command: `/plugin install [profile-name]@[sha]`
+1. **Git tag** (preferred): tag the commit that contains the profile with a semver tag: `git tag profiles/[profile-name]/v1.0.0`. Install command: use `profiles/[profile-name]/v1.0.0` as `[version-or-commit]` in the install URL
+2. **Commit SHA** (fallback): if no tag exists, use the full commit SHA. Install command: use the `[sha]` as `[version-or-commit]` in the install URL
 3. **No version** (not recommended): omit version only if the profile is in active development and recipients should always get latest. Note this in the install instructions.
 
 **Which version strategy to use:**

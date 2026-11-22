@@ -17,6 +17,14 @@ Customize a practice for specific constraints while preserving its core effectiv
 
 Sources: Hersey & Blanchard (1969) "Management of Organizational Behavior"; Womack & Jones (1996) "Lean Thinking"; McKinsey Organizational Health Index research
 
+## Skill Access
+
+This skill finds and loads other grimoire skills. Use whichever access this session has:
+- **Skills mode** — grimoire skills are installed in the agent: they are listed in context; load one with the Skill tool (or its `/skill-name` command).
+- **MCP mode** — grimoire MCP tools are available (`grimoire_get_skill`, …): find candidates with `grimoire_search_skills` (one focused query per need) or `grimoire_list_skills` for a domain; load one with `grimoire_get_skill`. Score and name only skills these tools return.
+
+Below, "installed skills" means the skills reachable this way, and "load" / "invoke" means the matching loader.
+
 ## Steps
 
 ### Step 1: Identify the practice and constraints
@@ -28,7 +36,7 @@ If the practice is named, match against installed skills. **Missing-practice fal
 Practice not found: [practice-name]
 Closest match: [similar-skill-name] ([domain]) — is this what you meant?
 ```
-If no close match exists: 'No installed practice matches [practice-name]. Run /discover-best-practices to find available practices for [domain].'
+If no close match exists: 'No installed practice matches [practice-name]. Invoke `discover-best-practices` to find available practices for [domain].'
 
 Do not proceed with adaptation until the source practice is confirmed.
 

@@ -17,6 +17,14 @@ Deep-dive into why a practice works: problem, origin, evidence, mechanism, failu
 
 Sources: Bloom's Taxonomy (1956); Heath & Heath (2007) "Made to Stick"; Institute of Medicine (1999) "To Err is Human"; Feynman Technique (attributed)
 
+## Skill Access
+
+This skill finds and loads other grimoire skills. Use whichever access this session has:
+- **Skills mode** — grimoire skills are installed in the agent: they are listed in context; load one with the Skill tool (or its `/skill-name` command).
+- **MCP mode** — grimoire MCP tools are available (`grimoire_get_skill`, …): find candidates with `grimoire_search_skills` (one focused query per need) or `grimoire_list_skills` for a domain; load one with `grimoire_get_skill`. Score and name only skills these tools return.
+
+Below, "installed skills" means the skills reachable this way, and "load" / "invoke" means the matching loader.
+
 ## Steps
 
 ### Step 1: Identify the practice
@@ -78,7 +86,7 @@ Want to apply [practice] now? (y/n)
 
 If yes, load the skill and follow its steps. If no, end gracefully — explanation was the goal.
 
-**Uninstalled skill fallback:** Before handing off to suggest-best-practice, verify the explained skill is installed (present in `.grimoire/` or listed in `SKILLS.md`). If not installed: 'This skill is not currently installed. Install it with `/plugin install grimoire-[domain]@grimoire`, then invoke `/[skill-name]` directly.' Do not hand off to suggest-best-practice with an uninstalled skill pre-selected — it will fail to apply.
+**Uninstalled skill fallback:** Before handing off to suggest-best-practice, verify the explained skill is installed (reachable per Skill Access). If not installed: 'This skill is not currently installed. Install it — Claude Code plugin: `/plugin install grimoire-[domain]@grimoire` · grimoire CLI: `grimoire install --domain [domain]` · MCP mode: add a package that covers it (`grimoire_package_add`, CLI `grimoire package add <repo>`) — then invoke `[skill-name]` directly.' Do not hand off to suggest-best-practice with an uninstalled skill pre-selected — it will fail to apply.
 
 **Apply handoff:** If the user says 'apply this', 'use this', 'let's do this', or similar after the explanation, invoke `suggest-best-practice` with the explained skill pre-selected as the match. Pass the skill name as context so suggest-best-practice skips scoring and goes directly to application. Do not re-explain — the explanation is complete; just apply.
 

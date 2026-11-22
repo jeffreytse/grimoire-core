@@ -1,6 +1,6 @@
 ---
 name: install-grimoire
-description: Use when the user wants to install or uninstall grimoire skills by domain or individual skill, upgrade grimoire to the latest version, clean up broken symlinks, list what skills are available, or run a health check on the grimoire installation.
+description: Use when the user wants to install or uninstall grimoire skills by domain or individual skill, set up grimoire in MCP mode, upgrade grimoire to the latest version, clean up broken symlinks, list what skills are available, or run a health check on the grimoire installation.
 source: Package manager UX patterns (Homebrew, npm, apt); grimoire scripts/grimoire
 tags: [uninstall, upgrade, clean, doctor, health, diagnostics, skills, setup]
 ---
@@ -21,6 +21,14 @@ Sources: Homebrew documentation; npm CLI documentation; grimoire CLI
 
 **Platform-aware prompts:** Claude Code → `AskUserQuestion`; OpenCode → `question` (same schema); Gemini CLI → `ask_user`; all other platforms → the inline `[y/n]` block shown at each step.
 
+**Two delivery modes** — pick one per agent, never both:
+- **Skills mode** — `grimoire install` links skills into the agent's skills directory.
+- **MCP mode** — `grimoire mcp install [--target claude|codex|gemini|copilot|opencode|pi|kimi|omp|antigravity|all] [--scope user|project]` registers the grimoire MCP server, writes the grimoire instruction line to the agent's instruction file and — for Claude Code, Codex and Gemini CLI — adds a prompt hook. Nothing is linked into the agent; skills are fetched through grimoire's MCP tools. `grimoire mcp uninstall` (same flags) undoes it. Codex runs the hook only after the user trusts it in `/hooks`.
+
+### Step 0: Detect current mode
+
+If grimoire MCP tools (`grimoire_get_skill`, `grimoire_search_skills`, …) are available in this session, the user is in MCP mode: do NOT recommend `grimoire install` — it would duplicate skills into the agent. Refresh skills with `grimoire update` (MCP: `grimoire_update`); add domains by adding a package that covers them — `grimoire_package_add` (CLI `grimoire package add <name> <url>`); remove MCP mode with `grimoire mcp uninstall`. Otherwise the user is in skills mode — or not set up yet: then ask which mode they want before Step 1.
+
 ### Step 1: Detect operation
 
 | User signal | Operation |
@@ -35,7 +43,7 @@ Sources: Homebrew documentation; npm CLI documentation; grimoire CLI
 | "update grimoire binary", "upgrade grimoire CLI", "self-update" | `self-update` |
 | "add package", "remove package", "list packages", "manage skill sources" | `package` |
 | "wizard", "setup wizard", "interactive setup", "guided setup" | `wizard` |
-| "set up MCP", "configure Claude Code", "connect to AI assistant", "MCP" | `mcp-setup` |
+| "set up MCP", "MCP mode", "switch to MCP", "configure Claude Code", "connect to AI assistant", "MCP" | `mcp-setup` |
 | "watch", "watch compliance", "watch for changes", "continuous check" | `watch` |
 | "compliance status", "project status", "what's my status", "health" | `status` |
 | "publish package", "share package", "submit package" | `package-publish` |
@@ -237,7 +245,7 @@ For `init`:
   Profile: engineering (auto-detected)
 
   Next steps:
-    1. Ask your AI to run /check-best-practice-compliance   (generates report in .grimoire/reports/)
+    1. Ask your AI to invoke check-best-practice-compliance (generates report in .grimoire/reports/)
     2. Run grimoire check --from-report --ci                (enforce thresholds, annotate CI)
     3. Or: grimoire check                                   (independent mode — runs AI itself)
     4. Run grimoire watch                                   (continuous monitoring on file save)
@@ -247,40 +255,25 @@ For `self-update`: output shows current/latest version and upgrade status. For `
 
 ### Step 6 (mcp-setup): Configure MCP server
 
-After successful install, offer MCP setup:
+Run for the `mcp-setup` operation. MCP mode replaces skills mode for that agent — don't offer it as an add-on after `grimoire install`. Determine target agent(s) and scope (ask if ambiguous), then show the command and confirm (Step 3 pattern):
 
 ```
-Connect grimoire to your AI assistant natively via MCP? This lets the AI call grimoire
-tools automatically at session start without manual commands. [y/n]
+grimoire mcp install                          # Claude Code, user scope (defaults)
+grimoire mcp install --target codex,gemini    # comma-separated; or --target all (every supported agent on PATH)
+grimoire mcp install --scope project          # this project only (codex, copilot, antigravity are user-only)
+grimoire mcp install --no-hook                # skip the prompt hook
+grimoire mcp uninstall [--target ...] [--scope ...]   # undo: unregister server, remove instruction line
 ```
 
-If yes, determine the target assistant (ask if ambiguous), then run:
+After install: for Codex, tell the user to trust the grimoire hook via `/hooks`; for Gemini CLI, servers stay disabled until the folder is trusted. Skills previously linked by `grimoire install` stay in the agent — offer `grimoire uninstall` (Step 3 uninstall confirm) to avoid duplicates.
 
-```
-grimoire mcp config --target <assistant>
-# Supported: claude, cursor, windsurf, cline
-```
+For assistants `grimoire mcp install` doesn't support (cursor, windsurf, cline), run `grimoire mcp config --target <assistant>` and guide the user to add the printed snippet to the assistant's MCP config file.
 
-Show the printed config snippet and guide the user to add it to their assistant's MCP config file.
+If the AI assistant runs outside the project root (common with desktop apps like Claude Code Desktop), pin the project directory so grimoire reads the right settings and compliance reports — server args `["--project-dir", "/absolute/path/to/project", "mcp", "serve"]`, or the environment variable `GRIMOIRE_PROJECT_DIR=/absolute/path/to/project`.
 
-If the AI assistant runs outside the project root (common with desktop apps like Claude Code Desktop), pin the project directory so grimoire reads the right settings and compliance reports:
+Confirm that a new agent session is needed. Once connected, the grimoire MCP tools are available (see `configure-grimoire` for the full list).
 
-```json
-{
-  "mcpServers": {
-    "grimoire": {
-      "command": "grimoire",
-      "args": ["--project-dir", "/absolute/path/to/project", "mcp", "serve"]
-    }
-  }
-}
-```
-
-Alternatively via environment variable: `GRIMOIRE_PROJECT_DIR=/absolute/path/to/project`.
-
-Confirm that a restart is needed. Once connected, all 32 grimoire MCP tools are available (see `configure-grimoire` for the full list).
-
-**For uninstall:** also offer to remove the MCP server config block if the user is fully removing grimoire.
+**For uninstall:** in MCP mode, run `grimoire mcp uninstall` (with the same `--target`/`--scope`); for a `grimoire mcp config` setup, offer to remove the MCP server config block if the user is fully removing grimoire.
 
 ## When NOT to Use
 
@@ -293,5 +286,7 @@ Confirm that a restart is needed. Once connected, all 32 grimoire MCP tools are 
 **Uninstalling instead of upgrading**: if the user says "update my skills," that almost always means `--upgrade` (refresh to latest), not `--uninstall`. Confirm the intended operation before running.
 
 **Wrong target agent**: defaulting to `--target all` is usually correct, but if the user only uses one agent, installing to all wastes disk space with unused symlinks. Ask if ambiguous.
+
+**Running `grimoire install` in MCP mode**: if grimoire MCP tools are available, skills already come through MCP — `grimoire install` duplicates them into the agent. Use `grimoire update` and `grimoire_package_add` / `grimoire package add` instead.
 
 **Skipping confirmation on uninstall**: always show the uninstall command and warn it's destructive before running. Never auto-run uninstall without explicit user confirmation.
