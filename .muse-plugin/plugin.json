@@ -26,6 +26,11 @@
         "enabledDefault": true
       },
       {
+        "id": "apply-a3-problem-solving",
+        "path": "skills/business/operations/skills/apply-a3-problem-solving/SKILL.md",
+        "enabledDefault": true
+      },
+      {
         "id": "apply-abstract-factory-pattern",
         "path": "skills/engineering/architecture/skills/apply-abstract-factory-pattern/SKILL.md",
         "enabledDefault": true
@@ -2928,6 +2933,11 @@
       {
         "id": "apply-zettelkasten",
         "path": "skills/productivity/tools/skills/apply-zettelkasten/SKILL.md",
+        "enabledDefault": true
+      },
+      {
+        "id": "assess-character-from-costly-behavior",
+        "path": "skills/psychology/social/skills/assess-character-from-costly-behavior/SKILL.md",
         "enabledDefault": true
       },
       {
@@ -6568,6 +6578,11 @@
       {
         "id": "write-clinical-note-soap",
         "path": "skills/health/medicine/skills/write-clinical-note-soap/SKILL.md",
+        "enabledDefault": true
+      },
+      {
+        "id": "write-contemporaneous-workplace-record",
+        "path": "skills/law/employment/skills/write-contemporaneous-workplace-record/SKILL.md",
         "enabledDefault": true
       },
       {
