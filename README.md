@@ -43,8 +43,8 @@
   </a>
 
   <a href="./SKILLS.md">
-    <img src="https://img.shields.io/badge/skills-1000%2B-blue"
-      alt="1000+ Skills" />
+    <img src="https://img.shields.io/badge/skills-1300%2B-blue"
+      alt="1300+ Skills" />
   </a>
 </p>
 
@@ -81,8 +81,8 @@ The model knows SOLID, DDD, Google SRE, and the ABA Model Rules. Without explici
 - 🔍 **You don't know what you don't know.** Grimoire surfaces the governing standard you didn't know applied.
 - 🤖 **Knowing is not enough. Grimoire enforces.** Specific steps, verifiable criteria, repeatable results. Not summaries — verdicts.
 - 🌍 **The world's best practices belong to everyone.** McKinsey charges $1M. Senior lawyers bill $800/hr. The practices they follow are not proprietary. Grimoire makes them free — as executable steps, cited and verified.
-- 🧱 **Every profession. Every AI.** 1000+ skills across 27 domains. Works with Claude Code, Copilot, Codex, Gemini, OpenCode, OpenClaw, Antigravity, Pi, Kimi, OMP, DeepSeek Harness, Grok, Muse, MiniMax, and any agent that reads `~/.agents/skills`.
-- 🔬 **Not just distribution — enforcement.** Skills registries distribute files. grimoire-core provides the practice rules `grimoire check` validates your project against. 1000+ skills are both instructions for your AI *and* compliance criteria for your codebase.
+- 🧱 **Every profession. Every AI.** 1,300+ skills across 27 domains. Works with Claude Code, Copilot, Codex, Gemini, OpenCode, OpenClaw, Antigravity, Pi, Kimi, OMP, DeepSeek Harness, Grok, Muse, MiniMax, and any agent that reads `~/.agents/skills`.
+- 🔬 **Not just distribution — enforcement.** Skills registries distribute files. grimoire-core provides the practice rules `grimoire check` validates your project against. 1,300+ skills are both instructions for your AI *and* compliance criteria for your codebase.
 
 | Repo | Role | Unique value |
 |------|------|-------------|
@@ -97,19 +97,32 @@ If you've spent 10,000 hours mastering something, your practice belongs here.
 **macOS / Linux:**
 
 ```bash
-# 1. Install the grimoire CLI
 curl -fsSL https://raw.githubusercontent.com/jeffreytse/grimoire/main/scripts/install.sh | bash
+```
 
-# 2. Add + install grimoire-core in one step
-grimoire init                              # creates grimoire.toml, auto-detects AI agents
-grimoire install jeffreytse/grimoire-core  # adds to grimoire.toml + links to all AI agents
+**Windows (PowerShell):**
+
+```powershell
+irm https://raw.githubusercontent.com/jeffreytse/grimoire/main/scripts/install.ps1 | iex
 ```
 
 **Go:**
 
 ```bash
 go install github.com/jeffreytse/grimoire@latest
-grimoire init && grimoire install jeffreytse/grimoire-core
+```
+
+**Then run the guided setup (all platforms):**
+
+```bash
+grimoire wizard    # MCP or skills mode, agents, domains — no config editing required
+```
+
+**Which mode?** Use **MCP mode** for every agent that supports it. grimoire-core has over 1,300 skills, but agents load only a short listing of skill descriptions — about 8,000–16,000 characters in Claude Code and Codex, against ~320,000 for the whole library — so in skills mode most skills are invisible to the agent. MCP mode serves the whole library on demand through search. Use **skills mode** for agents without MCP support (OpenClaw, DeepSeek Harness, Grok, Muse, MiniMax, generic `agent`), or to link a small subset (about 30 skills fit Claude Code's or Codex's listing):
+
+```bash
+grimoire init                              # creates grimoire.toml, auto-detects AI agents
+grimoire install jeffreytse/grimoire-core  # adds to grimoire.toml + links skills into each agent
 ```
 
 **`grimoire.toml` — declare grimoire-core as a dependency:**
@@ -125,35 +138,54 @@ name = "my-project"
 # "jeffreytse/grimoire-core" = "1.2.3" # exact pin
 ```
 
-**MCP mode — skills on demand, nothing copied into your agent:**
+**MCP mode (recommended) — the whole library on demand, nothing copied into your agent:**
 
 ```bash
-grimoire mcp install                      # Claude Code: register the server, add the CLAUDE.md instruction + prompt hook
-grimoire mcp install --target all         # every supported agent on your PATH
+grimoire mcp install                          # Claude Code: server, CLAUDE.md instruction, hooks + status bar badge
+grimoire mcp install --target all             # every supported agent on your PATH
 grimoire mcp install --target codex,gemini
-grimoire mcp install --scope project      # this repo only (commit the files to share)
-grimoire mcp uninstall --target all       # undo
+grimoire mcp install --target claude-desktop  # Claude Desktop — no terminal agent needed (not in --target all)
+grimoire mcp install --scope project          # this repo only (commit the files to share)
+grimoire mcp uninstall --target all           # undo
 ```
 
-| Agent | Scopes | Server registered via | Instruction written to |
+| Agent | Scopes | Automatic routing | Check |
 | --- | --- | --- | --- |
-| Claude Code | user, project | `claude mcp add` | `~/.claude/CLAUDE.md` / `./CLAUDE.md` |
-| Codex | user | `codex mcp add` | `~/.codex/AGENTS.md` |
-| Gemini CLI | user, project | `gemini mcp add` | `~/.gemini/GEMINI.md` / `./GEMINI.md` |
-| GitHub Copilot CLI | user | `copilot mcp add` | `~/.copilot/copilot-instructions.md` |
-| OpenCode | user, project | `opencode.json` (`mcp.grimoire`) | `~/.config/opencode/AGENTS.md` / `./AGENTS.md` |
-| Pi | user, project | `~/.pi/agent/mcp.json` / `.pi/mcp.json` | `~/.pi/agent/AGENTS.md` / `./AGENTS.md` |
-| Kimi Code | user, project | `~/.kimi-code/mcp.json` / `.kimi-code/mcp.json` | `~/.kimi-code/AGENTS.md` / `./AGENTS.md` |
-| OMP | user, project | `~/.omp/agent/mcp.json` / `.omp/mcp.json` | `~/.omp/agent/AGENTS.md` / `.omp/AGENTS.md` |
-| Antigravity | user | `~/.gemini/config/mcp_config.json` | — (agy has no user-level instruction file; add the line to a project `AGENTS.md`) |
+| Claude Code | user, project | ✓ hooks | `/mcp` |
+| Codex | user | ✓ hooks (trust once in `/hooks`) | `codex mcp list` |
+| Gemini CLI | user, project | ✓ hooks | `gemini mcp list` |
+| OpenCode | user, project | ✓ grimoire plugin | `opencode mcp list` |
+| Antigravity | user | ✓ hooks | `/mcp` |
+| Claude Desktop | user | server instructions | reopen the app; grimoire appears in its connectors |
+| GitHub Copilot CLI | user | instruction only | `copilot mcp list` |
+| Pi | user, project | instruction only | `pi mcp list` |
+| Kimi Code | user, project | instruction only | `/mcp` |
+| OMP | user, project | instruction only | `/mcp` |
 
-**Run a specific skill:** type `/grimoire:skill <skill-name>` (Claude Code slash command), or write `grimoire:<skill-name> [task]` in any agent, e.g. `grimoire:propose-conventional-commit`. A mistyped name comes back with "did you mean" suggestions.
+**Automatic routing** means every request goes through `start-best-practice` and the workflow it picks — suggest one practice, plan several in order, break down an unclear problem — without you naming a skill. Small talk and slash commands are left alone. With *instruction only*, the agent decides for itself whether a request needs grimoire, so routing is less consistent. Install options: `--no-hook` (instruction only), `--no-configure` (server only), `--no-allow` (don't pre-approve grimoire's read-only tools), `--no-statusline` / `--statusline` (Claude Code badge). For other MCP clients, `grimoire mcp config --target cursor|windsurf|cline` prints the config snippet.
 
-**Prompt hook (Claude Code):** an instruction alone is advisory — the model often decides a task doesn't need a skill. `grimoire mcp install` therefore also adds a `UserPromptSubmit` hook (`grimoire hook prompt`) that runs on every prompt: `grimoire:<name>` loads that skill, otherwise the best-matching skills are put in front of the model, and small talk gets nothing. Other hooks are kept; `--no-hook` skips it. Other agents rely on the instruction file.
+Re-running is safe — nothing is duplicated. Start a new agent session afterwards. Gemini keeps MCP servers disabled in folders you haven't trusted. Run `grimoire update` to refresh skills.
 
-**Workflows in MCP mode:** the meta workflows (`suggest-best-practice`, `plan-best-practice-solution`, …) find and load the skills they chain through grimoire's MCP tools, so they work the same as in skills mode. Practice pins are read from and written to `grimoire.toml` in both modes.
+**Run a specific skill:** write `grimoire:<skill-name> [task]` in any agent, e.g. `grimoire:propose-conventional-commit`, or `/grimoire:skill <skill-name>` in Claude Code. A mistyped name comes back with "did you mean" suggestions.
 
-Re-running is safe: existing registrations and instructions are detected, nothing is duplicated, and an older `start-best-practice` trigger is replaced. Start a new agent session afterwards (in Claude Code, `/mcp` lists grimoire as connected). Gemini keeps MCP servers disabled in folders you haven't trusted. The agent then finds and loads skills through `grimoire_search_skills` and `grimoire_get_skill` instead of preloading every skill into context. Run `grimoire update` to refresh skills. For other MCP clients, `grimoire mcp config --target cursor|windsurf|cline` prints the config snippet.
+**What you see:** each request gets one `grimoire ▸` line saying which workflow or skill it's applying and why, so you can redirect it. A question, a choice, or "Apply this plan?" always ends the reply — nothing runs until you answer. Plans are confirmed once; grimoire asks again only before a step that changes files, runs commands, or acts outside the conversation.
+
+**Controls** — say these in any session:
+
+| Say | Effect |
+| --- | --- |
+| "grimoire help" | list these controls |
+| "show grimoire details" | `full` level: candidates, risks with severity, each skill's source |
+| "quiet grimoire" | `hidden` level: routing continues, no notes |
+| "plain grimoire" | words instead of symbols, for screen readers |
+| "skip grimoire" | skip grimoire for this request |
+| "grimoire off" / "grimoire on" | stop or resume routing in this session |
+
+Set the default level with `grimoire config set core.trace brief|full|hidden`. Turn grimoire off everywhere with `grimoire disable` (`grimoire enable` to resume), or for one run with `GRIMOIRE_ACTIVE=0`. `NO_COLOR` or `core.display-style plain` switches to plain style.
+
+**Your project's practices come first:** if a project's `grimoire.toml` declares practices (`[dependencies]`, `[standards] profiles`, or `[standards.<domain>] practices`), grimoire ranks them first and gives them the ★, labels other recommendations "not a declared standard", and treats only them as binding in compliance checks — while the whole library stays available. Practices can be declared by your organization (`/etc/grimoire/grimoire.toml`), by you (`~/.config/grimoire/grimoire.toml`), or by the project; the nearest wins. Set `[standards] scope = "strict"` to offer only declared practices. The meta workflows (`suggest-best-practice`, `plan-best-practice-solution`, …) read and write practice pins in `grimoire.toml` in both modes.
+
+Full guide — hooks per agent, display, approvals, MCP tools, troubleshooting: [grimoire's MCP mode docs](https://github.com/jeffreytse/grimoire/blob/main/docs/mcp-mode.md).
 
 ## 🤖 Agent Support
 
@@ -188,10 +220,15 @@ Every CLI row is `grimoire install --target <name>`. Add `--global` for a user-w
 **Describe any problem in plain language — grimoire routes to the right skill:**
 
 ```
-User: I need to raise a Series A but don't know how to pitch investors.
+❯ I need to raise a Series A but don't know how to pitch investors.
 
-Claude: Situation matches: write-value-proposition + design-go-to-market + apply-pyramid-principle
-        → Start with your value prop. /write-value-proposition
+grimoire ▸ planning several skills — a pitch needs them in order
+
+Plan — 3 steps
+⎿  Step 1  write-value-proposition — what you solve, for whom
+⎿  Step 2  design-pitch-deck — the investor story, slide by slide
+⎿  Step 3  apply-pyramid-principle — lead with the conclusion
+Apply this plan?
 ```
 
 **Or invoke a skill directly:**
@@ -219,7 +256,7 @@ In MCP mode, skills are not agent slash commands — write `grimoire:<skill-name
 | Don't know what practices exist for a topic | `/discover-best-practices` |
 | About to start a task — want to catch gaps first | `/start-best-practice` |
 
-`start-best-practice` runs automatically before every request only in skills mode (CLI `grimoire install` writes that trigger). In MCP mode the prompt hook suggests matching skills instead; route explicitly with `grimoire:start-best-practice`.
+`start-best-practice` runs automatically before every request in both modes: skills mode through the trigger `grimoire install` writes, MCP mode through the hooks `grimoire mcp install` adds (agents marked *instruction only* above route less consistently — name a workflow, e.g. `grimoire:suggest-best-practice`, when you want one).
 
 ## 📦 Using as a Package
 
@@ -227,7 +264,7 @@ grimoire-core is the official package of the [grimoire](https://github.com/jeffr
 
 ```toml
 [dependencies]
-"jeffreytse/grimoire-core"                 = "*"  # all 1000+ skills
+"jeffreytse/grimoire-core"                 = "*"  # all 1,300+ skills
 "jeffreytse/grimoire-core:engineering"     = "*"  # engineering domain only
 "jeffreytse/grimoire-core:health"          = "*"  # health domain only
 "myorg/internal-skills"                    = "*"  # your private package
@@ -237,7 +274,7 @@ Versioning follows semver. Pin with `"~1.0"` (patch updates) or `"1.2.3"` (exact
 
 The `:path` suffix filters which skills are linked. No `:` = all skills from that package. Paths are Standard Glob patterns (doublestar) matched against the skill's domain path. `**` matches any directory depth; `*` matches within a single segment; `?`, `{a,b}`, and `[...]` are also supported. Examples: `engineering/**` (all engineering subdomains), `health/sleep/**` (one subdomain), `**/development` (development subdomain in any domain).
 
-Installing grimoire-core gives you both: 1000+ skills your AI can invoke, and the practice rules `grimoire check` validates your project against. One package, two modes.
+Installing grimoire-core gives you both: 1,300+ skills your AI can invoke, and the practice rules `grimoire check` validates your project against. One package, two modes.
 
 ## 🗺️ Domains
 
