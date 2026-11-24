@@ -118,7 +118,7 @@ Then collect the user's choice using the best available method for your platform
 - **Gemini CLI**: use `ask_user` — `type: "select"`, same options including "Apply all in sequence" and "Skip"
 - **All other platforms**: the Options template's own question, `Reply 1–N, "all", or "skip".`
 
-The ★ recommendation is the highest-scoring match. If two skills score equally, recommend the one whose `Use when...` description is the closest literal match to the user's input.
+The ★ recommendation is the highest-scoring match — but a result with a `standard` (a practice declared in grimoire.toml: `project`, then `user`, then `org`) that fits the problem is ★ ahead of other matches, nearest layer first. When practices are declared, mark a listed skill without one as such (` · not a declared standard`). If two skills score equally, recommend the one whose `Use when...` description is the closest literal match to the user's input.
 
 After user selects, load and apply the chosen skill.
 
