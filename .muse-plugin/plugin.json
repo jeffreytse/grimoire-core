@@ -231,6 +231,11 @@
         "enabledDefault": true
       },
       {
+        "id": "apply-behavioral-activation",
+        "path": "skills/psychology/clinical/skills/apply-behavioral-activation/SKILL.md",
+        "enabledDefault": true
+      },
+      {
         "id": "apply-behavioral-investing-discipline",
         "path": "skills/finance/investing/skills/apply-behavioral-investing-discipline/SKILL.md",
         "enabledDefault": true
@@ -318,6 +323,11 @@
       {
         "id": "apply-buy-and-hold-strategy",
         "path": "skills/finance/investing/skills/apply-buy-and-hold-strategy/SKILL.md",
+        "enabledDefault": true
+      },
+      {
+        "id": "apply-bystander-intervention-training",
+        "path": "skills/psychology/social/skills/apply-bystander-intervention-training/SKILL.md",
         "enabledDefault": true
       },
       {
@@ -466,6 +476,11 @@
         "enabledDefault": true
       },
       {
+        "id": "apply-common-ingroup-identity-model",
+        "path": "skills/psychology/social/skills/apply-common-ingroup-identity-model/SKILL.md",
+        "enabledDefault": true
+      },
+      {
         "id": "apply-competitive-encirclement",
         "path": "skills/business/strategy/skills/apply-competitive-encirclement/SKILL.md",
         "enabledDefault": true
@@ -516,6 +531,11 @@
         "enabledDefault": true
       },
       {
+        "id": "apply-confirmation-bias-mitigation",
+        "path": "skills/psychology/cognitive/skills/apply-confirmation-bias-mitigation/SKILL.md",
+        "enabledDefault": true
+      },
+      {
         "id": "apply-confucian-life-stage-framework",
         "path": "skills/psychology/positive/skills/apply-confucian-life-stage-framework/SKILL.md",
         "enabledDefault": true
@@ -558,6 +578,11 @@
       {
         "id": "apply-content-security-policy",
         "path": "skills/engineering/security/skills/apply-content-security-policy/SKILL.md",
+        "enabledDefault": true
+      },
+      {
+        "id": "apply-contingency-management",
+        "path": "skills/psychology/behavioral/skills/apply-contingency-management/SKILL.md",
         "enabledDefault": true
       },
       {
@@ -781,6 +806,11 @@
         "enabledDefault": true
       },
       {
+        "id": "apply-distress-tolerance-skills",
+        "path": "skills/psychology/clinical/skills/apply-distress-tolerance-skills/SKILL.md",
+        "enabledDefault": true
+      },
+      {
         "id": "apply-distressed-credit-cycle-investing",
         "path": "skills/finance/investing/skills/apply-distressed-credit-cycle-investing/SKILL.md",
         "enabledDefault": true
@@ -843,6 +873,11 @@
       {
         "id": "apply-dual-process-diagnostic",
         "path": "skills/psychology/cognitive/skills/apply-dual-process-diagnostic/SKILL.md",
+        "enabledDefault": true
+      },
+      {
+        "id": "apply-dunning-kruger-correction",
+        "path": "skills/psychology/cognitive/skills/apply-dunning-kruger-correction/SKILL.md",
         "enabledDefault": true
       },
       {
@@ -1066,6 +1101,11 @@
         "enabledDefault": true
       },
       {
+        "id": "apply-flow-state-design",
+        "path": "skills/psychology/positive/skills/apply-flow-state-design/SKILL.md",
+        "enabledDefault": true
+      },
+      {
         "id": "apply-flyweight-pattern",
         "path": "skills/engineering/architecture/skills/apply-flyweight-pattern/SKILL.md",
         "enabledDefault": true
@@ -1101,6 +1141,11 @@
         "enabledDefault": true
       },
       {
+        "id": "apply-framing-effect-awareness",
+        "path": "skills/psychology/cognitive/skills/apply-framing-effect-awareness/SKILL.md",
+        "enabledDefault": true
+      },
+      {
         "id": "apply-full-lifecycle-investing",
         "path": "skills/business/entrepreneurship/skills/apply-full-lifecycle-investing/SKILL.md",
         "enabledDefault": true
@@ -1108,6 +1153,11 @@
       {
         "id": "apply-functional-movement-screening",
         "path": "skills/health/fitness/skills/apply-functional-movement-screening/SKILL.md",
+        "enabledDefault": true
+      },
+      {
+        "id": "apply-fundamental-attribution-error-correction",
+        "path": "skills/psychology/social/skills/apply-fundamental-attribution-error-correction/SKILL.md",
         "enabledDefault": true
       },
       {
@@ -1341,8 +1391,18 @@
         "enabledDefault": true
       },
       {
+        "id": "apply-illusory-correlation-correction",
+        "path": "skills/psychology/cognitive/skills/apply-illusory-correlation-correction/SKILL.md",
+        "enabledDefault": true
+      },
+      {
         "id": "apply-immersion-technique",
         "path": "skills/language/learning/skills/apply-immersion-technique/SKILL.md",
+        "enabledDefault": true
+      },
+      {
+        "id": "apply-implementation-intentions",
+        "path": "skills/psychology/behavioral/skills/apply-implementation-intentions/SKILL.md",
         "enabledDefault": true
       },
       {
@@ -1458,6 +1518,11 @@
       {
         "id": "apply-iterator-pattern",
         "path": "skills/engineering/architecture/skills/apply-iterator-pattern/SKILL.md",
+        "enabledDefault": true
+      },
+      {
+        "id": "apply-jakobs-law",
+        "path": "skills/design/ui-ux/skills/apply-jakobs-law/SKILL.md",
         "enabledDefault": true
       },
       {
@@ -1683,6 +1748,11 @@
       {
         "id": "apply-mental-models-framework",
         "path": "skills/psychology/cognitive/skills/apply-mental-models-framework/SKILL.md",
+        "enabledDefault": true
+      },
+      {
+        "id": "apply-mere-exposure-effect",
+        "path": "skills/psychology/social/skills/apply-mere-exposure-effect/SKILL.md",
         "enabledDefault": true
       },
       {
@@ -2041,6 +2111,11 @@
         "enabledDefault": true
       },
       {
+        "id": "apply-premack-principle",
+        "path": "skills/psychology/behavioral/skills/apply-premack-principle/SKILL.md",
+        "enabledDefault": true
+      },
+      {
         "id": "apply-premortem",
         "path": "skills/business/strategy/skills/apply-premortem/SKILL.md",
         "enabledDefault": true
@@ -2083,6 +2158,11 @@
       {
         "id": "apply-progressive-disclosure",
         "path": "skills/design/ui-ux/skills/apply-progressive-disclosure/SKILL.md",
+        "enabledDefault": true
+      },
+      {
+        "id": "apply-progressive-muscle-relaxation",
+        "path": "skills/psychology/clinical/skills/apply-progressive-muscle-relaxation/SKILL.md",
         "enabledDefault": true
       },
       {
@@ -2163,6 +2243,11 @@
       {
         "id": "apply-reader-load-reduction",
         "path": "skills/engineering/development/skills/apply-reader-load-reduction/SKILL.md",
+        "enabledDefault": true
+      },
+      {
+        "id": "apply-reciprocity-principle",
+        "path": "skills/psychology/social/skills/apply-reciprocity-principle/SKILL.md",
         "enabledDefault": true
       },
       {
@@ -2253,6 +2338,11 @@
       {
         "id": "apply-sauna-protocol",
         "path": "skills/health/fitness/skills/apply-sauna-protocol/SKILL.md",
+        "enabledDefault": true
+      },
+      {
+        "id": "apply-savoring-techniques",
+        "path": "skills/psychology/positive/skills/apply-savoring-techniques/SKILL.md",
         "enabledDefault": true
       },
       {
@@ -2456,6 +2546,11 @@
         "enabledDefault": true
       },
       {
+        "id": "apply-spacing-effect",
+        "path": "skills/psychology/cognitive/skills/apply-spacing-effect/SKILL.md",
+        "enabledDefault": true
+      },
+      {
         "id": "apply-speed-agility-drills",
         "path": "skills/sports/training/skills/apply-speed-agility-drills/SKILL.md",
         "enabledDefault": true
@@ -2553,6 +2648,11 @@
       {
         "id": "apply-sunk-cost-discipline",
         "path": "skills/business/strategy/skills/apply-sunk-cost-discipline/SKILL.md",
+        "enabledDefault": true
+      },
+      {
+        "id": "apply-sunk-cost-fallacy-mitigation",
+        "path": "skills/psychology/cognitive/skills/apply-sunk-cost-fallacy-mitigation/SKILL.md",
         "enabledDefault": true
       },
       {
@@ -3716,6 +3816,11 @@
         "enabledDefault": true
       },
       {
+        "id": "design-button-hierarchy",
+        "path": "skills/design/ui-ux/skills/design-button-hierarchy/SKILL.md",
+        "enabledDefault": true
+      },
+      {
         "id": "design-caching-strategy",
         "path": "skills/engineering/performance/skills/design-caching-strategy/SKILL.md",
         "enabledDefault": true
@@ -3973,6 +4078,11 @@
       {
         "id": "design-cybersecurity-governance-program",
         "path": "skills/engineering/security/skills/design-cybersecurity-governance-program/SKILL.md",
+        "enabledDefault": true
+      },
+      {
+        "id": "design-dark-mode-theme",
+        "path": "skills/design/ui-ux/skills/design-dark-mode-theme/SKILL.md",
         "enabledDefault": true
       },
       {
@@ -4811,6 +4921,11 @@
         "enabledDefault": true
       },
       {
+        "id": "design-pagination-pattern",
+        "path": "skills/design/ui-ux/skills/design-pagination-pattern/SKILL.md",
+        "enabledDefault": true
+      },
+      {
         "id": "design-patent-strategy",
         "path": "skills/law/ip/skills/design-patent-strategy/SKILL.md",
         "enabledDefault": true
@@ -5178,6 +5293,11 @@
       {
         "id": "design-rubric",
         "path": "skills/education/assessment/skills/design-rubric/SKILL.md",
+        "enabledDefault": true
+      },
+      {
+        "id": "design-safety-plan",
+        "path": "skills/psychology/clinical/skills/design-safety-plan/SKILL.md",
         "enabledDefault": true
       },
       {
