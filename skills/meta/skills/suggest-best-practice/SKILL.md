@@ -98,52 +98,25 @@ Normalize final scores to 0–1.
 
 **Existing solution** — user describes something they already built, planned, or decided and wants evaluation ("is this good?", "what am I missing?", "does this follow best practices?"):
 
-Delegate to `review-best-practice-fit`. Announce:
-```
-You have an existing solution. Applying review-best-practice-fit to evaluate it against best practices...
-```
+Delegate to `review-best-practice-fit` (hand-off: no new route line — at full the route line's `→ review-best-practice-fit` says it; `start-best-practice` § Display).
 
 **Multi-domain** — user has a new problem that spans 3+ domains and requires applying ALL of them (not just one):
 
-Delegate to `plan-best-practice-solution`. Announce:
-```
-Your situation spans multiple domains and requires coordinating several best practices.
-Applying plan-best-practice-solution to build a sequenced action plan...
-```
+Delegate to `plan-best-practice-solution` (hand-off: no new route line — at full the route line's `→ plan-best-practice-solution` says it; `start-best-practice` § Display).
 
 **Sole clear match** — exactly one skill scores ≥ 0.7 AND second-place score < 0.4:
 
-Load and apply the skill directly. Announce before applying:
-```
-Situation matches: [skill-name] ([domain/subdomain])
-Applying now...
-```
+Load and apply the skill directly, opening with its *Skill block* (`start-best-practice` § Display).
 
 **Multiple matches** — 2+ skills score ≥ 0.5 (regardless of whether the top score reaches 0.7):
 
-Present a ranked list with recommendation and wait for user selection:
-```
-Multiple best practices apply. Recommended: [top-skill-name]
-
-1. ★ [top-skill-name] — [one sentence: what problem it solves]  ← recommended
-   Domain: [domain/subdomain]  |  Score: [score]
-
-2. [skill-name] — [one sentence: what problem it solves]
-   Domain: [domain/subdomain]  |  Score: [score]
-
-3. [skill-name] — [one sentence]
-   Domain: [domain/subdomain]  |  Score: [score]
-
-```
+Present the ranked matches with the *Options* template (`start-best-practice` § Display) — at most 4, ★ on the highest-scoring one only, no scores at brief — and end your reply at its question.
 
 Then collect the user's choice using the best available method for your platform:
 - **Claude Code**: use `AskUserQuestion` — ★ recommended first with "(Recommended)" appended, include "Apply all in sequence" and "Skip" as last two options, `multiSelect: false`
 - **OpenCode**: use `question` — same schema as `AskUserQuestion`
 - **Gemini CLI**: use `ask_user` — `type: "select"`, same options including "Apply all in sequence" and "Skip"
-- **All other platforms**: numbered list:
-  ```
-  Which would you like to apply? (Enter number, "all" to apply in sequence, or "skip" to proceed without)
-  ```
+- **All other platforms**: the Options template's own question, `Reply 1–N, "all", or "skip".`
 
 The ★ recommendation is the highest-scoring match. If two skills score equally, recommend the one whose `Use when...` description is the closest literal match to the user's input.
 
@@ -154,15 +127,7 @@ or "what should I know about Y" without wanting to act yet:
 
 If the user's intent is pure discovery with no problem to solve (e.g., "what practices exist for X", "show me what grimoire can do"), defer to `discover-best-practices` instead — that skill is purpose-built for domain browsing without a problem context.
 
-Present the ranked list only, do not apply any skill:
-```
-Best practices for: [topic]
-
-1. [skill-name] — [one sentence: what it solves]
-   Domain: [domain/subdomain]
-
-2. ...
-```
+Present the ranked list only with the *Options* template, without ★ — do not apply any skill.
 After listing, collect the user's choice using the best available method for your platform:
 - **Claude Code**: use `AskUserQuestion` — list all skills as options (no ★ in browse mode), `multiSelect: false`
 - **OpenCode**: use `question` — same schema as `AskUserQuestion`
@@ -210,9 +175,9 @@ Do not chain more than 2 skills without user confirmation. If 3+ skills are need
 - Auto-apply only when exactly 1 skill ≥ 0.7 AND second place < 0.4 — truly unambiguous
 - Whenever 2+ skills score ≥ 0.4, always list with recommendation — never silently pick one
 - Always mark the recommended option with ★
-- Max 5 options in a ranked list; drop lower-scoring matches beyond 5
+- Max 4 options in a ranked list; drop lower-scoring matches beyond 4 (more choices slow the decision — Hick's law)
 - Never hallucinate skill names — only reference skills that exist in installed domains
-- Announce the matched skill before applying — don't silently load skills
+- Show the matched skill's *Skill block* before applying it (`start-best-practice` § Display) — never silently, and never with a second route line
 - If a skill is not installed, include the install command in the suggestion
 - Search the internet for current, situation-specific facts before applying a skill when its generic guidance depends on something that changes over time (rates, regulations, tool behavior) — announce this check, don't do it silently or ask permission first; if unavailable, say so and flag as unverified
 

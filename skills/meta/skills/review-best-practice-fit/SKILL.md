@@ -116,6 +116,8 @@ Do not recommend all gaps as equal priority — users need to know what to fix f
 
 ### 5. Produce the gap report
 
+Each practice uses the *Skill block* and *Row* templates (`start-best-practice` § Display) — one clause per row; at full add the verified domain after the name.
+
 ```
 ## Practice Fit Review
 
@@ -123,14 +125,12 @@ Solution: [one-sentence description of what was evaluated]
 
 ---
 
-### [practice-name] — ALIGNED / PARTIAL / MISSING
-Domain: [domain/subdomain]
+**[skill-name]** — ALIGNED / PARTIAL / MISSING
+⎿  ✓  [What the solution gets right — be specific]
+⎿  ✗  [What's missing or weak — cite the specific criterion]
+⎿  Fix  [concrete action, not advice — what exactly to do]
 
-✓ [What the solution gets right — be specific]
-✗ [What's missing or weak — cite the specific criterion]
-→ Fix: [concrete action, not advice — what exactly to do]
-
-### [practice-name] — ALIGNED / PARTIAL / MISSING
+**[skill-name]** — ALIGNED / PARTIAL / MISSING
 ...
 
 ---

@@ -72,7 +72,7 @@ Classify the result per sub-problem:
 | **Multiple candidates** | 2+ skills ≥ 0.4 | Mark for user choice — record all candidates, flag ★ recommendation (highest score) |
 | **Multi-skill sub-problem** | Sub-problem itself needs 2+ skills and dimensions are known upfront | Flag for recursive `plan-best-practice-solution` call — do not force into a single skill |
 | **Opaque sub-problem** | Sub-problem needs skills to reveal its own sub-problems (dimensions unknown upfront) | Delegate to `apply-best-practice-tree` |
-| **No match** | All skills < 0.4 | Flag with ⚠ — manual research needed |
+| **No match** | All skills < 0.4 | Show as a `No match` step row (`start-best-practice` § Display) — general knowledge |
 
 If decomposition collapses to a single sub-problem mapping to one skill, retroactively delegate to `suggest-best-practice` — don't add plan overhead for single-skill problems.
 
@@ -95,53 +95,39 @@ Skills with no prerequisites go first. Skills whose output feeds another skill g
 
 ### 5. Present the solution plan
 
-Present the full sequenced plan. For sub-problems with a clear match, show directly. For sub-problems with multiple candidates, show all options inline with ★ recommendation and collect the user's choice before execution begins.
+Present the plan (brief level shown; at full each skill adds its verified domain) with the *Plan* template in `start-best-practice` § Display — one `⎿  Step i` row per step, plus indented sub-rows where a step needs them:
 
-```
-Here is the solution plan ([N] skills to apply):
-
-1. [skill-name] — [what sub-problem it solves]
-   Domain: [domain/subdomain]
-
-2. Multiple practices apply — choose one:
-   ★ [top-skill] — [one sentence: what it solves]  ← recommended
-      [second-skill] — [one sentence: what it solves]
-      [third-skill] — [one sentence: what it solves]
-
-3. [sub-problem label] — nested plan ([M] skills):
-   3a. [skill-name] — [what it solves]
-   3b. [skill-name] — [what it solves]
-   3c. [skill-name] — [what it solves]
-
-4. [skill-name] — [what sub-problem it solves]
-   Domain: [domain/subdomain]
-
-⚠ [sub-problem]: no installed skill — manual research needed.
+```markdown
+**Plan** — 4 steps
+⎿  Step 1  apply-premortem — find the likeliest failures
+⎿  Step 2  load readiness — choose one
+     2a. run-load-test — launch traffic ★ recommended
+     2b. calculate-capacity-plan — headroom
+⎿  Step 3  release safety — nested plan, 2 skills
+     3a. design-deployment-strategy — rollback
+     3b. apply-feature-toggles — kill switches
+⎿  Step 4  No match  "status page" — general knowledge
+Apply this plan? Reply "yes", or pick another choice (e.g. "2b"). Steps that change files or run commands ask first.
 ```
 
-After presenting, if any steps have multiple candidates, collect user choices using
-the best available method for your platform:
+- **Clear match** — `⎿  Step i  <skill>[d] — <why>`.
+- **Multiple candidates** — `⎿  Step i  <sub-problem> — choose one`, then a sub-row per candidate, at most 3 (the strongest), lettered `ia.`, `ib.`, `ic.`; `★ recommended` ends exactly one of them. Shown at every display level: choosing is the user's decision, not evidence. At full, add `     Why ★  <one clause>` after the sub-rows.
+- **Multi-skill sub-problem** — `⎿  Step i  <sub-problem> — nested plan, M skills`, then a sub-row per skill. One indent level only: a deeper sub-plan is a single sub-row `ib. <sub-problem> — nested plan, K skills`, expanded when it runs.
+- **No match** — the template's `No match` step row.
+- Sub-rows are indented 5 spaces, one line each (≤ ~100 chars), same `<skill>[d] — <why>` shape (`[d]`: the verified domain, full only — `start-best-practice` § Display). Plain style writes them in words: `Step 2: load readiness, choose one. 2a: run-load-test (recommended). 2b: calculate-capacity-plan.`
 
-- **Claude Code**: use `AskUserQuestion` — one question per ambiguous step,
-  ★ recommended option first with "(Recommended)" appended, `multiSelect: false`
-- **OpenCode**: use `question` — same schema as `AskUserQuestion`
-- **Gemini CLI**: use `ask_user` — same structure, `type: "select"`, options list,
-  ★ recommended first
-- **All other platforms** (Codex, Cursor, Copilot, etc.): present numbered list
-  and wait for user to type a number or skill name:
-  ```
-  Step N has multiple options:
-  1. [top-skill] ★ (recommended) — [what it solves]
-  2. [second-skill] — [what it solves]
-  Which would you like? (Enter number or skill name)
-  ```
+End with one question and **end your reply** — apply nothing until the user answers:
+- With choice steps: `Apply this plan? Reply "yes", or pick another choice (e.g. "2b"). Steps that change files or run commands ask first.` — "yes" accepts every ★.
+- Without: `Apply this plan? Steps that change files or run commands ask first.`
 
-Collect all choices before starting execution. Only proceed once every step has a decided skill.
+A native choice prompt (Claude Code `AskUserQuestion`, OpenCode `question`, Gemini CLI `ask_user`) may carry this same single decision — the plan as shown, with the ★ choices as the default — in that one turn; never one prompt per step.
+
+The user may answer with letters ("2b", "2b 3 skip") or skill names. If an answer is invalid or ambiguous, ask once more, listing the valid choices, and run nothing until every step has a decided skill and the plan is confirmed.
 
 ### 6. Execute and adapt
 
 For each skill in the sequence (using user-decided skills from Step 5):
-1. Show the step as a block whose header ends with its position, e.g. `— step 2 of 4` (see `start-best-practice` § Display)
+1. Show the step as a block whose header ends with its position, e.g. `— step 2 of 4` (see `start-best-practice` § Display); each skill of a choice or nested step gets its own block, e.g. `**design-ci-pipeline** — step 3a of 7` — never two skills in one header
 2. If step N is flagged as a **multi-skill sub-problem**: recursively invoke `plan-best-practice-solution` for that sub-problem (max recursion depth: 2 additional levels). Announce: `Step N is a multi-skill sub-problem — running a nested plan:`
 3. Before running, check whether this step depends on current, situation-specific facts the skill can't encode generically (a current rate, regulation, tool behavior, recent event). If so, search the internet for that context first and announce it: "Checking current [X] for step N..." Keep the query itself general and factual (e.g. "current mortgage rates," not the user's specific financial or personal details). If no internet-access tool is available in this environment, say so explicitly and proceed on best available knowledge — flag the gap as unverified rather than silently skipping the check or asserting it was confirmed. After searching, state what was found (or that nothing conclusive turned up) before proceeding — don't just announce the check and discard the result. Then load and run the skill (or nested plan) fully, grounded in what was found (or best available knowledge, if unverified).
 4. After completion, reassess before proceeding:
@@ -196,7 +182,7 @@ Omit Skipped and Needs manual research sections if everything resolved cleanly.
 
 ## Examples
 
-> Skill names in examples are illustrative — actual skills depend on what domains are installed. If a skill is not installed, `plan-best-practice-solution` flags it with ⚠ and notes manual research is needed.
+> Skill names in examples are illustrative — actual skills depend on what domains are installed. A sub-problem no installed skill covers is shown as a `No match` step row.
 
 **Example 1 — Startup launch**
 > "I want to launch a SaaS startup"
@@ -219,7 +205,7 @@ Reason: understand current position before negotiating; negotiate role before st
 **Example 3 — Single skill → delegate**
 > "My pull requests keep getting rejected"
 
-One clear skill match — delegate: "Single skill applies. Routing to `suggest-best-practice`..."
+One clear skill match — delegate to `suggest-best-practice` (no new route line; at full the route line's `→ suggest-best-practice` says it).
 
 ---
 
@@ -238,19 +224,16 @@ Reason: fail-fast catches invalid state earliest; defensive copy prevents mutati
 Top-level sub-problems: financial restructuring, product strategy, team restructuring, go-to-market
 Sub-problem 1 (financial restructuring) is itself multi-skill with known dimensions → nested plan:
 
-```
-Here is the solution plan (4 steps):
-
-1. Financial restructuring — nested plan (3 skills):
-   1a. audit-financial-statements — establish current financial position
-   1b. calculate-wacc — determine cost of capital
-   1c. design-capital-structure — restructure debt/equity mix
-
-2. apply-jobs-to-be-done — redefine product strategy around customer outcomes
-
-3. design-hiring-process — restructure team composition
-
-4. design-go-to-market — rebuild market approach on validated product strategy
+```markdown
+**Plan** — 4 steps
+⎿  Step 1  financial restructuring — nested plan, 3 skills
+     1a. audit-financial-statements — current financial position
+     1b. calculate-wacc — cost of capital
+     1c. design-capital-structure — restructure the debt/equity mix
+⎿  Step 2  apply-jobs-to-be-done — product strategy around customer outcomes
+⎿  Step 3  design-hiring-process — restructure team composition
+⎿  Step 4  design-go-to-market — market approach on the validated strategy
+Apply this plan? Steps that change files or run commands ask first.
 ```
 
 Reason: financial position must be known before product or team decisions can be funded; product strategy before go-to-market

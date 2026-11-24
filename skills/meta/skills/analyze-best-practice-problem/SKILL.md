@@ -42,11 +42,7 @@ Filter to skills with at least one of these tags:
 `problem-analysis`, `root-cause`, `root-cause-analysis`, `diagnostic`, `issue-tree`, `problem-framing`, `systems-thinking`, `failure-analysis`, `causal-analysis`, `decision-analysis`
 
 **If one skill scores ≥ 0.5:**
-Announce and invoke it:
-```
-This problem matches a domain-specific analysis practice: [skill-name] ([domain/subdomain]).
-Applying it to define the problem before we look for solutions...
-```
+Invoke it, opening with its *Skill block* (`start-best-practice` § Display) — no second route line.
 After it runs: if it produced a problem statement and/or structured map, use those as output. If the invoked skill also runs a clarification loop, let it — do not duplicate questions.
 
 **If 2+ skills score ≥ 0.5:**
