@@ -38,6 +38,8 @@ This skill finds and loads other grimoire skills. Use whichever access this sess
 
 Below, "installed skills" means the skills reachable this way, and "load" / "invoke" means the matching loader.
 
+**Display:** show this workflow's steps in grimoire's display format at the level in effect (`start-best-practice` § Display).
+
 ## Steps
 
 ### Step 0: Check preferences (silent)

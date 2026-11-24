@@ -25,6 +25,8 @@ This skill finds and loads other grimoire skills. Use whichever access this sess
 
 Below, "installed skills" means the skills reachable this way, and "load" / "invoke" means the matching loader.
 
+**Display:** show this workflow's steps in grimoire's display format at the level in effect (`start-best-practice` § Display).
+
 ## Steps
 
 ### 1. Extract problem dimensions (silent)
@@ -139,7 +141,7 @@ Collect all choices before starting execution. Only proceed once every step has 
 ### 6. Execute and adapt
 
 For each skill in the sequence (using user-decided skills from Step 5):
-1. Announce: `Applying step N: [skill-name]`
+1. Show the step as a block whose header ends with its position, e.g. `— step 2 of 4` (see `start-best-practice` § Display)
 2. If step N is flagged as a **multi-skill sub-problem**: recursively invoke `plan-best-practice-solution` for that sub-problem (max recursion depth: 2 additional levels). Announce: `Step N is a multi-skill sub-problem — running a nested plan:`
 3. Before running, check whether this step depends on current, situation-specific facts the skill can't encode generically (a current rate, regulation, tool behavior, recent event). If so, search the internet for that context first and announce it: "Checking current [X] for step N..." Keep the query itself general and factual (e.g. "current mortgage rates," not the user's specific financial or personal details). If no internet-access tool is available in this environment, say so explicitly and proceed on best available knowledge — flag the gap as unverified rather than silently skipping the check or asserting it was confirmed. After searching, state what was found (or that nothing conclusive turned up) before proceeding — don't just announce the check and discard the result. Then load and run the skill (or nested plan) fully, grounded in what was found (or best available knowledge, if unverified).
 4. After completion, reassess before proceeding:
@@ -153,7 +155,7 @@ Step N revealed [new constraint]. Revised plan: removing step M, adding [skill-n
 Continue with revised plan?
 ```
 
-If nothing unexpected: proceed silently to the next skill — no confirmation between steps.
+If nothing unexpected: continue to the next skill — the plan was approved once in Step 5. Pause again only (a) before a step that changes files, runs commands, or acts outside the conversation (a checkpoint before side effects), or (b) after every step if the user asked to go step by step.
 
 **Failure-handling:** If a skill fails to complete (errors, no output, or user abandons):
 1. Show what failed: `[skill-name] did not complete — [reason if known]`
@@ -263,4 +265,4 @@ Reason: financial position must be known before product or team decisions can be
 
 **Hallucinating skills**: if no skill covers a sub-problem, say so. Don't invent names.
 
-**Pausing between every skill**: do not ask for confirmation between each step — reassess silently after each skill and proceed unless the plan changes. Only pause when new constraints require revising the plan.
+**Pausing between every skill**: the plan is approved once; asking again after each advisory step adds friction without protecting anything. Pause only when the plan changes, before a step with side effects (files, commands, external actions), or when the user asked to go step by step.

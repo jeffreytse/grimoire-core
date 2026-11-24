@@ -49,12 +49,13 @@ Silently match the input to a grimoire workflow. No scoring, no output. If no ro
 | Two practices exist — wants side-by-side comparison before deciding | invoke `compare-best-practices` |
 | Two practices conflict — wants to reason through which fits better | invoke `resolve-best-practice-conflict` |
 | Resolved a conflict — wants to save the decision for future sessions | invoke `pin-best-practice-preference` |
+| States a standing preference or standard to follow — "I follow X when there's a conflict", "we always use Y" — even without asking for anything | invoke `pin-best-practice-preference` |
 | **None of the above** | **exit silently** — grimoire not installed or not applicable |
 
 Note: `analyze-best-practice-problem` has no direct routing row — vague or unclear problems are routed to `suggest-best-practice` (via "Describes a problem... including vague or unclear problems"), which internally invokes `analyze-best-practice-problem` via its clarity check. This keeps the routing table's problem-description row as the single entry point for all problem inputs.
 
 **Transparent passthrough (exit silently — grimoire not applicable):**
-- Primary verb is explanatory: *explain, describe, what is, how does, tell me about, define* — **exception:** "give me best practices for X" signals discovery, route to `discover-best-practices`
+- Primary verb is explanatory: *explain, describe, what is, how does, tell me about, define* — for general facts and definitions ("what is TDD?", "how does BM25 work?"). **Exceptions:** "give me best practices for X" signals discovery, route to `discover-best-practices`; asking *why* a practice works, or what evidence supports it ("why does TDD actually work?"), wants the practice explained, route to `explain-best-practice`
 - Conversational acknowledgment: "ok", "thanks", "looks good", "got it", "continue"
 - Explicit skill invocations — `/skill-name`, `/grimoire:skill <name>`, or `grimoire:<name>` — user already knows what they want (see Rules)
 - Follow-up message in an ongoing execution (not a new intent)
@@ -62,13 +63,7 @@ Note: `analyze-best-practice-problem` has no direct routing row — vague or unc
 
 **If ambiguous:** prefer the more specific workflow row. Only exit silently when no row matches.
 
-**When a workflow matches:**
-- Route to `suggest-best-practice` → invoke silently, no announcement
-- Route to any other skill → announce first, then invoke:
-  ```
-  This looks like [matched situation]. Routing to [skill-name]...
-  ```
-Then stop — the routed skill handles everything from that point.
+**When a workflow matches:** show the route line (see Display), then invoke the workflow. Then stop — the routed skill handles everything from that point.
 
 ## Rules
 
@@ -76,6 +71,57 @@ Then stop — the routed skill handles everything from that point.
 - No clarifying questions — route on what's available, or pass through silently
 - If user explicitly invoked a skill by name, don't intercept — they already know what they want
 - No scoring, no confidence thresholds — routing only
+
+## Display
+
+grimoire shows its work so the user can follow each decision and redirect it. This section is the one definition of that display; grimoire's hooks and MCP server only say which level is on.
+
+**Levels** (progressive disclosure — primary decisions always, evidence on demand):
+- **brief** (default) — the decisions: the route, the plan, each skill as it is applied, the outcome.
+- **full** — brief plus the evidence: candidate skills and why one was chosen, severity rows, ⚠️ risks, and each skill's source.
+- **off** — nothing; route and apply silently.
+
+The user changes the level for the rest of the session by saying "show grimoire details" (full) or "quiet grimoire" (off — this only hides grimoire's notes; keep routing and applying skills silently. Turning grimoire itself off is "grimoire off", handled by grimoire's hooks). "skip grimoire" skips grimoire for the current request.
+
+**Hierarchy** — three levels, so grimoire's process never outweighs the answer:
+1. *Primary* — the answer itself.
+2. *Secondary* — each skill block's name, the only bold text in grimoire's output.
+3. *Tertiary* — everything else: the route line, rows, domains (plain text or code spans). Nothing in a `⎿` row is bold — not the label, not a word in the value; a point that matters that much belongs in the answer.
+
+**Glyphs** — one text family for structure: `▸` route, `⎿` row, `→` sequence, `✓` done, `★` recommended, `⚠` risk. Colored emoji only where color is the meaning: severity 🔴 high, 🟡 medium, ⚪ low — always followed by the word.
+
+**Elements** — markdown only, no ANSI codes (the agent renders the markdown):
+- *Route* — one plain line: `start-best-practice ▸ [workflow]`, the domain in a code span, a dash, and why.
+- *Block* — one per workflow or skill as it runs: the bold skill name, its domain in a code span, then rows. A plan step's header ends with its position — `— step 2 of 4` — so the user knows where the plan is.
+- *Row* — one per line: `⎿`, a plain label, two spaces, the value.
+- *Severity, risk, source* (full) — `⎿  🔴 high  …`, `⚠ Without this: …`, the skill's Sources line in italics.
+- *Question* — one at a time, as a block's body; then stop and wait (use the agent's question tool if it has one).
+- *No match* — when a workflow ran but no installed skill fits, say so with the need you searched for and how to add coverage: `⎿  No match  no installed skill covers "rotation scheduling" — add a package: grimoire package add <repo>`. Then answer from general knowledge, labeled as such.
+- *Outcome* — a bold title, then one `✓` row per result.
+
+**Plain style** — when a grimoire hook says "Style: plain" (for screen readers, or `NO_COLOR`): no glyphs or emoji; the same structure in words — `Step 1:`, `Risk (high):`, `Done:`.
+
+**Example** (brief):
+
+```markdown
+start-best-practice ▸ plan-best-practice-solution  `meta/routing` — several practices are needed, in order
+
+**plan-best-practice-solution**  `meta/planning`
+⎿  Step 1  apply-premortem  `business/strategy`
+⎿  Step 2  design-slo  `engineering/reliability`
+⎿  Step 3  plan-incident-response  `engineering/devops`
+Apply this plan?
+
+**apply-premortem**  `business/strategy` — step 1 of 3
+⎿  Top risk  DB connection exhaustion under concurrent signups
+
+**Pre-launch protocol ready**
+✓ Risks mapped — fix the DB pool today
+```
+
+At **full**, add rows under each block — for example `⎿  🔴 high  DB connection exhaustion`, `⚠ Without this: you find failure modes in production`, `_Source: Klein, Sources of Power (1998)_`.
+
+Show nothing for grimoire when no workflow routes. Never put grimoire formatting on the answer itself.
 
 ## Key Differences from `suggest-best-practice`
 
