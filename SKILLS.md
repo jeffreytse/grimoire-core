@@ -1,6 +1,6 @@
 # Skills Directory
 
-1205 skills across 27 domains.
+1209 skills across 27 domains.
 
 [Install](./README.md#%EF%B8%8F-install) · [Contribute](./CONTRIBUTING.md) · [Standard](./STANDARD.md)
 
@@ -12,7 +12,7 @@
 - [Automotive (16)](#automotive)
 - [Business (185)](#business)
 - [Cooking (24)](#cooking)
-- [Design (65)](#design)
+- [Design (69)](#design)
 - [Education (29)](#education)
 - [Engineering (278)](#engineering)
 - [Environment (17)](#environment)
@@ -394,7 +394,7 @@
 
 ---
 
-## Design (65) <a name="design"></a>
+## Design (69) <a name="design"></a>
 
 ### branding
 
@@ -435,7 +435,10 @@
 - [`apply-fitts-law`](./skills/design/ui-ux/skills/apply-fitts-law/) — Use when designing interactive UI elements — buttons, links, menus, form controls — where target size, placement, and spacing affect the speed and accuracy of user interaction.
 - [`apply-gestalt-principles`](./skills/design/ui-ux/skills/apply-gestalt-principles/) — Use when arranging UI elements to create visual hierarchy, grouping, and clarity using perceptual psychology principles
 - [`apply-hicks-law`](./skills/design/ui-ux/skills/apply-hicks-law/) — Use when simplifying navigation menus, option lists, decision points, or any interface where too many choices slow users down
+- [`apply-jakobs-law`](./skills/design/ui-ux/skills/apply-jakobs-law/) — Use when designing or reviewing a layout, navigation, or interaction that departs from how comparable products or the platform already work — or when a team proposes a "novel" pattern for a common task like login, cart, search, or settings.
 - [`design-accessibility-standards`](./skills/design/ui-ux/skills/design-accessibility-standards/) — Use when auditing or designing UI components to meet WCAG 2.2, Section 508, or ARIA accessibility requirements
+- [`design-button-hierarchy`](./skills/design/ui-ux/skills/design-button-hierarchy/) — Use when a screen, form, dialog, or toolbar has more than one action button and it is unclear which action users should take, or when every button looks equally important.
+- [`design-dark-mode-theme`](./skills/design/ui-ux/skills/design-dark-mode-theme/) — Use when adding a dark mode or dark theme to an app or website, or when an existing dark theme has unreadable text, glowing saturated colors, lost elevation, or images that look wrong on dark backgrounds.
 - [`design-data-tables`](./skills/design/ui-ux/skills/design-data-tables/) — Use when displaying tabular data — to make rows scannable, support sorting and filtering, handle bulk actions, and adapt to mobile breakpoints without destroying the data structure.
 - [`design-empty-states`](./skills/design/ui-ux/skills/design-empty-states/) — Use when designing screens that appear before content exists — first use, no-results, user-cleared state, or error — to orient users and guide the next action instead of showing a blank screen.
 - [`design-feedback-patterns`](./skills/design/ui-ux/skills/design-feedback-patterns/) — Use when designing system responses to user actions — form submission, data save, deletion, errors, and confirmations — to tell users what happened, what went wrong, and what to do next.
@@ -444,6 +447,7 @@
 - [`design-loading-states`](./skills/design/ui-ux/skills/design-loading-states/) — Use when a UI action triggers a wait of 0.1 seconds or more — to communicate system progress, prevent duplicate submissions, and maintain perceived performance.
 - [`design-navigation-patterns`](./skills/design/ui-ux/skills/design-navigation-patterns/) — Use when choosing or designing primary navigation for a website or app — to select the right structural pattern for the content depth and device context, and avoid the anti-patterns that account for the majority of navigation usability failures.
 - [`design-onboarding-flow`](./skills/design/ui-ux/skills/design-onboarding-flow/) — Use when designing or redesigning a user onboarding flow for a SaaS or digital product where activation rate, time-to-value, or early churn are problems.
+- [`design-pagination-pattern`](./skills/design/ui-ux/skills/design-pagination-pattern/) — Use when a list, feed, search results page, or product grid has more items than fit on one screen and you must choose between numbered pagination, a "Load more" button, or infinite scrolling.
 - [`design-search-ux`](./skills/design/ui-ux/skills/design-search-ux/) — Use when designing a search feature for a website or application — to structure the input, autocomplete, results list, and zero/no-results states so users find what they need with minimal friction.
 - [`design-visual-hierarchy`](./skills/design/ui-ux/skills/design-visual-hierarchy/) — Use when designing any screen layout — to arrange elements so the eye naturally travels from most to least important, reducing the cognitive effort required to parse the page.
 - [`run-usability-test`](./skills/design/ui-ux/skills/run-usability-test/) — Use when validating a UI design, prototype, or live product with real users to find usability problems before or after launch
