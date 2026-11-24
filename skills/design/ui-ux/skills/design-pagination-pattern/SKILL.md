@@ -1,7 +1,7 @@
 ---
 name: design-pagination-pattern
 description: Use when a list, feed, search results page, or product grid has more items than fit on one screen and you must choose between numbered pagination, a "Load more" button, or infinite scrolling.
-source: Nielsen Norman Group "Infinite Scrolling: When to Use It, When to Avoid It" and "Infinite Scrolling Tips"; Baymard Institute Product List & Search usability research (2016, updated 2024); Etsy infinite-scroll experiment (McKinley, "Design for Continuous Experimentation", 2012)
+source: 'Nielsen Norman Group "Infinite Scrolling: When to Use It, When to Avoid It" and "Infinite Scrolling Tips"; Baymard Institute Product List & Search usability research (2016, updated 2024); Etsy infinite-scroll experiment (McKinley, "Design for Continuous Experimentation", 2012)'
 tags: [pagination, infinite-scroll, load-more, search-results, product-listing, content-feed, findability]
 ---
 
