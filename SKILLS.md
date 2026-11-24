@@ -1,6 +1,6 @@
 # Skills Directory
 
-1209 skills across 27 domains.
+1212 skills across 27 domains.
 
 [Install](./README.md#%EF%B8%8F-install) · [Contribute](./CONTRIBUTING.md) · [Standard](./STANDARD.md)
 
@@ -10,7 +10,7 @@
 
 - [Art (18)](#art)
 - [Automotive (16)](#automotive)
-- [Business (185)](#business)
+- [Business (226)](#business)
 - [Cooking (24)](#cooking)
 - [Design (69)](#design)
 - [Education (29)](#education)
@@ -22,7 +22,7 @@
 - [Health (52)](#health)
 - [Home (16)](#home)
 - [Language (18)](#language)
-- [Law (29)](#law)
+- [Law (53)](#law)
 - [Marketing (20)](#marketing)
 - [Grimoire (29)](#grimoire)
 - [Music (26)](#music)
@@ -30,7 +30,7 @@
 - [Pets (16)](#pets)
 - [Photography (27)](#photography)
 - [Productivity (27)](#productivity)
-- [Psychology (64)](#psychology)
+- [Psychology (65)](#psychology)
 - [Science (52)](#science)
 - [Sports (46)](#sports)
 - [Travel (16)](#travel)
@@ -107,7 +107,7 @@
 
 ---
 
-## Business (218) <a name="business"></a>
+## Business (226) <a name="business"></a>
 
 ### entrepreneurship
 
@@ -202,6 +202,7 @@
 - [`apply-enforcement-timing`](./skills/business/operations/skills/apply-enforcement-timing/)
 - [`apply-fidelity-before-adaptation`](./skills/business/operations/skills/apply-fidelity-before-adaptation/) — Use when an organization adopts a new external process or evidence-based practice — implement it with strict fidelity to its original design first, resisting the urge to customize based on discomfort or habit, because premature adaptation is a well-documented cause of practices failing to reproduce their intended effectiveness
 - [`apply-5s-methodology`](./skills/business/operations/skills/apply-5s-methodology/) — Use when a physical workspace, shared digital environment, or shop floor has accumulated clutter, unclear organization, or inconsistent upkeep that slows work down or hides problems — apply the five sequential steps (sort, set in order, shine, standardize, sustain) in order
+- [`apply-a3-problem-solving`](./skills/business/operations/skills/apply-a3-problem-solving/) — Use when a problem is important or recurring enough to solve properly — performance is below where it should be, a quick fix has already failed, or people disagree about what the problem even is — and you need to go from a vague complaint to a closed, measured gap.
 - [`apply-fishbone-diagram`](./skills/business/operations/skills/apply-fishbone-diagram/) — Use when investigating the root cause of a quality defect, recurring process failure, or operational problem — to map all contributing causes across multiple categories simultaneously before selecting which cause to address. — Use when misconduct, policy violation, or serious wrongdoing has been detected — to determine whether to act immediately or delay enforcement until the case is overwhelming and legally unassailable, because premature enforcement against powerful bad actors weakens the case, creates procedural exposure, and enables the subject to claim overreach
 - [`apply-iso-31000-risk-framework`](./skills/business/operations/skills/apply-iso-31000-risk-framework/) — Use when an organization needs a systematic, repeatable process for managing risk broadly — establishing context, identifying risks, analyzing and evaluating them, treating the significant ones, and monitoring the whole process over time — rather than handling risk ad hoc through isolated, disconnected efforts (an incident response process here, a security review there).
 - [`apply-pdca`](./skills/business/operations/skills/apply-pdca/) — Use when implementing a process improvement, resolving a recurring operational problem, or running a controlled experiment where you need to learn and standardize before scaling.
@@ -1272,7 +1273,7 @@
 
 ---
 
-## Law (52) <a name="law"></a>
+## Law (53) <a name="law"></a>
 
 ### contracts
 
@@ -1323,6 +1324,7 @@
 
 - [`design-remote-work-policy`](./skills/law/employment/skills/design-remote-work-policy/) — Use when creating or updating a remote work policy for a company or team
 - [`design-severance-package`](./skills/law/employment/skills/design-severance-package/) — Use when designing a severance package for employee termination, reduction in force, or executive separation
+- [`write-contemporaneous-workplace-record`](./skills/law/employment/skills/write-contemporaneous-workplace-record/) — Use when something important happens at work that you may need to prove later — a verbal agreement or promise, a changed instruction, unfair treatment, harassment, a safety issue, or a dispute over credit, pay, or performance — and right now the only record is people's memory.
 - [`write-employee-handbook-policy`](./skills/law/employment/skills/write-employee-handbook-policy/) — Use when writing or updating an employee handbook policy on any employment matter including conduct, leave, compensation, or workplace practices
 
 ### ip
@@ -1622,7 +1624,7 @@
 
 ---
 
-## Psychology (64) <a name="psychology"></a>
+## Psychology (65) <a name="psychology"></a>
 
 ### behavioral
 
@@ -1700,6 +1702,7 @@
 - [`apply-mere-exposure-effect`](./skills/psychology/social/skills/apply-mere-exposure-effect/) — Use when trying to build familiarity-based liking for a person, brand, product, or idea over time — plan repeated, low-friction, non-aversive exposure to it rather than relying on a single high-intensity pitch, since repeated mere exposure to a neutral or mildly positive stimulus reliably increases liking for it even without any accompanying reinforcement or persuasive content, up to a point of diminishing and eventually reversing returns.
 - [`apply-reciprocity-principle`](./skills/psychology/social/skills/apply-reciprocity-principle/) — Use when trying to build cooperation, compliance, or goodwill in a negotiation, request, or relationship — give something genuine and unsolicited first (information, a favor, a concession) before asking for what you actually want, since people feel a strong, near-universal obligation to repay what they've received, and an initial genuine gift or concession measurably increases the odds of a subsequent request being granted.
 - [`apply-social-proof-principles`](./skills/psychology/social/skills/apply-social-proof-principles/) — Use when applying social proof (numbers, expert, user, behavioral) in persuasion and design — with attention to similarity, specificity, and the negative social proof pitfall
+- [`assess-character-from-costly-behavior`](./skills/psychology/social/skills/assess-character-from-costly-behavior/) — Use when deciding how far to trust someone — a new partner, hire, cofounder, friend, or counterpart — and your impression so far rests mainly on what they say, how they look, or how they act when things are going well.
 - [`design-conflict-de-escalation-plan`](./skills/psychology/social/skills/design-conflict-de-escalation-plan/) — Use when designing a conflict de-escalation approach using physiological regulation, acknowledgment sequencing, NVC, and collaborative problem-solving
 - [`design-social-influence-strategy`](./skills/psychology/social/skills/design-social-influence-strategy/) — Use when designing persuasive communication, ethical influence campaigns, or analyzing why a message is failing to shift attitudes or behavior
 
